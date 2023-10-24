@@ -1,3 +1,5 @@
+// PT Root UI
+
 @font-face {
   font-family: 'PT Root UI';
   src: url('fonts/PT-Root-UI_Light.woff2') format('woff2'),
@@ -29,3 +31,77 @@
   font-weight: 700;
   font-style: normal;
 }
+
+// Bitum
+
+@font-face {
+  font-family: 'Bitum';
+  src: url('fonts/Bitum.woff2') format('woff2'),
+    url('fonts/Bitum.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum';
+  src: url('fonts/Bitum-Bold.woff2') format('woff2'),
+    url('fonts/Bitum-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum';
+  src: url('fonts/Bitum-BoldItalic.woff2') format('woff2'),
+    url('fonts/Bitum-BoldItalic.woff') format('woff');
+  font-weight: 750;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum';
+  src: url('fonts/Bitum-Italic.woff2') format('woff2'),
+    url('fonts/Bitum-Italic.woff') format('woff');
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum';
+  src: url('fonts/Bitum-Light.woff2') format('woff2'),
+    url('fonts/Bitum-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum';
+  src: url('fonts/Bitum-LightItalic.woff2') format('woff2'),
+    url('fonts/Bitum-LightItalic.woff') format('woff');
+  font-weight: 350;
+  font-style: normal;
+}
+
+// Helvetica
+
+@font-face {
+  font-family: 'Helvetica';
+  src:  url('fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:  url('fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('fonts/HelveticaNeueCyr-Italic.woff') format('woff');
+  font-weight: 450;
+  font-style: normal;
+}
+
