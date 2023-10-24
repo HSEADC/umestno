@@ -1,11 +1,60 @@
-body.page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 1025px) {
 
-  & > div,
-  & > a {
-    margin: 10px 0;
-  }
+    body.pages {
+        background-color: #FFFBF7;
+
+
+    // шапка
+        nav {
+                top: 0vw;
+                width: 100%;
+                display: block;
+                height: 6.16vw;
+            }
+        
+            nav>.menu-items {
+                width: 92.50vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        
+            nav>.menu-items>a {
+                margin-top: 1vw;
+                line-height: 2.29vw;
+                color: #000;
+                font-family: 'Bitum';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2vw;
+                text-decoration: none;
+            }
+
+        // тело
+
+        .photos1 {
+            width: 70vw;
+            height: auto;
+        }
+        
+        .PP {
+            background-image: url('./images/first.png');
+            background-size: cover;
+            width: 58vw;
+            height: 32.5vw;
+        }
+
+        .h3_1 {
+            font-family: 'Bitum';
+            font-size: large;
+            font-weight: 400;
+        }
+        .h3_2 {
+            font-family: 'Bitum';
+            font-size: large;
+            font-weight: 400;
+        }
+    }
+
+   
 }

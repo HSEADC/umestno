@@ -61,7 +61,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(ttf|otf|woff|woff2)$/i,
+        test: /\.(ttf|otf|woff|woff2|eot)$/i,
         loader: 'file-loader',
         options: {
           name: 'fonts/[name].[ext]'
@@ -75,21 +75,21 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
+
+
     // Landing page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html',
-      chunks: ['index']
+      filename: './index.html'
     }),
     // Landing page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/about.html',
-      filename: './about.html',
-      chunks: ['about']
+      filename: './about.html'
     }),
 
     // Internal pages
@@ -97,9 +97,10 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
+      filename: './pages/page.html'
     }),
+
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
