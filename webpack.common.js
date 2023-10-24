@@ -81,7 +81,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index']
     }),
     // Landing page
     new HtmlWebpackPlugin({
@@ -89,7 +88,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/about.html',
       filename: './about.html',
-      chunks: ['about']
     }),
 
     // Internal pages
@@ -98,7 +96,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
       filename: './pages/page.html',
-      chunks: ['page']
     }),
 
     // Partials
