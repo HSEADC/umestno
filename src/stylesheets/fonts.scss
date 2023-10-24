@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // PT Root UI
 
 // @font-face {
@@ -32,76 +33,26 @@
 //   font-style: normal;
 // }
 
+=======
+>>>>>>> 30e1dcea760bc429fcdd2e4576f3ddfefcb04b69
 // Bitum
 
 @font-face {
-  font-family: 'Bitum';
-  src: url('fonts/Bitum.woff2') format('woff2'),
-    url('fonts/Bitum.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bitum';
-  src: url('fonts/Bitum-Bold.woff2') format('woff2'),
-    url('fonts/Bitum-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bitum';
-  src: url('fonts/Bitum-BoldItalic.woff2') format('woff2'),
-    url('fonts/Bitum-BoldItalic.woff') format('woff');
-  font-weight: 750;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bitum';
-  src: url('fonts/Bitum-Italic.woff2') format('woff2'),
-    url('fonts/Bitum-Italic.woff') format('woff');
-  font-weight: 450;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bitum';
-  src: url('fonts/Bitum-Light.woff2') format('woff2'),
-    url('fonts/Bitum-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bitum';
-  src: url('fonts/Bitum-LightItalic.woff2') format('woff2'),
-    url('fonts/Bitum-LightItalic.woff') format('woff');
-  font-weight: 350;
-  font-style: normal;
+  font-family: "BitumLightItalic";
+  src: url("./fonts/BitumLightItalic/BitumLightItalic.eot");
+  src: url("./fonts/BitumLightItalic/BitumLightItalic.woff") format("woff"),
+      url("./fonts/BitumLightItalic/BitumLightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
 }
 
 // Helvetica
 
 @font-face {
-  font-family: 'Helvetica';
-  src:  url('fonts/HelveticaNeueCyr-Roman.woff') format('woff');
-  font-weight: 400;
+  font-family: "HelveticaNeueCyrRoman";
+  src: url("./fonts/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.eot");
+  src:  url("./fonts/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.woff") format("woff"),
+    url("./fonts/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.ttf") format("truetype");
   font-style: normal;
+  font-weight: normal;
 }
-
-@font-face {
-  font-family: 'Helvetica';
-  src:  url('fonts/HelveticaNeueCyr-Bold.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url('fonts/HelveticaNeueCyr-Italic.woff') format('woff');
-  font-weight: 450;
-  font-style: normal;
-}
-
