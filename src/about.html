@@ -10,6 +10,105 @@
 
 <body class="about">
         <h1>МАНЕРА</h1>
-</body>
+        <a href="index.html"><div class="splash"><p class="splashtext">ЗАГЛУШКА</p></div></a>
+        <div class="project"><p class="projecttext">О ПРОЕКТЕ</p></div>
+        <div class="wrap">
+        <div class="square"></div>
+        <div class="square2"></div>
+        <div class="square3">
+            <p class="what">ЧТО ТАКОЕ МАНЕРА?</p>
+            <p class="platform">МЕДИАПЛАТФОРМА ДЛЯ ИЗУЧЕНИЯ ЭТИКЕТА</p>
+        </div>
+        </div>
+        <div class="mock"></div>
+        <div class="description">Мы — медиа-сервис об этикете, который помогает научиться более уверенно и изящно ориентироваться в различных социальных
+        ситуациях.
+        </div>
+        <div class="description2">
+            Устали испытывать неловкость на торжественных застольях и при походе в гости? Или теряться <br> при мысли о том, как
+            красиво
+            уйти с мероприя- <br> тия, не потеряв лицо? А может быть вы просто хотите быть таким же элегантным, как члены королевской
+            семьи?
+        </div>
+        <div class="description3">
+            Мы поможем вам в этом с помощью наших увлекательных форматов обучения!
+        </div>
+        <h2 class="why">ПОЧЕМУ НАС СТОИТ ПОЧИТАТЬ?</h2>
+        <div class="kate"></div>
+        <div class="kylie"></div>
+        <div class="madam"></div>
+        <div class="description4">
+            Наша цель — сделать изучение этикета максимально занимательным и интересным!
+        </div>
+        <div class="description5">
+            Поэтому мы собираем множество примеров из массовой культуры, чтобы вы могли учиться на реальных примерах, вдохновляться
+            манерами любимых героев и не повторять их ошибок.
+        </div>
+        <h2 class="for">КОМУ БУДЕТ ИНТЕРЕСЕН <br> НАШ ПРОЕКТ?</h2>
+        <div class="description6">
+            Почитать «Манеру» будет полезно всем, кто хочет стать успешным в личной и профессиональной жизни!
+        </div>
+        <div class="description7">
+        Для тех, кто из-за незнания этикета постоянно попадает в неловкие ситуации, мы подготовили подборки гайдов на разные
+        случаи жизни, <br> а для тех, кто хочет изучать этикет в интерак-<br>тивной форме, мы собираем библиотеки карточек и тестов.
+        </div>
+        <div class="mockup2"></div>
+        <div class="square4">
+        </div>
+        <div class="square5">
+        <p class="mail">Чтобы первым узнать о запуске сервиса, пожалуйста, оставь свою почту!</p>
+        </div>
+        <form id="my-form" action="https://formspree.io/f/xwkdayag" method="POST">
+            <input type="email" name="email" class="mailme" />
+            <button id="my-form-button">Готово</button>
+            <p id="my-form-status"></p>
+        </form>
+        <div class="line"></div>
+        <h1>МАНЕРА</h1>
+        <p class="me">ЛЯЧ АНАСТАСИЯ</p>
+        <p class="sasha">ЗЕЛЕНКОВА АЛЕКСАНДРА</p>
+        <p class="dasha">ЛЮБИВАЯ ДАРЬЯ</p>
+        <p class="curators">КУРАТОРЫ:</p>
+        <p class="sofia">КАЕМ СОФЬЯ</p>
+        <p class="anna">КОМКОВА АННА</p>
+        <div class="vk"></div>
+        <div class="tg"></div>
+        <div class="hse"></div>
+        <div class="footer"></div>
+       
+        
+    </body>
+<script>
+    var form = document.getElementById("my-form");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.innerHTML = "Спасибо за подписку!";
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Возникли проблемы"
+                    }
+                })
+            }
+        }).catch(error => {
+            status.innerHTML = "Возникли проблемы"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 
 </html>
