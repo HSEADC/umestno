@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 499px) and (min-width: 1px) {
 
     body.pages {
 
@@ -7,8 +7,8 @@
 
     // шапка
         nav {
-                margin-top: 1vw;
-                margin-left: 5vw;
+                margin-top: 3vw;
+                margin-left: 2vw;
                 width: 100%;
                 display: block;
                 height: 6.16vw;
@@ -26,7 +26,9 @@
                 line-height: 2.29vw;
                 color: #000;
                 font-family: 'BitumLightItalic';
-                font-size: 3vw;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 5vw;
                 text-decoration: none;
                 text-transform: uppercase;
                 cursor: pointer;
@@ -37,22 +39,22 @@
 
         p {
             font-family: 'HelveticaNeueCyrRoman';
-            font-size: 1.5vw;
+            font-size: 3vw;
         }
         br {
             margin-top: 2vw;
         }
         .h3_1 {
-            width: 40vw;
+            width: 73vw;
             font-family: 'HelveticaNeueCyrRoman';
-            font-size: 2.5vw;
+            font-size: 4.5vw;
             line-height: normal;
             text-transform: uppercase;
         }
 
         .h3_2 {
             font-family: 'BitumLightItalic';
-            font-size: 2.5vw;
+            font-size: 6.5vw;
             line-height: normal;
             text-transform: uppercase;
             text-align: center;
@@ -60,19 +62,21 @@
         .under {
             margin-top: 1vw;
             text-align: center;
-            font-size: 1vw;
+            font-size: 2vw;
         }
 
         .t {
-            width: 41vw;
+            width: 86vw;
         }
+        
         .t_0 {
-            width: 47vw;
+            width: 59vw;
         }
 
 
         // фотка и название
         .photos1 {
+            margin-top: 2vw;
             display: flex;
             position: relative;
             width: 70vw;
@@ -83,45 +87,45 @@
         .PP {
             background-image: url('./images/first.png');
             background-size: cover;
-            width: 70vw;
-            height: 39.5vw;
+            width: 92vw;
+            height: 68vw;
             position: absolute;
-            margin-left: 12vw;
+            margin-left: -9.5vw;
         }
 
         .pp {
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
+            border: 2px solid #000;
         }
         .pla1 {
-            width: 25.3vw;
-            height: 18.2vw;
-            margin-top: 14vw;
-            margin-left: -8vw;
+            width: 46vw;
+            height: 32vw;
+            margin-top: 36vw;
+            margin-left: -9.5vw;
         }
 
         .name {
             position: absolute;
             z-index: 2;
             background-color: white;
-            border: 3px solid #000;
-            width: 25.3vw;
-            height: 18.2vw;
-            margin-top: 11vw;
+            border: 2px solid #000;
+            width: 46vw;
+            height: 32vw;
+            margin-top: 31vw;
             margin-left: -5vw;
         }
 
         .h2_1 {
-            width: 25vw;
+            width: 32vw;
             text-align: center;
             font-family: 'BitumLightItalic';
-            font-size: 3vw;
-            font-weight: 300;
+            font-size: 5vw;
             line-height: normal;
             text-transform: uppercase;
             margin-top: 2.5vw;
+            margin-left: 6vw;
         }
         
 
@@ -130,16 +134,16 @@
         .first {
             display: flex;
             position: relative;
-            margin-top: 42vw;
+            margin-top: 71vw;
             margin-left: 1vw;
         }
         .f {
             position: absolute;
             z-index: 2;
             width: 87vw;
-            height: 11vw;
+            height: 24vw;
             background-color: white;
-            border: 3px solid #000;
+            border: 2px solid #000;
             margin-left: 7vw;
         }
         .pla2 {
@@ -148,9 +152,9 @@
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
+            border: 2px solid #000;
             width: 87vw;
-            height: 11vw;
+            height: 24vw;
         }
 
         .text {
@@ -158,60 +162,61 @@
             margin-left: 2vw;
         }
         .tag {
-            width: 13vw;
-            height: 3vw;
-            border: 3px solid #000;
+            width: 24vw;
+            height: 5vw;
+            border: 2px solid #000;
             background: #9FD3AD;
             text-transform: uppercase;
             text-align: center;
             padding: 0.5vw;
-            margin-left: 72.5vw;
+            margin-left: 60.8vw;
         }
 
         // первый текст статьи
 
         .second {
             display: flex;
+            flex-direction: column;
             width: 90vw;
-            margin-top: 17vw;
+            margin-top: 14vw;
             margin-left: 5vw;
         }
         .t_1 {
-            margin-top: 1vw;
+            margin-top: 3vw;
         }
         .text2 {
-            margin-top: 11vw;
+            margin-top: 16vw;
         }
         .form2 {
             position: absolute;
             z-index: 2;
-            width: 18.2vw;
-            height: 25.3vw;
+            width: 59vw;
+            height: 68vw;
             background-color: white;
-            border: 3px solid #000;
+            border: 2px solid #000;
             margin-left: 28vw;
-            margin-top: 31vw;
+            margin-top: 70vw;
         }
         .crown {
-            margin-top: 9vw;
+            margin-top: 26vw;
         }
-        .pla4 {
-            margin-top: 33.2vw;
-            margin-left: 19.8vw;
+        .pla3 {
+            margin-top: 73.3vw;
+            margin-left: 30.8vw;
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
-            width: 18.2vw;
-            height: 25.3vw;
+            border: 2px solid #000;
+            width: 59vw;
+            height: 68vw;
         }
         .lizzie {
+            margin-top: 2vw;
             background-image: url('./images/second.png');
             background-size: cover;
-            width: 38vw;
-            height: 58.5vw;
-            border: 3px solid #000;
-            margin-left: 11vw;
+            width: 90vw;
+            height: 139.5vw;
+            border: 2px solid #000;
         }
 
 
@@ -219,46 +224,48 @@
 
         .third {
             display: flex;
+            flex-direction: column-reverse;
             width: 90vw;
             margin-top: 4vw;
             margin-left: 5vw;
         }
         .t_1 {
-            margin-top: 1vw;
+            margin-top: 3vw;
         }
         .text3 {
-            margin-top: 13vw;
-            margin-left: 5vw;
+            margin-top: 2vw;
+            margin-left: -1vw;
         }
         .form3 {
             position: absolute;
             z-index: 2;
-            width: 18.2vw;
-            height: 25.3vw;
+            width: 59vw;
+            height: 68vw;
             background-color: white;
-            border: 3px solid #000;
-            margin-left: 18vw;
-            margin-top: 31.6vw;
+            border: 2px solid #000;
+            margin-left: 28vw;
+            margin-top: 70vw;
         }
         .princess {
-            margin-top: 6.5vw;
+            margin-top: 20.5vw;
         }
-        .pla3 {
-            margin-top: 33.2vw;
+        .pla4 {
+            margin-top: 73.3vw;
             margin-left: 30.8vw;
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
-            width: 18.2vw;
-            height: 25.3vw;
+            border: 2px solid #000;
+            width: 59vw;
+            height: 68vw;
         }
         .mia {
+            margin-top: 2vw;
             background-image: url('./images/third.png');
             background-size: cover;
-            width: 38vw;
-            height: 58.5vw;
-            border: 3px solid #000;
+            width: 90vw;
+            height: 139.5vw;
+            border: 2px solid #000;
         }
 
 
@@ -266,11 +273,11 @@
 
         .fourth {
             display: flex;
+            flex-direction: column;
             width: 90vw;
-            margin-top: 4vw;
         }
         .t_1 {
-            margin-top: 1vw;
+            margin-top: 3vw;
         }
         .text4 {
             margin-top: 6vw;
@@ -280,32 +287,33 @@
             position: absolute;
             z-index: 2;
             background-color: white;
-            border: 3px solid #000;
-            height: 18.2vw;
-            width: 25.3vw;
-            margin-top: 18.2vw;
-            margin-left: 22.7vw;
+            border: 2px solid #000;
+            height: 32vw;
+            width: 59vw;
+            margin-top:37.2vw;
+            margin-left: 31.7vw;
         }
         .titanic {
-            margin-top: 5vw;
+            margin-top: 8vw;
         }
         .pla5 {
-            margin-top: 20.2vw;
-            margin-left: 24.7vw;
+            margin-top: 40.2vw;
+            margin-left: 36vw;
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
-            height: 18.2vw;
-            width: 25.3vw;
+            border: 2px solid #000;
+            height: 32vw;
+            width: 59vw;
         }
         .rose {
             background-image: url('./images/fourth.png');
             background-size: cover;
-            width: 49vw;
-            height: 38.5vw;
-            border: 3px solid #000;
-            margin-left: 1vw;
+            width: 90vw;
+            height: 70.5vw;
+            border: 2px solid #000;
+            margin-left: 5vw;
+            margin-top: 2vw;
         }
 
 
@@ -313,46 +321,48 @@
 
         .fifth {
             display: flex;
+            flex-direction: column-reverse;
             width: 90vw;
             margin-top: 4vw;
             margin-left: 4vw;
         }
         .t_1 {
-            margin-top: 1vw;
+            margin-top: 3vw;
         }
         .text5 {
-            margin-top: 17vw;
-            margin-left: 5vw;
+            margin-top: 0vw;
+            margin-left: 1vw;
         }
         .form5 {
             position: absolute;
             z-index: 2;
             background-color: white;
-            border: 3px solid #000;
-            width: 18.2vw;
-            height: 25.3vw;
-            margin-left: 18vw;
-            margin-top: 31.6vw;
+            border: 2px solid #000;
+            width: 59vw;
+            height: 68vw;
+            margin-left: 28vw;
+            margin-top: 70vw;
         }
         .PaP {
-            margin-top: 6vw;
+            margin-top: 18vw;
         }
         .pla6 {
-            margin-top: 33.2vw;
-            margin-left: 20.8vw;
+            margin-top: 73.3vw;
+            margin-left: 32vw;
+            width: 59vw;
+            height: 68vw;
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
-            width: 18.2vw;
-            height: 25.3vw;
+            border: 2px solid #000;
         }
         .darcy {
+            margin-top: 2vw;
             background-image: url('./images/fifth.png');
             background-size: cover;
-            width: 38vw;
-            height: 58.5vw;
-            border: 3px solid #000;
+            width: 90vw;
+            height: 139.5vw;
+            border: 2px solid #000;
             margin-left: 1vw;
         }
 
@@ -361,46 +371,48 @@
 
         .sixth {
             display: flex;
+            flex-direction: column;
             width: 90vw;
-            margin-top: 4vw;
+            margin-top: 2vw;
         }
         .t_1 {
-            margin-top: 1vw;
+            margin-top: 3vw;
         }
         .text6 {
-            margin-top: 9vw;
+            margin-top: 2vw;
             margin-left: 5vw;
         }
         .form6 {
             position: absolute;
             z-index: 2;
             background-color: white;
-            border: 3px solid #000;
-            height: 18.2vw;
-            width: 25.3vw;
-            margin-top: 18.2vw;
-            margin-left: 22.7vw;
+            border: 2px solid #000;
+            height: 32vw;
+            width: 59vw;
+            margin-top:37.2vw;
+            margin-left: 31.7vw;
         }
         .brig {
-            margin-top: 5vw;
+            margin-top: 10vw;
         }
         .pla7 {
-            margin-top: 20.2vw;
-            margin-left: 24.7vw;
+            margin-top: 40.2vw;
+            margin-left: 36vw;
+            height: 32vw;
+            width: 59vw;
             position: absolute;
             z-index: 1;
             background-color: #FFDAED;
-            border: 3px solid #000;
-            height: 18.2vw;
-            width: 25.3vw;
+            border: 2px solid #000;
         }
         .guys {
             background-image: url('./images/sixth.png');
             background-size: cover;
-            width: 49vw;
-            height: 38.5vw;
-            border: 3px solid #000;
-            margin-left: 1vw;
+            width: 90vw;
+            height: 70.5vw;
+            margin-left: 5vw;
+            margin-top: 2vw;
+            border: 2px solid #000;
         }
 
     }
