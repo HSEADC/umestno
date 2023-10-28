@@ -83,7 +83,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index']
+      // chunks: ['index']
     }),
     // Landing page
     new HtmlWebpackPlugin({
