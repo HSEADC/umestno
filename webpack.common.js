@@ -84,9 +84,7 @@ module.exports = {
       template: './src/index.html',
 <<<<<<< HEAD
       filename: './index.html',
-=======
-      filename: './index.html'
->>>>>>> 30e1dcea760bc429fcdd2e4576f3ddfefcb04b69
+      chunks: ['index']
     }),
     // Landing page
     new HtmlWebpackPlugin({
@@ -100,6 +98,17 @@ module.exports = {
 >>>>>>> 30e1dcea760bc429fcdd2e4576f3ddfefcb04b69
     }),
 
+        // Landing page
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/splashscreen.html',
+          filename: './splashscreen.html',
+        }),
+
+
+
+
     // Internal pages
     new HtmlWebpackPlugin({
       hash: true,
@@ -107,9 +116,7 @@ module.exports = {
       template: './src/pages/page.html',
 <<<<<<< HEAD
       filename: './pages/page.html',
-=======
-      filename: './pages/page.html'
->>>>>>> 30e1dcea760bc429fcdd2e4576f3ddfefcb04b69
+      chunks: ['page']
     }),
 
 
