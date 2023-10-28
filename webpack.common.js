@@ -82,7 +82,6 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-<<<<<<< HEAD
       filename: './index.html',
       chunks: ['index']
     }),
@@ -91,11 +90,7 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/about.html',
-<<<<<<< HEAD
-      filename: './about.html',
-=======
       filename: './about.html'
->>>>>>> 30e1dcea760bc429fcdd2e4576f3ddfefcb04b69
     }),
 
         // Landing page
@@ -114,7 +109,6 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
-<<<<<<< HEAD
       filename: './pages/page.html',
       chunks: ['page']
     }),
