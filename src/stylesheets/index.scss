@@ -1,5 +1,7 @@
 body.index {
   background-color: #FFFBF7;
+  display: flex;
+  flex-direction: row;
   h1 {
     font-family: "BitumLightItalic";
     font-style: italic;
@@ -12,7 +14,7 @@ body.index {
 .splash {
     width: 20vw;
     height: 5vw;
-    background-color: #FFFBF7;
+    background-color: #9FD3AD;
     border: 0.2vw solid black;
     margin-left: 53vw;
     margin-top: -4vw;
@@ -22,7 +24,7 @@ body.index {
 .project {
     width: 20vw;
     height: 5vw;
-    background-color: #9FD3AD;
+    background-color: #FFFBF7;
     border: 0.2vw solid black;
     margin-left: 76vw;
     margin-top: -5vw;
@@ -34,22 +36,22 @@ a {
 }
 
 .splashtext {
-    font-family: "HelveticaNeueCyrRoman";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.2vw;
-    margin-left: 3.8vw;
-    margin-top: 1.3vw;
-    text-decoration: none;
-    color: #000;
-}
-
-.projecttext {
     font-family: "BitumLightItalic";
     font-style: italic;
     font-weight: normal;
     font-size: 2vw;
     margin-left: 4.3vw;
     margin-top: 1.4vw;
+}
+
+.projecttext {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.2vw;
+  margin-left: 3.8vw;
+  margin-top: 1.3vw;
+  text-decoration: none;
+  color: #000;
 }
 }
