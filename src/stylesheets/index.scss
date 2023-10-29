@@ -233,8 +233,88 @@ h5 {
 .wow {
   display: none;
 }
-
-
-
 }
+}
+
+
+// адаптивы 
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  body.index {
+      background-color: #FFFBF7;
+  h1 {
+      font-family: "BitumLightItalic";
+      font-style: italic;
+      font-weight: normal;
+      font-size: 6vw;
+      margin-left: 4vw;
+      margin-top: 12vw;
+  }
+
+  .splash {
+      width: 28vw;
+      height: 7vw;
+      background-color: #FFFBF7;
+      border: 0.4vw solid black;
+      margin-left: 41vw;
+      margin-top: -7vw;
+
+  }
+
+  .project {
+      width: 28vw;
+      height: 7vw;
+      background-color: #9FD3AD;
+      border: 0.4vw solid black;
+      margin-left: 68vw;
+      margin-top: -7vw;
+
+  }
+
+  a {
+      display: block;
+      text-decoration: none;
+      width: 8vw;
+      height: 8vw;
+  }
+
+  .splashtext {
+      font-family: "HelveticaNeueCyrRoman";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3.6vw;
+      margin-left: 3.9vw;
+      margin-top: 1.6vw;
+      text-decoration: none;
+      color: #000;
+  }
+
+  .projecttext {
+      font-family: "BitumLightItalic";
+      font-style: italic;
+      font-weight: normal;
+      font-size: 3.5vw;
+      margin-left: 4.3vw;
+      margin-top: 1.7vw;
+  }
+  .vtoroe {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 92.7vw;
+      height: 59.24vw;
+      margin-top: 7.18vw;
+      margin-left: 3.47vw;
+  }
+  .wow {
+      background-color: #9FD3AD;
+      position: absolute;
+      margin-top: 5vw;
+      margin-left: 20vw;
+      width: 30vw;
+      height: 15vw;
+  }
+  
+}
+
 }
