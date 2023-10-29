@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1px) and (max-width: 500px) {
+@media (max-width: 500px) and  (min-width: 1px){
     body.index {
         background-color: #FFFBF7;
     h1 {
@@ -64,6 +64,14 @@
         height: 59.24vw;
         margin-top: 7.18vw;
         margin-left: 3.47vw;
+    }
+    .wow {
+        background-color: #9FD3AD;
+        position: absolute;
+        margin-top: 5vw;
+        margin-left: 20vw;
+        width: 30vw;
+        height: 15vw;
     }
     
 }

@@ -1,7 +1,7 @@
 @media all and (min-width: 501px) {
 body.index {
   background-color: #FFFBF7;
-  flex-direction: column;
+  // flex-direction: column;
   h1 {
     font-family: "BitumLightItalic";
     font-style: italic;
@@ -230,5 +230,11 @@ h5 {
   margin-left: 3.47vw;
   height: 3.26vw;
 }
+.wow {
+  display: none;
+}
+
+
+
 }
 }
