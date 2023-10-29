@@ -85,12 +85,6 @@ module.exports = {
       filename: './index.html',
     }),
     // Landing page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/about.html',
-      filename: './about.html'
-    }),
 
 
     // Internal pages
