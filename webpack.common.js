@@ -83,10 +83,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index']
     }),
-
-
 
 
     // Internal pages
@@ -95,7 +92,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
       filename: './pages/page.html',
-      chunks: ['page']
     }),
 
 
