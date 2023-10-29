@@ -23,7 +23,7 @@ body.index {
     width: 20vw;
     height: 5vw;
     background-color: #FFFBF7;
-    border: 0.2vw solid black;
+    border: 0.21vw solid black;
     margin-left: 76vw;
     margin-top: -5vw;
 
@@ -48,19 +48,21 @@ a {
   font-family: "HelveticaNeueCyrRoman";
   font-style: normal;
   font-weight: normal;
-  font-size: 2.2vw;
+  font-size: 2.21vw;
   margin-left: 3.8vw;
-  margin-top: 1.3vw;
+  margin-top: 1.5vw;
   text-decoration: none;
   color: black;
   cursor:pointer;
 }
 .nach {
   display: flex;
-  margin-top: 10vw;
-  margin-left: 53vw;
+  margin-top: 4.7vw;
+  margin-left: 3.47vw;
   background-image: url('./images/nach.svg');
-  width: 92.99vw;
+  background-size: cover;
+  width: 92.7vw;
+  height: 46.6vw;
 }
 
 
