@@ -96,16 +96,60 @@ h4 {
 .vtoroe {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 92.7vw;
   height: 59.24vw;
   margin-top: 3.26vw;
   margin-left: 3.47vw;
 }
 .connect {
+  display: flex;
+  flex-direction: column;
   height: 59.24vw;
   width: 57.92vw;
   background-image: url('./images/forma.svg');
   background-size: cover;
+}
+
+h5 {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.22vw;
+  margin-left: 10vw;
+  margin-top: 3.8vw;
+  color: black;
+}
+h6 {
+  font-family: "BitumLightItalic";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2.22vw;
+  margin-left: 25.2vw;
+  margin-top: -2.4vw;
+  color: black;
+}
+h7 {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.22vw;
+  margin-left: 31vw;
+  margin-top: -2vw;
+  color: black;
+}
+h8 {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.22vw;
+  margin-left: 10vw;
+  margin-top: 0.4vw;
+  color: black;
+}
+.stiker {
+  height: 59.24vw;
+width: 31.88vw;
 }
 
 
