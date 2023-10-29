@@ -230,6 +230,9 @@ h5 {
   margin-left: 3.47vw;
   height: 3.26vw;
 }
+.none {
+  display: none;
+}
 
 }
 }
@@ -402,9 +405,16 @@ h5 {
     margin-top: -6.9vw;
 }
 .t4 {
-  margin-top: 4.6vw;
+  margin-top: 8.6vw;
 }
-
+.qr {
+  width: 16.92vw;
+  height: 16.92vw;
+  margin-top: -14vw;
+  margin-left: 70vw;
+  background-image: url('./images/qr.svg');
+  background-size: cover;
+}
 
 
 
