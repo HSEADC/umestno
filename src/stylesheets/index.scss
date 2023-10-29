@@ -110,17 +110,18 @@ h4 {
   background-image: url('./images/forma.svg');
   background-size: cover;
 }
-
-h5 {
+p {
   font-family: "HelveticaNeueCyrRoman";
   font-style: normal;
   font-weight: normal;
+  color: black;
   font-size: 2.22vw;
+}
+.t1 {
   margin-left: 10vw;
   margin-top: 3.8vw;
-  color: black;
 }
-h6 {
+h5 {
   font-family: "BitumLightItalic";
   font-style: italic;
   font-weight: normal;
@@ -129,23 +130,13 @@ h6 {
   margin-top: -2.4vw;
   color: black;
 }
-h7 {
-  font-family: "HelveticaNeueCyrRoman";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2.22vw;
+.t2 {
   margin-left: 31vw;
   margin-top: -2vw;
-  color: black;
 }
-h8 {
-  font-family: "HelveticaNeueCyrRoman";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2.22vw;
+.t3 {
   margin-left: 10vw;
-  margin-top: 0.4vw;
-  color: black;
+  margin-top: 0.2vw;
 }
 .mailme {
   width: 42.71vw;
@@ -157,10 +148,27 @@ h8 {
 
 }
 .stiker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 59.24vw;
-width: 31.88vw;
+  width: 31.88vw;
 }
-
-
+.info {
+  width: 31.88vw;
+  height: 24.6vw;
+  border: 0.21vw solid black;
+  background-color: #FFFBF7;
+}
+.t4 {
+  margin-left: 4.3vw;
+  margin-top: 3.6vw;
+}
+.code {
+  width: 31.88vw;
+  height: 31.74vw;
+  background-image: url('./images/code.svg');
+  background-size: cover;
+}
 
 }
