@@ -40,6 +40,7 @@
       <div class="code"></div>
     </div>
     </div>
+    <div class="space"></div>
   </body>
   
   <!-- ФОРМА -->
@@ -64,7 +65,7 @@ fetch(event.target.action, {
     }
 }).then(response => {
     if (response.ok) {
-        status.innerHTML = "Спасибо за подписку!";
+        status.innerHTML = "";
         form.reset()
     } else {
         response.json().then(data => {

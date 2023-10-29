@@ -142,10 +142,11 @@ h5 {
   position: absolute;
   width: 42.71vw;
   height: 3.68vw;
-  margin-top: -46vw;
+  margin-top: -50vw;
   margin-left: 13.5vw;
   border: 0.21vw solid black;
   background-color: #FFFBF7;
+  cursor: pointer;
 }
 #my-form-button {
   position: absolute;
@@ -153,8 +154,14 @@ h5 {
   border: 0.21vw solid black;
   width: 11.53vw;
   height: 3.68vw;
-  margin-top: -40vw;
+  margin-top: -43.1vw;
   margin-left: 13.5vw;
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: black;
+  cursor: pointer;
 }
 .stiker {
   display: flex;
@@ -216,15 +223,11 @@ h5 {
   margin-left: 22.4vw;
   margin-top: -3.9vw;
 }
-#my-form-status {
-  font-family: "HelveticaNeueCyrRoman";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.5vw;
-  // margin-left: 10.1vw;
-  // margin-top: 1.9vw;
-  color: black;
+.space {
+  display: flex;
+  width: 92.7vw;
+  margin-left: 3.47vw;
+  height: 3.26vw;
 }
-
 
 }
