@@ -1,5 +1,6 @@
 body.index {
   background-color: #FFFBF7;
+  flex-direction: column;
   h1 {
     font-family: "BitumLightItalic";
     font-style: italic;
@@ -57,6 +58,7 @@ a {
 }
 .nach {
   display: flex;
+  flex-direction: column;
   margin-top: 4.7vw;
   margin-left: 3.47vw;
   background-image: url('./images/nach.svg');
@@ -64,19 +66,47 @@ a {
   width: 92.7vw;
   height: 46.6vw;
 }
-.h2 {
+h2 {
   font-family: "BitumLightItalic";
   font-style: italic;
   font-weight: normal;
   text-align: center;
   font-size: 6.94vw;
-  margin-left: 4vw;
-  margin-top: 4vw;
+  margin-left: 3vw;
+  margin-top: 10vw;
 }
-
-
-
-
+h3 {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  margin-left: 10.1vw;
+  margin-top: 1.9vw;
+  color: black;
+}
+h4 {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  margin-left: 71.1vw;
+  margin-top: -1.5vw;
+  color: black;
+}
+.vtoroe {
+  display: flex;
+  flex-direction: row;
+  width: 92.7vw;
+  height: 59.24vw;
+  margin-top: 3.26vw;
+  margin-left: 3.47vw;
+}
+.connect {
+  height: 59.24vw;
+  width: 57.92vw;
+  background-image: url('./images/forma.svg');
+  background-size: cover;
+}
 
 
 
