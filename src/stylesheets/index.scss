@@ -41,6 +41,7 @@ a {
     margin-left: 4.3vw;
     margin-top: 1.4vw;
     text-decoration: none;
+    // cursor:pointer;
 }
 
 .projecttext {
@@ -52,5 +53,21 @@ a {
   margin-top: 1.3vw;
   text-decoration: none;
   color: black;
+  cursor:pointer;
 }
+.nach {
+  display: flex;
+  margin-top: 10vw;
+  margin-left: 53vw;
+  background-image: url('../images/nach.svg');
+  width: 92.99vw;
+}
+
+
+
+
+
+
+
+
 }
