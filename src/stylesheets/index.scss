@@ -139,12 +139,22 @@ h5 {
   margin-top: 0.2vw;
 }
 .mailme {
+  position: absolute;
   width: 42.71vw;
   height: 3.68vw;
-  margin-top: 4vw;
-  margin-left: 10vw;
-  border: 0.2vw solid black;
+  margin-top: -46vw;
+  margin-left: 13.5vw;
+  border: 0.21vw solid black;
   background-color: #FFFBF7;
+}
+#my-form-button {
+  position: absolute;
+  background-color: #9FD3AD;
+  border: 0.21vw solid black;
+  width: 11.53vw;
+  height: 3.68vw;
+  margin-top: -40vw;
+  margin-left: 13.5vw;
 }
 .stiker {
   display: flex;
@@ -163,6 +173,10 @@ h5 {
   margin-left: 4.3vw;
   margin-top: 3.6vw;
 }
+.t5 {
+  margin-left: 10vw;
+  margin-top: 31.9vw;
+}
 .arrow {
   width: 1.9vw;
   height: 5.65vw;
@@ -175,5 +189,42 @@ h5 {
   background-image: url('./images/code.svg');
   background-size: cover;
 }
+.vk {
+  display: flex;
+  background-image: url('./images/vk.png');
+  background-size: cover;
+  width: 3.96vw;
+  height: 3.82vw;
+  margin-left: 10vw;
+  margin-top: 2.5vw;
+}
+.tg {
+  display: flex;
+  background-image: url('./images/tg.png');
+  background-size: cover;
+  width: 4.2vw;
+  height: 4.2vw;
+  margin-left: 16vw;
+  margin-top: -4vw;
+}
+.yt {
+  display: flex;
+  background-image: url('./images/yt.png');
+  background-size: cover;
+  width: 4.6vw;
+  height: 3.7vw;
+  margin-left: 22.4vw;
+  margin-top: -3.9vw;
+}
+#my-form-status {
+  font-family: "HelveticaNeueCyrRoman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  // margin-left: 10.1vw;
+  // margin-top: 1.9vw;
+  color: black;
+}
+
 
 }
