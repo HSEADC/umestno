@@ -82,8 +82,11 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunks: ['index']
     }),
+
+
 
 
     // Internal pages
@@ -91,7 +94,8 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
-      filename: './pages/page.html'
+      filename: './pages/page.html',
+      chunks: ['page']
     }),
 
 
