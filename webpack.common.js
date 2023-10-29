@@ -83,7 +83,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
-      // chunks: ['index']
     }),
     // Landing page
     new HtmlWebpackPlugin({
@@ -93,16 +92,6 @@ module.exports = {
       filename: './about.html'
     }),
 
-        // Landing page
-        new HtmlWebpackPlugin({
-          hash: true,
-          scriptLoading: 'blocking',
-          template: './src/splashscreen.html',
-          filename: './splashscreen.html',
-        }),
-
-
-
 
     // Internal pages
     new HtmlWebpackPlugin({
@@ -110,7 +99,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
       filename: './pages/page.html',
-      chunks: ['page']
     }),
 
 
