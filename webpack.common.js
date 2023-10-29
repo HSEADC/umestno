@@ -82,16 +82,22 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html',
+      filename: './index.html'
     }),
-
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html',
+    }),
 
     // Internal pages
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
-      filename: './pages/page.html',
+      filename: './pages/page.html'
     }),
 
 
