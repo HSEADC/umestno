@@ -28,4 +28,45 @@
     <div class="stiker"></div>
    </div>
   </body>
+  
+  <!-- ФОРМА -->
+  <form id="my-form" action="https://formspree.io/f/xwkdayag" method="POST">
+    <input type="email" name="email" class="mailme" />
+    <button id="my-form-button">Готово</button>
+    <p id="my-form-status"></p>
+</form>
+
+<script>
+var form = document.getElementById("my-form");
+
+async function handleSubmit(event) {
+event.preventDefault();
+var status = document.getElementById("my-form-status");
+var data = new FormData(event.target);
+fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+        'Accept': 'application/json'
+    }
+}).then(response => {
+    if (response.ok) {
+        status.innerHTML = "Спасибо за подписку!";
+        form.reset()
+    } else {
+        response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+                status.innerHTML = "Возникли проблемы"
+            }
+        })
+    }
+}).catch(error => {
+    status.innerHTML = "Возникли проблемы"
+});
+}
+form.addEventListener("submit", handleSubmit)
+</script>
+
 </html>
