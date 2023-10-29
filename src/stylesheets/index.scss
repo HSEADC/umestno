@@ -239,7 +239,7 @@ h5 {
 
 // адаптивы 
 
-@media only screen and (min-width: 1px) and (max-width: 500px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body.index {
       background-color: #FFFBF7;
   h1 {
@@ -316,5 +316,4 @@ h5 {
   }
   
 }
-
-}
+  }
