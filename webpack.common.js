@@ -95,6 +95,15 @@ module.exports = {
       filename: './pages/page.html',
     }),
 
+     // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/talk.html',
+      filename: './talk.html',
+    }),
+    
+
 
 
     // Partials
