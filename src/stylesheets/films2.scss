@@ -1,0 +1,417 @@
+@media only screen and (max-width: 499px) {
+    // font-family: 'Oranienbaum', serif;
+    // font-family: 'Snell Roundhand', arial;
+
+    body.films {
+
+        // основы
+
+        a{
+            font-family: Helvetica;
+            text-decoration: none; 
+        }
+        h1 {
+            font-family: 'Oranienbaum', serif;
+            font-size: 8.72vw;
+            text-transform: uppercase;
+            color: blue;
+        }
+        h2 {
+            font-family: 'Oranienbaum', serif;
+            font-size: 8.72vw;
+            text-transform: uppercase;
+            color: blue;
+        }
+        h4 {
+            font-family: 'Oranienbaum', serif;
+            font-size: 6.67vw;
+            text-transform: uppercase;
+            color: blue;
+        }
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3.59vw;
+            color: blue;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5.13vw;
+            color: blue;
+        }
+        
+
+        // head
+
+        nav {
+            width: 92.40vw;
+            margin-top: 13vw;
+
+            .menu-items {
+                width: 92.5vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo {
+                width: 11vw;
+                height: 8vw;
+                margin-top: 1.5vw;
+                padding-left: 2vw;
+            }
+            .about {
+                width: 20vw;
+                height: 5.9vw;
+                border: 0.15vw solid #004BEF;
+                border-radius: 40px;
+                margin-left: 79vw;
+                margin-top: -2.5vw;
+            }
+            .about:hover {
+                background-color: #D9D8FF;
+                transition: all 0.5s ease-out;
+            }
+            .tt {
+                text-align: center;
+                font-family: "HelveticaNeueCyrRoman";
+                font-weight: normal;
+                font-style: normal;
+                font-size: 3.5vw;
+                padding-top: 0.7vw;
+                color: #004BEF;
+            }
+            a {
+                    display: block;
+                    text-decoration: none;
+                    width: 5vw;
+                    height: 5vw;
+            }
+        }
+
+        // body 
+
+        #first {
+            width: 100vw;
+            height: 196vw;
+            position: relative;
+            text-align: center;
+            .Title {
+                margin-top: -2vw;
+            }
+            .photo1 {
+                background-image: url('images/p&p1.png');
+                background-size: cover;
+                width: 92.84vw;
+                height: 135.38vw;
+                margin-top: -3.5vw;
+                margin-left: 3.9vw;
+            }
+            .text1 {
+                margin-top: 6vw;
+                width: 95.46vw;
+                margin-left: 3vw;
+            }
+            .tag {
+                margin-top: 7vw;
+            }
+        }
+
+        #second {
+            width: 80vw;
+            height: 323vw;
+            top: 28vw;
+            left: 8.41vw;
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            #textes1 {
+                margin-top: 18vw;
+                display: flex;
+                flex-direction: column;
+                .title {
+                    width: 80vw;
+                }
+                .text2 {
+                    width: 90.31vw;
+                    margin-top: 3vw;
+                    margin-bottom: 1vw;
+                }
+                .text3, .text4, .text5 {
+                    width: 90.31vw;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                }
+            }
+
+            #photos1 {
+                display: flex;
+                flex-direction: column;
+                .liz {
+                    background-image: url('images/liz.svg');
+                    background-size: cover;
+                    width: 86.67vw;
+                    height: 103.49vw;
+                }
+                .play {
+                    margin-top: 6.5vw;
+                    margin-left: 28vw;
+                }
+                .under {
+                    background-image: url('images/underline.png');
+                    background-size: cover;
+                    width: 67.75vw;
+                    height: 0.3vw;
+                    margin-top: 3vw;
+                    margin-left: 8vw;
+                }
+                .actors1 {
+                    background-image: url('images/actors1.svg');
+                    background-size: cover;
+                    width: 54vw;
+                    height: 25.8vw;
+                    margin-left: 16vw;
+                    margin-top: 3vw;
+                }
+            }
+        }
+
+        #third {
+            width: 80vw;
+            height: 290vw;
+            top: 36.5vw;
+            left: 11.41vw;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            #photos2 {
+                .mia {
+                    background-image: url('images/mia.svg');
+                    background-size: cover;
+                    width: 95.64vw;
+                    height: 104.87vw;
+                    margin-top: -3.5vw;
+                    margin-left: -14vw;
+                }
+                .uu1 p{
+                    font-size: 3.59vw;
+                    width: 58.19vw;
+                    margin-left: 11vw;
+                }
+            }
+
+            #textes2 {
+                margin-top: 10vw;
+                margin-left: -4vw;
+                .title {
+                    width: 84vw;
+                }
+                .text2 {
+                    width: 89.31vw;
+                    margin-top: 3vw;
+                    margin-bottom: 1vw;
+                }
+                .text3 {
+                    width: 90.31vw;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+
+        #fourth {
+            width: 80vw;
+            height: 255vw;
+            top: 54vw;
+            left: 12.41vw;
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            #textes3 {
+                display: flex;
+                flex-direction: column;
+                margin-left: -6vw;
+                .title {
+                    margin-top: 12vw;
+                    width: 95vw;
+                }
+                .text2 {
+                    width: 90.31vw;
+                    margin-top: 3vw;
+                    margin-bottom: 1vw;
+                }
+                .text3, .text4, .text5 {
+                    width: 90.31vw;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                }
+            }
+
+            #photos3 {
+                display: flex;
+                flex-direction: column;
+                .tit {
+                    background-image: url('images/tit.svg');
+                    background-size: cover;
+                    width: 88.5vw;
+                    height: 83.33vw;
+                    margin-left: -5vw;
+                }
+                .play {
+                    margin-top: 3.5vw;
+                    margin-left: 22.5vw;
+                }
+                .under {
+                    background-image: url('images/underline.png');
+                    background-size: cover;
+                    width: 67.75vw;
+                    height: 0.3vw;
+                    margin-top: 1vw;
+                    margin-left: 4vw;
+                }
+                .actors2 {
+                    background-image: url('images/actors2.svg');
+                    background-size: cover;
+                    width: 55vw;
+                    height: 27vw;
+                    margin-left: 11vw;
+                    margin-top: 3vw;
+                }
+            }
+        }
+
+        #fifth {
+            position: relative;
+            top: 62vw;
+            left: 6.41vw;
+            background-image: url('images/titanic3.svg');
+            background-size: cover;
+            width: 86.67vw;
+            height: 196.41vw;
+        }
+
+        #sixth {
+            width: 80vw;
+            height: 290vw;
+            top: 77.5vw;
+            left: 11.41vw;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            #photos2 {
+                .pp2 {
+                    background-image: url('images/p&p2.svg');
+                    background-size: cover;
+                    width: 95.38vw;
+                    height: 101.54vw;
+                    margin-top: -6vw;
+                    margin-left: -14vw;
+                }
+                .uu1 {
+                    width: 27.19vw;
+                }
+            }
+
+            #textes2 {
+                margin-left: -4vw;
+                margin-top: 9vw;
+                .title {
+                    width: 54vw;
+                }
+                .text2 {
+                    width: 84.1vw;
+                    margin-top: 3vw;
+                    margin-bottom: 1vw;
+                }
+                .text3 {
+                    width: 79.31vw;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+
+        #seventh {
+            width: 80vw;
+            height: 290vw;
+            top: 50vw;
+            left: 12.41vw;
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            #textes4 {
+                display: flex;
+                flex-direction: column;
+                margin-left: -6vw;
+                .title {
+                    margin-top: 15vw;
+                    width: 72vw;
+                }
+                .text2 {
+                    width: 72.31vw;
+                    margin-top: 3vw;
+                    margin-bottom: 1vw;
+                }
+                .text3, .text4, .text5 {
+                    width: 84.31vw;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                }
+            }
+
+            #photos4 {
+                display: flex;
+                flex-direction: column;
+                .brig {
+                    background-image: url('images/brig.svg');
+                    background-size: cover;
+                    width: 86.67vw;
+                    height: 95.95vw;
+                    margin-left: -5vw;
+                    margin-top: -2vw;
+                }
+                .play {
+                    margin-top: 2.5vw;
+                    margin-left: 20.5vw;
+                }
+                .under {
+                    background-image: url('images/underline.png');
+                    background-size: cover;
+                    width: 67.75vw;
+                    height: 0.3vw;
+                    margin-top: 3vw;
+                    margin-left: 4vw;
+                }
+                .actors3 {
+                    background-image: url('images/actors3.svg');
+                    background-size: cover;
+                    width: 71vw;
+                    height: 31.0vw;
+                    margin-left: 3vw;
+                    margin-top: 3vw;
+                }
+            }
+        }
+
+        #eight {
+            position: relative;
+            width: 100%;
+            height: 283vw;
+            margin-top: 57vw;
+            .nn p{
+                padding-top: 6vw;
+                margin-left: 25vw;
+                font-family: 'Snell Roundhand', arial;
+                font-size: 11.28vw;
+                text-transform: lowercase;
+                color: blue;
+            }
+            .und {
+                background-image: url('images/underground2.svg');
+                background-size: cover;
+                width: 93.07vw;
+                height: 261vw;
+                margin-top: -11.5vw;
+                margin-left: 4.5vw;
+            }
+        }
+    }
+}
