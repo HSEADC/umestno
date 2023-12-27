@@ -78,13 +78,6 @@ module.exports = {
 
 
     // Landing page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/index.html',
-      filename: './index.html',
-    }),
-    // Landing page
 
 
     // Internal pages
@@ -102,6 +95,14 @@ module.exports = {
       template: './src/talk.html',
       filename: './talk.html',
     }),
+
+      // Internal pages
+      new HtmlWebpackPlugin({
+        hash: true,
+        scriptLoading: 'blocking',
+        template: './src/styleguide.html',
+        filename: './styleguide.html',
+      }),
     
 
 
