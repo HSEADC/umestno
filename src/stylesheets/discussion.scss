@@ -1,0 +1,489 @@
+@media all and (min-width: 501px) {
+    body.discussion {
+        background-color: #FFFFFF;
+    }
+
+    .logogo {
+        width: 8vw;
+        height: 5vw;
+        margin-top: 1.5vw;
+        padding-left: 2vw;
+    }
+
+    .splash {
+        width: 14.38vw;
+        height: 2.85vw;
+        background-color: #FFFFFF;
+        border: 0.15vw solid #004BEF;
+        border-radius: 2vw;
+        margin-left: 66vw;
+        margin-top: -6.5vw;
+    }
+
+    .splash:hover {
+        background-color: #D9D8FF;
+        transition: all 0.5s ease-out;
+    }
+
+    .project {
+        width: 14.38vw;
+        height: 2.85vw;
+        border: 0.15vw solid #004BEF;
+        border-radius: 2vw;
+        margin-left: 82vw;
+        margin-top: -2.5vw;
+    }
+
+    .project:hover {
+        background-color: #D9D8FF;
+        transition: all 0.5s ease-out;
+    }
+
+    .splashtext {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25vw;
+        padding: 0.6vw;
+        padding-left: 4.7vw;
+        text-decoration: none;
+        color: #004BEF;
+    }
+
+    .projecttext {
+        font-family: "HelveticaNeueCyrRoman";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.25vw;
+        padding: 0.6vw;
+        padding-left: 5.3vw;
+        color: #004BEF;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .celeb {
+        position: absolute;
+        margin-left: -88.5vw;
+        margin-top: 3vw;
+        width: 88vw;
+        height: 22vw;
+    }
+
+    .ovalik {
+        margin-left: 4.5vw;
+        margin-top: -2vw;
+        width: 90vw;
+        height: 30vw;
+    }
+
+    .celeb2 {
+        display: none;
+    }
+
+    .ussd {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5.2vw;
+        margin-top: 3.5vw;
+        color: #004BEF;
+        text-align: center;
+    }
+
+    .usss {
+        display: none;
+    }
+
+    .necessity {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        margin-top: 6vw;
+        color: #004BEF;
+        margin-left: 8vw;
+    }
+
+    .kim2 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        margin-top: -44vw;
+        color: #004BEF;
+        margin-left: 51vw;
+    }
+
+    .tim2 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        margin-top: -44vw;
+        color: #004BEF;
+        margin-left: 51vw;
+    }
+
+    .old {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        margin-top: 17vw;
+        color: #004BEF;
+        margin-left: 8vw;
+    }
+
+    .desc {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 1.4vw;
+        color: #004BEF;
+        text-align: center;
+    }
+
+    .anti {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1vw;
+        margin-top: 2.4vw;
+        color: #004BEF;
+        text-align: center;
+    }
+
+    .textd {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 5vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .textad {
+        display: none;
+    }
+
+    .text12d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 17vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .text2d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 4vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .text2ad {
+        display: none;
+    }
+
+    .text3d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .text4d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .text5d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: -35vw;
+        margin-left: 51vw;
+        color: #004BEF;
+    }
+
+    .text10d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: -42vw;
+        margin-left: 51vw;
+        color: #004BEF;
+    }
+
+    .text6d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 51vw;
+        color: #004BEF;
+    }
+
+    .text7 {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 51vw;
+        color: #004BEF;
+    }
+
+    .text11d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 51vw;
+        color: #004BEF;
+    }
+
+    .text7 {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 51vw;
+        color: #004BEF;
+    }
+
+    .text8d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 4vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .text9d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 5vw;
+        margin-left: 8vw;
+        color: #004BEF;
+    }
+
+    .letterd {
+        position: absolute;
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.4vw;
+        text-align: center;
+        margin-left: 39vw;
+        margin-top: 1.3vw;
+        color: #004BEF;
+    }
+
+    .text3ad {
+        display: none;
+    }
+
+    .text4ad {
+        display: none;
+    }
+
+    .text5ad {
+        display: none;
+    }
+
+    .text6ad {
+        display: none;
+    }
+
+    .text7a {
+        display: none;
+    }
+
+    .text8ad {
+        display: none;
+    }
+
+    .text9ad {
+        display: none;
+    }
+
+    .text10ad {
+        display: none;
+    }
+
+    .text11ad {
+        display: none;
+    }
+
+    .text12ad {
+        display: none;
+    }
+
+    .letter2d {
+        position: absolute;
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.1vw;
+        text-align: center;
+        margin-left: 34vw;
+        margin-top: -4.8vw;
+        color: #004BEF;
+    }
+
+    .bracketd {
+        position: absolute;
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 40.8vw;
+        color: #004BEF;
+    }
+
+    .bracket2d {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        margin-top: -4.5vw;
+        margin-left: 35.7vw;
+        color: #004BEF;
+    }
+
+    .ludovic {
+        margin-left: 56vw;
+        margin-top: -40vw;
+        width: 33vw;
+        height: 50vw;
+    }
+
+    .social {
+        margin-left: 3vw;
+        margin-top: -2vw;
+        width: 40vw;
+        height: 50vw;
+    }
+
+    .polite {
+        margin-left: 3vw;
+        margin-top: -2vw;
+        width: 40vw;
+        height: 50vw;
+    }
+
+    .general {
+        margin-left: 56vw;
+        margin-top: -38vw;
+        width: 33vw;
+        height: 50vw;
+    }
+
+    .number1 {
+        margin-left: 73.5vw;
+        margin-top: -24vw;
+        width: 8vw;
+        height: 5.5vw;
+    }
+
+    .number2 {
+        margin-left: 62.5vw;
+        margin-top: -24vw;
+        width: 8vw;
+        height: 5.5vw;
+    }
+
+    .razdel {
+        width: 18vw;
+        height: 0.15vw;
+        margin-left: 8vw;
+        margin-top: 12vw;
+        background: #004BEF;
+
+    }
+
+    .razdel2 {
+        width: 18vw;
+        height: 0.15vw;
+        margin-left: 72vw;
+        margin-top: -2vw;
+        background: #004BEF;
+
+    }
+
+    .like2 {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4vw;
+        text-align: center;
+        margin-left: -1.7vw;
+        margin-top: -2.3vw;
+        color: #004BEF;
+
+    }
+
+    .card1 {
+        position: absolute;
+        width: 30vw;
+        height: 40vw;
+        margin-left: 3vw;
+        margin-top: -2vw;
+
+    }
+
+    .card2 {
+        position: absolute;
+        width: 30vw;
+        height: 40vw;
+        margin-left: 35vw;
+        margin-top: -2vw;
+
+    }
+
+    .card3 {
+        position: absolute;
+        width: 30vw;
+        height: 40vw;
+        margin-left: 67vw;
+        margin-top: -2vw;
+
+    }
+
+    .ovalmob {
+        display: none;
+    }
+
+}
