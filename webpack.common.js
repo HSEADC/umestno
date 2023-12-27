@@ -70,6 +70,19 @@ module.exports = {
     ]
   },
   plugins: [
+    // new CopyPlugin({
+    //   patterns: [
+    //     {
+    //       from: path.resolve(__dirname, "src/share/"),
+    //       to: path.resolve(__dirname, "dev_build/share/"),
+    //     },
+    //     {
+    //       from: path.resolve(__dirname, "src/share/"),
+    //       to: path.resolve(__dirname, "docs/share/"),
+    //     },
+    //   ],
+    // }),
+
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
@@ -91,6 +104,38 @@ module.exports = {
       template: './src/films.html',
       filename: './films.html'
     }),
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html'
+    }),
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/celebrities.html',
+      filename: './celebrities.html'
+    }),
+
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/discussion.html',
+      filename: './discussion.html'
+    }),
+
+
+    // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/page.html',
+      filename: './pages/page.html'
+    }),
+    
 
 
 
