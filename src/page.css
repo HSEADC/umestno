@@ -2,4 +2,5 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
-@import 'stylesheets/page.scss';
+@import 'stylesheets/teaser.scss';
+@import 'stylesheets/teaser2.scss';
