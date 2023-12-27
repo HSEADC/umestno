@@ -127,7 +127,6 @@ module.exports = {
       filename: './discussion.html'
     }),
 
-
     // Internal pages
     new HtmlWebpackPlugin({
       hash: true,
@@ -135,6 +134,23 @@ module.exports = {
       template: './src/pages/page.html',
       filename: './pages/page.html'
     }),
+    
+
+     // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/talk.html',
+      filename: './talk.html',
+    }),
+
+      // Internal pages
+      new HtmlWebpackPlugin({
+        hash: true,
+        scriptLoading: 'blocking',
+        template: './src/styleguide.html',
+        filename: './styleguide.html',
+      }),
     
 
 
