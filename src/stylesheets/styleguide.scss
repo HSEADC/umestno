@@ -1,0 +1,1021 @@
+@media all and (min-width: 501px) {
+    body.styleguide {
+        background-color: #004BEF;
+        // background-image: url('./images/fona.svg');
+    .poloska {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 94.79vw;
+        height: 16.15vw;
+        margin-top: 2vw;
+        margin-left: 2.60vw;
+        // background-color: #004BEF;
+    }
+    .logo {
+        display: flex;
+        width: 6.93vw;
+        height: 5.05vw;
+        background-size: cover;
+        background-image: url('./images/lo.svg');
+    }
+    .me {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 5.05vw;
+        width: 66.72vw;
+        
+    }
+    p {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        color: white;
+    }
+    .m1 {
+        margin-top: 2.4vw;
+    }
+    .nam {
+        display: flex;
+        flex-direction: column;
+        width: 94.79vw;
+        height: 40.68vw;
+        margin-left: 2.60vw;
+    }
+    h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+        font-size: 18.18vw;
+        text-align: center;
+    }
+    .who {
+        width: 36.41vw;
+        height: 19.06vw;
+        margin-left: 28vw;
+        background-size: cover;
+        background-image: url('./images/who.svg');
+    }
+    #brand {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        height: 52.29vw;
+        margin-top: 2vw;
+        background-color: white;
+    }
+    .blok1 {
+        display: flex;
+        flex-direction: column;
+        width: 55.05vw;
+        height: 52.29vw;
+    }
+    h2 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #004BEF;
+        font-size: 5.2vw;
+        margin-left: 10.83vw;
+        margin-top: 10.83vw;
+    }
+    .te1 {
+        margin-top: 4vw;
+        margin-left: 10.83vw;
+        color: #004BEF;
+    }
+    .ki {
+        width: 11.09vw;
+        height: 9.79vw;
+        margin-left: 42vw;
+        background-size: cover;
+        background-image: url('./images/ki.svg');
+    }
+    .blok2 {
+        display: flex;
+        flex-direction: column;
+        width: 42.97vw;
+        height: 52.29vw;
+    }
+    .ne {
+        margin-top: 31vw;
+        margin-left: 1vw;
+    }
+    .te2 {
+        margin-top: 4vw;
+        margin-left: 1.4vw;
+        color: #004BEF;
+    }
+    .te3 {
+        margin-top: 1vw;
+        margin-left: 1.4vw;
+        color: #004BEF;
+    }
+    .den {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 35.29vw;
+        background-color: white;
+    }
+    .ved1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw; 
+        height: 9.05vw;
+    }
+    .tsen {
+    margin-top: 4vw; 
+    }
+    .chisla1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        height: 23.33vw;
+    }
+    .per {
+        width: 50vw;
+        height: 23.33vw;
+    }
+    .vtor {
+        width: 46vw;
+        height: 23.33vw;
+    }
+    .te4 {
+        margin-top: 2vw;
+        margin-left: 18.8vw;
+        color: #004BEF;
+    }
+    .te5 {
+        margin-top: 2vw;
+        margin-left: 10vw;
+        color: #004BEF;
+    }
+    .mis {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 40.29vw;
+        background-color: white;
+    }
+    .te6 {
+        margin-top: 2vw;
+        margin-left: 11vw;
+        color: #004BEF;
+    }
+    .su {
+        margin-top: 2vw;
+        margin-left: 64vw;
+    }
+    .te7 {
+        margin-top: 2vw;
+        margin-left: 64vw;
+        color: #004BEF;
+    }
+    .merch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        height: 39.43vw;
+    }
+    .con1 {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 39.43vw;
+    }
+    .con2 {
+        display: flex;
+        flex-direction: column;
+        width: 46vw;
+        height: 39.43vw;
+    }
+    .sin {
+        color: white;
+        margin-left: 10.83vw;
+        margin-top: 10.83vw;
+    }
+    .te8 {
+        margin-top: 2vw;
+        margin-left: 11vw;
+    }
+    .te9 {
+        margin-top: 18vw;
+        margin-left: 10vw;
+    }
+    #lo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 56.56vw;
+        background-color: white;
+    }
+    .ogo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw; 
+        height: 20vw;
+    }
+    .smel {
+        margin-top: 2vw;
+        margin-left: 30vw;
+        color: #004BEF;
+    }
+    .be {
+        width: 73.44vw;
+        height: 26.46vw;
+        margin-left: 11vw;
+        margin-top: 3vw;
+        background-size: cover;
+        background-image: url('./images/be.svg');
+    }
+    #col {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 90vw;
+    }
+    .cole {
+        width: 78.75vw;
+        height: 9.01vw;
+        margin-left: 11vw;
+        margin-top: 8vw;
+        background-size: cover;
+        background-image: url('./images/cole.svg');
+    }
+    .sr {
+        width: 78.02vw;
+        height: 12.24vw;
+        margin-left: 11vw;
+        margin-top: 8vw;
+        background-size: cover;
+        background-image: url('./images/sr.svg');
+    }
+    #setka {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 46.67vw;
+        background-color: white;
+    }
+    .sto {
+        width: 78.75vw;
+        height: 24.34vw;
+        margin-left: 11vw;
+        margin-top: 4vw;
+        background-size: cover;
+        background-image: url('./images/oni.svg');
+    }
+    #graf {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 46.67vw;
+    }
+    .gr {
+        width: 77.40vw;
+        height: 15.52vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/gr.svg');
+    }
+    #bib {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 61.56vw;
+        background-color: white;
+    }
+    .bibe {
+        width: 78.80vw;
+        height: 36.77vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/bibe.svg');
+    }
+    #voice {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 42.55vw;
+    }
+    .som {
+        margin-top: 11vw;
+        margin-left: 11vw;
+        color: white;
+    }
+    .ko {
+        margin-top: 4vw;
+        margin-left: 11vw;
+        color: white;
+    }
+    .net {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 65vw;
+        background-color: white;
+    }
+    .set {
+        width: 71.04vw;
+        height: 44.95vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/set.svg');
+    }
+    #nos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 66.14vw;
+    }
+    .re {
+        width: 70.65vw;
+        height: 49.27vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/re.svg');
+    }
+    .pla {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 66.14vw;
+    }
+    .pit {
+        width: 72.65vw;
+        height: 49.27vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/pit.svg');
+    }
+    .sin2 {
+        margin-top: 8vw;
+        color: white;
+    }
+    .ru1 {
+        position: absolute;
+        margin-top: 29.8vw;
+        margin-left: 1vw;
+        width: 27.17vw;
+        height: 7.6vw;
+        background-size: cover;
+        background-image: url('./images/el1.svg');
+    }
+.tik {
+    position: absolute;
+    margin-top: -18.2vw;
+    margin-left: 12vw;
+    width: 3.74vw;
+    height: 18.89vw;
+    background-size: cover;
+    background-image: url('./images/tik.svg');
+}
+.tok {
+    position: absolute;
+    margin-top: -14.2vw;
+    margin-left: 4vw;
+    width: 4.72vw;
+    height: 13.89vw;
+    background-size: cover;
+    background-image: url('./images/tok.svg');
+}
+.kis {
+    position: absolute;
+    margin-top: 2.9vw;
+    margin-left: 9vw;
+    width: 20.6vw;
+    height: 7.5vw;
+    background-size: cover;
+    background-image: url('./images/kis.svg');
+}
+.lol {
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: 33vw;
+    width: 17.6vw;
+    height: 19.5vw;
+    background-size: cover;
+    background-image: url('./images/lol.svg');
+}
+.kek {
+    position: absolute;
+    margin-top: 7vw;
+    margin-left: 43vw;
+    width: 17.6vw;
+    height: 19.5vw;
+    background-size: cover;
+    background-image: url('./images/kek.svg');
+}
+.so {
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    width: 25vw;
+    height: 9vw;
+    background-size: cover;
+    background-image: url('./images/so.svg');
+}
+#ninth {
+    position: relative;
+    background-color: #004BEF;
+    width: 100%;
+    height: 11.61vw;
+    margin-top: 5vw;
+    .logo2 {
+        position: absolute;
+        background-image: url('images/logo1.svg');
+        background-size: cover;
+        width: 15.3vw;
+        height: 7.2vw;
+        margin-top: 2vw;
+        margin-left: 3vw;
+        
+    }
+    .s {
+        position: absolute;
+        background-image: url('images/students.svg');
+        background-size: cover;
+        width: 15.2vw;
+        height: 4.95vw;
+        margin-top: 3vw;
+        margin-left: 25vw;
+    }
+    .t {
+        position: absolute;
+        background-image: url('images/teachers.svg');
+        background-size: cover;
+        width: 11.1vw;
+        height: 4.95vw;
+        margin-top: 3vw;
+        margin-left: 46vw;
+    }
+    .vk {
+        position: absolute;
+        background-image: url('images/vk1.png');
+        background-size: cover;
+        width: 5.05vw;
+        height: 2.8vw;
+        margin-top: 4vw;
+        margin-left: 67vw; 
+    }
+    .tg {
+        position: absolute;
+        background-image: url('images/tg1.png');
+        background-size: cover;
+        width: 4.5vw;
+        height: 3.4vw;
+        margin-top: 3.5vw;
+        margin-left: 76vw;
+    }
+    .hse {
+        position: absolute;
+        background-image: url('images/hse.png');
+        background-size: cover;
+        width: 11.4vw;
+        height: 4.48vw;
+        margin-top: 3.5vw;
+        margin-left: 85vw;
+    }
+}
+
+a {
+    text-decoration: none;
+    width: 10vw;
+}
+}}
+
+
+
+
+
+
+
+
+
+// тут адаптив
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+    body.styleguide {
+        background-color: #004BEF;
+        // background-image: url('./images/fona.svg');
+    .poloska {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 10vw;
+        height: 16.15vw;
+        margin-top: 21vw;
+        margin-left: 46.6vw;
+        // background-color: #004BEF;
+    }
+    .logo {
+        display: flex;
+        width: 12.93vw;
+        height: 9.3vw;
+        background-size: cover;
+        background-image: url('./images/lo.svg');
+    }
+    .me {
+        display: none;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 5.05vw;
+        width: 72.72vw;
+    }
+    p {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.33vw;
+        color: white;
+    }
+    .nam {
+        display: flex;
+        flex-direction: column;
+        width: 94.79vw;
+        height: 195.68vw;
+        margin-left: 2.60vw;
+    }
+    h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+        font-size: 22.05vw;
+        text-align: center;
+        margin-top: 51vw;
+    }
+    .who {
+        width: 69.41vw;
+        height: 36.06vw;
+        margin-left: 11vw;
+        margin-top: 3vw;
+        background-size: cover;
+        background-image: url('./images/who.svg');
+    }
+    #brand {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 138.29vw;
+        margin-top: 2vw;
+        background-color: white;
+    }
+    .blok1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 71.3vw;
+
+    }
+    h2 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #004BEF;
+        font-size: 12.82vw;
+        margin-left: 10.83vw;
+        margin-top: 10.83vw;
+    }
+    .te1 {
+        margin-top: 4vw;
+        margin-left: 10.83vw;
+        width: 49vw;
+        color: #004BEF;
+    }
+    .ki {
+        display: none;
+        width: 11.09vw;
+        height: 9.79vw;
+        margin-left: 42vw;
+        background-size: cover;
+        background-image: url('./images/ki.svg');
+    }
+    .blok2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 82vw;
+        margin-top: 21vw;
+    }
+    .ne {
+        margin-top: 9vw;
+        margin-left: 24vw;
+    }
+    .te2 {
+        margin-top: 4vw;
+        margin-left: 57.4vw;
+        color: #004BEF;
+    }
+    .te3 {
+        margin-top: 1vw;
+        margin-left: 57.4vw;
+        color: #004BEF;
+    }
+    .den {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 100vw;
+        background-color: white;
+    }
+    .ved1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw; 
+        height: 18.05vw;
+    }
+    .tsen {
+    margin-top: 4vw; 
+    }
+    .chisla1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 100vw;
+    }
+    .per {
+        width: 100vw;
+        height: 58.33vw;
+    }
+    .vtor {
+        width: 100vw;
+        height: 71vw;
+    }
+    .te4 {
+        margin-top: 4vw;
+        margin-left: 22.8vw;
+        width: 52.8vw;
+        color: #004BEF;
+    }
+    .te5 {
+        margin-top: 2vw;
+        margin-left: 22.8vw;
+        width: 52.8vw;
+        color: #004BEF;
+    }
+    .mis {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 90vw;
+        background-color: white;
+    }
+    .te6 {
+        margin-top: 2vw;
+        margin-left: 11vw;
+        color: #004BEF;
+    }
+    .su {
+        margin-top: 14vw;
+        margin-left: 31vw;
+    }
+    .te7 {
+        margin-top: 2vw;
+        margin-left: 33vw;
+        color: #004BEF;
+    }
+    .merch {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 94vw;
+    }
+    .con1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 39.43vw;
+    }
+    .con2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 61vw;
+    }
+    .sin {
+        color: white;
+        margin-left: 10.83vw;
+        margin-top: 10.83vw;
+    }
+    .te8 {
+        margin-top: 2vw;
+        width: 73vw;
+        margin-left: 11vw;
+    }
+    .te9 {
+        margin-top: 18vw;
+        margin-left: 10vw;
+    }
+    #lo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 71.56vw;
+        background-color: white;
+    }
+    .ogo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw; 
+        height: 20vw;
+    }
+    .smel {
+        margin-top: 2vw;
+        margin-left: 11vw;
+        color: #004BEF;
+    }
+    .be {
+        width: 80vw;
+        height: 28.46vw;
+        margin-left: 11vw;
+        margin-top: 17vw;
+        background-size: cover;
+        background-image: url('./images/be.svg');
+    }
+    #col {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 312vw;
+    }
+    .cole {
+        width: 78.75vw;
+        height: 39vw;
+        margin-left: 11vw;
+        margin-top: 8vw;
+        background-size: cover;
+        background-image: url('./images/cole2.svg');
+    }
+    .sr {
+        width: 78.02vw;
+        height: 150.24vw;
+        margin-left: 11vw;
+        margin-top: 8vw;
+        background-size: cover;
+        background-image: url('./images/sr2.svg');
+    }
+    #setka {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 132.67vw;
+        background-color: white;
+    }
+    .sto {
+        width: 78.75vw;
+        height: 103.7vw;
+        margin-left: 11vw;
+        margin-top: 8vw;
+        background-size: cover;
+        background-image: url('./images/sto1.svg');
+    }
+    #graf {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 294.67vw;
+    }
+    .gr {
+        width: 77.40vw;
+        height: 242.52vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/gr2.svg');
+    }
+    #bib {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 161.56vw;
+        background-color: white;
+    }
+    .bibe {
+        width: 78.80vw;
+        height: 123.77vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/bibe2.svg');
+    }
+    #voice {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 65.55vw;
+    }
+    .som {
+        margin-top: 11vw;
+        margin-left: 11vw;
+        color: white;
+    }
+    .ko {
+        margin-top: 5vw;
+        margin-left: 4vw;
+        color: white;
+        width: 93vw;
+    }
+    .net {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 242vw;
+        background-color: white;
+    }
+    .set {
+        width: 71.04vw;
+        height: 215.95vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/set1.svg');
+    }
+    #nos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 243.14vw;
+    }
+    .re {
+        width: 78.65vw;
+        height: 207.27vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/re1.svg');
+    }
+    .pla {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 239.14vw;
+    }
+    .pit {
+        width: 78.65vw;
+        height: 207.27vw;
+        margin-left: 11vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/pit2.svg');
+    }
+    .sin2 {
+        margin-top: 8vw;
+        color: white;
+    }
+    .ru1 {
+        display: none;
+        position: absolute;
+        margin-top: 2.87vw;
+        margin-left: 21vw;
+        width: 65.17vw;
+        height: 18vw;
+        background-size: cover;
+        background-image: url('./images/el1.svg');
+    }
+.tik {
+    position: absolute;
+    margin-top: -38.2vw;
+    margin-left: 10vw;
+    width: 7.74vw;
+    height: 34.89vw;
+    background-size: cover;
+    background-image: url('./images/tik.svg');
+}
+.tok {
+    position: absolute;
+    margin-top: -30vw;
+    margin-left: 9vw;
+    width: 7.74vw;
+    height: 22.89vw;
+    background-size: cover;
+    background-image: url('./images/tok.svg');
+}
+.kis {
+    display: none;
+    position: absolute;
+    margin-top: 2.9vw;
+    margin-left: 9vw;
+    width: 20.6vw;
+    height: 7.5vw;
+    background-size: cover;
+    background-image: url('./images/kis.svg');
+}
+.lol {
+    display: none;
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: 33vw;
+    width: 17.6vw;
+    height: 19.5vw;
+    background-size: cover;
+    background-image: url('./images/lol.svg');
+}
+.kek {
+    display: none;
+    position: absolute;
+    margin-top: 7vw;
+    margin-left: 43vw;
+    width: 17.6vw;
+    height: 19.5vw;
+    background-size: cover;
+    background-image: url('./images/kek.svg');
+}
+.so {
+    display: none;
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    width: 25vw;
+    height: 9vw;
+    background-size: cover;
+    background-image: url('./images/so.svg');
+}
+#ninth {
+    position: relative;
+    background-color: #004BEF;
+    width: 100%;
+    height: 11.61vw;
+    margin-top: 5vw;
+    .logo2 {
+        position: absolute;
+        background-image: url('images/newlogo.svg');
+        background-size: cover;
+        width: 15.3vw;
+        height: 7.2vw;
+        margin-top: 2vw;
+        margin-left: 3vw;
+        z-index: 1;
+        
+    }
+    .s {
+        position: absolute;
+        background-image: url('images/students.svg');
+        background-size: cover;
+        width: 15.2vw;
+        height: 4.95vw;
+        margin-top: 3vw;
+        margin-left: 25vw;
+    }
+    .t {
+        position: absolute;
+        background-image: url('images/teachers.svg');
+        background-size: cover;
+        width: 11.1vw;
+        height: 4.95vw;
+        margin-top: 3vw;
+        margin-left: 46vw;
+    }
+    .vk {
+        position: absolute;
+        background-image: url('images/vk1.png');
+        background-size: cover;
+        width: 5.05vw;
+        height: 2.8vw;
+        margin-top: 4vw;
+        margin-left: 67vw; 
+    }
+    .tg {
+        position: absolute;
+        background-image: url('images/tg1.png');
+        background-size: cover;
+        width: 4.5vw;
+        height: 3.4vw;
+        margin-top: 3.5vw;
+        margin-left: 76vw;
+    }
+    .hse {
+        position: absolute;
+        background-image: url('images/hse.png');
+        background-size: cover;
+        width: 11.4vw;
+        height: 4.48vw;
+        margin-top: 3.5vw;
+        margin-left: 85vw;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+}
+}
+
+
+

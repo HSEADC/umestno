@@ -1,0 +1,561 @@
+@media all and (min-width: 501px) {
+    body.talk {
+        background-color: #FFFFFF;
+
+    .logogo {
+        width: 8vw;
+        height: 5vw;
+        margin-top: 1.5vw;
+        padding-left: 2vw;
+    }
+
+    .project {
+        width: 14.38vw;
+        height: 2.85vw;
+        border: 0.15vw solid #004BEF;
+        border-radius: 2vw;
+        margin-left: 82vw;
+        margin-top: -2.5vw;
+    }
+    .project:hover {
+        background-color: #D9D8FF;
+        transition: all 0.5s ease-out;
+    }
+    .projecttext {
+        font-family: "HelveticaNeueCyrRoman";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.25vw;
+        padding: 0.73vw;
+        padding-left: 5.3vw;
+        color: #004BEF;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        width: 5vw;
+        height: 5vw;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+        width: 94.79vw;
+        height: 59.9vw;
+        margin-left: 2.4vw;
+    }
+    .call {
+        width: 90.83vw;
+        height: 29.95vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/call.svg');
+    }
+    h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        text-align: center;
+        font-size: 5.2vw;
+        margin: 0 auto;
+    }
+    p {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        color: #204BF1;
+    }
+    .t1 {
+        text-align: center;
+        margin: 2vw auto;
+    }
+    .t2 {
+        margin: 2vw auto;
+    }
+    .t3 {
+    margin-top: 3vw;
+    margin-left: 3vw;
+    }
+    .second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 59.9vw;
+        margin: 0 auto;
+    }
+    .shtuka1 {
+        display: flex;
+        flex-direction: column;
+        width: 51vw;
+        height: 59.9vw;
+    }
+    h2 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        font-size: 5.2vw;
+        margin-top: 8vw;
+    }
+    .t4 {
+        margin-top: 4vw;
+    }
+    .shtuka2 {
+        display: flex;
+        flex-direction: row;
+        height: 59.9vw;
+    }
+    .pic {
+        height: 37vw;
+        width: 31vw;
+        background-size: cover;
+        background-image: url('./images/people.svg');
+        margin-top: 13vw;
+    }
+    .third {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 40vw;
+        margin: 0 auto;
+    }
+    .blo1 {
+        display: flex;
+        flex-direction: row;
+        height: 40vw;
+    }
+    .pic2 {
+        height: 39vw;
+        width: 36.2vw;
+        background-size: cover;
+        background-image: url('./images/old.svg');
+    }
+    .blo2 {
+        display: flex;
+        flex-direction: column;
+        height: 40vw;
+    }
+    h3 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        font-size: 5.2vw;
+        margin-right: 25vw;
+    }
+    .t5 {
+        margin-top: 4vw;
+    }
+    .fourth {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 47vw;
+        margin: 0 auto;
+    }
+    .bo1 {
+        display: flex;
+        flex-direction: column;
+        width: 51vw;
+        height: 47vw;
+    }
+    .bo2 {
+        display: flex;
+        flex-direction: row;
+        height: 47vw;
+    }
+    .picter {
+        height: 33.75vw;
+        width: 28.25vw;
+        margin-top: 3vw;
+        background-size: cover;
+        background-image: url('./images/picter.svg');
+    }
+    .fifth {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 40vw;
+        margin: 0 auto;
+    }
+    .kor1 {
+        display: flex;
+        flex-direction: row;
+        height: 40vw;
+    }
+    .kor2 {
+        display: flex;
+        flex-direction: column;
+        height: 40vw;
+    }
+    .photo {
+        height: 39vw;
+        width: 36.2vw;
+        background-size: cover;
+        background-image: url('./images/suna.svg');
+    }
+    .six {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 10vw;
+        margin: 0 auto;
+    }
+    .seven {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 13vw;
+        margin: 0 auto;
+    }
+    .line1 {
+        width: 23vw;
+        height: 0.1vw;
+        margin-top: 7vw;
+        background-size: cover;
+        background-image: url('./images/line1.svg');
+    }
+    .t6 {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        font-size: 4vw;
+        margin-top: 4.5vw;
+    }
+    .eight {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 92.83vw;
+        height: 24.48vw;
+        margin: 0 auto;
+        align-items: flex-end;
+        
+    }
+    .like1 {
+        width: 29vw;
+        height: 23.2vw;
+        background-size: cover;
+        background-image: url('./images/like1.svg');
+    }
+    .like2 {
+        width: 29vw;
+        height: 23.2vw;
+        background-size: cover;
+        background-image: url('./images/like2.svg');
+    }
+    .like3 {
+        width: 29vw;
+        height: 23.2vw;
+        background-size: cover;
+        background-image: url('./images/like3.svg');
+    }
+    .ov1 {
+        width: 7.71vw;
+        height: 2.60vw;
+        position: absolute;
+        margin-top: 1vw ;
+        margin-left: 18vw;
+        background-size: cover;
+        background-image: url('./images/ov1.svg');
+    }
+}}
+
+
+
+// адаптив тут
+
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+    body.talk {
+        background-color: #FFFFFF;
+
+    .logogo {
+        width: 8vw;
+        height: 5vw;
+        margin-top: 13vw;
+        padding-left: 2vw;
+    }
+
+    .project {
+        width: 14.38vw;
+        height: 2.85vw;
+        border: 0.15vw solid #004BEF;
+        border-radius: 2vw;
+        margin-left: 82vw;
+        margin-top: 9.3vw;
+    }
+    .project:hover {
+        background-color: #D9D8FF;
+        transition: all 0.5s ease-out;
+    }
+    .projecttext {
+        font-family: "HelveticaNeueCyrRoman";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.25vw;
+        padding: 0.73vw;
+        padding-left: 5.3vw;
+        color: #004BEF;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        width: 5vw;
+        height: 5vw;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 169vw;
+        margin: 0 auto;
+    }
+    .call {
+        width: 90.83vw;
+        height: 92.95vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/swa.svg');
+    }
+    h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        text-align: center;
+        font-size: 9vw;
+        margin: 0 auto;
+    }
+    p {
+        font-family: "HelveticaNeueCyrRoman";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.6vw;
+        color: #204BF1;
+    }
+    .t1 {
+        text-align: center;
+        margin: 3vw auto;
+        font-size: 3.1vw;
+    }
+    .t2 {
+        margin: 2vw auto;
+        font-size: 3.1vw;
+    }
+    .t3 {
+    margin-top: 3vw;
+    margin-left: 4.5vw;
+    }
+    .second {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 90.51vw;
+        height: 217vw;
+        margin: 0 auto;
+    }
+    .shtuka1 {
+        display: flex;
+        flex-direction: column;
+        height: 108.9vw;
+        width: 90.51vw;
+    }
+    h2 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        font-size: 10vw;
+        margin-top: 8vw;
+    }
+    .t4 {
+        margin-top: 4vw;
+    }
+    .shtuka2 {
+        display: flex;
+        flex-direction: column;
+        height: 108vw;
+        width: 90.51vw;
+        background-size: cover;
+        background-image: url('./images/chen1.svg');
+    }
+    // .pic {
+    //     height: 37vw;
+    //     width: 90.51vw;
+    //     background-size: cover;
+    //     background-image: url('./images/people.svg');
+    //     margin-top: 13vw;
+    // }
+    .third {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90.51vw;
+        height: 175vw;
+        margin: 0 auto;
+    }
+    .blo1 {
+        display: flex;
+        flex-direction: column;
+        height: 86vw;
+        width: 81.51vw;
+        background-size: cover;
+        background-image: url('./images/old.svg');
+
+    }
+    // .pic2 {
+    //     height: 39vw;
+    //     width: 36.2vw;
+    //     background-size: cover;
+    //     background-image: url('./images/old.svg');
+    // }
+    .blo2 {
+        display: flex;
+        flex-direction: column;
+        height: 84vw;
+        width: 90.51vw;
+    }
+    h3 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        font-size: 10vw;
+        margin-right: 25vw;
+    }
+    .t5 {
+        margin-top: 4vw;
+    }
+    .fourth {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 90.51vw;
+        height: 197vw;
+        margin: 0 auto;
+    }
+    .bo1 {
+        display: flex;
+        flex-direction: column;
+        height: 84vw;
+        width: 90.51vw;
+    }
+    .bo2 {
+        display: flex;
+        flex-direction: column;
+        height: 108vw;
+        width: 90.51vw;
+        background-size: cover;
+        background-image: url('./images/picter.svg');
+    }
+    // .picter {
+    //     height: 33.75vw;
+    //     width: 28.25vw;
+    //     margin-top: 3vw;
+    //     background-size: cover;
+    //     background-image: url('./images/picter.svg');
+    // }
+    .fifth {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90.51vw;
+        height: 158vw;
+        margin: 0 auto;
+    }
+    .kor1 {
+        display: flex;
+        flex-direction: column;
+        height: 86vw;
+        width: 81.51vw;
+        background-size: cover;
+        background-image: url('./images/suna.svg');
+    }
+    .kor2 {
+        display: flex;
+        flex-direction: column;
+        height: 66vw;
+    }
+    // .photo {
+    //     height: 39vw;
+    //     width: 36.2vw;
+    //     background-size: cover;
+    //     background-image: url('./images/suna.svg');
+    // }
+    .six {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.51vw;
+        height: 25vw;
+        margin-left: 2vw;
+    }
+    .seven {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90.83vw;
+        height: 24vw;
+        margin: 0 auto;
+    }
+    .line1 {
+        width: 36vw;
+        height: 0.3vw;
+        margin-top: 8vw;
+        background-size: cover;
+        background-image: url('./images/line1.svg');
+    }
+    .t6 {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: normal;
+        color: #204BF1;
+        font-size: 7vw;
+        margin-top: 4.5vw;
+        text-align: center;
+    }
+    .eight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90.51vw;
+        height: 226vw;
+        margin: 0 auto;
+    }
+    .like1 {
+        width: 90.51vw;
+        height: 72.5vw;
+        background-size: cover;
+        background-image: url('./images/like1.svg');
+    }
+    .like2 {
+        width: 91vw;
+        height: 72.5vw;
+        background-size: cover;
+        background-image: url('./images/like2.svg');
+    }
+    .like3 {
+        width: 90.51vw;
+        height: 72.5vw;
+        background-size: cover;
+        background-image: url('./images/like3.svg');
+    }
+    .ov1 {
+        width: 19.6vw;
+        height: 5.5vw;
+        position: absolute;
+        margin-top: 1vw;
+        margin-left: 35vw;
+        background-size: cover;
+        background-image: url('./images/vo.svg');
+    }
+}}
