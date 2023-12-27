@@ -85,12 +85,33 @@ module.exports = {
       filename: './index.html'
     }),
     // Films page
+
+
+
+    // Internal pages
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/films.html',
       filename: './films.html'
     }),
+
+     // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/talk.html',
+      filename: './talk.html',
+    }),
+
+      // Internal pages
+      new HtmlWebpackPlugin({
+        hash: true,
+        scriptLoading: 'blocking',
+        template: './src/styleguide.html',
+        filename: './styleguide.html',
+      }),
+    
 
 
 
