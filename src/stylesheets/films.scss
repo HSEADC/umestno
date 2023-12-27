@@ -62,7 +62,7 @@
                 height: 2.85vw;
                 border: 0.15vw solid #004BEF;
                 border-radius: 40px;
-                margin-left: 84vw;
+                margin-left: 82vw;
                 margin-top: -2.5vw;
             }
             .about:hover {
@@ -112,12 +112,13 @@
         #second {
             height: 43vw;
             top: 16vw;
-            left: 11.41vw;
+            left: 4.41vw;
             position: relative;
             display: inline-flex;
             #textes1 {
                 display: flex;
                 flex-direction: column;
+                align-items: baseline;
                 .text2 {
                     width: 40.31vw;
                     margin-top: 3vw;
@@ -199,11 +200,13 @@
                     width: 40.31vw;
                     margin-top: 3vw;
                     margin-bottom: 1vw;
+                    margin-left: 0vw;
                 }
                 .text3 {
                     width: 40.31vw;
                     margin-top: 1vw;
                     margin-bottom: 1vw;
+                    margin-left: 0vw;
                 }
             }
         }
@@ -211,12 +214,13 @@
         #fourth {
             height: 40vw;
             top: 42vw;
-            left: 11.41vw;
+            left: 4.41vw;
             position: relative;
             display: inline-flex;
             #textes3 {
                 display: flex;
                 flex-direction: column;
+                align-items: baseline;
                 .text2 {
                     width: 40.31vw;
                     margin-top: 3vw;
@@ -308,11 +312,13 @@
                     width: 40.31vw;
                     margin-top: 3vw;
                     margin-bottom: 1vw;
+                    margin-left: 0vw;
                 }
                 .text3 {
                     width: 40.31vw;
                     margin-top: 1vw;
                     margin-bottom: 1vw;
+                    margin-left: 0vw;
                 }
             }
         }
@@ -320,12 +326,13 @@
         #seventh {
             height: 40vw;
             top: 42vw;
-            left: 11.41vw;
+            left: 4.41vw;
             position: relative;
             display: inline-flex;
             #textes4 {
                 display: flex;
                 flex-direction: column;
+                align-items: baseline;
                 .title {
                     width: 42vw;
                 }

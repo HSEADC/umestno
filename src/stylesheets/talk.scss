@@ -234,9 +234,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 90.83vw;
+        width: 92.83vw;
         height: 24.48vw;
         margin: 0 auto;
+        align-items: flex-end;
+        
     }
     .like1 {
         width: 29vw;
@@ -245,7 +247,7 @@
         background-image: url('./images/like1.svg');
     }
     .like2 {
-        width: 29.1vw;
+        width: 29vw;
         height: 23.2vw;
         background-size: cover;
         background-image: url('./images/like2.svg');
