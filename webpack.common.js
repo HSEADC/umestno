@@ -126,14 +126,6 @@ module.exports = {
       template: './src/discussion.html',
       filename: './discussion.html'
     }),
-
-    // Internal pages
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html'
-    }),
     
 
      // Internal pages

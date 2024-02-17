@@ -42,7 +42,38 @@
             border-radius: 40px;
             text-align: center;
             padding-top: 5px;
-        }        
+        }  
+        .butt1 {
+            font-family: Helvetica;
+            font-size: 3.5vw;
+            background-color: blue;
+            width: 32vw;
+            height: 6.9vw;
+            border-radius: 40px;
+            text-align: center;
+            padding-top: 5px;
+        }    
+         .butt2 {
+            font-family: Helvetica;
+            font-size: 3.5vw;
+            background-color: blue;
+            width: 32vw;
+            height: 6.9vw;
+            border-radius: 40px;
+            text-align: center;
+            padding-top: 5px;
+        }    
+        .butt3 {
+            font-family: Helvetica;
+            font-size: 3.5vw;
+            background-color: blue;
+            width: 32vw;
+            height: 6.9vw;
+            border-radius: 40px;
+            text-align: center;
+            padding-top: 5px;
+        }          
+              
         
 
         // head
@@ -115,7 +146,12 @@
                 margin-left: 31vw;
             }
             .text4 {
-                display: none;
+                font-family: 'Oranienbaum', serif;
+                font-size: 23vw;
+                text-transform: uppercase;
+                color: blue;
+                margin-top: 39vw;
+                margin-left: 2vw;
             }
             .text4_1 {
                 margin-top: 44vw;
@@ -468,7 +504,7 @@
                 width: 86.83vw;
                 height: 8.17vw;
                 border-radius: 40px;
-                border: solid 2px;
+                border: solid 0.2vw;
                 border-color: blue;
                 margin-top: 7vw;
                 margin-left: 3vw;
@@ -477,6 +513,8 @@
                 font-family: Helvetica;
                 font-size: 3.5vw;
                 background-color: blue;
+                border: solid 0.2vw;
+                border-color: blue;
                 color: white;
                 width: 32vw;
                 height: 6.9vw;
@@ -495,7 +533,6 @@
             margin-top: 60vw;
             .logo2 {
                 position: absolute;
-                background-image: url('images/logo2.svg');
                 background-size: cover;
                 width: 11vw;
                 height: 8vw;

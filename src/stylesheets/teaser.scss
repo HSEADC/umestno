@@ -16,17 +16,17 @@
             font-family: 'Oranienbaum', serif;
             font-size: 9.74vw;
             text-transform: uppercase;
-            color: blue;
+            color: #1F4AF1;
         }
         h2 {
             font-family: 'Snell Roundhand', arial;
             font-size: 5.57vw;
-            color: blue;
+            color: #1F4AF1;
         }
         h3 {
             font-family: 'Snell Roundhand', arial;
             font-size: 2.24vw;
-            color: blue;
+            color: #1F4AF1;
         }
         .title {
             display: flex;
@@ -36,13 +36,47 @@
         .butt {
             font-family: Helvetica;
             font-size: 1.67vw;
-            background-color: blue;
+            background-color: #1F4AF1;
             width: 14.38vw;
             height: 3.75vw;
             border-radius: 40px;
             text-align: center;
-            padding-top: 20px;
-        }        
+            padding-top: 0.9vw;
+            padding-left: 1.4vw;
+        }  
+        .butt1 {
+            font-family: Helvetica;
+            font-size: 1.67vw;
+            background-color: #1F4AF1;
+            width: 14.38vw;
+            height: 3.75vw;
+            border-radius: 40px;
+            text-align: center;
+            padding-top: 0.9vw;
+            padding-left: 4.6vw;
+        }    
+         .butt2 {
+            font-family: Helvetica;
+            font-size: 1.67vw;
+            background-color: #1F4AF1;
+            width: 14.38vw;
+            height: 3.75vw;
+            border-radius: 40px;
+            text-align: center;
+            padding-top: 0.9vw;
+            padding-left: 3.8vw;
+        }     
+        .butt3 {
+            font-family: Helvetica;
+            font-size: 1.67vw;
+            background-color: #1F4AF1;
+            width: 14.38vw;
+            height: 3.75vw;
+            border-radius: 40px;
+            text-align: center;
+            padding-top: 0.9vw;
+            padding-left: 4.5vw;
+        }         
         
 
         // head
@@ -67,7 +101,7 @@
                 height: 2.85vw;
                 border: 0.15vw solid #004BEF;
                 border-radius: 40px;
-                margin-left: 84vw;
+                margin-left: 82vw;
                 margin-top: -2.5vw;
             }
             .about:hover {
@@ -101,23 +135,32 @@
                 font-family: 'Oranienbaum', serif;
                 font-size: 16.67vw;
                 text-transform: uppercase;
-                color: blue;
+                color: #1F4AF1;
             }
             .text3 {
                 font-family: 'Oranienbaum', serif;
                 font-size: 16.67vw;
                 text-transform: uppercase;
-                color: blue;
+                color: #1F4AF1;
                 margin-top: -8vw;
                 margin-left: 64vw;
             }
-            .text4_1 {
-                display: none;
+            .text4 {
+                font-family: 'Oranienbaum', serif;
+                font-size: 16.67vw;
+                text-transform: uppercase;
+                color: #1F4AF1;
+                margin-top: 0vw;
+                margin-left: -1vw;
             }
 
             .text2 {
-                color: blue;
+                color: #1F4AF1;
                 margin-top: 2.3vw;
+                margin-left: 0vw;
+            }
+            .text4 {
+                width: 80vw;
             }
 
             .under {
@@ -161,12 +204,12 @@
         #second {
             position: relative;
             margin-left: 3.5vw;
-            margin-top: 3.8vw;
+            margin-top: -3vw;
 
             p {
             font-family: Helvetica;
             font-size: 1.20vw;
-            color: blue;
+            color: #1F4AF1;
             line-height: 1.6vw;
             text-transform: lowercase;
             }
@@ -209,7 +252,7 @@
             #numb p{
                 font-family: 'Oranienbaum', serif;
                 font-size: 34.74vw;  
-                color: blue;  
+                color: #1F4AF1;  
                 margin-top: 10vw;
                 margin-left: 30vw;
             }
@@ -253,7 +296,7 @@
             p {
             font-family: Helvetica;
             font-size: 1.20vw;
-            color: blue;
+            color: #1F4AF1;
             line-height: 1.6vw;
             text-transform: lowercase;
             }
@@ -297,7 +340,7 @@
             p {
             font-family: Helvetica;
             font-size: 1.20vw;
-            color: blue;
+            color: #1F4AF1;
             line-height: 1.6vw;
             text-transform: lowercase;
             }
@@ -375,7 +418,7 @@
             p {
                 font-family: Helvetica;
                 font-size: 1.20vw;
-                color: blue;
+                color: #1F4AF1;
                 line-height: 1.6vw;
                 text-transform: lowercase;
             }
@@ -385,7 +428,7 @@
             }
             .text16_1 {
                 margin-left: 50vw;
-                margin-top: 17vw;
+                margin-top: 15vw;
             }
             .text16 {
                 margin-left: 54vw;
@@ -398,6 +441,7 @@
                 margin-left: 18.5vw;
                 width: 36.35vw;
                 height: 37.71vw;
+                scale: 0.7;
             }   
             .numb2 {
                 display: none;
@@ -478,21 +522,25 @@
                 width: 45.83vw;
                 height: 4.17vw;
                 border-radius: 40px;
-                border: solid 5px;
-                border-color: blue;
+                border: solid 0.2vw;
+                border-color: #1F4AF1;
                 margin-top: 7vw;
                 margin-left: 16vw;
                 font-size: 1vw;
             }
             button {
+                position: relative;
+                top: 0.3vw;
                 width: 14.38vw;
                 height: 4.17vw;
                 font-family: Helvetica;
                 color: white;
                 font-size: 1.67vw;
-                background-color: blue;
+                background-color: #1F4AF1;
+                border-color: #1F4AF1;
+                border: solid 0.2vw;
                 width: 14.38vw;
-                height: 3.75vw;
+                height: 4.75vw;
                 border-radius: 40px;
                 text-align: center;
             }
@@ -500,7 +548,7 @@
 
         #ninth {
             position: relative;
-            background-color: blue;
+            background-color: #1F4AF1;
             width: 100%;
             height: 11.61vw;
             margin-top: 5vw;
