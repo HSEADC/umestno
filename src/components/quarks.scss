@@ -1,38 +1,86 @@
 .Q_Line {
     color: var(--blue);
     .longer {
-       width: 27.45vw;
-       height: 2px;
+       width: 36.60vw;
+       height: 0.14vw;
     }
     .shorter {
-        width: 13.18vw;
-        height: 2px;
+        width: 17.57vw;
+        height: 0.14vw;
     }
 }
 
 .Q_Vk {
-    width: 2.34vw;
-    height: 1.35vw;
+    width: 3.13vw;
+    height: 1.81vw;
 }
 .Q_Tg {
-    width: 1.82vw;
-    height: 1.51vw;
+    width: 2.43vw;
+    height: 2.01vw;
 }
 .Q_search_icon {
-    width: 1.88vw;
-    height: 0.89vw;
+    width: 2.50vw;
+    height: 1.18vw;
+}
+
+.Q_Checkbox {
+    height: 2.57vw;
+    width: 2.57vw;
+    border-radius: 0.35vw;
+    border: 0.14vw var(--blue);
 }
 
 .Q_arrow_landing {
-    width: 10.26vw;
-    height: 5.83vw;
-}
-.Q_ArrowLong {
-    width: 4.79vw;
-    height: 82.14vw;
+    width: 12.99vw;
+    height: 6.53vw;
 }
 
 .Q_burgerMenu {
-    width: 1.88vw;
-    height: 0.94vw;
+    width: 2.50vw;
+    height: 1.25vw;
+}
+
+.Q_article_square_image {
+    width: 26.18vw;
+    height: 37.01vw;
+}
+
+.Q_little_text_number_stroke {
+    width: 15.69vw;
+    height: 4.72vw;
+}
+
+.Q_round_card_image {
+    width: 19.03vw;
+    height: 19.03vw;
+}
+
+.Q_vertical_oval_card_image {
+    width: 15vw;
+    height: 18.54vw;
+}
+
+.Q_horizontal_oval_card_image {
+    width: 27.01vw;
+    height: 16.04vw;
+}
+
+.Q_square_card_image {
+    width: 20vw;
+    height: 23.06vw;
+}
+
+.Q_mainNumberOutline {
+    width: 20.49vw;
+    height: 19.79vw;
+}
+
+.Q_test_counter_stroke {
+    width: 16.32vw;
+    height: 5.07vw;
+}
+
+.s {
+    width: 13.40vw;
+    height: 4.72vw;
 }
