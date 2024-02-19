@@ -124,5 +124,152 @@
 .W_CardText {
     display: flex;
     flex-direction: column;
-    
+
+    .elements3 {
+        .A_section_card_title{
+            padding: 0.69vw;
+        }
+        .A_section_card_note {
+            padding-top: 0vw;
+            padding: 0.69vw;
+        }
+        .M_tag_default {
+            padding: auto;
+        }
+    }
+
+    .elements2_short {
+        .A_section_card_title{
+            padding: 0.69vw;
+        }
+        .M_tag_default {
+            padding: auto;
+        }
+    }
+
+    .elements2_long {
+        .A_section_card_title{
+            padding: 0.69vw;
+        }
+        .M_tag_default {
+            padding: auto;
+        }
+    }
+}
+
+.W_Section_Card_Text {
+    display: flex;
+    flex-direction: column;
+
+    .strings2 {
+        width: 13.26vw;
+        .A_section_card_title{
+            padding: 0.69vw;
+        }
+        .A_section_card_note {
+            padding-top: 0vw;
+            padding: 0.69vw;
+        }
+    }
+    .strings2 {
+        width: 19.58vw;
+        .A_section_card_title{
+            padding: 0.69vw;
+        }
+        .A_section_card_note {
+            padding-top: 0vw;
+            padding: 0.69vw;
+        }
+    }
+}
+
+
+//articles
+
+.W_article_first_page_text {
+    width: 53.96vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+    align-items: center;
+
+    .default {
+        .A_article_title {
+            width: 43.75vw;
+            height: 8.89vw;
+        }
+        .A_article_lead {
+            width: 53.96vw;
+        }
+        .M_tag_default {
+            padding: 0.69vw;
+        }
+    }
+
+    .longer {
+        .A_article_title {
+            height: 8.89vw;
+        }
+        .A_article_lead {
+            width: 53.96vw;
+        }
+        .M_tag_default {
+            padding: 0.69vw;
+        }
+    }
+
+    .onestring {
+        .A_article_title {
+            height: 4.17vw;
+        }
+        .A_article_lead {
+            width: 53.96vw;
+        }
+        .M_tag_default {
+            padding: 0.69vw;
+        }
+    }
+}
+
+.W_article_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+
+    .A_article_subtitle {
+        width: 43.89vw;
+    }
+    .A_article_text {
+        width: 45.69vw;
+    }
+}
+
+.W_actors {
+    display: inline-flex;
+    column-gap: 0.34vw;
+}
+
+.W_image_signature {
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+
+    //M_article_image_signature_with_line и W_actors в html прописываются внутри, так что они должны принимать значения родителя
+}
+
+.W_photo_group_landing {
+    display: flex;
+    flex-direction: column;
+
+    .A_section_card_hastag {
+        padding: 0.69vw;
+    }
+}
+
+.W_image_with_number {
+    display: inline-flex;
+
+    .Q_image_for_number {
+        padding-left: -8.06vw;
+    }
 }
