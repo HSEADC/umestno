@@ -1,0 +1,128 @@
+// navbar & footer
+
+.W_NavBar {
+    display: inline-flex;
+    width: 78.33vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .A_button_default {
+        padding: 0.69vw;
+    }
+    .M_searchbar {
+        padding: 0.69vw;
+    }
+}
+
+.W_SecondMenu {
+    display: inline-flex;
+    width: 58.96vw;
+    row-gap: 1.39vw;
+
+    .A_menu_point_default {
+        padding: 0.69vw;
+    }
+}
+
+.W_SimpleNavBar {
+    display: inline-flex;
+    width: 93.96vw;
+    align-items: center;
+    row-gap: auto;
+
+    .W_NavBar {
+        display: flex;
+    }
+    .A_little_logo {
+        display: flex;
+    }
+}
+
+.W_socialmedia_icons {
+    display: inline-flex;
+    width: 8.89vw;
+    row-gap: auto;
+
+    .Q_Tg {
+        display: flex;
+        padding: auto;
+    }
+    .Q_Vk {
+        display: flex;
+        padding: auto;
+    }
+}
+
+//  form
+
+.W_FormInput {
+    display: inline-flex;
+    column-gap: auto;
+    width: 45.83vw;
+
+    .A_form input {
+        display: flex;
+        padding: auto;
+    }
+    .A_button_default {
+        display: flex;
+        padding: auto;
+    }
+}
+
+
+// tests
+
+.W_test_variants {
+    display: flex;
+    flex-direction: column;
+    width: 53.26vw;
+
+    .A_test_subtitle {
+        display: flex;
+        padding: auto;
+    }
+    .M_testVariant {
+        display: flex;
+        padding: auto;
+    }
+}
+
+.W_test_results {
+    display: flex;
+    flex-direction: column;
+    width: 42.08vw;
+
+    .A_test_result_subtitle {
+        display: flex;
+        padding: auto;
+    }
+    .A_test_result_description {
+        display: flex;
+        padding: auto;
+    }
+}
+
+
+//sections 
+
+.W_section_text_head {
+    display: flex;
+    flex-direction: column;
+    width: 89.86vw;
+    column-gap: -1.53vw;
+
+    .A_section_title {
+        display: flex;
+        padding: auto;
+    }
+    .M_section_description {
+        display: flex;
+        padding: auto;
+    }
+}
+
+.W_CardText {
+    display: flex;
+    flex-direction: column;
+    
+}
