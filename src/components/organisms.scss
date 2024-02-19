@@ -1,0 +1,282 @@
+// footer and navbar
+.O_footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 11.60vw;
+    color: var(--blue);
+
+    .A_big_logo {
+    margin-left: 3.75vw;
+    margin-top: 2.92vw;
+    }
+    .A_footer_text {
+    margin-left: 3.33vw;
+    margin-top: 3.06vw;
+    }
+    .A_footer_text {
+    margin-left: 8.33vw;
+    margin-top: 3.06vw;
+    }
+    .W_socialmedia_icons_hse_logo {
+    margin-left: 22.36vw;
+    margin-top: 3.54vw;
+    }
+}
+
+.O_SecondMenu {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    height: 3.54vw;
+
+    .Q_line_menu {
+        padding: auto;
+    }
+
+    .W_SecondMenu {
+        margin-top: 0.90vw;
+        margin-left: 32.78vw;
+    }
+}
+
+
+
+//cards but for not english speakers: карточки
+.O_card_for_learning {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 49.79vw;
+    border: 0.14vw var(--blue);
+
+    .A_vertical_card_image_on_oval {
+        margin-top: 0.97vw;
+        margin-left: 0.97vw;
+    }
+
+    .W_Section_Card_Text {
+        margin-top: 1.81vw;
+        margin-left: 4.65vw;
+    }
+}
+
+.O_CardForLearningWithHastag {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 32.64vw;
+    border: 0.14vw var(--blue);
+
+    .A_framed_round_image {
+        margin-top: 1.04vw;
+        margin-left: 1.04vw;
+    }
+
+    .elements2_short {
+        margin-top: 1.46vw;
+        margin-left: 7.50vw;
+    }
+}
+
+.O_horizontal_card_for_learning {
+    display: flex;
+    flex-direction: column;
+    width: 45.97vw;
+    height: 38.75vw;
+    border: 0.14vw var(--blue);
+
+    .Q_rectangle_image {
+        margin-top: 1.11vw;
+        margin-left: 1.25vw;
+    }
+
+    .elements2_long {
+    margin-top: 1.11vw;
+    margin-left: 9.58vw;
+    }
+}
+
+// .O_card_turn {
+//     display: flex;
+//     flex-direction: column;
+//     width: 22.22vw;
+//     height: 49.79vw;
+//     border: 0.14vw var(--blue);
+
+//     .M_oval_flip_image {
+//     margin-top: 1.18vw;
+//     margin-left: 1.11vw;
+//     }
+
+//     .strings1 {
+//     margin-top: 1.18vw;
+//     margin-left: 1.11vw;
+//     }
+// }
+
+
+// .O_little_horizontal_card_wuth_two_oval_images {
+
+// }
+
+// .O_FlippedCard {
+//     display: flex;
+//     flex-direction: column;
+//     width: 22.22vw;
+//     height: 49.79vw;
+//     border: 0.14vw var(--blue);
+
+
+// }
+
+.O_VerticalSectionCard {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 38.75vw;
+    border: 0.14vw var(--blue);
+
+    .M_square_card_image_with_number {
+        margin-top: 0.90vw;
+        margin-left: 0.97vw;
+    }
+
+    .elements3 {
+        margin-top: 2.50vw;
+        margin-left: 2.22vw;
+    }
+
+}
+
+// .O_VerticalCardWithRoundImage {
+//     display: flex;
+//     flex-direction: column;
+//     width: 22.22vw;
+//     height: 38.75vw;
+//     border: 0.14vw var(--blue);
+
+
+// }
+
+.O_little_horizontal_card {
+    display: flex;
+    flex-direction: column;
+    width: 30.14vw;
+    height: 36.67vw;
+    border: 0.14vw var(--blue);
+
+    .M_horizontal_oval_card_image {
+        margin-top: 2.85vw;
+        margin-left: 1.46vw;
+    }
+
+    .elements3 {
+        margin-top: 3.13vw;
+        margin-left: 6.18vw;
+    }
+}
+
+// .O_recommendation_card {
+//     display: flex;
+//     flex-direction: column;
+//     width: 30vw;
+//     height: 25.28vw;
+//     border: 0.14vw var(--blue);
+
+    
+// }
+
+// .O_horizontalOvalCard {
+
+// }
+
+// tests тЕсты 
+.O_test_result {
+    display: flex;
+    flex-direction: column;
+    width: 42.08vw;
+    height: 28.54vw;
+
+    .M_test_result_heading {
+        margin-left: 0.69vw;
+    }
+
+    .W_test_results {
+        margin-top: 1.11vw;
+    }
+}
+
+.O_testBlock {
+    display: flex;
+    flex-direction: column;
+    width: 53.26vw;
+    height: 26.67vw;
+
+    .W_test_variants {
+        margin: 0 auto;
+    }
+
+    .A_button_default {
+        margin-top: 2.01vw;
+    }
+}
+
+//articles статьи по-руссски об ЭтИкЕтЕ
+.O_AricleVerticalImage {
+    display: flex;
+    flex-direction: column;
+    width: 26.46vw;
+    height: 44.65vw;
+
+    .M_article_oval_framed_image_with_text_default  {
+    margin: 0 auto;
+    }
+
+    .W_image_signature {
+        margin-top: 1.39vw;
+        margin-left: 3.89vw;
+    }
+}
+
+.O_article_vertical_image_with_round_image {
+    display: flex;
+    flex-direction: column;
+    width: 22.15vw;
+    height: 35.56vw;
+
+    .M_article_round_framed_image_with_number {
+        margin: 0 auto;
+    }
+
+    .W_image_signature {
+        margin-top: 1.39vw;
+        margin-left: 1.74vw;
+    }
+}
+
+.O_image_with_number_and_signature {
+    display: flex;
+    flex-direction: column;
+    width: 39.51vw;
+    height: 46.11vw;
+
+    .W_image_with_number {
+        margin: 0 auto;
+    }
+
+    .A_test_result_description {
+        margin-left: 3.40vw;
+    }
+}
+
+//404 page ошибочка 
+// .O_404text {
+//     display: flex;
+//     flex-direction: column;
+//     width: 62.71vw;
+//     height: 25.90vw;
+//     border: 0.14vw var(--blue);
+
+//     .
+// }

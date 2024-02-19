@@ -52,6 +52,24 @@
     }
 }
 
+
+//ещё обёртка иконки и лого хсе арт и дииииизАйН СкуЛ
+.W_socialmedia_icons_hse_logo {
+    display: flex;
+    flex-direction: row;
+    width: 22.43vw;
+    height: 4.51vw;
+
+    .W_socialmedia_icons {
+        margin-left: 0vw;
+    }
+    .Q_hse_logo {
+        margin-left: 2.08vw;
+    }
+}
+
+
+
 //  form
 
 .W_FormInput {
@@ -171,7 +189,7 @@
             padding: 0.69vw;
         }
     }
-    .strings2 {
+    .strings1 {
         width: 19.58vw;
         .A_section_card_title{
             padding: 0.69vw;

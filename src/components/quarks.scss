@@ -1,8 +1,8 @@
 .Q_Line {
     color: var(--blue);
     .longer {
-       width: 36.60vw;
-       height: 0.14vw;
+        width: 36.60vw;
+        height: 0.14vw;
     }
     .shorter {
         width: 17.57vw;
@@ -83,4 +83,18 @@
 .s {
     width: 13.40vw;
     height: 4.72vw;
+}
+.Q_hse_logo {
+    width: 11.39vw;
+    height: 4.44vw;
+}
+.Q_line_menu {
+    width: 93.06vw;
+    height: 0.14vw;
+    color: var(--blue);
+}
+.Q_rectangle_image {
+    width: 43.26vw;
+    height: 23.06vw;
+    border-radius: 0.42vw;
 }
