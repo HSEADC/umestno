@@ -143,6 +143,42 @@
     }
 }
 
+.M_three_images_with_number {
+    width: 43.26vw;
+    height: 22.99vw;
+
+    .A_three_framed_oval_images {
+            position: absolute;
+            z-index: 1;
+            margin: 0 auto;
+        }
+    
+    .A_section_card_number_hastag {
+            position: absolute;
+            top: 3.06vw;
+            left: 34.44vw;
+            z-index: 2;
+    }
+}
+
+.M_two_images_with_numbers {
+    width: 27.01vw;
+    height: 17.99vw;
+
+    .A_two_framed_oval_images{
+        position: absolute;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .A_section_card_number_hastag {
+        position: absolute;
+        top: 2.08vw;
+        left: 18.68vw;
+        z-index: 2;
+    }
+}
+
 .M_round_card_image_with_number {
     width: 19.10vw;
     height: 19.10vw;
@@ -197,6 +233,42 @@
     }
 }
 
+.M_thin_horizontal_card_image {
+    width: 27.08vw;
+    height: 12.78vw;
+
+    .Q_horizontal_oval_card_image {
+        position: absolute;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .A_section_card_hastag {
+        position: absolute;
+        z-index: 2;
+        padding-top: 0.69vw;
+        padding-left: 21.81vw;
+    }
+}
+
+.M_bigger_thin_horizontal_card_image {
+    width: 43.26vw;
+    height: 24.72vw;
+
+    .Q_big_image_with_oval {
+        position: absolute;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .A_section_card_hastag {
+        position: absolute;
+        z-index: 2;
+        padding-top: 4.79vw;
+        padding-left: 34.17vw;
+    }
+}
+
 .M_square_card_image_with_number {
     width: 20vw;
     height: 23.06vw;
@@ -230,6 +302,24 @@
         z-index: 2;
         padding-top: 29.51vw;
         padding-left: 15.97vw;
+    }
+}
+
+.M_turn_over_card_image {
+    width: 19.93vw;
+    height: 33.89vw;
+
+    .Q_FlippedCardImage {
+        position: absolute;
+        z-index: 1;
+        margin: auto;
+    }
+
+    .A_section_card_hastag_hastag {
+        position: absolute;
+        z-index: 2;
+        padding-top: 30.07vw;
+        padding-left: 16.04vw;
     }
 }
 

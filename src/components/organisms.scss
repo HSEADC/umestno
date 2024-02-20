@@ -177,21 +177,7 @@
     }
 }
 
-// .O_recommendation_card {
-//     display: flex;
-//     flex-direction: column;
-//     width: 30vw;
-//     height: 25.28vw;
-//     border: 0.14vw var(--blue);
-
-    
-// }
-
-// .O_horizontalOvalCard {
-
-// }
-
-// tests тЕсты 
+// tests  
 .O_test_result {
     display: flex;
     flex-direction: column;
@@ -223,7 +209,7 @@
 }
 
 //articles статьи по-руссски об ЭтИкЕтЕ
-.O_AricleVerticalImage {
+.O_ArticleVerticalImage {
     display: flex;
     flex-direction: column;
     width: 26.46vw;
@@ -270,13 +256,165 @@
     }
 }
 
-//404 page ошибочка 
-// .O_404text {
-//     display: flex;
-//     flex-direction: column;
-//     width: 62.71vw;
-//     height: 25.90vw;
-//     border: 0.14vw var(--blue);
+.O_recommendation_card {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 25.28vw;
+    border: 0.14vw var(--blue);
 
-//     .
-// }
+    .M_thin_horizontal_card_image {
+            padding-top: 1.46vw;
+            padding-left: 1.39vw;
+            width: 27.08vw;
+            height: 12.78vw;
+    
+            .Q_horizontal_oval_card_image {
+                margin: 0 auto;
+            }
+    
+            .A_section_card_hastag {
+                padding-left: 21.81vw;
+            }
+        }
+    .W_CardText {
+            margin-top: 1.81vw;
+            margin-left: 0 auto;
+    }
+}
+
+.O_horizontal_card {
+    display: flex;
+    flex-direction: column;
+    width: 45.97vw;
+    height: 38.75vw;
+    border: 0.14vw var(--blue);
+
+    .M_three_images_with_number {
+        margin-top: 3.33vw;
+        margin-left: 5vw;
+    }
+
+    .W_CardText {
+        margin-top: 2.64vw;
+        margin-left: 0 auto;
+    } 
+}
+
+.O_horizontalOvalCard {
+    display: flex;
+    flex-direction: column;
+    width: 45.97vw;
+    height: 38.75vw;
+    border: 0.14vw var(--blue);
+
+    .M_bigger_thin_horizontal_card_image {
+        margin-top: 1.11vw;
+        margin-left: 0 auto;
+    }
+
+    .W_CardText {
+        margin-top: 1.88vw;
+        margin-left: 0 auto;
+    }
+}
+
+.O_VerticalCardWithRoundImage {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 38.75vw;
+    border: 0.14vw var(--blue);
+
+    .M_round_card_image_with_number {
+        margin-top: 1.04vw;
+        margin-left: 0 auto;
+
+    }
+
+   .W_CardText {
+        margin-top: 3.47vw;
+        margin-left: 0 auto;
+    }
+}
+
+.O_little_horizontal_card_with_two_oval_images {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 38.75vw;
+    border: 0.14vw var(--blue);
+
+    .M_two_images_with_numbers {
+        margin-top: 1.32vw;
+        margin-left: 0 auto;
+    }
+
+    .W_CardText {
+        margin-top: 3.96vw;
+        margin-left: 0 auto;
+    }
+}
+
+.O_card_turn {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 49.79vw;
+    border: 0.14vw var(--blue);
+
+    .M_oval_flip_image {
+        margin-top: 1.32vw;
+        margin-left: 0 auto;
+    }
+
+    .W_section_card_text_one_string {
+        margin-top: 4.24vw;
+        margin-left: 0 auto;
+    }
+}
+
+.O_FlippedCard {
+    display: flex;
+    flex-direction: column;
+    width: 22.22vw;
+    height: 49.79vw;
+    border: 0.14vw var(--blue);
+
+    .M_turn_over_card_image {
+        margin-top: 1.32vw;
+        margin-left: 0 auto;
+    }
+
+    .A_vstuplenie {
+        margin-top: 3.68vw;
+        margin-left: 0 auto;
+    }
+}
+
+
+
+//404 page ошибочка 
+.O_404text {
+    display: flex;
+    flex-direction: column;
+    width: 62.71vw;
+    height: 25.90vw;
+    border: 0.14vw var(--blue);
+
+    .A_test_title {
+        padding-top: 4.17vw;
+        padding-left: 4.65vw;
+    }
+
+    .A_article_text {
+        padding-top: 2.78vw;
+        padding-left: 4.65vw;
+    }
+
+    .A_button_default {
+        padding-top: 2.64vw;
+        padding-left: 4.65vw;
+    }
+    
+}
