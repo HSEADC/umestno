@@ -131,6 +131,9 @@
 //articles
 
 .S_ArticleHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 93.06vw;
     height: 44.38vw;
 

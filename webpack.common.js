@@ -97,6 +97,13 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html'
     }),
+    // Film1 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films/film1.html',
+      filename: './film1.html'
+    }),
 
 
 

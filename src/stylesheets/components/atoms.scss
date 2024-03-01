@@ -4,7 +4,7 @@
     width: 14.38vw;
     border-radius: 0.7vw;
     background-color: var(--blue);
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 1.67vw;
@@ -25,7 +25,7 @@
     width: 2.64vw;
     border-radius: 0.69vw;
     border: 0.14vw var(--blue);
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     color: var(--blue);
@@ -59,6 +59,7 @@
     text-transform: uppercase;
     font-size: 4.17vw;
     color: var(--blue);
+    text-align: center;
 }
 
 .A_article_subtitle {
@@ -75,7 +76,7 @@
 }
 
 .A_article_lead {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-size: 1.67vw;
     line-height: 2.01vw;
     font-style: normal;
@@ -84,7 +85,7 @@
     color: var(--blue);
 }
 .A_article_text {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 1.67vw;
@@ -92,14 +93,14 @@
     color: var(--blue);
 }
 .A_tag_text {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 0.63vw;
     color: var(--blue);
 }
 .A_vstuplenie {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 1.67vw;
@@ -107,7 +108,7 @@
     color: var(--blue);
 }
 .A_article_recommendation {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 5.56vw;
@@ -116,7 +117,7 @@
 }
 
 .A_article_card_title {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 5.56vw;
@@ -125,7 +126,7 @@
 }
 
 .A_CardDescription {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 0.97vw;
@@ -142,7 +143,7 @@
 }
 
 .A_avatar_name {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 0.97vw;
@@ -150,7 +151,7 @@
 }
 
 .A_article_square_image_text {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 1.67vw;
@@ -158,7 +159,7 @@
 }
 
 .A_extra_text {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     color: var(--blue);
@@ -190,7 +191,7 @@
 
 //landing
 .A_article_text_land {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 2.08vw;
@@ -397,7 +398,7 @@
 }
 
 .A_footer_text {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-size: 1.39vw;
     line-height: 1.67vw;
     color: var(--blue);
@@ -406,7 +407,7 @@
 }
 
 .A_menu_point_default {
-    font-family: "HelveticaNeueCyrRoman";
+    font-family: Helvetica;
     font-size: 1.25vw;
     text-align: center;
     color: var(--blue);
