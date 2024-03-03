@@ -1,43 +1,39 @@
 // footer and navbar
-.O_footer{
+#O_footer{
     display: flex;
     flex-direction: row;
     width: 100vw;
     height: 11.60vw;
-    color: var(--blue);
+    background-color: var(--blue);
+    align-items: center;
 
     .A_big_logo {
     margin-left: 3.75vw;
-    margin-top: 2.92vw;
     }
     .A_footer_text {
-    margin-left: 3.33vw;
-    margin-top: 3.06vw;
+        color: var(--white);
+        .students {
+        margin-left: 3.33vw;
+        margin-top: 3.06vw;
+        }
+        .teachers {
+        margin-left: 8.33vw;
+        margin-top: 3.06vw;
+        }
     }
-    .A_footer_text {
-    margin-left: 8.33vw;
-    margin-top: 3.06vw;
-    }
-    .W_socialmedia_icons_hse_logo {
-    margin-left: 22.36vw;
-    margin-top: 3.54vw;
-    }
+
+    // .W_socialmedia_icons_hse_logo {
+    // margin-left: 22.36vw;
+    // margin-top: 3.54vw;
+    // }
 }
 
 .O_SecondMenu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     width: 93.06vw;
     height: 3.54vw;
-
-    .Q_line_menu {
-        padding: auto;
-    }
-
-    .W_SecondMenu {
-        margin-top: 0.90vw;
-        margin-left: 32.78vw;
-    }
+    gap: 0.73vw;
 }
 
 

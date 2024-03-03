@@ -6,6 +6,9 @@ html,
 body {
     height: 100%;
     background-color: var(--white);
+    a {
+        text-decoration: none;
+    }
 }
 
 body {

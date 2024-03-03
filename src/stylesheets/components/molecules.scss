@@ -1,17 +1,20 @@
 // tags
 .M_tag_default {
     height: 1.32vw;
-    width: 7.15vw;
+    width: 8.15vw;
     border-radius: 0.21vw;
     background-color: var(--purple);
+    padding: 0.25vw;
+    text-align: center;
+    color: var(--blue);
 
-    .A_tag_text {
-      text-align: center;
-      padding-top: 0.42vw;
-      padding-bottom: 0.42vw;
-      padding-left: 1.04vw;
-      padding-right: 1.04vw;
-    }
+    // .A_tag_text {
+    //   text-align: center;
+    //   padding-top: 0.42vw;
+    //   padding-bottom: 0.42vw;
+    //   padding-left: 1.04vw;
+    //   padding-right: 1.04vw;
+    // }
 }
 .M_tag_default:hover {
     background-color: var(--deep_purple);
@@ -59,9 +62,9 @@
     }
 }
 
-.M_article_oval_framed_image_with_text_default {
-    width: 19.84vw;
-    height: 23.65vw;
+.M_article_oval_framed_image_with_text {
+    width: 25.83vw;
+    height: 30.78vw;
 
     .A_ArticleRectangleFramedImage {
         position: absolute;

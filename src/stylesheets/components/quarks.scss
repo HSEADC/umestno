@@ -13,10 +13,14 @@
 .Q_Vk {
     width: 3.13vw;
     height: 1.81vw;
+    background-image: url('images/Q_Vk.png');
+    background-size: cover;
 }
 .Q_Tg {
     width: 2.43vw;
     height: 2.01vw;
+    background-image: url('images/Q_Tg.png');
+    background-size: cover;
 }
 .Q_search_icon {
     width: 2.50vw;
@@ -100,13 +104,16 @@
     height: 4.72vw;
 }
 .Q_hse_logo {
-    width: 11.39vw;
-    height: 4.44vw;
+    width: 11.41vw;
+    height: 4.5vw;
+    background-image: url('images/Q_hse_logo.png');
+    background-size: cover;
 }
 .Q_line_menu {
-    width: 93.06vw;
-    height: 0.14vw;
-    color: var(--blue);
+    margin: 1.5vw;
+    width: 88.48vw;
+    height: 0.1vw;
+    background-color: var(--blue);
 }
 .Q_rectangle_image {
     width: 43.26vw;

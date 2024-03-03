@@ -1,8 +1,32 @@
 body.film1 {
 
-    .S_ArticleHeading {
+    #S_ArticleHeading {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 0.78vw;
+        
+        .A_article_main_image {
+            width: 88.83vw;
+            height: 27.43vw;
+            background-image: url('images/A_article_main_image_5mistakes.png');
+            background-size: cover;
+        }
+        
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        gap: 7.60vw;
+        .Lizzie {
+            #O_ArticleVerticalImage {
+                #Liz.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_lizzie.png');
+                    background-size: cover;
+                }
+            }
+        }
     }
 }

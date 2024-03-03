@@ -4,24 +4,19 @@
     display: flex;
     flex-direction: column;
     border: 0.14vw var(--blue);
-
-    .W_SimpleNavBar {
-        margin: 0 auto;
-    }
-
-    .O_SecondMenu {
-        margin-top: 2.01vw;
-        margin-left: 0 auto;  
-    }   
+    margin-top: 2.08vw;
+    align-items: center;
 }
 
 //recommendations
 
-.S_Recommendations {
+#S_Recommendations {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
     height: 33.06vw;
+    margin: auto;
+    align-items: center;
 
     .M_article_recommedation_with_lines {
         margin: 0 auto;
@@ -162,10 +157,10 @@
     }
 }
 
-.S_ArticleBlock {
+#S_ArticleBlock {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 10.68vw;
 
     .W_article_text {
         margin-top: 0 auto;
@@ -177,10 +172,10 @@
     }
 }
 
-.S_ArticleBlockWithNumbers {
+#S_ArticleBlockWithNumbers {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 10.68vw;
 
     .O_image_with_number_and_signature {
         margin-top: 0 auto;

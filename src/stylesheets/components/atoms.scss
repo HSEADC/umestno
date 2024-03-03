@@ -5,6 +5,7 @@
     border-radius: 0.7vw;
     background-color: var(--blue);
     font-family: Helvetica;
+    font-size: 0.94vw;
     font-style: normal;
     font-weight: normal;
     font-size: 1.67vw;
@@ -21,15 +22,17 @@
 }
 
 .A_menubutton_default {
-    height: 14.24vw;
-    width: 2.64vw;
+    height: 2.14vw;
+    width: 10.78vw;
     border-radius: 0.69vw;
-    border: 0.14vw var(--blue);
+    border: 0.14vw solid var(--blue);
     font-family: Helvetica;
+    font-size: 0.94vw;
     font-style: normal;
     font-weight: normal;
     color: var(--blue);
     text-align: center;
+    padding: 0.5vw;
 }
 .A_menubutton_default:hover {
     background-color: var(--purple);
@@ -63,6 +66,7 @@
 }
 
 .A_article_subtitle {
+    width: 44.64vw;
     text-transform: uppercase;
     font-family: 'Oranienbaum', serif;
     font-style: normal;
@@ -85,6 +89,7 @@
     color: var(--blue);
 }
 .A_article_text {
+    width: 44.64vw;
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
@@ -391,10 +396,14 @@
 .A_little_logo {
     width: 3.89vw;
     height: 2.85vw;
+    background-image: url('images/A_little_logo.png');
+    background-size: cover;
 }
 .A_big_logo {
-    width: 12.15vw;
+    width: 12.4vw;
     height: 5.83vw;
+    background-image: url('images/A_big_logo.png');
+    background-size: cover;
 }
 
 .A_footer_text {
@@ -404,6 +413,7 @@
     color: var(--blue);
     font-style: normal;
     font-weight: normal;
+    text-transform: capitalize;
 }
 
 .A_menu_point_default {
@@ -413,6 +423,7 @@
     color: var(--blue);
     font-style: normal;
     font-weight: normal;
+    width: 10vw;
 }
 .A_menu_point_default:hover {
     font-weight: bold;

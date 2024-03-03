@@ -3,7 +3,7 @@
 .W_NavBar {
     display: inline-flex;
     width: 78.33vw;
-    row-gap: 1.39vw; // либо оставить паддинги в элементах
+    gap: 1.39vw; // либо оставить паддинги в элементах
 
     .A_button_default {
         padding: 0.69vw;
@@ -25,15 +25,11 @@
 
 .W_SimpleNavBar {
     display: inline-flex;
-    width: 93.96vw;
     align-items: center;
-    row-gap: auto;
+    gap: 8.18vw;
 
     .W_NavBar {
-        display: flex;
-    }
-    .A_little_logo {
-        display: flex;
+        justify-content: end;
     }
 }
 
@@ -51,23 +47,6 @@
         padding: auto;
     }
 }
-
-
-//ещё обёртка иконки и лого хсе арт и дииииизАйН СкуЛ
-.W_socialmedia_icons_hse_logo {
-    display: flex;
-    flex-direction: row;
-    width: 22.43vw;
-    height: 4.51vw;
-
-    .W_socialmedia_icons {
-        margin-left: 0vw;
-    }
-    .Q_hse_logo {
-        margin-left: 2.08vw;
-    }
-}
-
 
 
 //  form
@@ -92,8 +71,8 @@
 .W_CardRecommendations {
     display: inline-flex;
     width: 92.78vw;
-    row-gap: 1.39vw; // либо оставить паддинги в элементах
-
+    gap: 1.39vw; // либо оставить паддинги в элементах
+    
     .O_recommendation_card{
         padding: 0vw;
     }
@@ -255,6 +234,7 @@
 .W_CardText {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .elements3 {
         .A_section_card_title{
@@ -397,6 +377,7 @@
     display: flex;
     flex-direction: column;
     padding: 0.69vw;
+    color: var(--blue);
 
     //M_article_image_signature_with_line и W_actors в html прописываются внутри, так что они должны принимать значения родителя
 }
@@ -415,5 +396,26 @@
 
     .Q_image_for_number {
         padding-left: -8.06vw;
+    }
+}
+
+// footer
+.W_footer_text {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+}
+
+.W_socialmedia_icons_hse_logo {
+    margin-left: 27.36vw;
+    display: flex;
+    flex-direction: row;
+    height: 4.51vw;
+    align-items: center;
+
+    .W_socialmedia_icons {
+        gap: 1.5vw;
     }
 }
