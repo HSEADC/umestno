@@ -235,11 +235,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5vw;
+    padding: 2vw 1vw 3vw 1vw;
 
     .elements3 {
-        .A_section_card_title{
-            padding: 0.69vw;
-        }
+        // .A_section_card_title{
+        //     padding: 0.69vw;
+        // }
         .A_section_card_note {
             padding-top: 0vw;
             padding: 0.69vw;
@@ -371,6 +373,8 @@
 .W_actors {
     display: inline-flex;
     column-gap: 0.34vw;
+    justify-content: center;
+    gap: 3vw;
 }
 
 .W_image_signature {
@@ -378,6 +382,7 @@
     flex-direction: column;
     padding: 0.69vw;
     color: var(--blue);
+    gap: 0.5vw;
 
     //M_article_image_signature_with_line и W_actors в html прописываются внутри, так что они должны принимать значения родителя
 }
@@ -393,6 +398,8 @@
 
 .W_image_with_number {
     display: inline-flex;
+    width: 37.34vw;
+    height: 39.32vw;
 
     .Q_image_for_number {
         padding-left: -8.06vw;

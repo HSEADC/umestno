@@ -33,7 +33,7 @@
     flex-direction: row-reverse;
     width: 93.06vw;
     height: 3.54vw;
-    gap: 0.73vw;
+    gap: 2.73vw;
 }
 
 
@@ -204,12 +204,13 @@
     }
 }
 
-//articles статьи по-руссски об ЭтИкЕтЕ
+//articles статьи по-русски об ЭтИкЕтЕ
 .O_ArticleVerticalImage {
     display: flex;
     flex-direction: column;
     width: 26.46vw;
     height: 44.65vw;
+    gap: 0.5vw;
 
     .M_article_oval_framed_image_with_text_default  {
     margin: 0 auto;
@@ -252,31 +253,35 @@
     }
 }
 
-.O_recommendation_card {
+#O_recommendation_card {
     display: flex;
     flex-direction: column;
     width: 30vw;
     height: 25.28vw;
-    border: 0.14vw var(--blue);
+    border: 0.15vw solid var(--blue);
+    border-radius: 5px;
+    gap: 1vw;
 
     .M_thin_horizontal_card_image {
-            padding-top: 1.46vw;
-            padding-left: 1.39vw;
+        display: flex;
+            // padding-top: 1.46vw;
+            // padding-left: 1.39vw;
             width: 27.08vw;
             height: 12.78vw;
+            padding: 2vw 1vw;
     
-            .Q_horizontal_oval_card_image {
-                margin: 0 auto;
-            }
+            // .Q_horizontal_oval_card_image {
+            //     margin: 0 auto;
+            // }
     
-            .A_section_card_hastag {
-                padding-left: 21.81vw;
-            }
+            // .A_section_card_hastag {
+            //     padding-left: 21.81vw;
+            // }
         }
-    .W_CardText {
-            margin-top: 1.81vw;
-            margin-left: 0 auto;
-    }
+    // .W_CardText {
+    //         margin-top: 1.81vw;
+    //         margin-left: 0 auto;
+    // }
 }
 
 .O_horizontal_card {
@@ -386,6 +391,12 @@
         margin-top: 3.68vw;
         margin-left: 0 auto;
     }
+}
+
+#O_article_big_photo {
+    width: 79.53vw;
+    height: 35.99vw;
+    margin: auto;
 }
 
 

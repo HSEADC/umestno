@@ -113,9 +113,8 @@
     color: var(--blue);
 }
 .A_article_recommendation {
-    font-family: Helvetica;
+    font-family: 'Snell Roundhand', arial;
     font-style: normal;
-    font-weight: normal;
     font-size: 5.56vw;
     text-align: center;
     color: var(--blue);
@@ -153,6 +152,8 @@
     font-weight: normal;
     font-size: 0.97vw;
     color: var(--blue);
+    width: 4.79vw;
+    text-align: center;
 }
 
 .A_article_square_image_text {
@@ -161,6 +162,22 @@
     font-weight: normal;
     font-size: 1.67vw;
     color: var(--blue);
+}
+
+.A_section_card_number {
+    position: relative;
+    margin-left: 18vw;
+    
+    .Q_horizontal_oval_card_image {
+        position: absolute;
+        margin: 0 auto;
+    }
+
+    .A_section_card_hastag {
+        position: absolute;
+        padding-top: 0.69vw;
+        padding-left: 21.81vw;
+    }
 }
 
 .A_extra_text {

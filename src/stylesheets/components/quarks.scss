@@ -1,13 +1,50 @@
 .Q_Line {
-    color: var(--blue);
-    .longer {
+    background-color: var(--blue);
+    &.longer {
         width: 36.60vw;
         height: 0.14vw;
     }
-    .shorter {
+    &.shorter {
         width: 17.57vw;
         height: 0.14vw;
     }
+    &.recomendation {
+        width: 15.21vw;
+        height: 0.1vw;
+    }
+    &.players {
+        width: 25.07vw;
+        height: 0.1vw;
+    }
+}
+
+.Q_oval {
+    background-image: url('images/oval.png');
+    background-size: cover;
+    width: 3.02vw;
+    height: 3.08vw;
+    z-index: 1;
+} 
+
+.Q_num {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Oranienbaum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.46vw;
+    color: var(--white);
+    margin-top: -2.1vw;
+    margin-left: 1.1vw;
+}
+
+.Q_recommendation_card_image {
+    position: absolute;
+    width: 23.07vw;
+    height: 10.89vw;
+    z-index: -1;
+    // margin-top: -2.7vw;
+    margin-left: 1vw;
 }
 
 .Q_Vk {

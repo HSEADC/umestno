@@ -19,13 +19,77 @@ body.film1 {
     }
 
     #S_ArticleBlock {
-        gap: 7.60vw;
-        .Lizzie {
+        gap: 7.6vw;
+        &.Lizzie {
             #O_ArticleVerticalImage {
                 #Liz.M_article_oval_framed_image_with_text {
                     background-image: url('images/M_article_oval_framed_image_with_text_lizzie.png');
                     background-size: cover;
                 }
+            }
+        }
+        &.tit {
+            #O_ArticleVerticalImage {
+                #tit.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_round_framed_image_with_number_tit.png');
+                    background-size: cover;
+                }
+            }
+        }
+        &.brig {
+            #O_ArticleVerticalImage {
+                #brig.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_round_framed_image_with_number_brig.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        gap: 7.6vw;
+        &.mia {
+            #O_image_with_number_and_signature {
+                #mia.W_image_with_number {
+                    background-image: url('images/W_image_with_number_mia.png');
+                    background-size: cover;
+                    margin-left: -7vw;
+                }
+            }
+        }
+    
+        &.pp {
+            #O_image_with_number_and_signature {
+                #pp.W_image_with_number {
+                    background-image: url('images/M_image_with_number_p&p.png');
+                    background-size: cover;
+                    margin-left: -7vw;
+                }
+            }
+        }
+    }
+
+    #O_article_big_photo {
+        &.titanic {
+            background-image: url('images/O_article_big_photo_titanic.png');
+            background-size: cover;
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image{
+            &.fibi {
+                background-image: url('images/A_avatar_image_fibi.png');
+                background-size: cover;
+            }
+        } 
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.grace {
+                background-image: url('images/Q_recommendation_card_image_grace.png');
+                background-size: cover; 
             }
         }
     }
