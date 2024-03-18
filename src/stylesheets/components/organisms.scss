@@ -2,10 +2,11 @@
 #O_footer{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: 11.60vw;
     background-color: var(--blue);
     align-items: center;
+    margin: 4vw 0;
 
     .A_big_logo {
     margin-left: 3.75vw;
@@ -36,7 +37,24 @@
     gap: 2.73vw;
 }
 
+//preview
+.O_previewBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+}
+.O_previewBlockWithButton {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
 
+.O_previewSignature {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
 
 //cards but for not english speakers: карточки
 .O_card_for_learning {

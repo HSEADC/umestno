@@ -11,6 +11,8 @@
     font-size: 1.67vw;
     color: var(--white);
     text-align: center;
+    padding: 1vw;
+    margin-top: 1.5vw;
 }
 .A_button_default:hover {
     background-color: var(--purple);
@@ -19,6 +21,15 @@
 .A_button_default:active {
     background-color: var(--deep_purple);
     color: var(--blue);
+}
+
+.A_searchbar {
+    font-family: Helvetica;
+    font-size: 0.94vw;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--deep_gray);
+    text-decoration: none;
 }
 
 .A_menubutton_default {
@@ -89,7 +100,7 @@
     color: var(--blue);
 }
 .A_article_text {
-    width: 44.64vw;
+    width: 42.3vw;
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
@@ -152,7 +163,7 @@
     font-weight: normal;
     font-size: 0.97vw;
     color: var(--blue);
-    width: 4.79vw;
+    width: 5.79vw;
     text-align: center;
 }
 
@@ -211,6 +222,67 @@
     color: var(--blue);
 }
 
+//preview
+.A_tagText {
+    font-family: 'Snell Roundhand', arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.78vw;
+    color: var(--blue);
+}
+.A_bigTag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23.54vw;
+    height: 7.15vw;
+    border-radius: 6.94vw;
+    border: 0.14vw solid var(--blue);
+    background-color: var(--white);
+    margin-top: 3vw;
+    margin-left: 11vw;
+}
+
+.A_numberInOval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A_previewArtText {
+    width: 29.25vw;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.67vw;
+    line-height: 1.82vw;
+    color: var(--blue);
+}
+.A_previewArtTextSub {
+    width: 26.39vw;
+    font-family: 'Snell Roundhand', arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.81vw;
+    color: var(--blue);
+    text-transform: lowercase;
+}
+
+.A_vilka {
+    background-image: url('images/A_vilka.png');
+    background-size: cover;
+    width: 46.32vw;
+    height: 38.13vw;
+}
+
+.A_saturnPhoto {
+    background-image: url('images/A_saturnPhoto.png');
+    background-size: cover;
+    width: 54.51vw;
+    height: 43.75vw;
+}
+
+
 //landing
 .A_article_text_land {
     font-family: Helvetica;
@@ -264,7 +336,7 @@
 // фотки
 .A_article_main_image {
     width: 85.83vw;
-    height: 22.43vw;
+    height: 27.43vw;
 }
 .A_article_round_framed_image {
     width: 22.15vw;
@@ -488,13 +560,17 @@
     color: var(--blue);
     font-style: normal;
     font-weight: normal;
+    margin-bottom: 2vw;
+    width: 54.32vw;
 }
 .A_test_variant {
+    display: contents;
     font-family: 'HelveticaNeueCyr';
     font-size: 1.67vw;
     color: var(--blue);
     font-style: normal;
     font-weight: normal;
+    width: 46.92vw;
 }
 
 .A_test_result_subtitle {
@@ -512,6 +588,7 @@
     color: var(--blue);
     font-style: normal;
     font-weight: normal;
+    width: 26vw;
 }
 
 // фотка

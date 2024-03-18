@@ -1,0 +1,40 @@
+body.b {
+    width: 100%;
+    height: 449.10vw;
+    background-image: url('images/preview_back.png');
+    background-size: cover;
+
+    #S_preview {
+        .intro {
+            &.A_heading {
+                .curcle{
+                margin-left: 8vw;
+                }
+            }
+        }
+        .tages {
+            height: 39vw;
+            .A_heading.curcle{
+                margin-left: 8vw;
+            }
+        }
+        .influencers {
+            &.W_about_main_text {
+                margin-top: 3vw;
+            }
+        }
+        .create {
+            align-items: center;
+        }
+    }
+
+    #S_mail {
+        .W_FormInput {
+            form {
+                display: flex;
+                align-items: center;
+                gap: 1vw;
+            }
+        }
+    }
+}

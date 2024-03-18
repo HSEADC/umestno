@@ -1,4 +1,8 @@
 body.film1 {
+    .bold {
+            font-style: normal;
+            font-weight: bold;
+    }
 
     #S_ArticleHeading {
         display: flex;
@@ -7,8 +11,8 @@ body.film1 {
         gap: 0.78vw;
         
         .A_article_main_image {
-            width: 88.83vw;
-            height: 27.43vw;
+            // width: 88.83vw;
+            // height: 27.43vw;
             background-image: url('images/A_article_main_image_5mistakes.png');
             background-size: cover;
         }
@@ -19,7 +23,6 @@ body.film1 {
     }
 
     #S_ArticleBlock {
-        gap: 7.6vw;
         &.Lizzie {
             #O_ArticleVerticalImage {
                 #Liz.M_article_oval_framed_image_with_text {
@@ -47,13 +50,11 @@ body.film1 {
     }
 
     #S_ArticleBlockWithNumbers {
-        gap: 7.6vw;
         &.mia {
             #O_image_with_number_and_signature {
                 #mia.W_image_with_number {
                     background-image: url('images/W_image_with_number_mia.png');
                     background-size: cover;
-                    margin-left: -7vw;
                 }
             }
         }
@@ -63,7 +64,7 @@ body.film1 {
                 #pp.W_image_with_number {
                     background-image: url('images/M_image_with_number_p&p.png');
                     background-size: cover;
-                    margin-left: -7vw;
+                
                 }
             }
         }
@@ -82,13 +83,53 @@ body.film1 {
                 background-image: url('images/A_avatar_image_fibi.png');
                 background-size: cover;
             }
+            &.jhan {
+                background-image: url('images/A_avatar_image_jhan.png');
+                background-size: cover;
+            }
+            &.rut {
+                background-image: url('images/A_avatar_image_rut.png');
+                background-size: cover;
+            }
+            &.leo {
+                background-image: url('images/A_avatar_image_leo.png');
+                background-size: cover;
+            }
+            &.billie {
+                background-image: url('images/A_avatar_image_billie.png');
+                background-size: cover;
+            }
+            &.kate {
+                background-image: url('images/A_avatar_image_kate.png');
+                background-size: cover;
+            }
+            &.clare {
+                background-image: url('images/A_avatar_image_klare.png');
+                background-size: cover;
+            }
+            &.olivia {
+                background-image: url('images/A_avatar_image_olivia.png');
+                background-size: cover;
+            }
+            &.matt {
+                background-image: url('images/A_avatar_image_matt.png');
+                background-size: cover;
+            }
         } 
     }
 
     #O_recommendation_card {
         .Q_recommendation_card_image {
-            &.grace {
-                background-image: url('images/Q_recommendation_card_image_grace.png');
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover; 
+            }
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover; 
+            }
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
                 background-size: cover; 
             }
         }

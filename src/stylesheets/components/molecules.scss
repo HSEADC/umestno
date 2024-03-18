@@ -26,25 +26,19 @@
 
 // images
 .M_searchbar {
-    height: 2.85vw;
+    display: inline-flex;
+    height: 2.14vw;
     width: 15.28vw;
-    border-radius: 0.69vw;
-    border: 0.14vw var(--blue);
-    display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.15vw solid var(--blue);
+}
 
-    .A_searchbar_text {
-      padding-top: 0.9vw;
-      padding-bottom: 0.9vw;
-      padding-left: 0.9vw;
-    }
-
-    .Q_search_icon {
-      padding-top: 0.9vw;
-      padding-bottom: 0.9vw;
-      padding-right: 0.9vw;
-      padding-left: 4.65vw;
-    }
+.M_cardFlip {
+    background-image: url('images/M_cardFlip.png');
+    background-size: cover;
+    width: 27.92vw;
+    height: 30.69vw;
 }
 
 .M_AvatarInfluencer {
@@ -52,6 +46,7 @@
     flex-direction: column;
     width: 4.1vw;
     height: 6.6vw;
+    align-items: center;
 
     .A_round-A_avatar_image {
       padding-top: 1.04vw;
@@ -64,14 +59,14 @@
 
 .M_article_oval_framed_image_with_text {
 
-    &.var1 {
-    width: 25.83vw;
-    height: 30.7vw;
-    }
-    &.var2 {
-    width: 25.83vw;
-    height: 26.5vw;
-    }
+    // &.var1 {
+    // width: 25.83vw;
+    // height: 30.7vw;
+    // }
+    // &.var2 {
+    width: 34.03vw;
+    height: 34.03vw;
+    // }
 
     .A_ArticleRectangleFramedImage {
         position: absolute;
@@ -437,7 +432,8 @@
     justify-content: center;
 
     .A_form_note {
-        padding-left: 0.69vw;
+        padding-left: 1.5vw;
+        padding-top: 0.3vw;
     }
 
     .Q_test_counter_stroke {

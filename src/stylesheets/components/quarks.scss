@@ -1,8 +1,17 @@
 .Q_Line {
+    margin: 0 auto;
     background-color: var(--blue);
     &.longer {
-        width: 36.60vw;
+        width: 89.6vw;
         height: 0.14vw;
+    }
+    &.middle {
+        width: 34.6vw;
+        height: 0.16vw;
+    }
+    &.middle2 {
+        width: 51.6vw;
+        height: 0.16vw;
     }
     &.shorter {
         width: 17.57vw;
@@ -16,6 +25,13 @@
         width: 25.07vw;
         height: 0.1vw;
     }
+}
+
+.Q_eye {
+    width: 1.98vw;
+    height: 1.98vw;
+    background-image: url('images/Q_eye.png');
+    background-size: cover;
 }
 
 .Q_oval {
@@ -116,9 +132,34 @@
     height: 19.79vw;
 }
 
+.Q_test_variant input {
+    width: 1.6vw;
+    height: 1.6vw;
+    border: 1px solid var(--blue);
+    border-radius: 0.31vw;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+}
+
+
 .Q_test_counter_stroke {
-    width: 16.32vw;
+    width: 13.32vw;
     height: 5.07vw;
+    -webkit-border-radius: 137px / 50px;
+    border: solid var(--blue);
+    background-color: var(--white);
+}
+
+.Q_mainStroke {
+    position: absolute;
+    z-index: 0;
+    background-image: url('images/Q_mainStroke.png');
+    background-size: cover;
+    width: 27.32vw;
+    height: 17vw;
+    margin-left: 4vw;
 }
 
 .Q_big_image_with_oval {
@@ -148,7 +189,7 @@
 }
 .Q_line_menu {
     margin: 1.5vw;
-    width: 88.48vw;
+    width: 90.48vw;
     height: 0.1vw;
     background-color: var(--blue);
 }
@@ -156,4 +197,14 @@
     width: 43.26vw;
     height: 23.06vw;
     border-radius: 0.42vw;
+}
+
+.Q_number_image_stroke {
+    position: absolute;
+    z-index: 0;
+    background-image: url('images/Q_mainStroke.png');
+    background-size: cover;
+    width: 27.32vw;
+    height: 17vw;
+    transform: rotate(-37deg);
 }
