@@ -5,31 +5,31 @@ body.b {
     background-size: cover;
 
     #S_preview {
-        .intro {
-            &.A_heading {
-                .curcle{
+        &.intro {
+            .O_previewBlock {
+                .Q_mainStroke.curcle{
                 margin-left: 8vw;
                 }
             }
         }
-        .tages {
+        &.tages {
             height: 39vw;
-            .A_heading.curcle{
+            .A_heading{
                 margin-left: 8vw;
             }
         }
-        .influencers {
+        &.influencers {
             &.W_about_main_text {
                 margin-top: 3vw;
             }
         }
-        .create {
+        &.create {
             align-items: center;
         }
     }
 
     #S_mail {
-        .W_FormInput {
+        &.W_FormInput {
             form {
                 display: flex;
                 align-items: center;

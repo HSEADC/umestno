@@ -102,7 +102,7 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/media/films/film1.html',
-      filename: './films/film1.html'
+      filename: './media/films/film1.html'
     }),
     
     // Test1 page
@@ -110,7 +110,7 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/tests/test1.html',
-      filename: './test1.html'
+      filename: './tests/test1.html'
     }),
 
 
