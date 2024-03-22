@@ -9,6 +9,7 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
+    test1: './src/testsJs/test1.js',
     page: './src/page.jsx'
   },
   output: {
@@ -88,34 +89,31 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-
-
     // Landing page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunk: ['index']
     }),
     // Film1 page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/media/films/film1.html',
-      filename: './media/films/film1.html'
+      filename: './media/films/film1.html',
+      chunk: ['index']
     }),
-    
+
     // Test1 page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/tests/test1.html',
-      filename: './tests/test1.html'
+      filename: './tests/test1.html',
+      chunk: ['index', 'test1']
     }),
-
-
-
-
 
     // Partials
     new HtmlWebpackPartialsPlugin([

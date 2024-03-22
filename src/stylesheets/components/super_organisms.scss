@@ -277,6 +277,12 @@
   margin-bottom: 7vw;
   position: relative;
 
+  &.result {
+    // перепишите стили для отображения результата теста
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   // .Q_test_wrapper_stroke {
   //     position: absolute;
   //     z-index: 1;
