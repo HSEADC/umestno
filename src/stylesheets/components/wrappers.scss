@@ -151,10 +151,10 @@
 // tests
 
 .W_test_variants {
-  display: flex;
-  flex-direction: column;
-  width: 53.26vw;
-  gap: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 53.26vw;
+    gap: 1.5vw;
 
   .A_test_subtitle {
     display: flex;
@@ -403,41 +403,41 @@
   column-gap: auto;
   align-items: center;
 
-  form {
-    display: flex;
-    gap: 1vw;
     input {
-      padding: 0.5vw;
-      width: 45.83vw;
-      height: 4.17vw;
-      border-radius: 1vw;
-      border: solid 0.14vw var(--blue);
-      font-size: 1vw;
+        padding: 0.5vw;
+        width: 45.83vw;
+        height: 4.17vw;
+        border-radius: 1vw;
+        border: solid 0.14vw var(--blue);
+        font-size: 1vw;
     }
 
     button {
-      width: 14.38vw;
-      height: 4.17vw;
-      font-family: Helvetica;
-      color: white;
-      font-size: 1.67vw;
-      background-color: var(--blue);
-      border-radius: 1vw;
-      border: solid 0.14vw var(--blue);
-      text-align: center;
-      cursor: pointer;
+        width: 14.38vw;
+        height: 4.17vw;
+        font-family: Helvetica;
+        color: white;
+        font-size: 1.67vw;
+        background-color: var(--blue);
+        width: 14.38vw;
+        height: 3.75vw;
+        border-radius: 1vw;
+        border: solid 0.14vw var(--blue);
+        text-align: center;
+        cursor: pointer;
     }
     button:hover {
-      background-color: var(--purple);
-      color: var(--blue);
+        background-color: var(--purple);
+        color: var(--blue);
     }
-
+        
     button:active {
-      background-color: var(--deep_purple);
-      color: var(--blue);
+        background-color: var(--deep_purple);
+        color: var(--blue);
+    
     }
-  }
 }
+
 
 // footer
 .W_footer_text {
