@@ -7,6 +7,9 @@ body.b {
     #S_preview {
         &.intro {
             .O_previewBlock {
+                .A_heading.this {
+                    margin-left: 12vw;
+                }
                 .Q_mainStroke.curcle{
                 margin-left: 8vw;
                 }
@@ -25,12 +28,42 @@ body.b {
         }
         &.create {
             align-items: center;
+            .O_previewBlockWithButton {
+                margin-left: -27vw;
+                margin-top: -11vw;
+                .A_previewArtText {
+                    width: 21vw;
+                }
+            }
+        }
+        &.films {
+            .O_previewBlock {
+                    align-items: normal;
+                    justify-content: center;
+                    margin-left: 23vw;
+                .A_previewArtText {
+                    width: 27vw;
+                }
+            }
+        }
+        &.tests {
+            padding: 4vw 3vw 12vw;
+            .O_previewBlock {
+                justify-content: center;
+                gap: 12vw;
+                .M_cardFlip {
+                    margin-left: -11vw;
+                }
+                .A_previewArtText {
+                    width: 25vw;
+                }
+            }
         }
     }
 
     #S_mail {
         &.W_FormInput {
-            form {
+            #my-form {
                 display: flex;
                 align-items: center;
                 gap: 1vw;
