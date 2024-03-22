@@ -1,639 +1,647 @@
 // кнопки
 .A_button_default {
-    height: 3.75vw;
-    width: 14.38vw;
-    border-radius: 0.7vw;
-    background-color: var(--blue);
-    font-family: Helvetica;
-    font-size: 0.94vw;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.67vw;
-    color: var(--white);
-    text-align: center;
-    padding: 1vw;
-    margin-top: 1.5vw;
+  height: 3.75vw;
+  width: 14.38vw;
+  border-radius: 0.7vw;
+  background-color: var(--blue);
+  font-family: Helvetica;
+  font-size: 0.94vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  color: var(--white);
+  text-align: center;
+  padding: 1vw;
+  margin-top: 1.5vw;
 }
 .A_button_default:hover {
-    background-color: var(--purple);
-    color: var(--blue);
+  background-color: var(--purple);
+  color: var(--blue);
 }
 .A_button_default:active {
-    background-color: var(--deep_purple);
-    color: var(--blue);
+  background-color: var(--deep_purple);
+  color: var(--blue);
 }
 
 .A_searchbar {
-    font-family: Helvetica;
-    font-size: 0.94vw;
-    font-style: normal;
-    font-weight: normal;
-    color: var(--deep_gray);
-    text-decoration: none;
+  font-family: Helvetica;
+  font-size: 0.94vw;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--deep_gray);
+  text-decoration: none;
 }
 
 .A_menubutton_default {
-    height: 2.14vw;
-    width: 10.78vw;
-    border-radius: 0.69vw;
-    border: 0.14vw solid var(--blue);
-    font-family: Helvetica;
-    font-size: 0.94vw;
-    font-style: normal;
-    font-weight: normal;
-    color: var(--blue);
-    text-align: center;
-    padding: 0.5vw;
+  height: 2.14vw;
+  width: 10.78vw;
+  border-radius: 0.69vw;
+  border: 0.14vw solid var(--blue);
+  font-family: Helvetica;
+  font-size: 0.94vw;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--blue);
+  text-align: center;
+  padding: 0.5vw;
 }
 .A_menubutton_default:hover {
-    background-color: var(--purple);
-    color: var(--blue);
+  background-color: var(--purple);
+  color: var(--blue);
 }
 .A_menubutton_default:active {
-    background-color: var(--blue);
-    color: var(--white);
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 // -- articles -- //
 
 // тексты
 .A_heading {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 13.89vw;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 13.89vw;
+  color: var(--blue);
 }
 
 .A_article_title {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 4.17vw;
-    color: var(--blue);
-    text-align: center;
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 4.17vw;
+  color: var(--blue);
+  text-align: center;
 }
 
 .A_article_subtitle {
-    width: 44.64vw;
-    text-transform: uppercase;
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.06vw;
-    color: var(--blue);
+  width: 44.64vw;
+  text-transform: uppercase;
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.06vw;
+  color: var(--blue);
 
-    .BigOne {
+  .BigOne {
     font-size: 10.42vw;
-    }
+  }
 }
 
 .A_article_lead {
-    font-family: Helvetica;
-    font-size: 1.67vw;
-    line-height: 2.01vw;
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-size: 1.67vw;
+  line-height: 2.01vw;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: var(--blue);
 }
 .A_article_text {
-    width: 42.3vw;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.67vw;
-    line-height: 2.01vw;
-    color: var(--blue);
+  width: 42.3vw;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  line-height: 2.01vw;
+  color: var(--blue);
 }
 .A_tag_text {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.63vw;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.63vw;
+  color: var(--blue);
 }
 .A_vstuplenie {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.67vw;
-    line-height: 2.01vw;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  line-height: 2.01vw;
+  color: var(--blue);
 }
 .A_article_recommendation {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-size: 5.56vw;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-size: 5.56vw;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_article_card_title {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5.56vw;
-    text-align: center;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5.56vw;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_CardDescription {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.97vw;
-    line-height: 1.11vw;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.97vw;
+  line-height: 1.11vw;
+  color: var(--blue);
 }
 
 .A_popupText {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.08vw;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.08vw;
+  color: var(--blue);
 }
 
 .A_avatar_name {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.97vw;
-    color: var(--blue);
-    width: 5.79vw;
-    text-align: center;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.97vw;
+  color: var(--blue);
+  width: 5.79vw;
+  text-align: center;
 }
 
 .A_article_square_image_text {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.67vw;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  color: var(--blue);
 }
 
 .A_section_card_number {
-    position: relative;
-    margin-left: 18vw;
-    
-    .Q_horizontal_oval_card_image {
-        position: absolute;
-        margin: 0 auto;
-    }
+  position: relative;
+  margin-left: 18vw;
 
-    .A_section_card_hastag {
-        position: absolute;
-        padding-top: 0.69vw;
-        padding-left: 21.81vw;
-    }
+  .Q_horizontal_oval_card_image {
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  .A_section_card_hastag {
+    position: absolute;
+    padding-top: 0.69vw;
+    padding-left: 21.81vw;
+  }
 }
 
 .A_extra_text {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--blue);
 
-    .with_brackets {
-        font-size: 1.18vw;
-        line-height: 1.18vw;
-        text-align: center;
-    }   
-    .bigger {
-        font-size: 3.06vw;
-        line-height: 2.92vw;
-        text-align: center;
-    }   
-    .without_brackets {
-        font-size: 1.18vw;
-        line-height: 1.18vw;
-    }
+  .with_brackets {
+    font-size: 1.18vw;
+    line-height: 1.18vw;
+    text-align: center;
+  }
+  .bigger {
+    font-size: 3.06vw;
+    line-height: 2.92vw;
+    text-align: center;
+  }
+  .without_brackets {
+    font-size: 1.18vw;
+    line-height: 1.18vw;
+  }
 }
 
 .A_article_image_signature {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.81vw;
-    text-transform: uppercase;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.81vw;
+  text-transform: uppercase;
+  color: var(--blue);
 }
 
 //preview
 .A_tagText {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.78vw;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.78vw;
+  color: var(--blue);
 }
 .A_bigTag {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 23.54vw;
-    height: 7.15vw;
-    border-radius: 6.94vw;
-    border: 0.14vw solid var(--blue);
-    background-color: var(--white);
-    margin-top: 3vw;
-    margin-left: 11vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23.54vw;
+  height: 7.15vw;
+  border-radius: 6.94vw;
+  border: 0.14vw solid var(--blue);
+  background-color: var(--white);
+  margin-top: 3vw;
+  margin-left: 11vw;
 }
 
 .A_numberInOval {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .A_previewArtText {
-    width: 29.25vw;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.67vw;
-    line-height: 1.82vw;
-    color: var(--blue);
+  width: 29.25vw;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  line-height: 1.82vw;
+  color: var(--blue);
 }
 .A_previewArtTextSub {
-    width: 26.39vw;
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.81vw;
-    color: var(--blue);
-    text-transform: lowercase;
+  width: 26.39vw;
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.81vw;
+  color: var(--blue);
+  text-transform: lowercase;
 }
 
 .A_vilka {
-    background-image: url('images/A_vilka.png');
-    background-size: cover;
-    width: 46.32vw;
-    height: 38.13vw;
+  background-image: url('images/A_vilka.png');
+  background-size: cover;
+  width: 46.32vw;
+  height: 38.13vw;
 }
 
 .A_saturnPhoto {
-    background-image: url('images/A_saturnPhoto.png');
-    background-size: cover;
-    width: 54.51vw;
-    height: 43.75vw;
+  background-image: url('images/A_saturnPhoto.png');
+  background-size: cover;
+  width: 54.51vw;
+  height: 43.75vw;
 }
-
 
 //landing
 .A_article_text_land {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.08vw;
-    line-height: 1.82vw;
-    color: var(--blue);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.08vw;
+  line-height: 1.82vw;
+  color: var(--blue);
 
-    .center {
+  .center {
     text-align: center;
-    }
+  }
 }
 
 .A_article_subtitle_land {
-    text-transform: uppercase;
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 6.94vw;
-    color: var(--blue);
+  text-transform: uppercase;
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.94vw;
+  color: var(--blue);
 }
 
 // пупки или овалы с цифрами
 .A_article_subtitle_number {
-    
-    .default {
+  .default {
     width: 6.67vw;
     height: 2.29vw;
-    }
-    .variant1 {
+  }
+  .variant1 {
     width: 2.36vw;
     height: 3.33vw;
-    }
+  }
 }
 
 .A_article_recommendations_number {
-    width: 3.06vw;
-    height: 3.26vw;
+  width: 3.06vw;
+  height: 3.26vw;
 }
 
 .A_PhotoNumber {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26.39vw;
-    color: var(--blue)
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26.39vw;
+  color: var(--blue);
 }
-
 
 // фотки
 .A_article_main_image {
-    width: 85.83vw;
-    height: 27.43vw;
+  width: 85.83vw;
+  height: 27.43vw;
 }
 .A_article_round_framed_image {
-    width: 22.15vw;
-    height: 22.57vw;
+  width: 22.15vw;
+  height: 22.57vw;
 }
 .A_vertical_card_image_on_oval {
-    width: 19.24vw;
-    height: 29.86vw;
+  width: 19.24vw;
+  height: 29.86vw;
 }
 .A_framed_round_image {
-    width: 20vw;
-    height: 23.06vw;
+  width: 20vw;
+  height: 23.06vw;
 }
 .A_ArticleRectangleFramedImage {
-    width: 26.46vw;
-    height: 31.53vw;
+  width: 26.46vw;
+  height: 31.53vw;
 }
 .A_oval_image_on_rectangle {
-    width: 19.93vw;
-    height: 33.89vw;
+  width: 19.93vw;
+  height: 33.89vw;
 }
 .A_round_image_on_rectangle {
-    width: 20vw;
-    height: 23.06vw;
+  width: 20vw;
+  height: 23.06vw;
 }
 
 .A_avatar_image {
-    width: 4.17vw;
-    height: 4.17vw;
+  width: 4.17vw;
+  height: 4.17vw;
 }
-
-
-
 
 // -- sections -- //
 
 //текста
 .A_section_title {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5.90vw;
-    line-height: 6.94vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5.9vw;
+  line-height: 6.94vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_mainNumber {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12.50vw;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.5vw;
+  color: var(--blue);
 }
 
 .A_MainSubtitle {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 9.72vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.72vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_MainSignature {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4.86vw;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.86vw;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_section_signature {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.47vw;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.47vw;
+  text-align: center;
+  color: var(--blue);
 
-    .biggerOne {
-        font-size: 6.94vw;
-    }
-    .smallerOne {
-        font-size: 2.5vw;
-    }
+  .biggerOne {
+    font-size: 6.94vw;
+  }
+  .smallerOne {
+    font-size: 2.5vw;
+  }
 }
 
-
 .A_section_subtitle {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.89vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.89vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
 }
 
 // карточки
 .A_section_card_hastag {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.81vw;
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.81vw;
 }
 
 .A_section_card_title {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.85vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.85vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
 }
 .A_section_card_note {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.67vw;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.67vw;
+  text-align: center;
+  color: var(--blue);
 }
 
 // фотачги секций
 .A_two_framed_oval_images {
-    width: 27.01vw;
-    height: 17.99vw;
+  width: 27.01vw;
+  height: 17.99vw;
 }
 .A_three_framed_oval_images {
-    width: 43.26vw;
-    height: 22.99vw;
+  width: 43.26vw;
+  height: 22.99vw;
 }
-
 
 // -- navbar and footer -- //
 
 .A_little_logo {
-    width: 3.89vw;
-    height: 2.85vw;
-    background-image: url('images/A_little_logo.png');
-    background-size: cover;
+  width: 3.89vw;
+  height: 2.85vw;
+  background-image: url('images/A_little_logo.png');
+  background-size: cover;
 }
 .A_big_logo {
-    width: 12.4vw;
-    height: 5.83vw;
-    background-image: url('images/A_big_logo.png');
-    background-size: cover;
+  width: 12.4vw;
+  height: 5.83vw;
+  background-image: url('images/A_big_logo.png');
+  background-size: cover;
 }
 
 .A_footer_text {
-    font-family: Helvetica;
-    font-size: 1.39vw;
-    line-height: 1.67vw;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
-    text-transform: capitalize;
+  font-family: Helvetica;
+  font-size: 1.39vw;
+  line-height: 1.67vw;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
+  text-transform: capitalize;
 }
 
 .A_menu_point_default {
-    font-family: Helvetica;
-    font-size: 1.25vw;
-    text-align: center;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
-    width: 10vw;
+  font-family: Helvetica;
+  font-size: 1.25vw;
+  text-align: center;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
+  width: 10vw;
 }
 .A_menu_point_default:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 .A_menu_point_default:active {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 // -- tests -- //
 
 // текст
 
 .A_test_title {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 4.44vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.44vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_test_count {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.22vw;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.22vw;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
 }
 .A_test_result_heading {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4.17vw;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.17vw;
+  color: var(--blue);
 }
 
 .A_test_subtitle {
-    font-family: 'HelveticaNeueCyr';
-    font-size: 2.08vw;
-    line-height: 2.29vw;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
-    margin-bottom: 2vw;
-    width: 54.32vw;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 2.08vw;
+  line-height: 2.29vw;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 2vw;
+  width: 54.32vw;
+
+  &.result {
+    //переписать стили для показа превью в результате
+  }
 }
 .A_test_variant {
-    display: contents;
-    font-family: 'HelveticaNeueCyr';
-    font-size: 1.67vw;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
-    width: 46.92vw;
+  display: flex;
+  gap: 8px;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 1.67vw;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
+  width: 46.92vw;
+
+  input {
+    transform: scale(1.4);
+  }
 }
 
 .A_test_result_subtitle {
-    font-family:'HelveticaNeueCyr';
-    font-size: 2.08vw;
-    line-height: 2.29vw;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 2.08vw;
+  line-height: 2.29vw;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
 }
 .A_test_result_description {
-    font-family: 'HelveticaNeueCyr';
-    font-size: 1.67vw;
-    line-height: 1.81vw;
-    color: var(--blue);
-    font-style: normal;
-    font-weight: normal;
-    width: 26vw;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 1.67vw;
+  line-height: 1.81vw;
+  color: var(--blue);
+  font-style: normal;
+  font-weight: normal;
+  width: 26vw;
 }
 
 // фотка
 
 .A_test_image_result_outline {
-    width: 53.40vw;
-    height: 42.29vw;
+  width: 53.4vw;
+  height: 42.29vw;
 }
 
 // -- form -- //
 
 .A_form_title {
-    font-family: 'Oranienbaum', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 6.94vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue);
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.94vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
 }
 
 .A_form_note {
-    font-family: 'Snell Roundhand', arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.5vw;
-    color: var(--blue);
+  font-family: 'Snell Roundhand', arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  color: var(--blue);
+  width: 13.32vw;
+  height: 5.07vw;
+  border-radius: 137px / 50px;
+  border: solid var(--blue);
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .A_searchbar_text {
-    font-family: 'HelveticaNeueCyr';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25vw;
-    color: var(--gray);
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vw;
+  color: var(--gray);
 }
 
 .A_form_input {
-    font-family: 'HelveticaNeueCyr';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.81vw;
-    color: var(--gray);
-    border: 0.14vw var(--blue);
-    border-radius: 0.52vw;
-    width: 22.55vw;
-    height: 2.81vw;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.81vw;
+  color: var(--gray);
+  border: 0.14vw var(--blue);
+  border-radius: 0.52vw;
+  width: 22.55vw;
+  height: 2.81vw;
 }
