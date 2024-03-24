@@ -105,6 +105,16 @@ module.exports = {
       filename: './index.html',
       chunk: ['index']
     }),
+    // About page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html',
+      chunk: ['index']
+    }),
+
+
     // Film1 page
     new HtmlWebpackPlugin({
       hash: true,

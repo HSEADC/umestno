@@ -1,3 +1,5 @@
+@media only screen and (min-width: 500px) {
+
 .Q_Line {
   margin: 0 auto;
   background-color: var(--blue);
@@ -90,11 +92,6 @@
 .Q_arrow_landing {
   width: 12.99vw;
   height: 6.53vw;
-}
-
-.Q_burgerMenu {
-  width: 2.5vw;
-  height: 1.25vw;
 }
 
 .Q_article_square_image {
@@ -206,4 +203,222 @@
   width: 27.32vw;
   height: 17vw;
   transform: rotate(-37deg);
+}
+}
+
+//мобилка
+@media only screen and (max-width: 499px) {
+
+.Q_Line {
+  margin: 0 auto;
+  background-color: var(--blue);
+  &.longer {
+    width: 89.6vw;
+    height: 0.14vw;
+  }
+  &.middle {
+    width: 34.6vw;
+    height: 0.16vw;
+  }
+  &.middle2 {
+    width: 51.6vw;
+    height: 0.16vw;
+  }
+  &.shorter {
+    width: 17.57vw;
+    height: 0.14vw;
+  }
+  &.recomendation {
+    width: 15.21vw;
+    height: 0.1vw;
+  }
+  &.players {
+    width: 25.07vw;
+    height: 0.1vw;
+  }
+}
+
+.Q_burgerMenu {
+  width: 6.23vw;
+  height: 4.62vw;
+  background-image: url('images/Q_burgerMenu.png');
+  background-size: cover;
+}
+
+.Q_eye {
+  width: 1.98vw;
+  height: 1.98vw;
+  background-image: url('images/Q_eye.png');
+  background-size: cover;
+}
+
+.Q_oval {
+  background-image: url('images/oval.png');
+  background-size: cover;
+  width: 3.02vw;
+  height: 3.08vw;
+  z-index: 1;
+}
+
+.Q_num {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.46vw;
+  color: var(--white);
+  margin-top: -2.1vw;
+  margin-left: 1.1vw;
+}
+
+.Q_recommendation_card_image {
+  position: absolute;
+  width: 23.07vw;
+  height: 10.89vw;
+  z-index: -1;
+  // margin-top: -2.7vw;
+  margin-left: 1vw;
+}
+
+.Q_Vk {
+  width: 9.5vw;
+  height: 5.81vw;
+  background-image: url('images/Q_Vk.png');
+  background-size: cover;
+}
+.Q_Tg {
+  width: 8.43vw;
+  height: 7.01vw;
+  background-image: url('images/Q_Tg.png');
+  background-size: cover;
+}
+.Q_search_icon {
+  width: 2.5vw;
+  height: 1.18vw;
+}
+
+.Q_Checkbox {
+  height: 2.57vw;
+  width: 2.57vw;
+  border-radius: 0.35vw;
+  border: 0.14vw var(--blue);
+}
+
+.Q_arrow_landing {
+  width: 12.99vw;
+  height: 6.53vw;
+}
+
+.Q_article_square_image {
+  width: 26.18vw;
+  height: 37.01vw;
+}
+
+.Q_little_text_number_stroke {
+  width: 15.69vw;
+  height: 4.72vw;
+}
+
+.Q_round_card_image {
+  width: 19.03vw;
+  height: 19.03vw;
+}
+
+.Q_vertical_oval_card_image {
+  width: 15vw;
+  height: 18.54vw;
+}
+
+.Q_horizontal_oval_card_image {
+  width: 27.01vw;
+  height: 16.04vw;
+}
+
+.Q_square_card_image {
+  width: 20vw;
+  height: 23.06vw;
+}
+
+.Q_mainNumberOutline {
+  width: 20.49vw;
+  height: 19.79vw;
+}
+
+.Q_test_variant input {
+  width: 1.6vw;
+  height: 1.6vw;
+  border: 1px solid var(--blue);
+  border-radius: 0.31vw;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+// .Q_test_counter_stroke {
+//   width: 13.32vw;
+//   height: 5.07vw;
+//   border-radius: 137px / 50px;
+//   border: solid var(--blue);
+//   background-color: var(--white);
+// }
+
+.Q_mainStroke {
+  position: absolute;
+  z-index: 0;
+  background-image: url('images/Q_mainStroke.png');
+  background-size: cover;
+  width: 27.32vw;
+  height: 17vw;
+  margin-left: 4vw;
+}
+
+.Q_big_image_with_oval {
+  width: 43.26vw;
+  height: 24.72vw;
+}
+
+.Q_big_oval_image {
+  width: 86.25vw;
+  height: 23.13vw;
+}
+
+.Q_FlippedCardImage {
+  width: 19.93vw;
+  height: 33.89vw;
+}
+
+.s {
+  width: 13.4vw;
+  height: 4.72vw;
+}
+.Q_hse_logo {
+  width: 21.41vw;
+    height: 8.5vw;
+    background-image: url('images/Q_hse_logo.png');
+    background-size: cover;
+    margin-top: 9vw;
+}
+.Q_line_menu {
+  margin: 1.5vw;
+  width: 90.48vw;
+  height: 0.1vw;
+  background-color: var(--blue);
+}
+.Q_rectangle_image {
+  width: 43.26vw;
+  height: 23.06vw;
+  border-radius: 0.42vw;
+}
+
+.Q_number_image_stroke {
+  position: absolute;
+  z-index: 0;
+  background-image: url('images/Q_mainStroke.png');
+  background-size: cover;
+  width: 27.32vw;
+  height: 17vw;
+  transform: rotate(-37deg);
+}
 }

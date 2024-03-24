@@ -1,3 +1,5 @@
+@media only screen and (min-width: 500px) {
+
 //navbar
 
 .S_NavBar {
@@ -319,7 +321,7 @@
         font-weight: normal;
         font-size: 2.08vw;
         color: var(--blue);
-        width: 34vw;
+        width: 28vw;
       }
 
       .A_resultText {
@@ -328,7 +330,7 @@
         font-weight: normal;
         font-size: 1.67vw;
         color: var(--blue);
-        width: 29vw;
+        width: 28vw;
       }
     }
   }
@@ -381,4 +383,391 @@
     margin-top: 4.31vw;
     margin: 0 auto;
   }
+}
+}
+
+//мобилка
+@media only screen and (max-width: 499px) {
+
+//navbar
+
+.S_NavBar {
+  display: flex;
+  flex-direction: column;
+  border: 0.14vw var(--blue);
+  margin-top: 2.08vw;
+  align-items: center;
+
+  position: relative;
+  z-index: 1;
+}
+
+// preview
+#S_preview {
+    margin: 0 auto;
+    padding: 5vw 3vw;
+    display: flex;
+    gap: 5vw;
+    flex-direction: column;
+    gap: 3vw;
+}
+#S_mail {
+    margin: 0 auto;
+    padding: 11vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+}
+
+//recommendations
+
+#S_Recommendations {
+  display: flex;
+  flex-direction: column;
+  width: 93.06vw;
+  height: 35.06vw;
+  margin: auto;
+  align-items: center;
+  gap: 3vw;
+  padding: 1.5vw;
+
+  .M_article_recommedation_with_lines {
+    margin: 0 auto;
+  }
+
+  // .W_CardRecommendations {
+  //     padding-top: 3.89vw
+  // }
+}
+
+//sections
+
+.S_SectionFirst {
+  display: flex;
+  flex-direction: column;
+  width: 93.06vw;
+  height: 43.68vw;
+  border: 0.14vw var(--blue);
+
+  .W_section_text_head {
+    margin-top: 4.51vw;
+    margin-left: 0 auto;
+  }
+
+  .Q_big_oval_image {
+    margin-top: 2.43vw;
+    margin-left: 0 auto;
+  }
+}
+
+.S_SectionBlock {
+  display: flex;
+  flex-direction: column;
+
+  .M_BlockSeparator {
+    margin-left: 0 auto;
+  }
+
+  .W_SectionBlock {
+    margin-top: 4.31vw;
+    margin: 0 auto;
+  }
+}
+
+.S_SectionBlock2 {
+  display: flex;
+  flex-direction: column;
+
+  .M_BlockSeparator {
+    margin-left: 0 auto;
+  }
+
+  .W_three_equal_cards {
+    margin-top: 4.31vw;
+    margin: 0 auto;
+  }
+}
+
+.S_cardBlockLong {
+  display: flex;
+  flex-direction: column;
+
+  .M_BlockSeparator {
+    margin-left: 0 auto;
+  }
+
+  .W_SectionBlock_with_oval {
+    margin-top: 4.31vw;
+    margin: 0 auto;
+  }
+}
+
+.S_forCase {
+  display: flex;
+  flex-direction: column;
+
+  .M_BlockSeparator {
+    margin-left: 0 auto;
+  }
+
+  .W_small_cards {
+    margin-top: 3.96vw;
+    margin: 0 auto;
+  }
+}
+
+.S_aboutArticle {
+  display: flex;
+  flex-direction: column;
+
+  .Q_landing_oval {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+  }
+
+  .W_about_main_text {
+    position: absolute;
+    z-index: 2;
+    margin-top: 14.58vw;
+    margin-left: 0 auto;
+  }
+}
+
+//articles
+
+#S_ArticleHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 93.06vw;
+  margin: 0 auto;
+  // height: 44.38vw;
+
+  .A_article_main_image {
+    margin: 0 auto;
+  }
+
+  .W_article_first_page_text {
+    margin-top: 4.65vw;
+    margin-left: 0 auto;
+  }
+}
+
+// .S_ArticleBlock {
+//     display: flex;
+//     flex-direction: row;
+//     margin: 0 auto;
+
+//     .W_article_text {
+//         margin-top: 0 auto;
+//     }
+
+//     .O_ArticleVerticalImage {
+//         margin-top: 0 auto;
+//         margin-left: 7.71vw;
+//     }
+// }
+
+#S_ArticleBlock {
+  display: flex;
+  flex-direction: row;
+  margin: 7vw 6vw;
+  gap: 12vw;
+  align-items: center;
+
+  .W_article_text {
+    margin-top: 0 auto;
+  }
+
+  .O_ArticleVerticalImage {
+    margin-top: 0 auto;
+    margin-left: 7.71vw;
+  }
+}
+
+#S_ArticleBlockWithNumbers {
+  display: flex;
+  flex-direction: row;
+  margin: 7vw 8vw;
+  gap: 12.6vw;
+  align-items: center;
+
+  .O_image_with_number_and_signature {
+    margin-top: 0 auto;
+  }
+
+  .W_article_text {
+    margin-top: 0 auto;
+    margin-left: 7.64vw;
+  }
+}
+
+.S_ArticleBlockWithPicture {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+
+  .W_article_text {
+    margin-top: 0;
+  }
+
+  .M_article_oval_framed_image_with_text {
+    margin-top: 0 auto;
+    margin-left: 4.65vw;
+  }
+}
+
+.S_BlockWithoutHeading {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  .O_image_with_number_and_signature {
+    margin-top: 0 auto;
+  }
+
+  .A_article_text {
+    margin-left: 5.97vw;
+  }
+}
+
+.S_ArticleBlockWithPictureAndSignature {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  .W_article_text {
+    margin-top: 0 auto;
+  }
+
+  .W_article_image_with_signature {
+    margin-left: 6.32vw;
+  }
+}
+
+//tests
+
+#S_TestHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 18vw;
+}
+
+#S_TestBlock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 69.44vw;
+  padding: 11vw;
+  margin: 0 auto;
+  border: solid var(--blue);
+  border-radius: 0.52vw;
+  align-items: center;
+  margin-bottom: 13vw;
+  position: relative;
+  gap: 7vw;
+
+  &.result {
+    // перепишите стили для отображения результата теста
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    border: none;
+    position: relative;
+    z-index: 0;
+
+    width: 76.44vw;
+    margin-top: 5vw;
+    
+    .W_TestResult {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2vw;
+
+      .A_resultItog {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.5vw;
+        color: var(--blue);
+        width: 30.32vw;
+        height: 11.07vw;
+        border-radius: 137px / 50px;
+        border: solid var(--blue);
+        background-color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .A_resultTitle {
+        font-family: 'HelveticaNeueCyr';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 6.08vw;
+        color: var(--blue);
+      }
+
+      .A_resultText {
+        font-family: 'HelveticaNeueCyr';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.67vw;
+        color: var(--blue);
+      }
+    }
+  }
+
+  // .Q_test_wrapper_stroke {
+  //     position: absolute;
+  //     z-index: 1;
+  //     margin: 0 auto;
+  // }
+
+  .O_testBlock {
+    position: absolute;
+    z-index: 2;
+    margin-top: 12.57vw;
+    margin-left: 8.68vw;
+  }
+
+  .A_form_note {
+    position: absolute;
+    top: -6.5vw;
+  }
+}
+
+.S_TestResults {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  .O_test_result {
+    margin-top: 0 auto;
+  }
+
+  .A_test_image_result_outline {
+    margin-left: 6.39vw;
+  }
+}
+
+//cards
+
+.S_LongCardsBlock {
+  display: flex;
+  flex-direction: column;
+
+  .M_BlockSeparator {
+    margin-left: 0 auto;
+  }
+
+  .W_small_long_card {
+    margin-top: 4.31vw;
+    margin: 0 auto;
+  }
+}
 }

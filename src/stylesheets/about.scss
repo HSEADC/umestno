@@ -1,0 +1,751 @@
+@media all and (min-width: 501px) {
+  body.about {
+    background-color: #FCFCFC;
+
+    #S_mail {
+      &.W_FormInput {
+        #my-form {
+          display: flex;
+          align-items: center;
+          gap: 1vw;
+        }
+      }
+    }
+
+    .forWhom{
+      height: 44vw;
+    }
+    .scaleme {
+      height: 80vw;
+    }
+
+    .logogo {
+      width: 10vw;
+      height: 9vw;
+      padding-top: 1.5vw;
+      padding-left: 2vw;
+    }
+
+    .whitelogo {
+      width: 14vw;
+      height: 9vw;
+      padding-top: 1.5vw;
+      padding-left: 2vw;
+    }
+
+    .splash {
+      width: 14.38vw;
+      height: 2.85vw;
+      background-color: #ffffff;
+      border: 0.15vw solid #004bef;
+      border-radius: 2vw;
+      margin-left: 66vw;
+      margin-top: -6.5vw;
+    }
+
+    .splash:hover {
+      background-color: #d9d8ff;
+      transition: all 0.5s ease-out;
+    }
+
+    .card {
+      width: 14.38vw;
+      height: 2.85vw;
+      background-color: #ffffff;
+      border: 0.2vw solid #004bef;
+      border-radius: 2vw;
+      margin-left: 49vw;
+      margin-top: -5vw;
+    }
+
+    .media {
+      width: 14.38vw;
+      height: 2.85vw;
+      background-color: #ffffff;
+      border: 0.2vw solid #004bef;
+      border-radius: 2vw;
+      margin-left: 33vw;
+      margin-top: -8vw;
+    }
+
+    .project {
+      width: 14.38vw;
+      height: 2.85vw;
+      background-color: #004bef;
+      border: 0.15vw solid #004bef;
+      border-radius: 2vw;
+      margin-left: 82vw;
+      margin-top: -5vw;
+    }
+
+    .oval {
+      margin-left: 4.5vw;
+      margin-top: 2vw;
+      width: 88vw;
+      height: 44vw;
+    }
+
+    .oval2 {
+      margin-left: 6vw;
+      margin-top: 24vw;
+      width: 88vw;
+      height: 44vw;
+    }
+
+    .outline {
+      position: absolute;
+      margin-left: -44vw;
+      margin-top: 33vw;
+      width: 23vw;
+      height: 9vw;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+    }
+    .mediatext {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25vw;
+      padding: 0.65vw;
+      padding-left: 5.2vw;
+      text-decoration: none;
+      color: #004bef;
+    }
+
+    .cardtext {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25vw;
+      padding: 0.65vw;
+      padding-left: 4.6vw;
+      text-decoration: none;
+      color: #004bef;
+    }
+
+    .projecttext {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1.25vw;
+      padding: 0.6vw;
+      padding-left: 5.3vw;
+      color: #ffffff;
+    }
+
+    .script {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1vw;
+      margin-top: 7vw;
+      margin-left: -1vw;
+      color: #004bef;
+      text-align: center;
+    }
+
+    .case {
+      font-family: Helvetica;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 0.9vw;
+      margin-top: -40.5vw;
+      margin-left: 60vw;
+      color: #004bef;
+    }
+
+    .dishtext {
+      position: absolute;
+      font-family: Helvetica;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 0.9vw;
+      margin-top: -22vw;
+      margin-left: 73vw;
+      color: #004bef;
+    }
+
+    .knifetext {
+      position: absolute;
+      font-family: Helvetica;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 0.9vw;
+      margin-top: -6vw;
+      margin-left: 59vw;
+      color: #004bef;
+    }
+
+    .forktext {
+      position: absolute;
+      font-family: Helvetica;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 0.9vw;
+      margin-top: 4vw;
+      margin-left: 74.5vw;
+      color: #004bef;
+    }
+
+    .tea {
+      font-family: Helvetica;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 0.9vw;
+      margin-top: 25vw;
+      margin-left: 62vw;
+      color: #004bef;
+    }
+
+    .heels {
+      font-family: Helvetica;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 0.9vw;
+      margin-top: 7vw;
+      margin-left: 68vw;
+      color: #004bef;
+    }
+
+    .guides {
+      font-family: Helvetica;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2.3vw;
+      margin-top: -26vw;
+      margin-left: 66vw;
+      color: #004bef;
+      text-align: center;
+    }
+
+    .cards {
+      position: absolute;
+      font-family: Helvetica;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2.3vw;
+      margin-top: -12vw;
+      margin-left: 68vw;
+      color: #004bef;
+      text-align: center;
+    }
+
+    .what {
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10.4vw;
+      text-align: center;
+      margin-top: -31vw;
+      color: #004bef;
+    }
+
+    .bag {
+      width: 21vw;
+      height: 15vw;
+      margin-top: -7vw;
+      margin-left: 73vw;
+    }
+
+    .dish {
+      position: absolute;
+      width: 21vw;
+      height: 10vw;
+      margin-top: -32vw;
+      margin-left: 72vw;
+    }
+
+    .fork {
+      position: absolute;
+      width: 5vw;
+      height: 30vw;
+      margin-top: -16vw;
+      margin-left: 85vw;
+    }
+
+    .knife {
+      position: absolute;
+      width: 5vw;
+      height: 30vw;
+      margin-top: -22vw;
+      margin-left: 51vw;
+    }
+
+    .cup {
+      width: 19vw;
+      height: 13vw;
+      margin-top: -3vw;
+      margin-left: 56vw;
+    }
+
+    .shoe {
+      width: 16vw;
+      height: 15vw;
+      margin-top: -8vw;
+      margin-left: 77vw;
+    }
+
+    .shift {
+      margin-top: 30vw;
+    }
+
+    .number {
+      width: 8vw;
+      height: 4vw;
+      margin-top: -13vw;
+      margin-left: 65vw;
+    }
+
+    .numbera {
+      position: absolute;
+      width: 8vw;
+      height: 4vw;
+      margin-top: -23vw;
+      margin-left: 67vw;
+    }
+
+    .numberb {
+      position: absolute;
+      width: 8vw;
+      height: 4vw;
+      margin-top: -10.5vw;
+      margin-left: 56.5vw;
+    }
+
+    .numberc {
+      position: absolute;
+      width: 8vw;
+      height: 4vw;
+      margin-top: 3vw;
+      margin-left: 68.5vw;
+    }
+
+    .number6 {
+      width: 8vw;
+      height: 4vw;
+      margin-top: -3vw;
+      margin-left: 85vw;
+    }
+
+    .number3 {
+      width: 8vw;
+      height: 4vw;
+      margin-top: -13vw;
+      margin-left: 50vw;
+    }
+
+    .arroww {
+      width: 16vw;
+      height: 11vw;
+      margin-top: -7vw;
+      margin-left: 55vw;
+    }
+
+    .aroww2 {
+      width: 18vw;
+      height: 13vw;
+      margin-top: -8vw;
+      margin-left: 74vw;
+    }
+
+    .arrow3 {
+      position: absolute;
+      width: 16vw;
+      height: 11vw;
+      margin-top: -21vw;
+      margin-left: 55vw;
+    }
+
+    .arrow4 {
+      position: absolute;
+      width: 16vw;
+      height: 11vw;
+      margin-top: -3vw;
+      margin-left: 58vw;
+    }
+
+    .us {
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.2vw;
+      margin-top: 15vw;
+      margin-left: 3.8vw;
+      color: #004bef;
+    }
+
+    .platform {
+      font-family: 'Snell Roundhand', arial;
+      font-style: normal;
+      font-weight: normal;
+      font-family: 'Snell Roundhand', arial;
+      font-style: normal;
+      font-weight: normal;
+      margin-left: 33.7vw;
+      margin-top: -0.6vw;
+      color: #004bef;
+      font-size: 5.21vw;
+    }
+
+    .tuned {
+      font-family: 'Snell Roundhand', arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3vw;
+      text-align: center;
+      margin-left: -1.7vw;
+      margin-top: -16.6vw;
+      color: #004bef;
+    }
+
+    .mock {
+      font-weight: normal;
+      font-size: 1.5vw;
+      margin-left: 4vw;
+      margin-top: -13.6vw;
+      width: 36vw;
+      color: #004bef;
+    }
+
+    .description {
+      font-size: 1.5vw;
+      margin-left: 4vw;
+      margin-top: 2.4vw;
+      width: 37vw;
+      color: #004bef;
+    }
+    .description2 {
+      font-size: 1.5vw;
+      margin-left: 4vw;
+      margin-top: -12.6vw;
+      width: 37vw;
+      color: #004bef;
+    }
+
+    .description22 {
+      display: none;
+    }
+
+    .description3 {
+      margin-left: 4vw;
+      margin-top: 1.4vw;
+      width: 36vw;
+      color: #004bef;
+    }
+
+    .hashtag {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1vw;
+      margin-left: 10vw;
+      margin-top: 0.4vw;
+      color: #004bef;
+    }
+
+    .hashtag2 {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1vw;
+      margin-left: 36vw;
+      margin-top: -1.2vw;
+      color: #004bef;
+    }
+
+    .hashtag3 {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1vw;
+      margin-left: 57.5vw;
+      margin-top: -1.2vw;
+      color: #004bef;
+    }
+
+    .hashtag4 {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1vw;
+      margin-left: 81.5vw;
+      margin-top: -1.2vw;
+      color: #004bef;
+    }
+
+    .liner {
+      width: 93vw;
+      height: 0.15vw;
+      margin-left: 3.5vw;
+      margin-top: 1.3vw;
+      background: #004bef;
+    }
+
+    .last {
+      width: 100vw;
+      height: 10vw;
+      margin-top: 17vw;
+      background: #004bef;
+    }
+
+    .why {
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.2vw;
+      margin-top: -51vw;
+      margin-left: 4vw;
+      color: #004bef;
+    }
+
+    .kvadrat {
+      background: #d9d8ff;
+      width: 100vw;
+      height: 50vw;
+      margin-top: 17vw;
+    }
+
+    .blue1 {
+      position: absolute;
+      margin-top: -25.5vw;
+      margin-left: 19.5vw;
+      width: 6vw;
+      height: 8vw;
+    }
+
+    .blue5 {
+      position: absolute;
+      margin-top: -25.5vw;
+      margin-left: 42.5vw;
+      width: 6vw;
+      height: 8vw;
+    }
+
+    .blue6 {
+      position: absolute;
+      margin-top: -25.5vw;
+      margin-left: 65.5vw;
+      width: 6vw;
+      height: 8vw;
+    }
+
+    .blue11 {
+      position: absolute;
+      margin-top: -25.5vw;
+      margin-left: 88.5vw;
+      width: 6vw;
+      height: 8vw;
+    }
+
+    .description4 {
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.5vw;
+      margin-top: 2vw;
+      color: #004bef;
+      text-align: center;
+    }
+
+    .description5 {
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.5vw;
+      margin-top: 1.8vw;
+      color: #004bef;
+      text-align: center;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 2vw;
+    }
+
+    .pic1 {
+      width: 23vw;
+      padding: 0.8vw;
+    }
+
+    .pic2 {
+      width: 23vw;
+      padding: 0.8vw;
+    }
+
+    .pic3 {
+      width: 23vw;
+      padding: 0.8vw;
+    }
+
+    .pic4 {
+      width: 23vw;
+      padding: 0.8vw;
+    }
+
+    .for {
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.2vw;
+      margin-top: 12vw;
+      margin-left: 4vw;
+      color: #004bef;
+    }
+
+    .description6 {
+      font-weight: normal;
+      font-size: 1.5vw;
+      margin-left: 4vw;
+      margin-top: 3vw;
+      width: 36vw;
+      color: #004bef;
+    }
+
+    .description7 {
+      margin-left: 4vw;
+      margin-top: 1.8vw;
+      font-size: 1.5vw;
+      width: 36vw;
+      color: #004bef;
+    }
+
+    .mail {
+      position: absolute;
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.2vw;
+      margin-top: -33vw;
+      margin-left: 30vw;
+      text-align: center;
+      color: #004bef;
+    }
+
+    .form {
+      font-weight: normal;
+      font-size: 2vw;
+      height: 4vw;
+      width: 24vw;
+      margin-top: -24vw;
+      margin-left: 30vw;
+      color: #c1c1c1;
+      background-color: #ffffff;
+      border: 0.2vw solid #004bef;
+      border-radius: 3vw;
+    }
+
+    ::placeholder {
+      color: #c1c1c1;
+      font-size: 2vw;
+      padding: 1.5vw;
+    }
+
+    #my-form-button {
+      width: 14vw;
+      margin-top: -24vw;
+      margin-left: 56vw;
+      color: #ffffff;
+      background-color: #004bef;
+      border: 0.2vw solid #004bef;
+      border-radius: 3vw;
+    }
+
+    .line {
+      width: 40vw;
+      height: 0.2vw;
+      background-color: #004bef;
+      margin-top: 1vw;
+      margin-left: 30vw;
+    }
+
+    .sasha {
+      font-size: 1.2vw;
+      margin-left: 19.3vw;
+      margin-top: 0.5vw;
+      color: #ffffff;
+    }
+
+    .dasha {
+      margin-left: 19.3vw;
+      margin-top: 0.5vw;
+      margin-bottom: 3vw;
+      color: #ffffff;
+    }
+
+    .hse {
+      background-image: url('images/Q_hse_logo.png');
+      background-size: cover;
+      width: 12vw;
+      height: 4.7vw;
+      margin-top: -5vw;
+      margin-left: 83vw;
+      margin-bottom: 3vw;
+    }
+
+    .curators {
+      font-family: 'HelveticaNeueCyrRoman';
+      font-style: normal;
+      margin-left: 40vw;
+      margin-top: -7.65vw;
+      margin-bottom: 3vw;
+      color: #ffffff;
+    }
+
+    .sofia {
+      margin-left: 40vw;
+      margin-top: -2.35vw;
+      margin-bottom: 3vw;
+      color: #ffffff;
+    }
+
+    .anna {
+      margin-left: 40vw;
+      margin-top: -2.5vw;
+      margin-bottom: 3vw;
+      color: #ffffff;
+    }
+
+    .whitevk {
+      background-image: url('images/Q_Vk.png');
+      background-size: cover;
+      width: 6vw;
+      height: 3.6vw;
+      margin-left: 64vw;
+      margin-top: -7vw;
+      cursor: pointer;
+    }
+
+    .whitetg {
+      background-image: url('images/Q_Tg.png');
+      background-size: cover;
+      width: 6vw;
+      height: 5vw;
+      scale: 0.85;
+      margin-left: 72vw;
+      margin-top: -5.6vw;
+      cursor: pointer;
+    }
+
+    .wrap {
+      scale: 0.8;
+      margin-top: -9vw;
+    }
+
+    .mobileoval {
+      display: none;
+    }
+
+    .mobileoval2 {
+      display: none;
+    }
+
+    .mail2 {
+      display: none;
+    }
+  }
+}
