@@ -10,6 +10,14 @@ module.exports = {
   entry: {
     index: './src/index.js',
     test1: './src/testsJs/test1.js',
+    test2: './src/testsJs/test2.js',
+    test3: './src/testsJs/test3.js',
+    test4: './src/testsJs/test4.js',
+    test5: './src/testsJs/test5.js',
+    test6: './src/testsJs/test6.js',
+    test7: './src/testsJs/test7.js',
+    test8: './src/testsJs/test8.js',
+    test9: './src/testsJs/test9.js',
     page: './src/page.jsx'
   },
   output: {
@@ -106,6 +114,8 @@ module.exports = {
       chunk: ['index']
     }),
 
+    // Tests
+
     // Test1 page
     new HtmlWebpackPlugin({
       hash: true,
@@ -114,6 +124,72 @@ module.exports = {
       filename: './tests/test1.html',
       chunk: ['index', 'test1']
     }),
+    // Test2 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test2.html',
+      filename: './tests/test2.html',
+      chunk: ['index', 'test2']
+    }),
+    // Test3 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test3.html',
+      filename: './tests/test3.html',
+      chunk: ['index', 'test3']
+    }),
+    // Test4 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test4.html',
+      filename: './tests/test4.html',
+      chunk: ['index', 'test4']
+    }),
+    // Test5 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test5.html',
+      filename: './tests/test5.html',
+      chunk: ['index', 'test5']
+    }),
+    // Test6 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test6.html',
+      filename: './tests/test6.html',
+      chunk: ['index', 'test6']
+    }),
+    // Test7 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test7.html',
+      filename: './tests/test7.html',
+      chunk: ['index', 'test7']
+    }),
+    // Test8 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test8.html',
+      filename: './tests/test8.html',
+      chunk: ['index', 'test8']
+    }),
+    // Test9 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests/test9.html',
+      filename: './tests/test9.html',
+      chunk: ['index', 'test9']
+    }),
+
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([

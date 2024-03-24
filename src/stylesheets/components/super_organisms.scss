@@ -6,6 +6,9 @@
   border: 0.14vw var(--blue);
   margin-top: 2.08vw;
   align-items: center;
+
+  position: relative;
+  z-index: 1;
 }
 
 // preview
@@ -19,7 +22,7 @@
 }
 #S_mail {
     margin: 0 auto;
-    padding: 5vw 3vw;
+    padding: 11vw 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -269,7 +272,7 @@
   justify-content: center;
   flex-direction: column;
   width: 69.44vw;
-  height: 40.81vw;
+  height: 34.81vw;
   margin: 0 auto;
   border: solid var(--blue);
   border-radius: 0.52vw;
@@ -281,6 +284,53 @@
     // перепишите стили для отображения результата теста
     flex-direction: row;
     justify-content: space-between;
+    border: none;
+    position: relative;
+    z-index: 0;
+
+    width: 76.44vw;
+    margin-top: 5vw;
+    
+    .W_TestResult {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2vw;
+
+      .A_resultItog {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: var(--blue);
+        width: 10.32vw;
+        height: 4.07vw;
+        border-radius: 137px / 50px;
+        border: solid var(--blue);
+        background-color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .A_resultTitle {
+        font-family: 'HelveticaNeueCyr';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.08vw;
+        color: var(--blue);
+        width: 34vw;
+      }
+
+      .A_resultText {
+        font-family: 'HelveticaNeueCyr';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.67vw;
+        color: var(--blue);
+        width: 29vw;
+      }
+    }
   }
 
   // .Q_test_wrapper_stroke {
@@ -298,7 +348,8 @@
 
   .A_form_note {
     position: absolute;
-    top: -30px;
+    top: -2.5vw;
+    left: 6vw;
   }
 }
 
