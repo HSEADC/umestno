@@ -113,6 +113,14 @@ module.exports = {
       filename: './about.html',
       chunk: ['index']
     }),
+   // Cards page
+    new HtmlWebpackPlugin({
+    hash: true,
+    scriptLoading: 'blocking',
+    template: './src/cards.html',
+    filename: './cards.html',
+    chunk: ['index']
+  }),
 
 
     // Film1 page

@@ -54,12 +54,16 @@
 
 //sections
 
-.S_SectionFirst {
+#S_SectionFirst {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  margin-top: 4.24vw;
   width: 93.06vw;
   height: 43.68vw;
-  border: 0.14vw var(--blue);
+  border: solid 0.14vw var(--blue);
+  border-radius: 0.42vw;
+  align-items: center;
 
   .W_section_text_head {
     margin-top: 4.51vw;

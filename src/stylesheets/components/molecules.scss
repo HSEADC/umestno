@@ -504,18 +504,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
-  .Q_Line {
-    padding-top: 1.74vw;
-  }
+  // .Q_Line {
+  //   padding-top: 1.74vw;
+  // }
 
   .A_section_signature {
     text-align: center;
     margin: auto;
-  }
-
-  .Q_Line {
-    padding-top: 1.74vw;
   }
 }
 
