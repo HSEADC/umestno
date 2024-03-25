@@ -2,6 +2,14 @@
   body.about {
     background-color: #FCFCFC;
 
+    .A_menubutton_default {
+      #active {
+          background-color: var(--deep_purple);
+          color: var(--blue);
+        }
+    }
+
+
     #S_mail {
       &.W_FormInput {
         #my-form {
@@ -100,10 +108,10 @@
       height: 9vw;
     }
 
-    a {
-      display: block;
-      text-decoration: none;
-    }
+    // a {
+    //   display: block;
+    //   text-decoration: none;
+    // }
     .mediatext {
       font-family: 'HelveticaNeueCyrRoman';
       font-style: normal;
