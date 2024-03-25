@@ -2,17 +2,9 @@
   body.about {
     background-color: #FCFCFC;
 
-    .A_menubutton_default {
-      #active {
-          background-color: var(--deep_purple);
-          color: var(--blue);
-        }
-    }
-
-
     #S_mail {
       &.W_FormInput {
-        #my-form {
+        &#my-form {
           display: flex;
           align-items: center;
           gap: 1vw;

@@ -4,7 +4,6 @@
 
 .W_NavBar {
   display: inline-flex;
-  width: 78.33vw;
   gap: 1.39vw; // либо оставить паддинги в элементах
 
   .A_button_default {
@@ -29,9 +28,13 @@
   display: inline-flex;
   align-items: center;
   gap: 8.18vw;
+  justify-content: space-between;
+  width: 94vw;
+  
 
   .W_NavBar {
     justify-content: end;
+    flex-direction: row-reverse;
   }
 }
 
