@@ -69,20 +69,6 @@
   color: var(--white);
 }
 
-// -- articles -- //
-
-.A_vstuplenie {
-  font-family: Helvetica;
-  font-size: 1vw;
-  line-height: 1.4vw;
-  // width: 23vw;
-  font-style: normal;
-  font-weight: normal;
-  // padding: 2vw;
-  // text-align: center;
-  color: var(--blue);
-}
-
 // тексты
 .A_heading {
   font-family: 'Oranienbaum', serif;
@@ -152,14 +138,6 @@
   font-size: 0.63vw;
   color: var(--blue);
 }
-// .A_vstuplenie {
-//   font-family: Helvetica;
-//   font-style: normal;
-//   font-weight: normal;
-//   font-size: 1.67vw;
-//   line-height: 2.01vw;
-//   color: var(--blue);
-// }
 .A_article_recommendation {
   font-family: 'Snell Roundhand', arial;
   font-style: normal;
@@ -389,6 +367,9 @@
 .A_article_main_image {
   width: 85.83vw;
   height: 27.43vw;
+}
+.A_movileFirstImage {
+  display: none;
 }
 .A_article_round_framed_image {
   width: 22.15vw;
@@ -706,6 +687,18 @@
   transform: scale(0.7);
   height: 64.43vw;
 }
+
+.A_vstuplenie {
+  margin: 5vw;
+  width: 80vw;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  line-height: 2.01vw;
+  color: #204BF1;
+  color: var(--blue);
+}
 }
 
 //мобилка
@@ -792,18 +785,18 @@
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 4.17vw;
+  font-size: 6.17vw;
   color: var(--blue);
   text-align: center;
 }
 
 .A_article_subtitle {
-  width: 44.64vw;
+  width: 86.64vw;
   text-transform: uppercase;
   font-family: 'Oranienbaum', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.06vw;
+  font-size: 6.06vw;
   color: var(--blue);
 
   .BigOne {
@@ -813,20 +806,20 @@
 
 .A_article_lead {
   font-family: Helvetica;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
+  font-size: 2.67vw;
+  line-height: 3.01vw;
   font-style: normal;
   font-weight: normal;
   text-align: center;
   color: var(--blue);
 }
 .A_article_text {
-  width: 42.3vw;
+  width: 68.64vw;
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
+  font-size: 2.67vw;
+  line-height: 3.01vw;
   color: var(--blue);
 }
 .A_tag_text {
@@ -836,20 +829,15 @@
   font-size: 0.63vw;
   color: var(--blue);
 }
-.A_vstuplenie {
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
-  color: var(--blue);
-}
 .A_article_recommendation {
   font-family: 'Snell Roundhand', arial;
   font-style: normal;
-  font-size: 5.56vw;
+  font-size: 8.56vw;
+  line-height: 8vw;
   text-align: center;
   color: var(--blue);
+  width: 82vw;
+  margin: 0 auto;
 }
 
 .A_article_card_title {
@@ -882,9 +870,9 @@
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.97vw;
+  font-size: 1.97vw;
   color: var(--blue);
-  width: 5.79vw;
+  width: 9.79vw;
   text-align: center;
 }
 
@@ -938,7 +926,7 @@
   font-family: 'Oranienbaum', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.81vw;
+  font-size: 4.81vw;
   text-transform: uppercase;
   color: var(--blue);
 }
@@ -1058,8 +1046,15 @@
 
 // фотки
 .A_movileFirstImage {
-  width: 100.13vw;
+  margin-left: -7vw;
+  width: 90.13vw;
   height: 111.72vw;
+}
+
+.A_article_main_image {
+  // width: 85.83vw;
+  // height: 27.43vw;
+  display: none;
 }
 
 .A_resultImage {
@@ -1093,8 +1088,8 @@
 }
 
 .A_avatar_image {
-  width: 4.17vw;
-  height: 4.17vw;
+  width: 8.17vw;
+  height: 8.17vw;
 }
 
 // -- sections -- //
@@ -1180,7 +1175,7 @@
   font-family: 'Oranienbaum', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.85vw;
+  font-size: 6.85vw;
   text-transform: uppercase;
   text-align: center;
   color: var(--blue);
@@ -1189,7 +1184,7 @@
   font-family: 'Snell Roundhand', arial;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.67vw;
+  font-size: 4.67vw;
   text-align: center;
   color: var(--blue);
 }
@@ -1311,13 +1306,15 @@
   font-weight: normal;
 }
 .A_test_result_description {
-  font-family: 'HelveticaNeueCyr';
-  font-size: 1.67vw;
-  line-height: 1.81vw;
+  font-family: Helvetica;
+  font-size: 2.67vw;
+  line-height: 2.81vw;
+  color: #204BF1;
   color: var(--blue);
   font-style: normal;
   font-weight: normal;
-  width: 26vw;
+  width: 61vw;
+  margin-left: -8vw;
 }
 
 // фотка
@@ -1373,6 +1370,16 @@
   border-radius: 0.52vw;
   width: 22.55vw;
   height: 2.81vw;
+}
+.A_vstuplenie {
+  margin: 5vw;
+  width: 90vw;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.67vw;
+  line-height: 3.01vw;
+  color: #204BF1;
 }
 }
 

@@ -6,18 +6,12 @@ body.film1 {
     }
 
     #S_ArticleHeading {
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
         gap: 0.78vw;
         
         .A_article_main_image {
-            // width: 88.83vw;
-            // height: 27.43vw;
             background-image: url('images/A_article_main_image_5mistakes.png');
             background-size: cover;
-        }
-        
+        }        
         .W_article_first_page_text {
             gap: 1.20vw;
         }
@@ -141,6 +135,524 @@ body.film1 {
         }
     }
 }
+
+body.film2 {
+    .bold {
+            font-style: normal;
+            font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+        
+        .A_article_main_image {
+            background-image: url('images/A_article_main_image_film2.png');
+            background-size: cover;
+        }        
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.kiera {
+            #O_ArticleVerticalImage {
+                #kiera.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_kiera.png');
+                    background-size: cover;
+                }
+            }
+        }
+        &.liz {
+            #O_ArticleVerticalImage {
+                #liz.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_lizzie2.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.elle {
+            #O_image_with_number_and_signature {
+                #elle.W_image_with_number {
+                    background-image: url('images/W_image_with_number_faning.png');
+                    background-size: cover;
+                }
+            }
+        }
+    
+        &.milosh {
+            #O_image_with_number_and_signature {
+                #milosh.W_image_with_number {
+                    background-image: url('images/W_image_with_number_milosh.png');
+                    background-size: cover;
+                
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image{
+            &.sirsha {
+                background-image: url('images/A_avatar_image_sirsha.png');
+                background-size: cover;
+            }
+            &.kiera {
+                background-image: url('images/A_avatar_image_kiera.png');
+                background-size: cover;
+            }
+            &.james {
+                background-image: url('images/A_avatar_image_james.png');
+                background-size: cover;
+            }
+            &.clare {
+                background-image: url('images/A_avatar_image_klare.png');
+                background-size: cover;
+            }
+
+            &.olivia {
+                background-image: url('images/A_avatar_image_olivia.png');
+                background-size: cover;
+            }
+
+            &.matt {
+                background-image: url('images/A_avatar_image_matt.png');
+                background-size: cover;
+            }
+        } 
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover; 
+            }
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover; 
+            }
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover; 
+            }
+        }
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film3 {
+    .bold {
+            font-style: normal;
+            font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+        
+        .A_article_main_image {
+            background-image: url('images/A_article_main_image_film3.png');
+            background-size: cover;
+        }        
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.both {
+            #O_ArticleVerticalImage {
+                #both.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_both.png');
+                    background-size: cover;
+                }
+            }
+        }
+        &.lizz {
+            #O_ArticleVerticalImage {
+                #lizz.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_lizzie2.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.phill {
+            #O_image_with_number_and_signature {
+                #phill.W_image_with_number {
+                    background-image: url('images/W_image_with_number_phill.png');
+                    background-size: cover;
+                }
+            }
+        }
+    
+        &.lizz2 {
+            #O_image_with_number_and_signature {
+                #lizz2.W_image_with_number {
+                    background-image: url('images/W_image_with_number_lizz2.png');
+                    background-size: cover;
+                
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image{
+            &.sirsha {
+                background-image: url('images/A_avatar_image_sirsha.png');
+                background-size: cover;
+            }
+            &.kiera {
+                background-image: url('images/A_avatar_image_kiera.png');
+                background-size: cover;
+            }
+            &.james {
+                background-image: url('images/A_avatar_image_james.png');
+                background-size: cover;
+            }
+            &.clare {
+                background-image: url('images/A_avatar_image_klare.png');
+                background-size: cover;
+            }
+
+            &.olivia {
+                background-image: url('images/A_avatar_image_olivia.png');
+                background-size: cover;
+            }
+
+            &.matt {
+                background-image: url('images/A_avatar_image_matt.png');
+                background-size: cover;
+            }
+        } 
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover; 
+            }
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover; 
+            }
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover; 
+            }
+        }
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film4 {
+    .bold {
+            font-style: normal;
+            font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+        
+        .A_article_main_image {
+            background-image: url('images/A_article_main_image_film4.png');
+            background-size: cover;
+        }        
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.stuff {
+            #O_ArticleVerticalImage {
+                #stuff.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_stuff.png');
+                    background-size: cover;
+                }
+            }
+        }
+        &.mimika {
+            #O_ArticleVerticalImage {
+                #mimika.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_mimika.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.meaning {
+            #O_image_with_number_and_signature {
+                #meaning.W_image_with_number {
+                    background-image: url('images/W_image_with_number_meaning.png');
+                    background-size: cover;
+                }
+            }
+        }
+    
+        &.grace {
+            #O_image_with_number_and_signature {
+                #grace.W_image_with_number {
+                    background-image: url('images/W_image_with_number_grace.png');
+                    background-size: cover;
+                
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image{
+            &.tim {
+                background-image: url('images/A_avatar_image_tim.png');
+                background-size: cover;
+            }
+            &.nicole {
+                background-image: url('images/A_avatar_image_nicole.png');
+                background-size: cover;
+            }
+            &.parker {
+                background-image: url('images/A_avatar_image_parker.png');
+                background-size: cover;
+            }
+        } 
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover; 
+            }
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover; 
+            }
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover; 
+            }
+        }
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film5 {
+    .bold {
+            font-style: normal;
+            font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+        
+        .A_article_main_image {
+            background-image: url('images/A_article_main_image_film5.png');
+            background-size: cover;
+        }        
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.honest {
+            #O_ArticleVerticalImage {
+                #honest.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_honest.png');
+                    background-size: cover;
+                }
+            }
+        }
+        &.face {
+            #O_ArticleVerticalImage {
+                #face.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_face.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.help {
+            #O_image_with_number_and_signature {
+                #help.W_image_with_number {
+                    background-image: url('images/W_image_with_number_help.png');
+                    background-size: cover;
+                }
+            }
+        }
+    
+        &.host {
+            #O_image_with_number_and_signature {
+                #host.W_image_with_number {
+                    background-image: url('images/W_image_with_number_host.png');
+                    background-size: cover;
+                
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image{
+            &.mia {
+                background-image: url('images/A_avatar_image_mia.png');
+                background-size: cover;
+            }
+            &.jhonnie {
+                background-image: url('images/A_avatar_image_jhonnie.png');
+                background-size: cover;
+            }
+            &.bill {
+                background-image: url('images/A_avatar_image_bill.png');
+                background-size: cover;
+            }
+        } 
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover; 
+            }
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover; 
+            }
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover; 
+            }
+        }
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film6 {
+    .bold {
+            font-style: normal;
+            font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+        
+        .A_article_main_image {
+            background-image: url('images/A_article_main_image_film6.png');
+            background-size: cover;
+        }        
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.table {
+            #O_ArticleVerticalImage {
+                #table.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_table.png');
+                    background-size: cover;
+                }
+            }
+        }
+        &.respect {
+            #O_ArticleVerticalImage {
+                #respect.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_respect.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.back {
+            #O_image_with_number_and_signature {
+                #back.W_image_with_number {
+                    background-image: url('images/W_image_with_number_back.png');
+                    background-size: cover;
+                }
+            }
+        }
+    
+        &.dressCode {
+            #O_image_with_number_and_signature {
+                #dressCode.W_image_with_number {
+                    background-image: url('images/W_image_with_number_dressCode.png');
+                    background-size: cover;
+                
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image{
+            &.julia {
+                background-image: url('images/A_avatar_image_julia.png');
+                background-size: cover;
+            }
+            &.ann {
+                background-image: url('images/A_avatar_image_ann.png');
+                background-size: cover;
+            }
+            &.mendi {
+                background-image: url('images/A_avatar_image_mendi.png');
+                background-size: cover;
+            }
+        } 
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover; 
+            }
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover; 
+            }
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover; 
+            }
+        }
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
 }
 
 
@@ -156,12 +668,12 @@ body.film1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0.78vw;
+        gap: 4.78vw;
         
-        .A_article_main_image {
+        .A_movileFirstImage {
             // width: 88.83vw;
             // height: 27.43vw;
-            background-image: url('images/A_article_main_image_5mistakes.png');
+            background-image: url('images/A_movileFirstImage_film1.png');
             background-size: cover;
         }
         
@@ -220,7 +732,7 @@ body.film1 {
 
     #O_article_big_photo {
         &.titanic {
-            background-image: url('images/O_article_big_photo_titanic.png');
+            background-image: url('images/S_MobileArticleImagesBlock.png');
             background-size: cover;
         }
     }
@@ -279,6 +791,561 @@ body.film1 {
             &.ann {
                 background-image: url('images/Q_recommendation_card_image_ann.png');
                 background-size: cover; 
+            }
+        }
+    }
+}
+
+body.film2 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+
+        .A_movileFirstImage {
+            background-image: url('images/A_movileFirstImage_film2.png');
+            background-size: cover;
+        }
+
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.kiera {
+            #O_ArticleVerticalImage {
+                #kiera.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_kiera.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.liz {
+            #O_ArticleVerticalImage {
+                #liz.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_lizzie2.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.elle {
+            #O_image_with_number_and_signature {
+                #elle.W_image_with_number {
+                    background-image: url('images/W_image_with_number_faning.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.milosh {
+            #O_image_with_number_and_signature {
+                #milosh.W_image_with_number {
+                    background-image: url('images/W_image_with_number_milosh.png');
+                    background-size: cover;
+
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image {
+            &.sirsha {
+                background-image: url('images/A_avatar_image_sirsha.png');
+                background-size: cover;
+            }
+
+            &.kiera {
+                background-image: url('images/A_avatar_image_kiera.png');
+                background-size: cover;
+            }
+
+            &.james {
+                background-image: url('images/A_avatar_image_james.png');
+                background-size: cover;
+            }
+
+            &.clare {
+                background-image: url('images/A_avatar_image_klare.png');
+                background-size: cover;
+            }
+
+            &.olivia {
+                background-image: url('images/A_avatar_image_olivia.png');
+                background-size: cover;
+            }
+
+            &.matt {
+                background-image: url('images/A_avatar_image_matt.png');
+                background-size: cover;
+            }
+        }
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover;
+            }
+
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover;
+            }
+
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film3 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+
+        .A_movileFirstImage {
+            background-image: url('images/A_movileFirstImage_film3.png');
+            background-size: cover;
+        }
+
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.both {
+            #O_ArticleVerticalImage {
+                #both.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_both.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.lizz {
+            #O_ArticleVerticalImage {
+                #lizz.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_lizzie2.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.phill {
+            #O_image_with_number_and_signature {
+                #phill.W_image_with_number {
+                    background-image: url('images/W_image_with_number_phill.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.lizz2 {
+            #O_image_with_number_and_signature {
+                #lizz2.W_image_with_number {
+                    background-image: url('images/W_image_with_number_lizz2.png');
+                    background-size: cover;
+
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image {
+            &.sirsha {
+                background-image: url('images/A_avatar_image_sirsha.png');
+                background-size: cover;
+            }
+
+            &.kiera {
+                background-image: url('images/A_avatar_image_kiera.png');
+                background-size: cover;
+            }
+
+            &.james {
+                background-image: url('images/A_avatar_image_james.png');
+                background-size: cover;
+            }
+
+            &.clare {
+                background-image: url('images/A_avatar_image_klare.png');
+                background-size: cover;
+            }
+
+            &.olivia {
+                background-image: url('images/A_avatar_image_olivia.png');
+                background-size: cover;
+            }
+
+            &.matt {
+                background-image: url('images/A_avatar_image_matt.png');
+                background-size: cover;
+            }
+        }
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover;
+            }
+
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover;
+            }
+
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film4 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+
+        .A_movileFirstImage {
+            background-image: url('images/A_movileFirstImage_film4.png');
+            background-size: cover;
+        }
+
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.stuff {
+            #O_ArticleVerticalImage {
+                #stuff.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_stuff.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.mimika {
+            #O_ArticleVerticalImage {
+                #mimika.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_mimika.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.meaning {
+            #O_image_with_number_and_signature {
+                #meaning.W_image_with_number {
+                    background-image: url('images/W_image_with_number_meaning.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.grace {
+            #O_image_with_number_and_signature {
+                #grace.W_image_with_number {
+                    background-image: url('images/W_image_with_number_grace.png');
+                    background-size: cover;
+
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image {
+            &.tim {
+                background-image: url('images/A_avatar_image_tim.png');
+                background-size: cover;
+            }
+
+            &.nicole {
+                background-image: url('images/A_avatar_image_nicole.png');
+                background-size: cover;
+            }
+
+            &.parker {
+                background-image: url('images/A_avatar_image_parker.png');
+                background-size: cover;
+            }
+        }
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover;
+            }
+
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover;
+            }
+
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film5 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+
+        .A_movileFirstImage {
+            background-image: url('images/A_movileFirstImage_film5.png');
+            background-size: cover;
+        }
+
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.honest {
+            #O_ArticleVerticalImage {
+                #honest.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_honest.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.face {
+            #O_ArticleVerticalImage {
+                #face.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_face.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.help {
+            #O_image_with_number_and_signature {
+                #help.W_image_with_number {
+                    background-image: url('images/W_image_with_number_help.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.host {
+            #O_image_with_number_and_signature {
+                #host.W_image_with_number {
+                    background-image: url('images/W_image_with_number_host.png');
+                    background-size: cover;
+
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image {
+            &.mia {
+                background-image: url('images/A_avatar_image_mia.png');
+                background-size: cover;
+            }
+
+            &.jhonnie {
+                background-image: url('images/A_avatar_image_jhonnie.png');
+                background-size: cover;
+            }
+
+            &.bill {
+                background-image: url('images/A_avatar_image_bill.png');
+                background-size: cover;
+            }
+        }
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover;
+            }
+
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover;
+            }
+
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+body.film6 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    #S_ArticleHeading {
+        gap: 0.78vw;
+
+        .A_movileFirstImage {
+            background-image: url('images/A_movileFirstImage_film6.png');
+            background-size: cover;
+        }
+
+        .W_article_first_page_text {
+            gap: 1.20vw;
+        }
+    }
+
+    #S_ArticleBlock {
+        &.table {
+            #O_ArticleVerticalImage {
+                #table.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_table.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.respect {
+            #O_ArticleVerticalImage {
+                #respect.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_respect.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    #S_ArticleBlockWithNumbers {
+        &.back {
+            #O_image_with_number_and_signature {
+                #back.W_image_with_number {
+                    background-image: url('images/W_image_with_number_back.png');
+                    background-size: cover;
+                }
+            }
+        }
+
+        &.dressCode {
+            #O_image_with_number_and_signature {
+                #dressCode.W_image_with_number {
+                    background-image: url('images/W_image_with_number_dressCode.png');
+                    background-size: cover;
+
+                }
+            }
+        }
+    }
+
+    #O_ArticleVerticalImage {
+        .A_avatar_image {
+            &.julia {
+                background-image: url('images/A_avatar_image_julia.png');
+                background-size: cover;
+            }
+
+            &.ann {
+                background-image: url('images/A_avatar_image_ann.png');
+                background-size: cover;
+            }
+
+            &.mendi {
+                background-image: url('images/A_avatar_image_mendi.png');
+                background-size: cover;
+            }
+        }
+    }
+
+    #O_recommendation_card {
+        .Q_recommendation_card_image {
+            &.more {
+                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-size: cover;
+            }
+
+            &.lift {
+                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-size: cover;
+            }
+
+            &.ann {
+                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
             }
         }
     }

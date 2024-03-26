@@ -478,6 +478,7 @@
   flex-direction: row;
   gap: 5.49vw;
   margin-top: 4.24vw;
+  // overflow: hidden;
 }
 .W_shorts_cards {
   display: flex;
@@ -544,7 +545,7 @@
 
 .W_NavBar {
   display: inline-flex;
-  width: 78.33vw;
+  width: 73.33vw;
   gap: 1.39vw; // либо оставить паддинги в элементах
 
   .A_button_default {
@@ -594,9 +595,10 @@
 //recommendations
 
 .W_CardRecommendations {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   width: 92.78vw;
-  gap: 1.39vw; // либо оставить паддинги в элементах
+  gap: 2.39vw; // либо оставить паддинги в элементах
 
   .O_recommendation_card {
     padding: 0vw;
@@ -823,7 +825,7 @@
 //articles
 
 .W_article_first_page_text {
-  width: 53.96vw;
+  width: 81.96vw;
   display: flex;
   flex-direction: column;
   padding: 0.69vw;
@@ -898,6 +900,7 @@
   column-gap: 0.34vw;
   justify-content: center;
   gap: 3vw;
+
 }
 
 .W_image_signature {
@@ -922,8 +925,8 @@
 
 .W_image_with_number {
   display: inline-flex;
-  width: 37.34vw;
-  height: 39.32vw;
+  width: 78.34vw;
+  height: 82.32vw;
   margin-left: -6vw;
 
   .Q_image_for_number {
