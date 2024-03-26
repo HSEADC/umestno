@@ -64,16 +64,21 @@
     flex-direction: column;
     width: 22.22vw;
     height: 49.79vw;
-    border: 0.14vw var(--blue);
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    gap: 2.5vw;
+    padding: 0.97vw;
+    align-items: center;
 
     .A_vertical_card_image_on_oval {
-        margin-top: 0.97vw;
-        margin-left: 0.97vw;
+
     }
 
     .W_Section_Card_Text {
-        margin-top: 1.81vw;
-        margin-left: 4.65vw;
+        // margin-top: 1.81vw;
+        // margin-left: 4.65vw;
+        gap: 1vw;
+        // margin-bottom: 1.5vw;
     }
 }
 
@@ -81,12 +86,17 @@
     display: flex;
     flex-direction: column;
     width: 22.22vw;
-    height: 32.64vw;
-    border: 0.14vw var(--blue);
+    // height: 32.64vw;
+    padding: 0.97vw 0vw 2.3vw;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    gap: 1.81vw;
+    align-items: center;
+
 
     .A_framed_round_image {
-        margin-top: 1.04vw;
-        margin-left: 1.04vw;
+        // margin-top: 1.04vw;
+        // margin-left: 1.04vw;
     }
 
     .elements2_short {
@@ -98,13 +108,17 @@
 .O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
+    padding: 0.97vw 0vw 2.3vw;
     width: 45.97vw;
-    height: 38.75vw;
-    border: 0.14vw var(--blue);
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    align-items: center;
+    gap: 1.81vw;
+    
 
     .Q_rectangle_image {
-        margin-top: 1.11vw;
-        margin-left: 1.25vw;
+        // margin-top: 1.11vw;
+        // margin-left: 1.25vw;
     }
 
     .elements2_long {
@@ -116,13 +130,17 @@
 // .O_card_turn {
 //     display: flex;
 //     flex-direction: column;
+//     padding: 0.97vw 0vw 2.3vw;
 //     width: 22.22vw;
 //     height: 49.79vw;
-//     border: 0.14vw var(--blue);
+//     border: solid 0.14vw var(--blue);
+//     border-radius: 0.42vw;
+//     align-items: center;
+//     gap: 1.81vw;
 
 //     .M_oval_flip_image {
-//     margin-top: 1.18vw;
-//     margin-left: 1.11vw;
+//     // margin-top: 1.18vw;
+//     // margin-left: 1.11vw;
 //     }
 
 //     .strings1 {
@@ -380,9 +398,13 @@
 .O_card_turn {
     display: flex;
     flex-direction: column;
+    padding: 0.97vw 0vw 2.3vw;
     width: 22.22vw;
     height: 49.79vw;
-    border: 0.14vw var(--blue);
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    align-items: center;
+    gap: 3.9vw;
 
     .M_oval_flip_image {
         margin-top: 1.32vw;
@@ -398,9 +420,15 @@
 .O_FlippedCard {
     display: flex;
     flex-direction: column;
+    padding: 0.97vw 0vw 2.3vw;
     width: 22.22vw;
     height: 49.79vw;
-    border: 0.14vw var(--blue);
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    align-items: center;
+    gap: 3.3vw;
+    margin-top: 0vw;
+    margin-left: -23.5vw;
 
     .M_turn_over_card_image {
         margin-top: 1.32vw;
@@ -408,8 +436,8 @@
     }
 
     .A_vstuplenie {
-        margin-top: 3.68vw;
-        margin-left: 0 auto;
+        // margin-top: 3.68vw;
+        // margin-left: 0 auto;
     }
 }
 
@@ -443,6 +471,9 @@
         padding-top: 2.64vw;
         padding-left: 4.65vw;
     }
+}
+.none {
+    display: none;
 }
 }
 

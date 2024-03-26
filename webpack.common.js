@@ -18,7 +18,8 @@ module.exports = {
     test7: './src/testsJs/test7.js',
     test8: './src/testsJs/test8.js',
     test9: './src/testsJs/test9.js',
-    page: './src/page.jsx'
+    page: './src/page.jsx',
+    cards: './src/javascript/cards.js'
   },
   output: {
     filename: '[name].js',

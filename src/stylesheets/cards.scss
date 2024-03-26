@@ -1,8 +1,81 @@
 body.cards {
     #S_SectionFirst {
         .Q_big_oval_image {
-            background-image: url('images/Q_big_oval_image.svg');
+            background-image: url('images/Q_big_oval_image.png');
             background-size: cover;
+        }
+    }
+
+
+    #S_LongCardsBlock {
+        margin-top: 6.74vw;
+        .A_vertical_card_image_on_oval {
+            &.spoon {
+                background-image: url('images/A_vertical_card_image_on_oval.svg');
+                background-size: cover;
+            }
+            &.fork {
+                background-image: url('images/A_vertical_card_image_on_oval_fork.svg');
+                background-size: cover;
+            }
+            &.knife {
+                background-image: url('images/A_vertical_card_image_on_oval_knife.svg');
+                background-size: cover;
+            }
+            &.plate {
+                background-image: url('images/A_vertical_card_image_on_oval_plate.svg');
+                background-size: cover;
+            }
+    }
+}
+    #S_ShortCardBlock {
+        margin-top: 6.74vw;
+        .A_framed_round_image {
+            &.vino {
+                background-image: url('images/A_framed_round_image.svg');
+                background-size: cover;
+            }
+            &.voda {
+                background-image: url('images/A_framed_round_image_voda.png');
+                background-size: cover;
+            }
+            &.viski {
+                background-image: url('images/A_framed_round_image_viski.png');
+                background-size: cover;
+            }
+            &.kon {
+                background-image: url('images/A_framed_round_image_kon.png');
+                background-size: cover;
+            }
+        }
+    }
+    #S_HorizontalCards{
+        margin-top: 6.74vw;
+    
+    .Q_rectangle_image {
+            &.zvan {
+            background-image: url('images/Q_rectangle_image_zvan.png');
+            background-size: cover;
+            }
+            &.dinner {
+                background-image: url('images/Q_rectangle_image_dinner.png');
+                background-size: cover;
+                }
+        }
+    }
+    #S_CardsForFlip {
+        margin-top: 6.74vw;
+        .A_long_oval_framed_image {
+            &.wedding {
+                background-image: url('images/A_long_oval_framed_image_wedding.svg');
+                background-size: cover;
+            }
+        }
+        .Q_FlippedCardImage {
+            &.wedding {
+                background-image: url('images/Q_FlippedCardImage_wedding.png');
+                background-size: cover;
+            }
         }
     }
 }

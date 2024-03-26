@@ -1,6 +1,5 @@
 @media only screen and (min-width: 500px) {
-
-// кнопки
+  // кнопки
 .A_button_default {
   height: 3.75vw;
   width: 14.38vw;
@@ -72,6 +71,18 @@
 
 // -- articles -- //
 
+.A_vstuplenie {
+  font-family: Helvetica;
+  font-size: 1vw;
+  line-height: 1.4vw;
+  // width: 23vw;
+  font-style: normal;
+  font-weight: normal;
+  // padding: 2vw;
+  // text-align: center;
+  color: var(--blue);
+}
+
 // тексты
 .A_heading {
   font-family: 'Oranienbaum', serif;
@@ -106,6 +117,16 @@
   }
 }
 
+.A_article_card_titile {
+  font-family: 'Oranienbaum', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.85vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
+}
+
 .A_article_lead {
   font-family: Helvetica;
   font-size: 1.67vw;
@@ -131,14 +152,14 @@
   font-size: 0.63vw;
   color: var(--blue);
 }
-.A_vstuplenie {
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
-  color: var(--blue);
-}
+// .A_vstuplenie {
+//   font-family: Helvetica;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 1.67vw;
+//   line-height: 2.01vw;
+//   color: var(--blue);
+// }
 .A_article_recommendation {
   font-family: 'Snell Roundhand', arial;
   font-style: normal;
@@ -352,6 +373,19 @@
 }
 
 // фотки
+.A_turnover_button {
+  width: 4.65vw;
+  height: 4.72vw;
+  margin-left: -56.5vw;
+  margin-top: -32vw;
+  z-index: 8;
+  background-image: url('images/A_turnover_button.svg');
+  background-size: cover;
+}
+.A_long_oval_framed_image {
+  width: 19.86vw;
+  height: 33.82vw;
+}
 .A_article_main_image {
   width: 85.83vw;
   height: 27.43vw;
@@ -361,8 +395,8 @@
   height: 22.57vw;
 }
 .A_vertical_card_image_on_oval {
-  width: 19.24vw;
-  height: 29.86vw;
+  width: 19.86vw;
+  height: 33.82vw;
 }
 .A_framed_round_image {
   width: 20vw;
@@ -450,7 +484,7 @@
   font-weight: normal;
   font-size: 3.89vw;
   text-transform: uppercase;
-  text-align: center;
+  // text-align: center;
   color: var(--blue);
 }
 
