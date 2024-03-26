@@ -518,6 +518,13 @@
   display: flex;
   flex-direction: column;
   gap: 1vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 2vw 0vw 4vw;
+  transition: all .4s;
 }
 
 
@@ -745,7 +752,9 @@
   display: flex;
   flex-direction: column;
   width: 89.86vw;
-  column-gap: -1.53vw;
+  // column-gap: -1.53vw;
+  align-items: center;
+  gap: 3vw;
 
   .A_section_title {
     display: flex;
@@ -799,6 +808,7 @@
 .W_Section_Card_Text {
   display: flex;
   flex-direction: column;
+  gap: 3vw;
 
   .strings2 {
     width: 13.26vw;
@@ -1008,4 +1018,50 @@
     gap: 1.5vw;
   }
 }
+.W_small_long_card {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
+  // align-items: center;
+  width: 93.06vw;
+  // height: 49.65vw;
+  gap: 5.31vw;
+}
+
+.W_filter {
+  display: flex;
+  flex-direction: column;
+  gap: 5.49vw;
+  margin-top: 4.24vw;
+}
+.W_shorts_cards {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
+  width: 93.06vw;
+  margin-top: 3.54vw;
+  gap: 5.31vw;
+}
+.W_two_cards {
+  display: flex;
+  flex-direction: column;
+  width: 93.06vw;
+  margin-top: 3.54vw;
+  gap: 5.31vw;
+}
+.W_long_card_text_with_hastag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2vw;
+}
+.W_turnover_cards {
+  display: flex;
+  flex-direction: row;
+  width: 93.06vw;
+  // height: 57.92vw;
+  gap: 5.31vw;
+  flex-wrap: wrap;
+}
+
 }

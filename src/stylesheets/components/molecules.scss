@@ -1085,24 +1085,24 @@
 }
 
 .M_section_description {
-  height: 3.68vw;
+  // height: 3.68vw;
   width: 89.86vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  .Q_Line {
-    padding-top: 1.74vw;
-  }
+  // .Q_Line {
+  //   padding-top: 1.74vw;
+  // }
 
   .A_section_signature {
     text-align: center;
     margin: auto;
   }
 
-  .Q_Line {
-    padding-top: 1.74vw;
-  }
+  // .Q_Line {
+  //   padding-top: 1.74vw;
+  // }
 }
 
 .M_article_recommedation_with_lines {
@@ -1122,20 +1122,20 @@
 }
 
 .M_BlockSeparator {
-  height: 2.99vw;
+  // height: 2.99vw;
   width: 93.06vw;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  // flex-direction: row;
+  // justify-content: space-between;
 
   .A_article_recommendation {
     padding-left: 0;
   }
 
-  .Q_Line {
-    padding-top: 1.46vw;
-    padding-left: 2.01vw;
-  }
+  // .Q_Line {
+  //   padding-top: 1.46vw;
+  //   padding-left: 2.01vw;
+  // }
 }
 
   .M_mobileMenuPoint {
@@ -1159,5 +1159,16 @@
   height: 44.39vw;
   width: 96.01vw;
   margin-bottom: 1.5vw;
+}
+.M_filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1vw;
+  align-items: center;
+  width: 12vw;
+  input {
+    transform: scale(1);
+  }
 }
 }

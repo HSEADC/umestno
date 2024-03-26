@@ -19,7 +19,7 @@ module.exports = {
     test8: './src/testsJs/test8.js',
     test9: './src/testsJs/test9.js',
     page: './src/page.jsx',
-    cards: './src/javascript/cards.js'
+    cards: './src/cardsJs/flip2.js'
   },
   output: {
     filename: '[name].js',
