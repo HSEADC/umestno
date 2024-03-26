@@ -206,6 +206,15 @@ module.exports = {
 
     // Tests
 
+    // Main tests page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tests_main.html',
+      filename: './tests_main.html',
+      chunks: ['index']
+    }),
+
     // Test1 page
     new HtmlWebpackPlugin({
       hash: true,
