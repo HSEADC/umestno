@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карточки</title>
-    <script src="javascript/cards.js" charset="utf-8"></script>
+
+    <link rel="icon" type="img/png" href="./images/A_little_logo.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
@@ -42,6 +44,8 @@
             </div>
         </div>
         <div class="Q_big_oval_image"></div>
+        <div class="A_MobileMainImage"></div>
+
     </div>
 
 
@@ -233,6 +237,9 @@
         <div class="Q_Line flip"></div>
     </div>
     <div class="W_turnover_cards">
+
+        <!-- первая карточка флип-флоп -->
+
         <div class="O_card_turn">
         <div class="A_long_oval_framed_image wedding"></div> 
         <div class="W_section_card-text_one_string">
@@ -243,9 +250,6 @@
                 <p>посадите гостей <br> правильно</p>
             </div>
         </div>
-        </div>
-        <div class="O_FlippedCard none">
-        <div class="Q_FlippedCardImage wedding"></div>
         <div class="A_vstuplenie ">
             <p>невеста справа от жениха <br>
                 справа от невесты её мать <br>
@@ -255,23 +259,113 @@
                 а слева — невесты <br>
         </div>
         </div>
+
+        <!-- вторая карточка флип-флоп -->
+
+
+        <div class="O_card_turn">
+        <div class="A_long_oval_framed_image priem"></div> 
+        <div class="W_section_card-text_one_string">
+            <div class="A_article_card_titile">
+                <p>приём</p>
+            </div>
+            <div class="A_section_card_note">
+                <p>расположите правильных  
+                    <br> людей в правильные места</p>
+            </div>
+        </div>
+        <div class="A_vstuplenie ">
+            <p>самое почетное место  <br>
+                справа от хозяйки  <br>
+                (на неофициальном приеме) <br>
+                или справа от хозяина  <br>
+                (на приеме официальном) <br>
+                далее идут другие места  <br>
+        </div>
+        </div>
+
+
+        <!-- третья карточка -->
+
+        <div class="O_card_turn">
+            <div class="A_long_oval_framed_image cafe"></div> 
+            <div class="W_section_card-text_one_string">
+                <div class="A_article_card_titile">
+                    <p>кафе</p>
+                </div>
+                <div class="A_section_card_note">
+                    <p>сядьте
+                        <br> на уместное место </p>
+                </div>
+            </div>
+            <div class="A_vstuplenie ">
+                <p>проследите, чтобы на краю  <br>
+                    стола не оказалась   <br>
+                    женщина, малознакомых  <br>
+                    гостей можно посадить рядом,   <br>
+                    чтобы они познакомились <br>
+                    и пообщались  <br>
+            </div>
+            </div>
+
+
+            <!-- четвёртая карточка -->
+
+            <div class="O_card_turn">
+                <div class="A_long_oval_framed_image guests"></div> 
+                <div class="W_section_card-text_one_string">
+                    <div class="A_article_card_titile">
+                        <p>гости</p>
+                    </div>
+                    <div class="A_section_card_note">
+                        <p>не ошибитесь с рассадкой
+                            <br> близких друзей </p>
+                    </div>
+                </div>
+                <div class="A_vstuplenie ">
+                    <p>чередование мужчин и женщин –   <br>
+                        обязательно, гостей за столом    <br>
+                        следует рассаживать, учитывая   <br>
+                        общность их интересов, главного   <br>
+                        гостя всегда размещают справа <br>
+                        от хозяина или напротив  <br>
+                </div>
+                </div>
+
+
+<!-- КНОПКИ -->
     </div>
     <div class="A_turnover_button"></div>
+    <div class="A_turnover_button two"></div>
+    <div class="A_turnover_button three"></div>
+    <div class="A_turnover_button four"></div>
 
 
 
 
 
-
+<!-- ФУТЕР -->
 
 </div>
+<div id="O_footer">
+    <div class="A_big_logo"></div>
+    <div class="W_footer_text">
+        <div class="A_footer_text students"><p>Дарья любивая <br>Анастасия Ляч <br>Зеленкова Александра</p></div>
+        <div class="A_footer_text teachers"><p>Каем софья <br>Комкова Анна</p></div>
+    </div>
+    <div class="W_socialmedia_icons_hse_logo">
+        <div class="W_socialmedia_icons">
+            <div class="Q_Vk">
+                <a href=""></a>
+            </div>
+            <div class="Q_Tg">
+                <a href=""></a>
+            </div>
+        </div>
+        <a class="Q_hse_logo" href="https://design.hse.ru/">
+            <div class="Q_hse_logo"></div>
+        </a>
+    </div>
+</div>
 </body>
-<!-- <script>
-    $(document).ready(function () {
-    $('.A_turnover_button').click(function () {
-        $('.O_FlippedCard').removeClass('none');
-        $('.O_card_turn').addClass('none');
-    });
-})
-</script> -->
 </html>

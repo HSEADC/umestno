@@ -496,22 +496,29 @@
 
 //sections
 
-.S_SectionFirst {
+#S_SectionFirst {
   display: flex;
   flex-direction: column;
   width: 93.06vw;
-  height: 43.68vw;
-  border: 0.14vw var(--blue);
+  border: solid 0.4vw #204BF1;
+  border: solid 0.4vw var(--blue);
+  border-radius: 1vw;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 9.6vw;
+  gap: 15vw;
+  padding: 10vw 0vw;
 
-  .W_section_text_head {
-    margin-top: 4.51vw;
-    margin-left: 0 auto;
-  }
+  // .W_section_text_head {
+  //   // margin-top: 3.51vw;
 
-  .Q_big_oval_image {
-    margin-top: 2.43vw;
-    margin-left: 0 auto;
-  }
+  //   // margin-left: 0 auto;
+  // }
+
+  // .Q_big_oval_image {
+  //   margin-top: 2.43vw;
+  //   margin-left: 0 auto;
+  // }
 }
 
 .S_SectionBlock {
@@ -811,18 +818,20 @@
 
 //cards
 
-.S_LongCardsBlock {
+#S_LongCardsBlock {
   display: flex;
   flex-direction: column;
+  width: 93.06vw;
+  // height: 56.85vw;
+  margin: 0 auto;
+  margin-top: 4.24vw;
+  align-items: center;
+  gap: 3.96vw;
 
   .M_BlockSeparator {
     margin-left: 0 auto;
   }
 
-  .W_small_long_card {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
 }
 
 #S_burger {
@@ -841,4 +850,38 @@
   margin-top: 42vw;
   gap: 8vw;
 }
+#S_ShortCardBlock {
+  display: flex;
+  flex-direction: column;
+  width: 93.06vw;
+  // height: 47.76vw;
+  margin: 0 auto;
+  margin-top: 4.24vw;
+  // align-items: center;
+  // gap: 3.96vw;
+
+  .M_BlockSeparator {
+    margin-left: 0 auto;
+  }
+}
+
+#S_HorizontalCards {
+  display: flex;
+  flex-direction: column;
+  width: 93.06vw;
+  // height: 45.42vw;
+  margin: 0 auto;
+  margin-bottom: 16vw;
+  gap: 3.96vw;
+}
+#S_CardsForFlip {
+  display: none;
+  // width: 93.06vw;
+  // // height: 57.92vw;
+  // margin: 0 auto;
+  // margin-top: 4.24vw;
+  // // align-items: center;
+  // gap: 3.96vw;
+}
+
 }

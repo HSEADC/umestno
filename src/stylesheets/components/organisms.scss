@@ -389,6 +389,7 @@
     border-radius: 0.42vw;
     align-items: center;
     gap: 3.9vw;
+    position: relative;
 
     .M_oval_flip_image {
         margin-top: 1.32vw;
@@ -533,35 +534,46 @@
     gap: 1vw;
 }
 
+
+
+
 //cards but for not english speakers: карточки
 .O_card_for_learning {
     display: flex;
     flex-direction: column;
-    width: 22.22vw;
-    height: 49.79vw;
-    border: 0.14vw var(--blue);
+    width: 43.59vw;
+    // height: 86.9vw;
+    border: solid 0.4vw var(--blue);
+    border-radius: 1vw;
+    align-items: center;
+    gap: 4vw;
+    padding: 2.5vw 0vw 4vw;
 
-    .A_vertical_card_image_on_oval {
-        margin-top: 0.97vw;
-        margin-left: 0.97vw;
-    }
+    // .A_vertical_card_image_on_oval {
+    //     margin-top: 0.97vw;
+    //     margin-left: 0.97vw;
+    // }
 
-    .W_Section_Card_Text {
-        margin-top: 1.81vw;
-        margin-left: 4.65vw;
-    }
+    // .W_Section_Card_Text {
+    //     margin-top: 1.81vw;
+    //     margin-left: 4.65vw;
+    // }
 }
 
 .O_CardForLearningWithHastag {
     display: flex;
     flex-direction: column;
-    width: 22.22vw;
-    height: 32.64vw;
-    border: 0.14vw var(--blue);
+    width: 43.33vw;
+    padding: 2.5vw;
+    height: 72.18vw;
+    border: solid 0.4vw var(--blue);
+    border-radius: 1vw;
+    // flex-wrap: wrap;
+    gap: 4vw;
 
     .A_framed_round_image {
-        margin-top: 1.04vw;
-        margin-left: 1.04vw;
+        // margin-top: 1.04vw;
+        // margin-left: 1.04vw;
     }
 
     .elements2_short {
@@ -573,13 +585,16 @@
 .O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
-    width: 45.97vw;
-    height: 38.75vw;
-    border: 0.14vw var(--blue);
+    width: 93.06vw;
+    height: 75.74vw;
+    border: solid 0.4vw var(--blue);
+    border-radius: 1vw;
+    padding: 2.5vw;;
+    gap: 6vw;
 
     .Q_rectangle_image {
-        margin-top: 1.11vw;
-        margin-left: 1.25vw;
+        // margin-top: 1.11vw;
+        // margin-left: 1.25vw;
     }
 
     .elements2_long {
@@ -855,9 +870,14 @@
 .O_card_turn {
     display: flex;
     flex-direction: column;
-    width: 22.22vw;
-    height: 49.79vw;
-    border: 0.14vw var(--blue);
+    width: 43.59vw;
+    // height: 49.79vw;
+    border: solid 0.4vw var(--blue);
+    border-radius: 1vw;
+    padding: 2.5vw 0vw 4vw;
+    align-items: center;
+    gap: 4vw;
+
 
     .M_oval_flip_image {
         margin-top: 1.32vw;
