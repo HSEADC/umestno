@@ -2,11 +2,15 @@
 
 // tags
 .M_tag_default {
-  height: 1.32vw;
-  width: 8.15vw;
+  height: 2.2vw;
+  width: 12vw;
+  font-family: Helvetica;
+  font-size: 1.1vw;
+  font-weight: normal;
+  font-style: normal;
   border-radius: 0.21vw;
   background-color: var(--purple);
-  padding: 0.25vw;
+  padding: 0.5vw;
   text-align: center;
   color: var(--blue);
 
@@ -539,16 +543,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
   .A_article_recommendation {
     padding-left: 0;
   }
 
   .Q_Line {
-    padding-top: 1.46vw;
-    padding-left: 2.01vw;
+    // padding-top: 1.46vw;
+    // padding-left: 2.01vw;
   }
 }
+<<<<<<< HEAD
 .M_404page {
   margin: 0 auto;
   margin-top: 3vw;
@@ -556,6 +562,21 @@
   height: 24.17vw;
   margin-bottom: 1.5vw;
 }
+=======
+.M_filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1vw;
+  align-items: center;
+  width: 12vw;
+  input {
+    transform: scale(1.4);
+  }
+}
+
+
+>>>>>>> e7425540c31e2bcba3e10537857187c45e071e01
 }
 
 //мобилка

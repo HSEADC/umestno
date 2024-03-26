@@ -189,6 +189,7 @@
 .W_section_card_text_one_string {
   display: flex;
   flex-direction: column;
+  gap: 1.88vw;
 
   .A_article_card_title {
     padding: auto;
@@ -464,7 +465,86 @@
     gap: 1.5vw;
   }
 }
+.W_small_long_card {
+  display: flex;
+  flex-direction: row;
+  // align-items: flex-end;
+  width: 93.06vw;
+  height: 49.65vw;
+  gap: 1.25vw;
 }
+.W_filter {
+  display: flex;
+  flex-direction: row;
+  gap: 5.49vw;
+  margin-top: 4.24vw;
+}
+.W_shorts_cards {
+  display: flex;
+  flex-direction: row;
+  width: 93.06vw;
+  margin-top: 3.54vw;
+  gap: 1.25vw;
+
+}
+.W_card_text_with_hastag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  .A_section_card_title {
+
+  }
+  .M_tag_default {
+    
+  }
+}
+.W_two_cards {
+  display: flex;
+  flex-direction: row;
+  width: 93.06vw;
+  margin-top: 3.54vw;
+  gap: 1.25vw;
+}
+.W_long_card_text_with_hastag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2vw;
+}
+.W_turnover_cards {
+  display: flex;
+  flex-direction: row;
+  width: 93.06vw;
+  height: 57.92vw;
+  gap: 1.25vw;
+}
+.W_section_card-text_one_string {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  .A_article_card_titile {
+
+  }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //мобилка
 @media only screen and (max-width: 499px) {
