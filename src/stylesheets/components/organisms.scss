@@ -70,10 +70,6 @@
     padding: 0.97vw;
     align-items: center;
 
-    .A_vertical_card_image_on_oval {
-
-    }
-
     .W_Section_Card_Text {
         // margin-top: 1.81vw;
         // margin-left: 4.65vw;
@@ -93,12 +89,6 @@
     gap: 1.81vw;
     align-items: center;
 
-
-    .A_framed_round_image {
-        // margin-top: 1.04vw;
-        // margin-left: 1.04vw;
-    }
-
     .elements2_short {
         margin-top: 1.46vw;
         margin-left: 7.50vw;
@@ -114,12 +104,6 @@
     border-radius: 0.42vw;
     align-items: center;
     gap: 1.81vw;
-    
-
-    .Q_rectangle_image {
-        // margin-top: 1.11vw;
-        // margin-left: 1.25vw;
-    }
 
     .elements2_long {
     margin-top: 1.11vw;
@@ -434,11 +418,6 @@
         margin-top: 1.32vw;
         margin-left: 0 auto;
     }
-
-    .A_vstuplenie {
-        // margin-top: 3.68vw;
-        // margin-left: 0 auto;
-    }
 }
 
 #O_article_big_photo {
@@ -472,8 +451,22 @@
         padding-left: 4.65vw;
     }
 }
-.none {
-    display: none;
+
+#O_404text {
+    margin-bottom: 10vw;
+    margin: 0 auto;
+    display: flex;
+    padding: 2vw;
+    border: solid 0.14vw #204BF1;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+    width: fit-content;
+    .none {
+        display: none;
+    }
 }
 }
 
@@ -925,5 +918,17 @@
         padding-top: 2.64vw;
         padding-left: 4.65vw;
     }
+}
+#O_404text {
+    margin: 0 auto;
+    display: flex;
+    padding: 2vw;
+    border: solid 0.14vw #204BF1;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5vw;
+    width: fit-content;
 }
 }

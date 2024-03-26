@@ -492,12 +492,6 @@
   flex-direction: column;
   align-items: center;
   gap: 1vw;
-  .A_section_card_title {
-
-  }
-  .M_tag_default {
-    
-  }
 }
 .W_two_cards {
   display: flex;
@@ -523,9 +517,6 @@
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  .A_article_card_titile {
-
-  }
 }
 
 
@@ -951,7 +942,8 @@
 //form
 
 .W_FormInput {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   column-gap: auto;
   align-items: center;
 

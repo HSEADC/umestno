@@ -106,6 +106,35 @@ module.exports = {
       filename: './index.html',
       chunk: ['index']
     }),
+
+    // 404 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/404.html',
+      filename: './404.html',
+      chunk: ['index']
+    }),
+
+    // 400 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/400.html',
+      filename: './400.html',
+      chunk: ['index']
+    }),
+
+    // 505 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/505.html',
+      filename: './505.html',
+      chunk: ['index']
+    }),
+
+
     // About page
     new HtmlWebpackPlugin({
       hash: true,
@@ -114,6 +143,48 @@ module.exports = {
       filename: './about.html',
       chunk: ['index']
     }),
+    // Burger page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/burger.html',
+      filename: './burger.html',
+      chunk: ['index']
+    }),
+
+    // antietiquette page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/antietiquette.html',
+      filename: './media/antietiquette.html',
+      chunk: ['index']
+    }),
+    // guides page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/guides.html',
+      filename: './media/guides.html',
+      chunk: ['index']
+    }),
+    // influensers page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers.html',
+      filename: './media/influensers.html',
+      chunk: ['index']
+    }),
+    // films page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films.html',
+      filename: './media/films.html',
+      chunk: ['index']
+    }),
+
    // Cards page
     new HtmlWebpackPlugin({
     hash: true,

@@ -548,11 +548,14 @@
   .A_article_recommendation {
     padding-left: 0;
   }
+}
 
-  .Q_Line {
-    // padding-top: 1.46vw;
-    // padding-left: 2.01vw;
-  }
+.M_404page {
+  margin: 0 auto;
+  margin-top: 3vw;
+  width: 51.26vw;
+  height: 24.17vw;
+  margin-bottom: 1.5vw;
 }
 .M_filter {
   display: flex;
@@ -565,8 +568,6 @@
     transform: scale(1.4);
   }
 }
-
-
 }
 
 //мобилка
@@ -1123,5 +1124,28 @@
     padding-top: 1.46vw;
     padding-left: 2.01vw;
   }
+}
+
+  .M_mobileMenuPoint {
+    width: 83.33vw;
+    height: 13.85vw;
+    border: solid 0.14vw var(--blue);
+    border-radius: 1.28vw;
+    color: var(--blue);
+    font-family: Helvetica;
+    font-size: 6.67vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 auto;
+  }
+.M_404page {
+  margin: 0 auto;
+  margin-top: 3vw;
+  height: 44.39vw;
+  width: 96.01vw;
+  margin-bottom: 1.5vw;
 }
 }
