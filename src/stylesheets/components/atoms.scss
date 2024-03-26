@@ -641,7 +641,7 @@
   width: 13.32vw;
   height: 5.07vw;
   border-radius: 137px / 50px;
-  border: solid var(--blue);
+  border: solid 0.2vw var(--blue);
   background-color: var(--white);
   display: flex;
   justify-content: center;
@@ -667,6 +667,11 @@
   width: 22.55vw;
   height: 2.81vw;
 }
+
+.A_resultImage {
+  transform: scale(0.7);
+  height: 64.43vw;
+}
 }
 
 //мобилка
@@ -674,20 +679,27 @@
 
 // кнопки
 .A_button_default {
-  height: 3.75vw;
-  width: 14.38vw;
+  height: 6.75vw;
+  width: 22.38vw;
   border-radius: 0.7vw;
+  background-color: #204BF1;
   background-color: var(--blue);
   font-family: Helvetica;
   font-size: 0.94vw;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.67vw;
+  font-size: 3vw;
+  color: #FCFCFC;
   color: var(--white);
   text-align: center;
-  padding: 1vw;
+  padding: 1.8vw;
   margin-top: 1.5vw;
+  }
+
+.A_menubutton_active {
+  display: none;
 }
+
 .A_button_default:hover {
   background-color: var(--purple);
   color: var(--blue);
@@ -1015,6 +1027,12 @@
   width: 100.13vw;
   height: 111.72vw;
 }
+
+.A_resultImage {
+  transform: scale(0.45);
+  height: 96.43vw;
+}
+
 .A_article_round_framed_image {
   width: 22.15vw;
   height: 22.57vw;
@@ -1296,7 +1314,7 @@
   width: 33.32vw;
   height: 12.07vw;
   border-radius: 137px / 50px;
-  border: solid var(--blue);
+  border: solid 0.1vw var(--blue);
   background-color: var(--white);
   display: flex;
   justify-content: center;

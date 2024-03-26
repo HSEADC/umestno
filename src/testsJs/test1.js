@@ -1,4 +1,5 @@
 import imgHost from '../images/A_test_image_result_outline_host.png'
+// import imgHost from '../images/A_movileFirstImage_itog1.png'
 
 // база данных: вопросы и ответы
 const stages = [

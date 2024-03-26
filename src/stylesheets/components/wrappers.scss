@@ -871,7 +871,8 @@
 //form
 
 .W_FormInput {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   column-gap: auto;
   align-items: center;
 

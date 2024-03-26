@@ -444,6 +444,20 @@
         padding-left: 4.65vw;
     }
 }
+
+#O_404text {
+    margin-bottom: 10vw;
+    margin: 0 auto;
+    display: flex;
+    padding: 2vw;
+    border: solid 0.14vw #204BF1;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+    width: fit-content;
+}
 }
 
 //мобилка
@@ -894,5 +908,17 @@
         padding-top: 2.64vw;
         padding-left: 4.65vw;
     }
+}
+#O_404text {
+    margin: 0 auto;
+    display: flex;
+    padding: 2vw;
+    border: solid 0.14vw #204BF1;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5vw;
+    width: fit-content;
 }
 }
