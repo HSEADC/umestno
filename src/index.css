@@ -7,6 +7,7 @@
 @import 'stylesheets/about.scss';
 @import 'stylesheets/cards.scss';
 @import 'stylesheets/mistakes.scss';
+@import 'stylesheets/anti.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';
 @import 'stylesheets/components/organisms.scss';

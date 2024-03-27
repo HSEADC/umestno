@@ -159,14 +159,83 @@
     width: 53.26vw;
     gap: 1.5vw;
 
-    .A_test_subtitle {
-      display: flex;
-      padding: auto;
+  .A_test_subtitle {
+    display: flex;
+    padding: auto;
+  }
+  .M_testVariant {
+    display: flex;
+    padding: auto;
+  }
+}
+
+.W_test_results {
+  display: flex;
+  flex-direction: column;
+  width: 42.08vw;
+
+  .A_test_result_subtitle {
+    display: flex;
+    padding: auto;
+  }
+  .A_test_result_description {
+    display: flex;
+    padding: auto;
+  }
+}
+
+.W_section_card_text_one_string {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88vw;
+
+  .A_article_card_title {
+    padding: auto;
+  }
+
+  .A_section_card_note {
+    padding-top: 0.49vw;
+  }
+}
+
+//sections
+
+.W_section_text_head {
+  display: flex;
+  flex-direction: column;
+  width: 89.86vw;
+  column-gap: -1.53vw;
+
+  .A_section_title {
+    display: flex;
+    padding: auto;
+  }
+  .M_section_description {
+    display: flex;
+    padding: auto;
+  }
+}
+
+.W_CardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vw;
+  padding: 2vw 1vw 2vw 1vw;
+
+  .elements3 {
+    // .A_section_card_title{
+    //     padding: 0.69vw;
+    // }
+    .A_section_card_note {
+      padding-top: 0vw;
+      padding: 0.69vw;
     }
     .M_testVariant {
       display: flex;
       padding: auto;
     }
+  }
   }
 
   .W_test_results {
@@ -235,14 +304,22 @@
         padding: auto;
       }
     }
+  }
 
-    .elements2_short {
-      .A_section_card_title {
-        padding: 0.69vw;
-      }
-      .M_tag_default {
-        padding: auto;
-      }
+//articles
+
+.W_article_first_page_text {
+  width: 55.96vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0.69vw;
+  align-items: center;
+  gap: 2.7vw;
+
+  .default {
+    .A_article_title {
+      width: 43.75vw;
+      height: 8.89vw;
     }
 
     .elements2_long {
@@ -524,6 +601,7 @@
     padding: 2vw 0vw 4vw;
     transition: all 0.4s;
   }
+}
 }
 
 //мобилка

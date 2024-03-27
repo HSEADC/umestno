@@ -280,7 +280,7 @@
     flex-direction: column;
     width: 30vw;
     height: 25.28vw;
-    border: 0.15vw solid var(--blue);
+    border: 0.14vw solid var(--blue);
     border-radius: 5px;
     gap: 1vw;
 
@@ -540,11 +540,11 @@
     padding: 2.5vw 0vw 4vw;
 
     .W_Section_Card_Text {
-      margin: 1vw;
+    margin: 1vw;
     }
 }
 
-  .O_CardForLearningWithHastag {
+    .O_CardForLearningWithHastag {
     display: flex;
     flex-direction: column;
     width: 43.33vw;
@@ -560,9 +560,9 @@
     //   margin-top: 1.46vw;
     //   margin-left: 7.5vw;
     // }
-  }
+    }
 
-  .O_horizontal_card_for_learning {
+    .O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
@@ -577,7 +577,6 @@
     margin-left: 9.58vw;
     }
 }
-
   // .O_card_turn {
   //     display: flex;
   //     flex-direction: column;
