@@ -1,18 +1,16 @@
 @import 'stylesheets/reset.scss';
 @import 'stylesheets/vars.scss';
-@import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
-@import 'stylesheets/teaser.scss';
-@import 'stylesheets/teaser2.scss';
-@import 'stylesheets/films.scss';
-@import 'stylesheets/films2.scss';
+@import 'stylesheets/film1.scss';
+@import 'stylesheets/test.scss';
+@import 'stylesheets/index.scss';
 @import 'stylesheets/about.scss';
-@import 'stylesheets/about1.scss';
-@import 'stylesheets/celebrities.scss';
-@import 'stylesheets/celebrities1.scss';
-@import 'stylesheets/discussion.scss';
-@import 'stylesheets/discussion1.scss';
-@import 'stylesheets/talk.scss';
-@import 'stylesheets/styleguide.scss';
-
-
+@import 'stylesheets/cards.scss';
+@import 'stylesheets/mistakes.scss';
+@import 'stylesheets/anti.scss';
+@import 'stylesheets/components/atoms.scss';
+@import 'stylesheets/components/molecules.scss';
+@import 'stylesheets/components/organisms.scss';
+@import 'stylesheets/components/quarks.scss';
+@import 'stylesheets/components/super_organisms.scss';
+@import 'stylesheets/components/wrappers.scss';

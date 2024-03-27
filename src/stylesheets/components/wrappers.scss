@@ -1,0 +1,1130 @@
+@media only screen and (min-width: 500px) {
+  // navbar & footer
+
+  .W_NavBar {
+    display: inline-flex;
+    gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .A_button_default {
+      padding: 0.69vw;
+    }
+    .M_searchbar {
+      padding: 0.69vw;
+    }
+  }
+
+  .W_SecondMenu {
+    display: inline-flex;
+    width: 58.96vw;
+    row-gap: 1.39vw;
+
+    .A_menu_point_default {
+      padding: 0.69vw;
+    }
+  }
+
+  .W_SimpleNavBar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8.18vw;
+    justify-content: space-between;
+    width: 94vw;
+
+    .W_NavBar {
+      justify-content: end;
+      flex-direction: row-reverse;
+    }
+  }
+
+  .W_socialmedia_icons {
+    display: inline-flex;
+    width: 8.89vw;
+    row-gap: auto;
+
+    .Q_Tg {
+      display: flex;
+      padding: auto;
+    }
+    .Q_Vk {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  //recommendations
+
+  .W_CardRecommendations {
+    display: inline-flex;
+    width: 92.78vw;
+    gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_recommendation_card {
+      padding: 0vw;
+    }
+
+    .O_recommendation_card {
+      padding: 0vw;
+    }
+  }
+
+  //section blocks
+
+  .W_SectionBlock {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_horizontal_card {
+      padding: 0vw;
+    }
+
+    .O_VerticalSectionCard {
+      padding: 0vw;
+    }
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+  }
+
+  .W_SectionBlock_with_oval {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_horizontalOvalCard {
+      padding: 0vw;
+    }
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+
+    .O_VerticalSectionCard {
+      padding: 0vw;
+    }
+  }
+
+  .W_three_equal_cards {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_little_horizontal_card {
+      padding: 0vw;
+    }
+
+    .O_little_horizontal_card_with_two_oval_images {
+      padding: 0vw;
+    }
+
+    .O_little_horizontal_card {
+      padding: 0vw;
+    }
+  }
+
+  .W_small_cards {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+  }
+
+  .W_about_main_text {
+    display: flex;
+    flex-direction: column;
+
+    .A_article_subtitle {
+      margin: 0 auto;
+    }
+
+    .A_section_signature {
+      margin-top: 0.83vw;
+      margin-left: 0 auto;
+    }
+
+    .A_extra_text {
+      margin-top: 9.93vw;
+    }
+  }
+
+  // tests
+
+  .W_test_variants {
+    display: flex;
+    flex-direction: column;
+    width: 53.26vw;
+    gap: 1.5vw;
+
+  .A_test_subtitle {
+    display: flex;
+    padding: auto;
+  }
+  .M_testVariant {
+    display: flex;
+    padding: auto;
+  }
+}
+
+.W_test_results {
+  display: flex;
+  flex-direction: column;
+  width: 42.08vw;
+
+  .A_test_result_subtitle {
+    display: flex;
+    padding: auto;
+  }
+  .A_test_result_description {
+    display: flex;
+    padding: auto;
+  }
+}
+
+.W_section_card_text_one_string {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88vw;
+
+  .A_article_card_title {
+    padding: auto;
+  }
+
+  .A_section_card_note {
+    padding-top: 0.49vw;
+  }
+}
+
+//sections
+
+.W_section_text_head {
+  display: flex;
+  flex-direction: column;
+  width: 89.86vw;
+  column-gap: -1.53vw;
+
+  .A_section_title {
+    display: flex;
+    padding: auto;
+  }
+  .M_section_description {
+    display: flex;
+    padding: auto;
+  }
+}
+
+.W_CardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vw;
+  padding: 2vw 1vw 2vw 1vw;
+
+  .elements3 {
+    // .A_section_card_title{
+    //     padding: 0.69vw;
+    // }
+    .A_section_card_note {
+      padding-top: 0vw;
+      padding: 0.69vw;
+    }
+    .M_testVariant {
+      display: flex;
+      padding: auto;
+    }
+  }
+  }
+
+  .W_test_results {
+    display: flex;
+    flex-direction: column;
+    width: 42.08vw;
+
+    .A_test_result_subtitle {
+      display: flex;
+      padding: auto;
+    }
+    .A_test_result_description {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_section_card_text_one_string {
+    display: flex;
+    flex-direction: column;
+    gap: 1.88vw;
+
+    .A_article_card_title {
+      padding: auto;
+    }
+
+    .A_section_card_note {
+      padding-top: 0.49vw;
+    }
+  }
+
+  //sections
+
+  .W_section_text_head {
+    display: flex;
+    flex-direction: column;
+    width: 89.86vw;
+    column-gap: -1.53vw;
+
+    .A_section_title {
+      display: flex;
+      padding: auto;
+    }
+    .M_section_description {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_CardText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 2vw 1vw 3vw 1vw;
+
+    .elements3 {
+      // .A_section_card_title{
+      //     padding: 0.69vw;
+      // }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+      .M_tag_default {
+        padding: auto;
+      }
+    }
+  }
+
+//articles
+
+.W_article_first_page_text {
+  width: 55.96vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0.69vw;
+  align-items: center;
+  gap: 2.7vw;
+
+  .default {
+    .A_article_title {
+      width: 43.75vw;
+      height: 8.89vw;
+    }
+
+    .elements2_long {
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .M_tag_default {
+        padding: auto;
+      }
+    }
+  }
+
+  .W_Section_Card_Text {
+    display: flex;
+    flex-direction: column;
+
+    .strings2 {
+      width: 13.26vw;
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+    }
+    .strings1 {
+      width: 19.58vw;
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+    }
+  }
+
+  //articles
+
+  .W_article_first_page_text {
+    width: 55.96vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+    align-items: center;
+
+    .default {
+      .A_article_title {
+        width: 43.75vw;
+        height: 8.89vw;
+      }
+      .A_article_lead {
+        width: 53.96vw;
+      }
+      .M_tag_default {
+        padding: 0.69vw;
+      }
+    }
+
+    .longer {
+      .A_article_title {
+        height: 8.89vw;
+      }
+      .A_article_lead {
+        width: 53.96vw;
+      }
+      .M_tag_default {
+        padding: 0.69vw;
+      }
+    }
+
+    .onestring {
+      .A_article_title {
+        height: 4.17vw;
+      }
+      .A_article_lead {
+        width: 53.96vw;
+      }
+      .M_tag_default {
+        padding: 0.69vw;
+      }
+    }
+  }
+
+  .W_article_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+
+    .A_article_subtitle {
+      width: 43.89vw;
+    }
+    .A_article_text {
+      width: 45.69vw;
+    }
+  }
+
+  .W_article_image_with_signatire {
+    display: flex;
+    flex-direction: column;
+
+    .M_article_oval_framed_image_with_text {
+      margin: 0 auto;
+    }
+
+    .A_article_square_image_text {
+      padding-top: 1.6vw;
+    }
+  }
+
+  .W_actors {
+    display: inline-flex;
+    column-gap: 0.34vw;
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  .W_image_signature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5vw;
+    color: var(--blue);
+    gap: 0.5vw;
+
+    //M_article_image_signature_with_line и W_actors в html прописываются внутри, так что они должны принимать значения родителя
+  }
+
+  .W_photo_group_landing {
+    display: flex;
+    flex-direction: column;
+
+    .A_section_card_hastag {
+      padding: 0.69vw;
+    }
+  }
+
+  .W_image_with_number {
+    display: inline-flex;
+    width: 37.34vw;
+    height: 39.32vw;
+    margin-left: -6vw;
+
+    .Q_image_for_number {
+      padding-left: -8.06vw;
+    }
+  }
+
+  .W_image_with_number_preview {
+    display: inline-flex;
+    background-image: url('images/M_preview_photoWithNumber.png');
+    background-size: cover;
+    width: 46.67vw;
+    height: 55.49vw;
+  }
+
+  //form
+
+  .W_FormInput {
+    form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1vw;
+      input {
+        padding: 0.5vw;
+        width: 45.83vw;
+        height: 4.17vw;
+        border-radius: 1vw;
+        border: solid 0.14vw var(--blue);
+        font-size: 1vw;
+      }
+
+      button {
+        width: 14.38vw;
+        height: 4.17vw;
+        font-family: Helvetica;
+        color: white;
+        font-size: 1.67vw;
+        background-color: var(--blue);
+        width: 14.38vw;
+        height: 3.75vw;
+        border-radius: 1vw;
+        border: solid 0.14vw var(--blue);
+        text-align: center;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: var(--purple);
+        color: var(--blue);
+      }
+
+      button:active {
+        background-color: var(--deep_purple);
+        color: var(--blue);
+      }
+    }
+  }
+
+  // footer
+  .W_footer_text {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .W_socialmedia_icons_hse_logo {
+    margin-left: 27.36vw;
+    display: flex;
+    flex-direction: row;
+    height: 4.51vw;
+    align-items: center;
+
+    .W_socialmedia_icons {
+      gap: 1.5vw;
+    }
+  }
+  .W_small_long_card {
+    display: flex;
+    flex-direction: row;
+    // align-items: flex-end;
+    width: 93.06vw;
+    height: 49.65vw;
+    gap: 1.25vw;
+  }
+  .W_filter {
+    display: flex;
+    flex-direction: row;
+    gap: 5.49vw;
+    margin-top: 4.24vw;
+    // overflow: hidden;
+  }
+  .W_shorts_cards {
+    display: flex;
+    flex-direction: row;
+    width: 93.06vw;
+    margin-top: 3.54vw;
+    gap: 1.25vw;
+  }
+  .W_card_text_with_hastag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+  }
+  .W_two_cards {
+    display: flex;
+    flex-direction: row;
+    width: 93.06vw;
+    margin-top: 3.54vw;
+    gap: 1.25vw;
+  }
+  .W_long_card_text_with_hastag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2vw;
+  }
+  .W_turnover_cards {
+    display: flex;
+    flex-direction: row;
+    width: 93.06vw;
+    height: 57.92vw;
+    gap: 1.25vw;
+  }
+  .W_section_card-text_one_string {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 2vw 0vw 4vw;
+    transition: all 0.4s;
+  }
+}
+}
+
+//мобилка
+@media only screen and (max-width: 499px) {
+  // navbar & footer
+
+  .W_NavBar {
+    display: inline-flex;
+    width: 73.33vw;
+    gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .A_button_default {
+      padding: 0.69vw;
+    }
+    .M_searchbar {
+      padding: 0.69vw;
+    }
+  }
+
+  .W_card_text_with_hastag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  .W_SecondMenu {
+    display: inline-flex;
+    width: 58.96vw;
+    row-gap: 1.39vw;
+
+    .A_menu_point_default {
+      padding: 0.69vw;
+    }
+  }
+
+  .W_SimpleNavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8.18vw;
+
+    .W_NavBar {
+      justify-content: end;
+    }
+  }
+
+  .W_socialmedia_icons {
+    display: inline-flex;
+    width: 20.89vw;
+    row-gap: auto;
+
+    .Q_Tg {
+      display: flex;
+      padding: auto;
+    }
+    .Q_Vk {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  //recommendations
+
+  .W_CardRecommendations {
+    display: flex;
+    flex-direction: column;
+    width: 92.78vw;
+    gap: 2.39vw; // либо оставить паддинги в элементах
+
+    .O_recommendation_card {
+      padding: 0vw;
+    }
+
+    .O_recommendation_card {
+      padding: 0vw;
+    }
+  }
+
+  //section blocks
+
+  .W_SectionBlock {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_horizontal_card {
+      padding: 0vw;
+    }
+
+    .O_VerticalSectionCard {
+      padding: 0vw;
+    }
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+  }
+
+  .W_SectionBlock_with_oval {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_horizontalOvalCard {
+      padding: 0vw;
+    }
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+
+    .O_VerticalSectionCard {
+      padding: 0vw;
+    }
+  }
+
+  .W_three_equal_cards {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_little_horizontal_card {
+      padding: 0vw;
+    }
+
+    .O_little_horizontal_card_with_two_oval_images {
+      padding: 0vw;
+    }
+
+    .O_little_horizontal_card {
+      padding: 0vw;
+    }
+  }
+
+  .W_small_cards {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+  }
+
+  .W_about_main_text {
+    display: flex;
+    flex-direction: column;
+
+    .A_article_subtitle {
+      margin: 0 auto;
+    }
+
+    .A_section_signature {
+      margin-top: 0.83vw;
+      margin-left: 0 auto;
+    }
+
+    .A_extra_text {
+      margin-top: 9.93vw;
+    }
+  }
+
+  // tests
+
+  .W_test_variants {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 4.5vw;
+
+    .A_test_subtitle {
+      display: flex;
+      padding: auto;
+    }
+    .M_testVariant {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_test_results {
+    display: flex;
+    flex-direction: column;
+    width: 42.08vw;
+
+    .A_test_result_subtitle {
+      display: flex;
+      padding: auto;
+    }
+    .A_test_result_description {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_section_card_text_one_string {
+    display: flex;
+    flex-direction: column;
+
+    .A_article_card_title {
+      padding: auto;
+    }
+
+    .A_section_card_note {
+      padding-top: 0.49vw;
+    }
+  }
+
+  //sections
+
+  .W_section_text_head {
+    display: flex;
+    flex-direction: column;
+    width: 89.86vw;
+    // column-gap: -1.53vw;
+    align-items: center;
+    gap: 3vw;
+
+    .A_section_title {
+      display: flex;
+      padding: auto;
+    }
+    .M_section_description {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_CardText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 2vw 1vw 3vw 1vw;
+
+    .elements3 {
+      // .A_section_card_title{
+      //     padding: 0.69vw;
+      // }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+      .M_tag_default {
+        padding: auto;
+      }
+    }
+
+    .elements2_short {
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .M_tag_default {
+        padding: auto;
+      }
+    }
+
+    .elements2_long {
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .M_tag_default {
+        padding: auto;
+      }
+    }
+  }
+
+  .W_Section_Card_Text {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+    .strings2 {
+      width: 13.26vw;
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+    }
+    .strings1 {
+      width: 19.58vw;
+      .A_section_card_title {
+        padding: 0.69vw;
+      }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+    }
+  }
+
+  //articles
+
+  .W_article_first_page_text {
+    width: 81.96vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+    align-items: center;
+
+    .default {
+      .A_article_title {
+        width: 43.75vw;
+        height: 8.89vw;
+      }
+      .A_article_lead {
+        width: 53.96vw;
+      }
+      .M_tag_default {
+        padding: 0.69vw;
+      }
+    }
+
+    .longer {
+      .A_article_title {
+        height: 8.89vw;
+      }
+      .A_article_lead {
+        width: 53.96vw;
+      }
+      .M_tag_default {
+        padding: 0.69vw;
+      }
+    }
+
+    .onestring {
+      .A_article_title {
+        height: 4.17vw;
+      }
+      .A_article_lead {
+        width: 53.96vw;
+      }
+      .M_tag_default {
+        padding: 0.69vw;
+      }
+    }
+  }
+
+  .W_article_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+
+    .A_article_subtitle {
+      width: 43.89vw;
+    }
+    .A_article_text {
+      width: 45.69vw;
+    }
+  }
+
+  .W_article_image_with_signatire {
+    display: flex;
+    flex-direction: column;
+
+    .M_article_oval_framed_image_with_text {
+      margin: 0 auto;
+    }
+
+    .A_article_square_image_text {
+      padding-top: 1.6vw;
+    }
+  }
+
+  .W_actors {
+    display: inline-flex;
+    column-gap: 0.34vw;
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  .W_image_signature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5vw;
+    color: var(--blue);
+    gap: 0.5vw;
+
+    //M_article_image_signature_with_line и W_actors в html прописываются внутри, так что они должны принимать значения родителя
+  }
+
+  .W_photo_group_landing {
+    display: flex;
+    flex-direction: column;
+
+    .A_section_card_hastag {
+      padding: 0.69vw;
+    }
+  }
+
+  .W_image_with_number {
+    display: inline-flex;
+    width: 78.34vw;
+    height: 82.32vw;
+    margin-left: -6vw;
+
+    .Q_image_for_number {
+      padding-left: -8.06vw;
+    }
+  }
+
+  .W_image_with_number_preview {
+    display: inline-flex;
+    background-image: url('images/M_preview_photoWithNumber.png');
+    background-size: cover;
+    width: 46.67vw;
+    height: 55.49vw;
+  }
+
+  //form
+
+  .W_FormInput {
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2vw;
+      input {
+        padding: 0.5vw;
+        width: 66.83vw;
+        height: 7.17vw;
+        border-radius: 5vw;
+        border: solid 0.14vw var(--blue);
+        font-size: 1vw;
+      }
+
+      button#my-form-button {
+        width: 66.83vw;
+        height: 7.17vw;
+        border-radius: 5vw;
+        font-family: Helvetica;
+        color: white;
+        font-size: 1.67vw;
+        background-color: var(--blue);
+        width: 14.38vw;
+        height: 3.75vw;
+        border: solid 0.14vw var(--blue);
+        text-align: center;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: var(--purple);
+        color: var(--blue);
+      }
+
+      button:active {
+        background-color: var(--deep_purple);
+        color: var(--blue);
+      }
+    }
+  }
+
+  // footer
+  .W_footer_text {
+    margin-top: 19vw;
+    margin-left: -35vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 4vw;
+  }
+
+  .W_socialmedia_icons_hse_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-left: 2vw;
+    margin-top: 4vw;
+
+    .W_socialmedia_icons {
+      gap: 1.5vw;
+    }
+  }
+  .W_small_long_card {
+    display: flex;
+    // flex-direction: row;
+    flex-wrap: wrap;
+    // align-items: center;
+    width: 93.06vw;
+    // height: 49.65vw;
+    gap: 5.31vw;
+  }
+
+  .W_filter {
+    display: flex;
+    flex-direction: row;
+    gap: 5.49vw;
+    margin-top: 4.24vw;
+  }
+  .W_shorts_cards {
+    display: flex;
+    // flex-direction: row;
+    flex-wrap: wrap;
+    width: 93.06vw;
+    margin-top: 3.54vw;
+    gap: 5.31vw;
+  }
+  .W_two_cards {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    margin-top: 3.54vw;
+    gap: 5.31vw;
+  }
+  .W_long_card_text_with_hastag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2vw;
+  }
+  .W_turnover_cards {
+    display: flex;
+    flex-direction: row;
+    width: 93.06vw;
+    // height: 57.92vw;
+    gap: 5.31vw;
+    flex-wrap: wrap;
+  }
+}

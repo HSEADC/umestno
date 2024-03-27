@@ -1,0 +1,216 @@
+@media only screen and (min-width: 500px) {
+  body.artic1 {
+    .bold {
+      font-style: normal;
+      font-weight: bold;
+    }
+    #S_ArticleHeading {
+      gap: 0.78vw;
+
+      .A_article_main_image {
+        background-image: url('images/A_article_main_image_taxi.png');
+        background-size: cover;
+      }
+    }
+
+    #S_ArticleBlock {
+      &.girl {
+        #O_ArticleVerticalImage {
+          #girl.M_article_oval_framed_image_with_text {
+            background-image: url('images/M_article_oval_framed_image_with_text_girl.png');
+            background-size: cover;
+          }
+        }
+      }
+      &.car {
+        #O_ArticleVerticalImage {
+          #car.M_article_oval_framed_image_with_text {
+            background-image: url('images/M_article_oval_framed_image_with_text_car.png');
+            background-size: cover;
+          }
+        }
+      }
+    }
+
+    #S_ArticleBlockWithNumbers {
+      &.woman {
+        #O_image_with_number_and_signature {
+          #woman.W_image_with_number {
+            background-image: url('images/W_image_with_number_woman.png');
+            background-size: cover;
+          }
+        }
+      }
+      &.blue {
+        #O_image_with_number_and_signature {
+          #blue.W_image_with_number {
+            background-image: url('images/W_image_with_number_blue.png');
+            background-size: cover;
+          }
+        }
+      }
+    }
+    #O_recommendation_card {
+      .Q_recommendation_card_image {
+        &.umesta {
+          background-image: url('images/Q_recommendation_card_image_umesta.png');
+          background-size: cover;
+        }
+        &.again {
+          background-image: url('images/Q_recommendation_card_image_again.png');
+          background-size: cover;
+        }
+        &.pad {
+          background-image: url('images/Q_recommendation_card_image_pad.png');
+          background-size: cover;
+        }
+      }
+    }
+
+    // статья про лифт
+  }
+
+  // статья про лифт
+
+  body.artic2 {
+    .bold {
+      font-style: normal;
+      font-weight: bold;
+    }
+    #S_ArticleHeading {
+      gap: 0.78vw;
+
+      .A_article_main_image {
+        background-image: url('images/A_article_main_image_taxi.png');
+        background-size: cover;
+      }
+    }
+
+    #S_ArticleBlock {
+      &.girl {
+        #O_ArticleVerticalImage {
+          #girl.M_article_oval_framed_image_with_text {
+            background-image: url('images/M_article_oval_framed_image_with_text_girl.png');
+            background-size: cover;
+          }
+        }
+      }
+      &.car {
+        #O_ArticleVerticalImage {
+          #car.M_article_oval_framed_image_with_text {
+            background-image: url('images/M_article_oval_framed_image_with_text_car.png');
+            background-size: cover;
+          }
+        }
+      }
+    }
+
+    #S_ArticleBlockWithNumbers {
+      &.woman {
+        #O_image_with_number_and_signature {
+          #woman.W_image_with_number {
+            background-image: url('images/W_image_with_number_woman.png');
+            background-size: cover;
+          }
+        }
+      }
+      &.blue {
+        #O_image_with_number_and_signature {
+          #blue.W_image_with_number {
+            background-image: url('./images/W_image_with_number_blue.png');
+            background-size: cover;
+          }
+        }
+      }
+    }
+    #O_recommendation_card {
+      .Q_recommendation_card_image {
+        &.umesta {
+          background-image: url('images/Q_recommendation_card_image_umesta.png');
+          background-size: cover;
+        }
+        &.again {
+          background-image: url('images/Q_recommendation_card_image_again.png');
+          background-size: cover;
+        }
+        &.pad {
+          background-image: url('images/Q_recommendation_card_image_pad.png');
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+
+// мобилка
+
+@media only screen and (max-width: 499px) {
+  body.artic1 {
+    .bold {
+      font-style: normal;
+      font-weight: bold;
+    }
+    .A_movileFirstImage {
+      // width: 88.83vw;
+      // height: 27.43vw;
+      background-image: url('images/A_movileFirstImage_tax.png');
+      background-size: cover;
+    }
+
+    #S_ArticleBlock {
+      &.girl {
+        #O_ArticleVerticalImage {
+          #girl.M_article_oval_framed_image_with_text {
+            background-image: url('images/M_article_oval_framed_image_with_text_gir.png');
+            background-size: cover;
+          }
+        }
+      }
+      &.car {
+        #O_ArticleVerticalImage {
+          #car.M_article_oval_framed_image_with_text {
+            background-image: url('images/M_article_oval_framed_image_with_text_car.png');
+            background-size: cover;
+          }
+        }
+      }
+    }
+
+    #S_ArticleBlockWithNumbers {
+      &.woman {
+        #O_image_with_number_and_signature {
+          #woman.W_image_with_number {
+            background-image: url('images/W_image_with_number_wo.png');
+            background-size: cover;
+          }
+        }
+      }
+
+      &.blue {
+        #O_image_with_number_and_signature {
+          #blue.W_image_with_number {
+            background-image: url('images/W_image_with_number_blue.png');
+            background-size: cover;
+          }
+        }
+      }
+    }
+
+    #O_recommendation_card {
+      .Q_recommendation_card_image {
+        &.umesta {
+          background-image: url('images/Q_recommendation_card_image_umesta.png');
+          background-size: cover;
+        }
+        &.again {
+          background-image: url('images/Q_recommendation_card_image_again.png');
+          background-size: cover;
+        }
+        &.pad {
+          background-image: url('images/Q_recommendation_card_image_pad.png');
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

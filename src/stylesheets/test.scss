@@ -1,0 +1,92 @@
+@media only screen and (min-width: 500px) {
+body.test{
+    .A_movileFirstImage {
+        display: none;
+    }
+    .A_article_main_image{
+        &.test1 {
+        background-image: url('images/A_article_main_image_test1.png');
+        background-size: cover;
+        }
+        &.test2 {
+        background-image: url('images/A_article_main_image_test2.png');
+        background-size: cover;
+        }
+        &.test3 {
+        background-image: url('images/A_article_main_image_test3.png');
+        background-size: cover;
+        }
+        &.test4 {
+        background-image: url('images/A_article_main_image_test4.png');
+        background-size: cover;
+        }
+        &.test5 {
+        background-image: url('images/A_article_main_image_test5.png');
+        background-size: cover;
+        }
+        &.test6 {
+        background-image: url('images/A_article_main_image_test6.png');
+        background-size: cover;
+        }
+        &.test7 {
+        background-image: url('images/A_article_main_image_test7.png');
+        background-size: cover;
+        }
+        &.test8 {
+        background-image: url('images/A_article_main_image_test8.png');
+        background-size: cover;
+        }
+        &.test9 {
+        background-image: url('images/A_article_main_image_test9.png');
+        background-size: cover;
+        }
+    }
+}
+}
+
+//мобилка
+@media only screen and (max-width: 499px) {
+body.test{
+    .A_article_main_image {
+        display: none;
+    }
+    .A_movileFirstImage{
+        &.test1 {
+        background-image: url('images/A_movileFirstImage_test1.png');
+        background-size: cover;
+        }
+        &.test2 {
+        background-image: url('images/A_movileFirstImage_test2.png');
+        background-size: cover;
+        }
+        &.test3 {
+        background-image: url('images/A_movileFirstImage_test3.png');
+        background-size: cover;
+        }
+        &.test4 {
+        background-image: url('images/A_movileFirstImage_test4.png');
+        background-size: cover;
+        }
+        &.test5 {
+        background-image: url('images/A_movileFirstImage_test5.png');
+        background-size: cover;
+        }
+        &.test6 {
+        background-image: url('images/A_movileFirstImage_test6.png');
+        background-size: cover;
+        }
+        &.test7 {
+        background-image: url('images/A_movileFirstImage_test7.png');
+        background-size: cover;
+        }
+        &.test8 {
+        background-image: url('images/A_movileFirstImage_test8.png');
+        background-size: cover;
+        }
+        &.test9 {
+        background-image: url('images/A_movileFirstImage_test9.png');
+        background-size: cover;
+        }
+    }
+}
+}
