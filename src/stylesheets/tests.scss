@@ -18,12 +18,12 @@
     }
 
     #O_VerticalCardWithImage {
-        display: flex;
-        flex-direction: column;
-        width: 22.22vw;
-        height: 41.75vw;
-        border: 0.14vw solid var(--blue);
-        border-radius: 0.43vw;
+      display: flex;
+      flex-direction: column;
+      width: 22.22vw;
+      height: 41.75vw;
+      border: 0.14vw solid var(--blue);
+      border-radius: 0.43vw;
     }
 
     #S_LongCards {
@@ -146,7 +146,7 @@
     }
   }
   #S_LongCards {
-    .Q_rectangle_image{
+    .Q_rectangle_image {
       &.shine {
         background-image: url('images/glasses.png');
         background-size: cover;
@@ -186,6 +186,156 @@
       .M_tag_default {
         margin-top: 1vw;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  body.tests {
+    #S_SectionFirst {
+      .A_MobileMainImage {
+        background-image: url('images/mobtest.png');
+        background-size: cover;
+      }
+    }
+    #S_LongCardsBlock {
+      margin-top: 0.8vw;
+    }
+
+    .M_tag_default {
+      margin-top: 3vw;
+    }
+
+    #O_VerticalCardWithRoundImage {
+      .Q_horizontal_oval_card_image {
+        margin-top: 1vw;
+        height: 25vw;
+        width: 20vw;
+
+        &.sit {
+          background-image: url('images/mobsit.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.bare {
+          background-image: url('images/bare.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #S_LongCardsBlock {
+      .Q_rectangle_image {
+        background-image: url('images/mobhoz.png');
+        background-size: cover;
+        width: 88vw;
+        height: 50vw;
+      }
+    }
+
+    #S_LongCards {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      margin: 0 auto;
+      align-items: center;
+      gap: 3.96vw;
+    }
+
+    #S_LongCardsBlock {
+      .Q_horizontal_oval_card_image {
+        &.fresh {
+          background-image: url('images/mobjuice.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.patrick {
+          background-image: url('images/mobpat.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.mac {
+          background-image: url('images/mobmac.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #S_LongCards {
+      .Q_rectangle_image {
+        &.shine {
+          background-image: url('images/mobshine.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+        &.let {
+            background-image: url('images/lalala.png');
+            background-size: cover;
+            width: 88vw;
+            height: 50vw;
+        }
+        &.santa{
+          background-image: url('images/mobmor.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #O_VerticalCardWithRoundImage {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      height: 75.74vw;
+      border: solid 0.4vw #204bf1;
+      border: solid 0.4vw var(--blue);
+      border-radius: 1vw;
+      padding: 2.5vw;
+      gap: 6vw;
+    }
+
+    #O_VerticalCardWithImage {
+        display: flex;
+        flex-direction: column;
+        width: 93.06vw;
+        height: 75.74vw;
+        border: solid 0.4vw #204bf1;
+        border: solid 0.4vw var(--blue);
+        border-radius: 1vw;
+        padding: 2.5vw;
+        gap: 6vw;
+    }
+
+    #O_little_horizontal_card {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      height: 75.74vw;
+      border: solid 0.4vw #204bf1;
+      border: solid 0.4vw var(--blue);
+      border-radius: 1vw;
+      padding: 2.5vw;
+      gap: 6vw;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .invisble {
+      opacity: 0;
     }
   }
 }

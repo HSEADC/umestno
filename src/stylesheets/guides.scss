@@ -144,3 +144,116 @@
     }
   }
 }
+
+@media only screen and (max-width: 499px) {
+  body.guides {
+    #S_SectionFirst {
+      .A_MobileMainImage {
+        background-image: url('images/mobguides.png');
+        background-size: cover;
+      }
+    }
+
+    .M_tag_default {
+      margin-top: 3vw;
+    }
+
+    #O_VerticalCardWithRoundImage {
+      .Q_horizontal_oval_card_image {
+        margin-top: 1vw;
+        height: 25vw;
+        width: 20vw;
+
+        &.guests {
+          background-image: url('images/mobguest.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.cook {
+          background-image: url('images/mobspoon.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #S_LongCardsBlock {
+      margin-top: 16.7vw;
+
+      .Q_rectangle_image {
+        background-image: url('images/mobtalk.png');
+        background-size: cover;
+        width: 88vw;
+        height: 50vw;
+      }
+    }
+
+    #S_LongCardsBlock {
+      margin-top: 16.7vw;
+
+      .Q_horizontal_oval_card_imag {
+        &.work {
+          background-image: url('images/mobgov.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.branch {
+          background-image: url('images/mobranch.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.nyam {
+          background-image: url('images/mobguesty.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+        &.office {
+          background-image: url('images/mobof.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #O_VerticalCardWithRoundImage {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      height: 75.74vw;
+      border: solid 0.4vw #204bf1;
+      border: solid 0.4vw var(--blue);
+      border-radius: 1vw;
+      padding: 2.5vw;
+      gap: 6vw;
+    }
+
+    #O_little_horizontal_card {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      height: 75.74vw;
+      border: solid 0.4vw #204bf1;
+      border: solid 0.4vw var(--blue);
+      border-radius: 1vw;
+      padding: 2.5vw;
+      gap: 6vw;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .invisble {
+      opacity: 0;
+    }
+  }
+}

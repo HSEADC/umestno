@@ -286,7 +286,7 @@
 //articles
 
 .W_article_first_page_text {
-  width: 53.96vw;
+  width: 55.96vw;
   display: flex;
   flex-direction: column;
   padding: 0.69vw;
@@ -478,6 +478,7 @@
   flex-direction: row;
   gap: 5.49vw;
   margin-top: 4.24vw;
+  // overflow: hidden;
 }
 .W_shorts_cards {
   display: flex;
@@ -517,6 +518,13 @@
   display: flex;
   flex-direction: column;
   gap: 1vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 2vw 0vw 4vw;
+  transition: all .4s;
 }
 
 
@@ -544,7 +552,7 @@
 
 .W_NavBar {
   display: inline-flex;
-  width: 78.33vw;
+  width: 73.33vw;
   gap: 1.39vw; // либо оставить паддинги в элементах
 
   .A_button_default {
@@ -553,6 +561,13 @@
   .M_searchbar {
     padding: 0.69vw;
   }
+}
+
+.W_card_text_with_hastag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
 }
 
 .W_SecondMenu {
@@ -594,9 +609,10 @@
 //recommendations
 
 .W_CardRecommendations {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   width: 92.78vw;
-  gap: 1.39vw; // либо оставить паддинги в элементах
+  gap: 2.39vw; // либо оставить паддинги в элементах
 
   .O_recommendation_card {
     padding: 0vw;
@@ -743,7 +759,9 @@
   display: flex;
   flex-direction: column;
   width: 89.86vw;
-  column-gap: -1.53vw;
+  // column-gap: -1.53vw;
+  align-items: center;
+  gap: 3vw;
 
   .A_section_title {
     display: flex;
@@ -797,6 +815,7 @@
 .W_Section_Card_Text {
   display: flex;
   flex-direction: column;
+  gap: 3vw;
 
   .strings2 {
     width: 13.26vw;
@@ -823,7 +842,7 @@
 //articles
 
 .W_article_first_page_text {
-  width: 53.96vw;
+  width: 81.96vw;
   display: flex;
   flex-direction: column;
   padding: 0.69vw;
@@ -898,6 +917,7 @@
   column-gap: 0.34vw;
   justify-content: center;
   gap: 3vw;
+
 }
 
 .W_image_signature {
@@ -922,8 +942,8 @@
 
 .W_image_with_number {
   display: inline-flex;
-  width: 37.34vw;
-  height: 39.32vw;
+  width: 78.34vw;
+  height: 82.32vw;
   margin-left: -6vw;
 
   .Q_image_for_number {
@@ -1005,4 +1025,50 @@
     gap: 1.5vw;
   }
 }
+.W_small_long_card {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
+  // align-items: center;
+  width: 93.06vw;
+  // height: 49.65vw;
+  gap: 5.31vw;
+}
+
+.W_filter {
+  display: flex;
+  flex-direction: row;
+  gap: 5.49vw;
+  margin-top: 4.24vw;
+}
+.W_shorts_cards {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
+  width: 93.06vw;
+  margin-top: 3.54vw;
+  gap: 5.31vw;
+}
+.W_two_cards {
+  display: flex;
+  flex-direction: column;
+  width: 93.06vw;
+  margin-top: 3.54vw;
+  gap: 5.31vw;
+}
+.W_long_card_text_with_hastag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2vw;
+}
+.W_turnover_cards {
+  display: flex;
+  flex-direction: row;
+  width: 93.06vw;
+  // height: 57.92vw;
+  gap: 5.31vw;
+  flex-wrap: wrap;
+}
+
 }
