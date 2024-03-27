@@ -99,7 +99,7 @@
     //   display: block;
     // }
 
-  .O_horizontal_card_for_learning {
+  #O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     padding: 0.97vw 0vw 2.3vw;
@@ -108,6 +108,8 @@
     border-radius: 0.42vw;
     align-items: center;
     gap: 1.81vw;
+
+    cursor: pointer;
 
     .elements2_long {
       margin-top: 1.11vw;
@@ -354,9 +356,11 @@
     display: flex;
     flex-direction: column;
     width: 22.22vw;
-    height: 39.75vw;
+    // height: 39.75vw;
     border: 0.14vw solid var(--blue);
     border-radius: 0.43vw;
+
+    cursor: pointer;
 
     .M_round_card_image_with_number {
       margin-top: 1.04vw;
@@ -375,6 +379,8 @@
     width: 22.22vw;
     height: 38.75vw;
     border: 0.14vw var(--blue);
+
+    cursor: pointer;
 
     .M_two_images_with_numbers {
       margin-top: 1.32vw;
@@ -398,6 +404,8 @@
     align-items: center;
     gap: 3.9vw;
     position: relative;
+
+    cursor: pointer;
 
     .M_oval_flip_image {
       margin-top: 1.32vw;
@@ -575,7 +583,7 @@
     // }
     }
 
-    .O_horizontal_card_for_learning {
+  #O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
