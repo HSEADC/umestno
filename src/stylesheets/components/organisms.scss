@@ -531,18 +531,16 @@
   .O_card_for_learning {
     display: flex;
     flex-direction: column;
-    width: 22.22vw;
-    height: 49.79vw;
-    border: 0.14vw var(--blue);
-
-    .A_vertical_card_image_on_oval {
-        margin-top: 0.97vw;
-        margin-left: 0.97vw;
-    }
+    width: 43.22vw;
+    align-items: center;
+    // height: 49.79vw;
+    border: solid 0.4vw var(--blue);
+    border-radius: 1vw;
+    gap: 4vw;
+    padding: 2.5vw 0vw 4vw;
 
     .W_Section_Card_Text {
-        margin-top: 1.81vw;
-        margin-left: 4.65vw;
+      margin: 1vw;
     }
 }
 
@@ -557,15 +555,15 @@
     // flex-wrap: wrap;
     gap: 4vw;
 
-    .A_framed_round_image {
-        margin-top: 1.04vw;
-        margin-left: 1.04vw;
-    }
+    // .A_framed_round_image {
+    //     margin-top: 1.04vw;
+    //     margin-left: 1.04vw;
+    // }
 
-    .elements2_short {
-      margin-top: 1.46vw;
-      margin-left: 7.5vw;
-    }
+    // .elements2_short {
+    //   margin-top: 1.46vw;
+    //   margin-left: 7.5vw;
+    // }
   }
 
   .O_horizontal_card_for_learning {
@@ -578,15 +576,15 @@
     padding: 2.5vw;;
     gap: 6vw;
 
-    .Q_rectangle_image {
-        margin-top: 1.11vw;
-        margin-left: 1.25vw;
-    }
+    // .Q_rectangle_image {
+    //     margin-top: 1.11vw;
+    //     margin-left: 1.25vw;
+    // }
 
-    .elements2_long {
-      margin-top: 1.11vw;
-      margin-left: 9.58vw;
-    }
+    // .elements2_long {
+    //   margin-top: 1.11vw;
+    //   margin-left: 9.58vw;
+    // }
   }
 
   // .O_card_turn {
@@ -804,8 +802,10 @@
     }
 
     .W_CardText {
-      margin-top: 3.47vw;
-      margin-left: 0 auto;
+        margin-top: 3.47vw;
+        margin-left: 0 auto;
+        margin-top: 3.47vw;
+        margin-left: 0 auto;
     }
   }
 
