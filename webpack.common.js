@@ -244,6 +244,30 @@ module.exports = {
       chunk: ['index']
     }),
 
+
+
+  //Antietiquette
+
+  // article1
+  new HtmlWebpackPlugin({
+    hash: true,
+    scriptLoading: 'blocking',
+    template: './src/media/antietiquette/artic1.html',
+    filename: './media/antietiquette/artic1.html',
+    chunk: ['index']
+  }),
+  // article2
+  new HtmlWebpackPlugin({
+    hash: true,
+    scriptLoading: 'blocking',
+    template: './src/media/antietiquette/artic2.html',
+    filename: './media/antietiquette/artic2.html',
+    chunk: ['index']
+  }),
+
+
+
+
     // Tests
 
     // Main tests page

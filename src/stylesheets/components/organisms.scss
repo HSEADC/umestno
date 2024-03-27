@@ -280,7 +280,7 @@
     flex-direction: column;
     width: 30vw;
     height: 25.28vw;
-    border: 0.15vw solid var(--blue);
+    border: 0.14vw solid var(--blue);
     border-radius: 5px;
     gap: 1vw;
 
@@ -540,11 +540,11 @@
     padding: 2.5vw 0vw 4vw;
 
     .W_Section_Card_Text {
-      margin: 1vw;
+    margin: 1vw;
     }
 }
 
-  .O_CardForLearningWithHastag {
+    .O_CardForLearningWithHastag {
     display: flex;
     flex-direction: column;
     width: 43.33vw;
@@ -555,21 +555,14 @@
     // flex-wrap: wrap;
     gap: 4vw;
 
-<<<<<<< HEAD
-=======
-    // .A_framed_round_image {
-    //     margin-top: 1.04vw;
-    //     margin-left: 1.04vw;
-    // }
->>>>>>> SASHA
 
     // .elements2_short {
     //   margin-top: 1.46vw;
     //   margin-left: 7.5vw;
     // }
-  }
+    }
 
-  .O_horizontal_card_for_learning {
+    .O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
@@ -579,25 +572,11 @@
     padding: 2.5vw;;
     gap: 6vw;
 
-<<<<<<< HEAD
     .elements2_long {
     margin-top: 1.11vw;
     margin-left: 9.58vw;
     }
 }
-=======
-    // .Q_rectangle_image {
-    //     margin-top: 1.11vw;
-    //     margin-left: 1.25vw;
-    // }
-
-    // .elements2_long {
-    //   margin-top: 1.11vw;
-    //   margin-left: 9.58vw;
-    // }
-  }
->>>>>>> SASHA
-
   // .O_card_turn {
   //     display: flex;
   //     flex-direction: column;
@@ -813,11 +792,6 @@
     }
 
     .W_CardText {
-<<<<<<< HEAD
-=======
-        margin-top: 3.47vw;
-        margin-left: 0 auto;
->>>>>>> SASHA
         margin-top: 3.47vw;
         margin-left: 0 auto;
     }

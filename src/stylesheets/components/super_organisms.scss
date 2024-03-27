@@ -41,8 +41,9 @@
   height: 35.06vw;
   margin: auto;
   align-items: center;
+  margin-top: 12vw;
   gap: 3vw;
-  padding: 1.5vw;
+  // padding: 1.5vw;
 
   .M_article_recommedation_with_lines {
     margin: 0 auto;
@@ -190,7 +191,7 @@
   display: flex;
   flex-direction: row;
   margin: 7vw 6vw;
-  gap: 12vw;
+  gap: 10vw;
   align-items: center;
 
   .W_article_text {
@@ -612,6 +613,7 @@
   .W_article_first_page_text {
     margin-top: -6.65vw;
     margin-left: 0 auto;
+    gap: 3vw;
   }
 }
 
