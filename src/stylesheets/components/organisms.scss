@@ -82,7 +82,7 @@
     flex-direction: column;
     width: 22.22vw;
     // height: 32.64vw;
-    padding: 0.97vw 0vw 2.3vw;
+    padding: 0.97vw 1vw 2.3vw;
     border: solid 0.14vw var(--blue);
     border-radius: 0.42vw;
     gap: 1.81vw;
@@ -99,7 +99,7 @@
     //   display: block;
     // }
 
-  .O_horizontal_card_for_learning {
+  #O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     padding: 0.97vw 0vw 2.3vw;
@@ -108,6 +108,8 @@
     border-radius: 0.42vw;
     align-items: center;
     gap: 1.81vw;
+
+    cursor: pointer;
 
     .elements2_long {
       margin-top: 1.11vw;
@@ -175,25 +177,33 @@
   //     height: 38.75vw;
   //     border: 0.14vw var(--blue);
 
-  // }
+//  {
+//     display: flex;
+//     flex-direction: column;
+//     width: 22.22vw;
+//     height: 38.75vw;
+//    #O_VerticalCardWithRoundImage border: 0.14vw solid var(--blue);
 
-  .O_little_horizontal_card {
-    display: flex;
-    flex-direction: column;
-    width: 30.14vw;
-    height: 36.67vw;
-    border: 0.14vw var(--blue);
 
-    .M_horizontal_oval_card_image {
-      margin-top: 2.85vw;
-      margin-left: 1.46vw;
-    }
+// }
 
-    .elements3 {
-      margin-top: 3.13vw;
-      margin-left: 6.18vw;
-    }
-  }
+// .O_little_horizontal_card {
+//     display: flex;
+//     flex-direction: column;
+//     width: 30.14vw;
+//     height: 36.67vw;
+//     border: 0.14vw var(--blue);
+
+//     .M_horizontal_oval_card_image {
+//         margin-top: 2.85vw;
+//         margin-left: 1.46vw;
+//     }
+
+//     .elements3 {
+//         margin-top: 3.13vw;
+//         margin-left: 6.18vw;
+//     }
+// }
 
   // tests
   .O_test_result {
@@ -342,12 +352,15 @@
     }
   }
 
-  .O_VerticalCardWithRoundImage {
+#O_VerticalCardWithRoundImage {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
-    height: 38.75vw;
-    border: 0.14vw var(--blue);
+    // height: 39.75vw;
+    border: 0.14vw solid var(--blue);
+    border-radius: 0.43vw;
+
+    cursor: pointer;
 
     .M_round_card_image_with_number {
       margin-top: 1.04vw;
@@ -366,6 +379,8 @@
     width: 22.22vw;
     height: 38.75vw;
     border: 0.14vw var(--blue);
+
+    cursor: pointer;
 
     .M_two_images_with_numbers {
       margin-top: 1.32vw;
@@ -389,6 +404,8 @@
     align-items: center;
     gap: 3.9vw;
     position: relative;
+
+    cursor: pointer;
 
     .M_oval_flip_image {
       margin-top: 1.32vw;
@@ -479,7 +496,7 @@
     height: 40.6vw;
     background-color: var(--blue);
     align-items: center;
-    margin: 4vw 0;
+    margin: 14vw 0;
     flex-wrap: wrap;
     padding: 6vw 0vw;
 
@@ -518,7 +535,7 @@
   .O_previewBlockWithButton {
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 5vw;
   }
 
   .O_previewSignature {
@@ -553,8 +570,12 @@
     border: solid 0.4vw var(--blue);
     border-radius: 1vw;
     // flex-wrap: wrap;
-    gap: 4vw;
+    gap: 6vw;
 
+    // .A_framed_round_image {
+    //     margin-top: 1.04vw;
+    //     margin-left: 1.04vw;
+    // }
 
     // .elements2_short {
     //   margin-top: 1.46vw;
@@ -562,7 +583,7 @@
     // }
     }
 
-    .O_horizontal_card_for_learning {
+  #O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
@@ -635,12 +656,15 @@
 
   // }
 
-  .O_little_horizontal_card {
+
+// }
+
+#O_little_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 30.14vw;
     height: 36.67vw;
-    border: 0.14vw var(--blue);
+    border: solid 0.14vw var(--blue);
 
     .M_horizontal_oval_card_image {
       margin-top: 2.85vw;
