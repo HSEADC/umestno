@@ -264,7 +264,40 @@ module.exports = {
     filename: './media/antietiquette/artic2.html',
     chunk: ['index']
   }),
+    // article3
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/antietiquette/artic3.html',
+      filename: './media/antietiquette/artic3.html',
+      chunk: ['index']
+    }),
+        // article4
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/antietiquette/artic4.html',
+          filename: './media/antietiquette/artic4.html',
+          chunk: ['index']
+        }),
+        // article5
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/antietiquette/artic5.html',
+          filename: './media/antietiquette/artic5.html',
+          chunk: ['index']
+        }),
 
+        // article6
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/antietiquette/artic6.html',
+          filename: './media/antietiquette/artic6.html',
+          chunk: ['index']
+        }),
+        
 
 
 
