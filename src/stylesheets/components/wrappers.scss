@@ -87,7 +87,7 @@
     }
   }
 
-  .W_SectionBlock_with_oval {
+  #W_SectionBlock_with_oval {
     display: inline-flex;
     width: 92.78vw;
     row-gap: 1.39vw; // либо оставить паддинги в элементах
@@ -153,7 +153,94 @@
 
   // tests
 
-  .W_test_variants {
+  // .W_test_variants {
+//section blocks
+
+.W_SectionBlock {
+  display: inline-flex;
+  width: 92.78vw;
+  row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+  .O_horizontal_card {
+    padding: 0vw;
+  }
+
+  .O_VerticalSectionCard {
+    padding: 0vw;
+  }
+
+  .O_VerticalCardWithRoundImage {
+    padding: 0vw;
+  }
+}
+
+#W_SectionBlock_with_oval {
+  display: inline-flex;
+  width: 92.78vw;
+  row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+  .O_horizontalOvalCard {
+    padding: 0vw;
+  }
+
+  .O_VerticalCardWithRoundImage {
+    padding: 0vw;
+  }
+
+  .O_VerticalSectionCard {
+    padding: 0vw;
+  }
+}
+
+.W_three_equal_cards {
+  display: inline-flex;
+  width: 92.78vw;
+  row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+  .O_little_horizontal_card {
+    padding: 0vw;
+  }
+
+  .O_little_horizontal_card_with_two_oval_images {
+    padding: 0vw;
+  }
+
+  .O_little_horizontal_card {
+    padding: 0vw;
+  }
+}
+
+.W_small_cards {
+  display: inline-flex;
+  width: 92.78vw;
+  row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+  .O_VerticalCardWithRoundImage {
+    padding: 0vw;
+  }
+}
+
+.W_about_main_text {
+  display: flex;
+  flex-direction: column;
+
+  .A_article_subtitle {
+    margin: 0 auto;
+  }
+
+  .A_section_signature {
+    margin-top: 0.83vw;
+    margin-left: 0 auto;
+  }
+
+  .A_extra_text {
+    margin-top: 9.93vw;
+  }
+}
+
+// tests
+
+.W_test_variants {
     display: flex;
     flex-direction: column;
     width: 53.26vw;
@@ -208,7 +295,7 @@
 
   .A_section_title {
     display: flex;
-    padding: auto;
+    margin: 0 auto;
   }
   .M_section_description {
     display: flex;
@@ -603,6 +690,7 @@
   }
 }
 }
+
 
 //мобилка
 @media only screen and (max-width: 499px) {

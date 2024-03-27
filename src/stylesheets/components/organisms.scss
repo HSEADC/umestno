@@ -175,25 +175,33 @@
   //     height: 38.75vw;
   //     border: 0.14vw var(--blue);
 
-  // }
+//  {
+//     display: flex;
+//     flex-direction: column;
+//     width: 22.22vw;
+//     height: 38.75vw;
+//    #O_VerticalCardWithRoundImage border: 0.14vw solid var(--blue);
 
-  .O_little_horizontal_card {
-    display: flex;
-    flex-direction: column;
-    width: 30.14vw;
-    height: 36.67vw;
-    border: 0.14vw var(--blue);
 
-    .M_horizontal_oval_card_image {
-      margin-top: 2.85vw;
-      margin-left: 1.46vw;
-    }
+// }
 
-    .elements3 {
-      margin-top: 3.13vw;
-      margin-left: 6.18vw;
-    }
-  }
+// .O_little_horizontal_card {
+//     display: flex;
+//     flex-direction: column;
+//     width: 30.14vw;
+//     height: 36.67vw;
+//     border: 0.14vw var(--blue);
+
+//     .M_horizontal_oval_card_image {
+//         margin-top: 2.85vw;
+//         margin-left: 1.46vw;
+//     }
+
+//     .elements3 {
+//         margin-top: 3.13vw;
+//         margin-left: 6.18vw;
+//     }
+// }
 
   // tests
   .O_test_result {
@@ -342,12 +350,13 @@
     }
   }
 
-  .O_VerticalCardWithRoundImage {
+#O_VerticalCardWithRoundImage {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
-    height: 38.75vw;
-    border: 0.14vw var(--blue);
+    height: 39.75vw;
+    border: 0.14vw solid var(--blue);
+    border-radius: 0.43vw;
 
     .M_round_card_image_with_number {
       margin-top: 1.04vw;
@@ -479,7 +488,7 @@
     height: 40.6vw;
     background-color: var(--blue);
     align-items: center;
-    margin: 4vw 0;
+    margin: 14vw 0;
     flex-wrap: wrap;
     padding: 6vw 0vw;
 
@@ -555,6 +564,10 @@
     // flex-wrap: wrap;
     gap: 6vw;
 
+    // .A_framed_round_image {
+    //     margin-top: 1.04vw;
+    //     margin-left: 1.04vw;
+    // }
 
     // .elements2_short {
     //   margin-top: 1.46vw;
@@ -635,12 +648,15 @@
 
   // }
 
-  .O_little_horizontal_card {
+
+// }
+
+#O_little_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 30.14vw;
     height: 36.67vw;
-    border: 0.14vw var(--blue);
+    border: solid 0.14vw var(--blue);
 
     .M_horizontal_oval_card_image {
       margin-top: 2.85vw;

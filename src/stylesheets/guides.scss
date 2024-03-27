@@ -1,0 +1,259 @@
+@media only screen and (min-width: 500px) {
+  body.guides {
+    .bold {
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    #S_SectionFirst {
+      .Q_big_oval_image {
+        background-image: url('images/tele.png');
+        background-size: cover;
+        width: 87vw;
+      }
+    }
+
+    #S_LongCardsBlock {
+      height: 46.85vw;
+    }
+
+    .O_horizontal_card_for_learning {
+      height: 39.8vw;
+    }
+
+    #S_LongCardsBlock {
+      .Q_rectangle_image {
+        background-image: url('images/talk.png');
+        background-size: cover;
+        height: 24.4vw;
+      }
+    }
+
+    #O_VerticalCardWithRoundImage {
+      .Q_horizontal_oval_card_image {
+        margin-top: 1vw;
+        height: 26vw;
+        width: 20vw;
+
+        &.guests {
+          background-image: url('images/guests.png');
+          background-size: cover;
+        }
+
+        &.cook {
+          background-image: url('images/forka.png');
+          background-size: cover;
+        }
+      }
+
+      .W_CardText {
+        margin-top: 0.47vw;
+      }
+
+      .W_CardText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw 1vw 3vw 1vw;
+
+        .M_tag_default {
+          margin-top: 1vw;
+        }
+      }
+    }
+
+    #O_footer {
+      margin: 6vw 0;
+    }
+  }
+
+  #O_little_horizontal_card {
+    display: flex;
+    flex-direction: column;
+    width: 30.14vw;
+    height: 34.67vw;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+
+    .M_horizontal_oval_card_image {
+      margin-top: 2.85vw;
+      margin-left: 1.46vw;
+    }
+
+    .elements3 {
+      margin-top: 3.13vw;
+      margin-left: 6.18vw;
+    }
+  }
+
+  #S_LongCardsBlock {
+    height: 47.85vw;
+    .Q_horizontal_oval_card_imag {
+      height: 20vw;
+      width: 23vw;
+
+      &.work {
+        background-image: url('images/work.png');
+        background-size: cover;
+        width: 20vw;
+        height: 23vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+      }
+
+      &.branch {
+        background-image: url('images/branch.png');
+        background-size: cover;
+        width: 20vw;
+        height: 23vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+      }
+
+      &.nyam {
+        background-image: url('images/nyam.png');
+        background-size: cover;
+        width: 20vw;
+        height: 23vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+      }
+      &.office {
+        background-image: url('images/office.png');
+        background-size: cover;
+        width: 20vw;
+        height: 23vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+      }
+    }
+
+    .W_CardText {
+      margin-top: 0.47vw;
+    }
+
+    .W_CardText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0vw;
+
+      .M_tag_default {
+        margin-top: 1vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  body.guides {
+    #S_SectionFirst {
+      .A_MobileMainImage {
+        background-image: url('images/mobguides.png');
+        background-size: cover;
+      }
+    }
+
+    .M_tag_default {
+      margin-top: 3vw;
+    }
+
+    #O_VerticalCardWithRoundImage {
+      .Q_horizontal_oval_card_image {
+        margin-top: 1vw;
+        height: 25vw;
+        width: 20vw;
+
+        &.guests {
+          background-image: url('images/mobguest.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.cook {
+          background-image: url('images/mobspoon.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #S_LongCardsBlock {
+      margin-top: 16.7vw;
+
+      .Q_rectangle_image {
+        background-image: url('images/mobtalk.png');
+        background-size: cover;
+        width: 88vw;
+        height: 50vw;
+      }
+    }
+
+    #S_LongCardsBlock {
+      margin-top: 16.7vw;
+
+      .Q_horizontal_oval_card_imag {
+        &.work {
+          background-image: url('images/mobgov.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.branch {
+          background-image: url('images/mobranch.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+
+        &.nyam {
+          background-image: url('images/mobguesty.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+        &.office {
+          background-image: url('images/mobof.png');
+          background-size: cover;
+          width: 88vw;
+          height: 50vw;
+        }
+      }
+    }
+
+    #O_VerticalCardWithRoundImage {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      height: 75.74vw;
+      border: solid 0.4vw #204bf1;
+      border: solid 0.4vw var(--blue);
+      border-radius: 1vw;
+      padding: 2.5vw;
+      gap: 6vw;
+    }
+
+    #O_little_horizontal_card {
+      display: flex;
+      flex-direction: column;
+      width: 93.06vw;
+      height: 75.74vw;
+      border: solid 0.4vw #204bf1;
+      border: solid 0.4vw var(--blue);
+      border-radius: 1vw;
+      padding: 2.5vw;
+      gap: 6vw;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .invisble {
+      opacity: 0;
+    }
+  }
+}
