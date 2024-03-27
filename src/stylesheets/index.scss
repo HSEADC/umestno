@@ -2,7 +2,7 @@
 body.b {
     width: 100%;
     height: 449.10vw;
-    background-image: url('images/preview_back.png');
+    background-image: url('images/preview_back.svg');
     background-size: cover;
 
     #S_preview {
@@ -78,23 +78,25 @@ body.b {
 @media only screen and (max-width: 499px) {
 body.b {
     width: 100%;
-    height: 449.10vw;
-    background-image: url('images/preview_back.png');
+    height: 913.85vw;
+    background-image: url('images/preview_backMobile.svg');
     background-size: cover;
 
     #S_preview {
         &.intro {
+            margin: 21vw 0;
             .O_previewBlock {
-                .A_heading.this {
-                    margin-left: 12vw;
-                }
+                flex-direction: column;
+                margin: 10vw 0;
                 .Q_mainStroke.curcle{
-                margin-left: 8vw;
+                    margin-left: -1vw;
+                    margin-top: -4vw;                
                 }
             }
         }
         &.tages {
-            height: 39vw;
+            height: 40vw;
+            margin-top: 45vw;
             .A_heading{
                 margin-left: 8vw;
             }
@@ -110,7 +112,7 @@ body.b {
                 margin-left: -27vw;
                 margin-top: -11vw;
                 .A_previewArtText {
-                    width: 21vw;
+                    width: 28vw;
                 }
             }
         }
@@ -118,9 +120,9 @@ body.b {
             .O_previewBlock {
                     align-items: normal;
                     justify-content: center;
-                    margin-left: 23vw;
+                    margin-left: 18vw;
                 .A_previewArtText {
-                    width: 27vw;
+                    width: 31vw;
                 }
             }
         }
@@ -128,12 +130,12 @@ body.b {
             padding: 4vw 3vw 16vw;
             .O_previewBlock {
                 justify-content: center;
-                gap: 12vw;
+                gap: 5vw;
                 .M_cardFlip {
                     margin-left: -11vw;
                 }
                 .A_previewArtText {
-                    width: 25vw;
+                    width: 28vw;
                 }
             }
         }

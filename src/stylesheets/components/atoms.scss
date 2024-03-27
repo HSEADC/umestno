@@ -747,8 +747,6 @@ border-radius: 0;
 
 // кнопки
 .A_button_default {
-  height: 6.75vw;
-  width: 22.38vw;
   border-radius: 0.7vw;
   background-color: #204BF1;
   background-color: var(--blue);
@@ -817,8 +815,9 @@ border-radius: 0;
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 13.89vw;
+  font-size: 21.89vw;
   color: var(--blue);
+  margin: 0 auto;
 }
 
 .A_article_title {
@@ -981,7 +980,7 @@ border-radius: 0;
   color: var(--blue);
 }
 .A_bigTag {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 23.54vw;
@@ -1004,8 +1003,7 @@ border-radius: 0;
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.67vw;
-  line-height: 1.82vw;
+  font-size: 2.56vw;
   color: var(--blue);
 }
 .A_previewArtTextSub {
@@ -1013,7 +1011,7 @@ border-radius: 0;
   font-family: 'Snell Roundhand', arial;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.81vw;
+  font-size: 2.81vw;
   color: var(--blue);
   text-transform: lowercase;
 }
@@ -1021,8 +1019,8 @@ border-radius: 0;
 .A_vilka {
   background-image: url('images/A_vilka.png');
   background-size: cover;
-  width: 46.32vw;
-  height: 38.13vw;
+  width: 77.32vw;
+  height: 63.13vw;
 
   margin-left: 12vw;
   margin-top: -4vw;
@@ -1031,10 +1029,10 @@ border-radius: 0;
 .A_saturnPhoto {
   background-image: url('images/A_saturnPhoto.png');
   background-size: cover;
-  width: 54.51vw;
-  height: 43.75vw;
-
-  margin-left: -12vw;
+  width: 104.51vw;
+  height: 75.75vw;
+  margin-left: -61vw;
+  margin-top: 32vw;
 }
 
 //landing
@@ -1165,7 +1163,7 @@ border-radius: 0;
   font-family: 'Oranienbaum', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 9.72vw;
+  font-size: 12.72vw;
   text-transform: uppercase;
   text-align: center;
   color: var(--blue);

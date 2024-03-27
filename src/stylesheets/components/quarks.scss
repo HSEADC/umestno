@@ -279,6 +279,7 @@
     // height: 0.14vw;
   }
   &.middle {
+    display: none;
     width: 34.6vw;
     height: 0.16vw;
   }
@@ -287,6 +288,7 @@
     height: 0.16vw;
   }
   &.shorter {
+    display: none;
     width: 17.57vw;
     height: 0.14vw;
   }
@@ -460,8 +462,8 @@
   z-index: 0;
   background-image: url('images/Q_mainStroke.png');
   background-size: cover;
-  width: 27.32vw;
-  height: 17vw;
+  width: 44.32vw;
+  height: 27vw;
   margin-left: 4vw;
 }
 
@@ -507,8 +509,8 @@
   z-index: 0;
   background-image: url('images/Q_mainStroke.png');
   background-size: cover;
-  width: 27.32vw;
-  height: 17vw;
+  width: 41.32vw;
+  height: 25vw;
   transform: rotate(-37deg);
 }
 
