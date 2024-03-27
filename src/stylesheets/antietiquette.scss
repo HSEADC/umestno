@@ -1,0 +1,132 @@
+@media only screen and (min-width: 500px) {
+    body.antietiquette {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_SectionFirst {
+            .Q_big_oval_image {
+                background-image: url('images/neumest.png');
+                background-size: cover;
+                width: 87vw;
+            }
+        }
+
+        .O_horizontal_card_for_learning {
+            height: 39.8vw;
+        }
+
+        #S_LongCardsBlock {
+            .Q_rectangle_image {
+                background-image: url('images/taxi.png');
+                background-size: cover;
+                height: 24.4vw;
+            }
+        }
+
+        #O_VerticalCardWithRoundImage {
+            .Q_horizontal_oval_card_image {
+                margin-top: 1vw;
+                height: 25vw;
+                width: 20vw;
+
+                &.up {
+                    background-image: url('images/up.png');
+                    background-size: cover;
+                }
+
+                &.judge {
+                    background-image: url('images/speak.png');
+                    background-size: cover;
+                    width: 20vw;
+                }
+            }
+
+            .W_CardText {
+                margin-top: 0.47vw;
+            }
+
+            .W_CardText {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2vw 1vw 3vw 1vw;
+
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+
+        #O_footer {
+            margin: 42vw 0;
+        }
+    }
+
+    #O_little_horizontal_card {
+        display: flex;
+        flex-direction: column;
+        width: 30.14vw;
+        height: 34.67vw;
+        border: solid 0.14vw var(--blue);
+        border-radius: 0.42vw;
+
+        .M_horizontal_oval_card_image {
+            margin-top: 2.85vw;
+            margin-left: 1.46vw;
+        }
+
+        .elements3 {
+            margin-top: 3.13vw;
+            margin-left: 6.18vw;
+        }
+    }
+
+    #S_LongCardsBlock {
+        .Q_horizontal_oval_card_image {
+            margin-top: 1vw;
+            height: 25vw;
+            width: 20vw;
+
+            &.alcohol {
+                background-image: url('images/drinky.png');
+                background-size: cover;
+                width: 26.5vw;
+                height: 16.3vw;
+                margin-top: 1.5vw;
+            }
+
+            &.sweet {
+                background-image: url('images/sweet.png');
+                background-size: cover;
+                width: 27.5vw;
+                height: 18vw;
+                margin-top: 1vw;
+            }
+
+            &.hands {
+                background-image: url('images/hands.png');
+                background-size: cover;
+                width: 26.5vw;
+                height: 16.3vw;
+                margin-top: 1.5vw;
+            }
+        }
+
+        .W_CardText {
+            margin-top: 0.47vw;
+        }
+
+        .W_CardText {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0vw;
+
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}

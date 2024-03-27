@@ -105,7 +105,7 @@
   }
 }
 
-.S_cardBlockLong {
+#S_cardBlockLong {
   display: flex;
   flex-direction: column;
 
@@ -385,7 +385,7 @@
   margin: 0 auto;
   margin-top: 4.24vw;
   align-items: center;
-  gap: 3.96vw;
+  gap: 0.06vw;
 
   .M_BlockSeparator {
     margin-left: 0 auto;
