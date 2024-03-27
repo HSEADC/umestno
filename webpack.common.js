@@ -191,7 +191,7 @@ module.exports = {
     scriptLoading: 'blocking',
     template: './src/cards.html',
     filename: './cards.html',
-    chunk: ['index']
+    chunk: ['index', 'flip2', 'cards']
   }),
 
 
@@ -244,6 +244,60 @@ module.exports = {
       chunk: ['index']
     }),
 
+    //influensers
+    // influensers1 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf1.html',
+      filename: './media/influensers/inf1.html',
+      chunk: ['index']
+    }),
+
+    // influensers2 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf2.html',
+      filename: './media/influensers/inf2.html',
+      chunk: ['index']
+    }),
+
+    // influensers3 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf3.html',
+      filename: './media/influensers/inf3.html',
+      chunk: ['index']
+    }),
+
+    // influensers4 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf4.html',
+      filename: './media/influensers/inf4.html',
+      chunk: ['index']
+    }),
+
+    // influensers5 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf5.html',
+      filename: './media/influensers/inf5.html',
+      chunk: ['index']
+    }),
+
+    // influensers6 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf6.html',
+      filename: './media/influensers/inf6.html',
+      chunk: ['index']
+    }),
 
 
   //Antietiquette

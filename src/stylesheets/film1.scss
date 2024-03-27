@@ -111,18 +111,21 @@ body.film1 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
                 background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover;
             }
         }
+
         .W_CardText {
             .M_tag_default {
                 margin-top: 1vw;
@@ -218,15 +221,15 @@ body.film2 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover; 
             }
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imagePP.png');
                 background-size: cover; 
             }
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover; 
             }
         }
@@ -325,7 +328,7 @@ body.film3 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover; 
             }
             &.lift {
@@ -333,7 +336,7 @@ body.film3 {
                 background-size: cover; 
             }
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageTaxi.png');
                 background-size: cover; 
             }
         }
@@ -418,15 +421,15 @@ body.film4 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imagePP.png');
                 background-size: cover; 
             }
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imageTable.png');
                 background-size: cover; 
             }
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover; 
             }
         }
@@ -511,16 +514,18 @@ body.film5 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover;
             }
         }
         .W_CardText {
@@ -604,16 +609,18 @@ body.film6 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageKate.png');
+                background-size: cover;
             }
         }
         .W_CardText {
@@ -751,16 +758,24 @@ body.film1 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
                 background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
             }
         }
     }
@@ -863,17 +878,17 @@ body.film2 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover;
             }
 
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imagePP.png');
                 background-size: cover;
             }
 
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover;
             }
         }
@@ -983,17 +998,17 @@ body.film3 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover;
             }
-
+    
             &.lift {
                 background-image: url('images/Q_recommendation_card_image_lift.png');
                 background-size: cover;
             }
-
+    
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageTaxi.png');
                 background-size: cover;
             }
         }
@@ -1088,18 +1103,16 @@ body.film4 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover;
+                background-image: url('images/Q_recommendation_card_imagePP.png');
+                background-size: cover; 
             }
-
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover;
+                background-image: url('images/Q_recommendation_card_imageTable.png');
+                background-size: cover; 
             }
-
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover;
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover; 
             }
         }
 
@@ -1193,17 +1206,17 @@ body.film5 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageVin.png');
                 background-size: cover;
             }
 
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
                 background-size: cover;
             }
 
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover;
             }
         }
@@ -1298,17 +1311,17 @@ body.film6 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageVin.png');
                 background-size: cover;
             }
-
+        
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
                 background-size: cover;
             }
-
+        
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageKate.png');
                 background-size: cover;
             }
         }
