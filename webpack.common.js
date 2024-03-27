@@ -203,6 +203,46 @@ module.exports = {
       filename: './media/films/film1.html',
       chunk: ['index']
     }),
+    // Film2 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films/film2.html',
+      filename: './media/films/film2.html',
+      chunk: ['index']
+    }),
+    // Film3 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films/film3.html',
+      filename: './media/films/film3.html',
+      chunk: ['index']
+    }),
+    // Film4 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films/film4.html',
+      filename: './media/films/film4.html',
+      chunk: ['index']
+    }),
+    // Film5 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films/film5.html',
+      filename: './media/films/film5.html',
+      chunk: ['index']
+    }),
+    // Film6 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/films/film6.html',
+      filename: './media/films/film6.html',
+      chunk: ['index']
+    }),
 
     // Tests
 

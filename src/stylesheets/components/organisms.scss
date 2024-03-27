@@ -1,65 +1,64 @@
 @media only screen and (min-width: 500px) {
-
-// footer and navbar
-#O_footer{
+  // footer and navbar
+  #O_footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 11.60vw;
+    height: 11.6vw;
     background-color: var(--blue);
     align-items: center;
     margin: 4vw 0;
 
     .A_big_logo {
-    margin-left: 3.75vw;
+      margin-left: 3.75vw;
     }
     .A_footer_text {
-        color: var(--white);
-        .students {
+      color: var(--white);
+      .students {
         margin-left: 3.33vw;
         margin-top: 3.06vw;
-        }
-        .teachers {
+      }
+      .teachers {
         margin-left: 8.33vw;
         margin-top: 3.06vw;
-        }
+      }
     }
 
     // .W_socialmedia_icons_hse_logo {
     // margin-left: 22.36vw;
     // margin-top: 3.54vw;
     // }
-}
+  }
 
-.O_SecondMenu {
+  .O_SecondMenu {
     display: flex;
     flex-direction: row-reverse;
     width: 93.06vw;
     height: 3.54vw;
     gap: 2.73vw;
-}
+  }
 
-//preview
-.O_previewBlock {
+  //preview
+  .O_previewBlock {
     display: flex;
     flex-direction: row;
     gap: 3vw;
     align-items: center;
-}
-.O_previewBlockWithButton {
+  }
+  .O_previewBlockWithButton {
     display: flex;
     flex-direction: column;
     gap: 2vw;
-}
+  }
 
-.O_previewSignature {
+  .O_previewSignature {
     display: flex;
     flex-direction: column;
     gap: 1vw;
-}
+  }
 
-//cards but for not english speakers: карточки
-.O_card_for_learning {
+  //cards but for not english speakers: карточки
+  .O_card_for_learning {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -71,14 +70,14 @@
     align-items: center;
 
     .W_Section_Card_Text {
-        // margin-top: 1.81vw;
-        // margin-left: 4.65vw;
-        gap: 1vw;
-        // margin-bottom: 1.5vw;
+      // margin-top: 1.81vw;
+      // margin-left: 4.65vw;
+      gap: 1vw;
+      // margin-bottom: 1.5vw;
     }
-}
+  }
 
-.O_CardForLearningWithHastag {
+  .O_CardForLearningWithHastag {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -88,14 +87,19 @@
     border-radius: 0.42vw;
     gap: 1.81vw;
     align-items: center;
+    // display: none;
 
     .elements2_short {
-        margin-top: 1.46vw;
-        margin-left: 7.50vw;
+      margin-top: 1.46vw;
+      margin-left: 7.5vw;
     }
-}
+  }
 
-.O_horizontal_card_for_learning {
+    // .show {
+    //   display: block;
+    // }
+
+  .O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     padding: 0.97vw 0vw 2.3vw;
@@ -106,49 +110,47 @@
     gap: 1.81vw;
 
     .elements2_long {
-    margin-top: 1.11vw;
-    margin-left: 9.58vw;
+      margin-top: 1.11vw;
+      margin-left: 9.58vw;
     }
-}
+  }
 
-// .O_card_turn {
-//     display: flex;
-//     flex-direction: column;
-//     padding: 0.97vw 0vw 2.3vw;
-//     width: 22.22vw;
-//     height: 49.79vw;
-//     border: solid 0.14vw var(--blue);
-//     border-radius: 0.42vw;
-//     align-items: center;
-//     gap: 1.81vw;
+  // .O_card_turn {
+  //     display: flex;
+  //     flex-direction: column;
+  //     padding: 0.97vw 0vw 2.3vw;
+  //     width: 22.22vw;
+  //     height: 49.79vw;
+  //     border: solid 0.14vw var(--blue);
+  //     border-radius: 0.42vw;
+  //     align-items: center;
+  //     gap: 1.81vw;
 
-//     .M_oval_flip_image {
-//     // margin-top: 1.18vw;
-//     // margin-left: 1.11vw;
-//     }
+  //     .M_oval_flip_image {
+  //     // margin-top: 1.18vw;
+  //     // margin-left: 1.11vw;
+  //     }
 
-//     .strings1 {
-//     margin-top: 1.18vw;
-//     margin-left: 1.11vw;
-//     }
-// }
+  //     .strings1 {
+  //     margin-top: 1.18vw;
+  //     margin-left: 1.11vw;
+  //     }
+  // }
 
+  // .O_little_horizontal_card_wuth_two_oval_images {
 
-// .O_little_horizontal_card_wuth_two_oval_images {
+  // }
 
-// }
+  // .O_FlippedCard {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 22.22vw;
+  //     height: 49.79vw;
+  //     border: 0.14vw var(--blue);
 
-// .O_FlippedCard {
-//     display: flex;
-//     flex-direction: column;
-//     width: 22.22vw;
-//     height: 49.79vw;
-//     border: 0.14vw var(--blue);
+  // }
 
-
-// }
-
-.O_VerticalSectionCard {
+  .O_VerticalSectionCard {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -156,28 +158,26 @@
     border: 0.14vw var(--blue);
 
     .M_square_card_image_with_number {
-        margin-top: 0.90vw;
-        margin-left: 0.97vw;
+      margin-top: 0.9vw;
+      margin-left: 0.97vw;
     }
 
     .elements3 {
-        margin-top: 2.50vw;
-        margin-left: 2.22vw;
+      margin-top: 2.5vw;
+      margin-left: 2.22vw;
     }
+  }
 
-}
+  // .O_VerticalCardWithRoundImage {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 22.22vw;
+  //     height: 38.75vw;
+  //     border: 0.14vw var(--blue);
 
-// .O_VerticalCardWithRoundImage {
-//     display: flex;
-//     flex-direction: column;
-//     width: 22.22vw;
-//     height: 38.75vw;
-//     border: 0.14vw var(--blue);
+  // }
 
-
-// }
-
-.O_little_horizontal_card {
+  .O_little_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 30.14vw;
@@ -185,97 +185,97 @@
     border: 0.14vw var(--blue);
 
     .M_horizontal_oval_card_image {
-        margin-top: 2.85vw;
-        margin-left: 1.46vw;
+      margin-top: 2.85vw;
+      margin-left: 1.46vw;
     }
 
     .elements3 {
-        margin-top: 3.13vw;
-        margin-left: 6.18vw;
+      margin-top: 3.13vw;
+      margin-left: 6.18vw;
     }
-}
+  }
 
-// tests  
-.O_test_result {
+  // tests
+  .O_test_result {
     display: flex;
     flex-direction: column;
     width: 42.08vw;
     height: 28.54vw;
 
     .M_test_result_heading {
-        margin-left: 0.69vw;
+      margin-left: 0.69vw;
     }
 
     .W_test_results {
-        margin-top: 1.11vw;
+      margin-top: 1.11vw;
     }
-}
+  }
 
-.O_testBlock {
+  .O_testBlock {
     display: flex;
     flex-direction: column;
     width: 53.26vw;
     height: 26.67vw;
 
     .W_test_variants {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .A_button_default {
-        margin-top: 2.01vw;
+      margin-top: 2.01vw;
     }
-}
+  }
 
-//articles статьи по-русски об ЭтИкЕтЕ
-.O_ArticleVerticalImage {
+  //articles статьи по-русски об ЭтИкЕтЕ
+  .O_ArticleVerticalImage {
     display: flex;
     flex-direction: column;
     width: 26.46vw;
     height: 44.65vw;
     gap: 0.5vw;
 
-    .M_article_oval_framed_image_with_text_default  {
-    margin: 0 auto;
+    .M_article_oval_framed_image_with_text_default {
+      margin: 0 auto;
     }
 
     .W_image_signature {
-        margin-top: 1.39vw;
-        margin-left: 3.89vw;
+      margin-top: 1.39vw;
+      margin-left: 3.89vw;
     }
-}
+  }
 
-.O_article_vertical_image_with_round_image {
+  .O_article_vertical_image_with_round_image {
     display: flex;
     flex-direction: column;
     width: 22.15vw;
     height: 35.56vw;
 
     .M_article_round_framed_image_with_number {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .W_image_signature {
-        margin-top: 1.39vw;
-        margin-left: 1.74vw;
+      margin-top: 1.39vw;
+      margin-left: 1.74vw;
     }
-}
+  }
 
-.O_image_with_number_and_signature {
+  .O_image_with_number_and_signature {
     display: flex;
     flex-direction: column;
     width: 39.51vw;
     height: 46.11vw;
 
     .W_image_with_number {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .A_test_result_description {
-        margin-left: 3.40vw;
+      margin-left: 3.4vw;
     }
-}
+  }
 
-#O_recommendation_card {
+  #O_recommendation_card {
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -285,28 +285,28 @@
     gap: 1vw;
 
     .M_thin_horizontal_card_image {
-        display: flex;
-            // padding-top: 1.46vw;
-            // padding-left: 1.39vw;
-            width: 27.08vw;
-            height: 12.78vw;
-            padding: 2vw 1vw;
-    
-            // .Q_horizontal_oval_card_image {
-            //     margin: 0 auto;
-            // }
-    
-            // .A_section_card_hastag {
-            //     padding-left: 21.81vw;
-            // }
-        }
+      display: flex;
+      // padding-top: 1.46vw;
+      // padding-left: 1.39vw;
+      width: 27.08vw;
+      height: 12.78vw;
+      padding: 2vw 1vw;
+
+      // .Q_horizontal_oval_card_image {
+      //     margin: 0 auto;
+      // }
+
+      // .A_section_card_hastag {
+      //     padding-left: 21.81vw;
+      // }
+    }
     // .W_CardText {
     //         margin-top: 1.81vw;
     //         margin-left: 0 auto;
     // }
-}
+  }
 
-.O_horizontal_card {
+  .O_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 45.97vw;
@@ -314,17 +314,17 @@
     border: 0.14vw var(--blue);
 
     .M_three_images_with_number {
-        margin-top: 3.33vw;
-        margin-left: 5vw;
+      margin-top: 3.33vw;
+      margin-left: 5vw;
     }
 
     .W_CardText {
-        margin-top: 2.64vw;
-        margin-left: 0 auto;
-    } 
-}
+      margin-top: 2.64vw;
+      margin-left: 0 auto;
+    }
+  }
 
-.O_horizontalOvalCard {
+  .O_horizontalOvalCard {
     display: flex;
     flex-direction: column;
     width: 45.97vw;
@@ -332,17 +332,17 @@
     border: 0.14vw var(--blue);
 
     .M_bigger_thin_horizontal_card_image {
-        margin-top: 1.11vw;
-        margin-left: 0 auto;
+      margin-top: 1.11vw;
+      margin-left: 0 auto;
     }
 
     .W_CardText {
-        margin-top: 1.88vw;
-        margin-left: 0 auto;
+      margin-top: 1.88vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-.O_VerticalCardWithRoundImage {
+  .O_VerticalCardWithRoundImage {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -350,18 +350,17 @@
     border: 0.14vw var(--blue);
 
     .M_round_card_image_with_number {
-        margin-top: 1.04vw;
-        margin-left: 0 auto;
-
+      margin-top: 1.04vw;
+      margin-left: 0 auto;
     }
 
-    .W_CardText {
+   .W_CardText {
         margin-top: 3.47vw;
         margin-left: 0 auto;
     }
-}
+  }
 
-.O_little_horizontal_card_with_two_oval_images {
+  .O_little_horizontal_card_with_two_oval_images {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -369,17 +368,17 @@
     border: 0.14vw var(--blue);
 
     .M_two_images_with_numbers {
-        margin-top: 1.32vw;
-        margin-left: 0 auto;
+      margin-top: 1.32vw;
+      margin-left: 0 auto;
     }
 
     .W_CardText {
-        margin-top: 3.96vw;
-        margin-left: 0 auto;
+      margin-top: 3.96vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-.O_card_turn {
+  .O_card_turn {
     display: flex;
     flex-direction: column;
     padding: 0.97vw 0vw 2.3vw;
@@ -392,17 +391,17 @@
     position: relative;
 
     .M_oval_flip_image {
-        margin-top: 1.32vw;
-        margin-left: 0 auto;
+      margin-top: 1.32vw;
+      margin-left: 0 auto;
     }
 
     .W_section_card_text_one_string {
-        margin-top: 4.24vw;
-        margin-left: 0 auto;
+      margin-top: 4.24vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-.O_FlippedCard {
+  .O_FlippedCard {
     display: flex;
     flex-direction: column;
     padding: 0.97vw 0vw 2.3vw;
@@ -416,49 +415,47 @@
     margin-left: -23.5vw;
 
     .M_turn_over_card_image {
-        margin-top: 1.32vw;
-        margin-left: 0 auto;
+      margin-top: 1.32vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-#O_article_big_photo {
+  #O_article_big_photo {
     width: 79.53vw;
     height: 35.99vw;
     margin: auto;
-}
+  }
 
-
-
-//404 page ошибочка 
-.O_404text {
+  //404 page ошибочка
+  .O_404text {
     display: flex;
     flex-direction: column;
     width: 62.71vw;
-    height: 25.90vw;
+    height: 25.9vw;
     border: 0.14vw var(--blue);
 
     .A_test_title {
-        padding-top: 4.17vw;
-        padding-left: 4.65vw;
+      padding-top: 4.17vw;
+      padding-left: 4.65vw;
     }
 
     .A_article_text {
-        padding-top: 2.78vw;
-        padding-left: 4.65vw;
+      padding-top: 2.78vw;
+      padding-left: 4.65vw;
     }
 
     .A_button_default {
-        padding-top: 2.64vw;
-        padding-left: 4.65vw;
+      padding-top: 2.64vw;
+      padding-left: 4.65vw;
     }
-}
+  }
 
-#O_404text {
+  #O_404text {
     margin-bottom: 10vw;
     margin: 0 auto;
     display: flex;
     padding: 2vw;
-    border: solid 0.14vw #204BF1;
+    border: solid 0.14vw #204bf1;
     border: solid 0.14vw var(--blue);
     border-radius: 0.5vw;
     flex-direction: column;
@@ -466,16 +463,16 @@
     gap: 1vw;
     width: fit-content;
     .none {
-        display: none;
+      display: none;
     }
-}
+  }
 }
 
 //мобилка
 @media only screen and (max-width: 499px) {
-
-// footer and navbar
-#O_footer{
+  // footer and navbar
+  #O_footer {
+    // display: none;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -490,77 +487,64 @@
     // margin-left: 3.75vw;
     // }
     .A_footer_text {
-        color: var(--white);
-        .students {
+      color: var(--white);
+      .students {
         margin-left: 3.33vw;
         margin-top: 3.06vw;
-        }
-        .teachers {
+      }
+      .teachers {
         margin-left: 8.33vw;
         margin-top: 3.06vw;
-        }
+      }
     }
 
     // .W_socialmedia_icons_hse_logo {
     // margin-left: 22.36vw;
     // margin-top: 3.54vw;
     // }
-}
+  }
 
-.O_SecondMenu {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 93.06vw;
-    height: 3.54vw;
-    gap: 2.73vw;
-}
+  .O_SecondMenu {
+    display: none;
+  }
 
-//preview
-.O_previewBlock {
+  //preview
+  .O_previewBlock {
     display: flex;
     flex-direction: row;
     gap: 3vw;
     align-items: center;
-}
-.O_previewBlockWithButton {
+  }
+  .O_previewBlockWithButton {
     display: flex;
     flex-direction: column;
     gap: 2vw;
-}
+  }
 
-.O_previewSignature {
+  .O_previewSignature {
     display: flex;
     flex-direction: column;
     gap: 1vw;
 }
 
-
-
-
-//cards but for not english speakers: карточки
-.O_card_for_learning {
+  //cards but for not english speakers: карточки
+  .O_card_for_learning {
     display: flex;
     flex-direction: column;
-    width: 43.59vw;
-    // height: 86.9vw;
+    width: 43.22vw;
+    align-items: center;
+    // height: 49.79vw;
     border: solid 0.4vw var(--blue);
     border-radius: 1vw;
-    align-items: center;
     gap: 4vw;
     padding: 2.5vw 0vw 4vw;
 
-    // .A_vertical_card_image_on_oval {
-    //     margin-top: 0.97vw;
-    //     margin-left: 0.97vw;
-    // }
-
-    // .W_Section_Card_Text {
-    //     margin-top: 1.81vw;
-    //     margin-left: 4.65vw;
-    // }
+    .W_Section_Card_Text {
+      margin: 1vw;
+    }
 }
 
-.O_CardForLearningWithHastag {
+  .O_CardForLearningWithHastag {
     display: flex;
     flex-direction: column;
     width: 43.33vw;
@@ -571,14 +555,21 @@
     // flex-wrap: wrap;
     gap: 4vw;
 
+<<<<<<< HEAD
+=======
+    // .A_framed_round_image {
+    //     margin-top: 1.04vw;
+    //     margin-left: 1.04vw;
+    // }
+>>>>>>> SASHA
 
-    .elements2_short {
-        margin-top: 1.46vw;
-        margin-left: 7.50vw;
-    }
-}
+    // .elements2_short {
+    //   margin-top: 1.46vw;
+    //   margin-left: 7.5vw;
+    // }
+  }
 
-.O_horizontal_card_for_learning {
+  .O_horizontal_card_for_learning {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
@@ -588,46 +579,57 @@
     padding: 2.5vw;;
     gap: 6vw;
 
+<<<<<<< HEAD
     .elements2_long {
     margin-top: 1.11vw;
     margin-left: 9.58vw;
     }
 }
+=======
+    // .Q_rectangle_image {
+    //     margin-top: 1.11vw;
+    //     margin-left: 1.25vw;
+    // }
 
-// .O_card_turn {
-//     display: flex;
-//     flex-direction: column;
-//     width: 22.22vw;
-//     height: 49.79vw;
-//     border: 0.14vw var(--blue);
+    // .elements2_long {
+    //   margin-top: 1.11vw;
+    //   margin-left: 9.58vw;
+    // }
+  }
+>>>>>>> SASHA
 
-//     .M_oval_flip_image {
-//     margin-top: 1.18vw;
-//     margin-left: 1.11vw;
-//     }
+  // .O_card_turn {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 22.22vw;
+  //     height: 49.79vw;
+  //     border: 0.14vw var(--blue);
 
-//     .strings1 {
-//     margin-top: 1.18vw;
-//     margin-left: 1.11vw;
-//     }
-// }
+  //     .M_oval_flip_image {
+  //     margin-top: 1.18vw;
+  //     margin-left: 1.11vw;
+  //     }
 
+  //     .strings1 {
+  //     margin-top: 1.18vw;
+  //     margin-left: 1.11vw;
+  //     }
+  // }
 
-// .O_little_horizontal_card_wuth_two_oval_images {
+  // .O_little_horizontal_card_wuth_two_oval_images {
 
-// }
+  // }
 
-// .O_FlippedCard {
-//     display: flex;
-//     flex-direction: column;
-//     width: 22.22vw;
-//     height: 49.79vw;
-//     border: 0.14vw var(--blue);
+  // .O_FlippedCard {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 22.22vw;
+  //     height: 49.79vw;
+  //     border: 0.14vw var(--blue);
 
+  // }
 
-// }
-
-.O_VerticalSectionCard {
+  .O_VerticalSectionCard {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -635,28 +637,26 @@
     border: 0.14vw var(--blue);
 
     .M_square_card_image_with_number {
-        margin-top: 0.90vw;
-        margin-left: 0.97vw;
+      margin-top: 0.9vw;
+      margin-left: 0.97vw;
     }
 
     .elements3 {
-        margin-top: 2.50vw;
-        margin-left: 2.22vw;
+      margin-top: 2.5vw;
+      margin-left: 2.22vw;
     }
+  }
 
-}
+  // .O_VerticalCardWithRoundImage {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 22.22vw;
+  //     height: 38.75vw;
+  //     border: 0.14vw var(--blue);
 
-// .O_VerticalCardWithRoundImage {
-//     display: flex;
-//     flex-direction: column;
-//     width: 22.22vw;
-//     height: 38.75vw;
-//     border: 0.14vw var(--blue);
+  // }
 
-
-// }
-
-.O_little_horizontal_card {
+  .O_little_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 30.14vw;
@@ -664,128 +664,107 @@
     border: 0.14vw var(--blue);
 
     .M_horizontal_oval_card_image {
-        margin-top: 2.85vw;
-        margin-left: 1.46vw;
+      margin-top: 2.85vw;
+      margin-left: 1.46vw;
     }
 
     .elements3 {
-        margin-top: 3.13vw;
-        margin-left: 6.18vw;
+      margin-top: 3.13vw;
+      margin-left: 6.18vw;
     }
-}
+  }
 
-// tests  
-.O_test_result {
+  // tests
+  .O_test_result {
     display: flex;
     flex-direction: column;
     width: 42.08vw;
     height: 28.54vw;
 
     .M_test_result_heading {
-        margin-left: 0.69vw;
+      margin-left: 0.69vw;
     }
 
     .W_test_results {
-        margin-top: 1.11vw;
+      margin-top: 1.11vw;
     }
-}
+  }
 
-.O_testBlock {
+  .O_testBlock {
     display: flex;
     flex-direction: column;
     width: 53.26vw;
     height: 26.67vw;
 
     .W_test_variants {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .A_button_default {
-        margin-top: 2.01vw;
+      margin-top: 2.01vw;
     }
-}
+  }
 
-//articles статьи по-русски об ЭтИкЕтЕ
-.O_ArticleVerticalImage {
+  //articles статьи по-русски об ЭтИкЕтЕ
+  .O_ArticleVerticalImage {
     display: flex;
     flex-direction: column;
     width: 26.46vw;
     height: 44.65vw;
     gap: 0.5vw;
 
-    .M_article_oval_framed_image_with_text_default  {
-    margin: 0 auto;
+    .M_article_oval_framed_image_with_text_default {
+      margin: 0 auto;
     }
 
     .W_image_signature {
-        margin-top: 1.39vw;
-        margin-left: 3.89vw;
+      margin-top: 1.39vw;
+      margin-left: 3.89vw;
     }
-}
+  }
 
-.O_article_vertical_image_with_round_image {
+  .O_article_vertical_image_with_round_image {
     display: flex;
     flex-direction: column;
     width: 22.15vw;
     height: 35.56vw;
 
     .M_article_round_framed_image_with_number {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .W_image_signature {
-        margin-top: 1.39vw;
-        margin-left: 1.74vw;
+      margin-top: 1.39vw;
+      margin-left: 1.74vw;
     }
-}
+  }
 
-.O_image_with_number_and_signature {
+  .O_image_with_number_and_signature {
     display: flex;
     flex-direction: column;
     width: 39.51vw;
     height: 46.11vw;
 
     .W_image_with_number {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .A_test_result_description {
-        margin-left: 3.40vw;
+      margin-left: 3.4vw;
     }
-}
+  }
 
-#O_recommendation_card {
+  #O_recommendation_card {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    height: 25.28vw;
+    width: 92vw;
+    height: 63.28vw;
     border: 0.15vw solid var(--blue);
     border-radius: 5px;
     gap: 1vw;
+  }
 
-    .M_thin_horizontal_card_image {
-        display: flex;
-            // padding-top: 1.46vw;
-            // padding-left: 1.39vw;
-            width: 27.08vw;
-            height: 12.78vw;
-            padding: 2vw 1vw;
-    
-            // .Q_horizontal_oval_card_image {
-            //     margin: 0 auto;
-            // }
-    
-            // .A_section_card_hastag {
-            //     padding-left: 21.81vw;
-            // }
-        }
-    // .W_CardText {
-    //         margin-top: 1.81vw;
-    //         margin-left: 0 auto;
-    // }
-}
-
-.O_horizontal_card {
+  .O_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 45.97vw;
@@ -793,17 +772,17 @@
     border: 0.14vw var(--blue);
 
     .M_three_images_with_number {
-        margin-top: 3.33vw;
-        margin-left: 5vw;
+      margin-top: 3.33vw;
+      margin-left: 5vw;
     }
 
     .W_CardText {
-        margin-top: 2.64vw;
-        margin-left: 0 auto;
-    } 
-}
+      margin-top: 2.64vw;
+      margin-left: 0 auto;
+    }
+  }
 
-.O_horizontalOvalCard {
+  .O_horizontalOvalCard {
     display: flex;
     flex-direction: column;
     width: 45.97vw;
@@ -811,17 +790,17 @@
     border: 0.14vw var(--blue);
 
     .M_bigger_thin_horizontal_card_image {
-        margin-top: 1.11vw;
-        margin-left: 0 auto;
+      margin-top: 1.11vw;
+      margin-left: 0 auto;
     }
 
     .W_CardText {
-        margin-top: 1.88vw;
-        margin-left: 0 auto;
+      margin-top: 1.88vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-.O_VerticalCardWithRoundImage {
+  .O_VerticalCardWithRoundImage {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -829,18 +808,22 @@
     border: 0.14vw var(--blue);
 
     .M_round_card_image_with_number {
-        margin-top: 1.04vw;
-        margin-left: 0 auto;
-
+      margin-top: 1.04vw;
+      margin-left: 0 auto;
     }
 
     .W_CardText {
+<<<<<<< HEAD
+=======
+        margin-top: 3.47vw;
+        margin-left: 0 auto;
+>>>>>>> SASHA
         margin-top: 3.47vw;
         margin-left: 0 auto;
     }
-}
+  }
 
-.O_little_horizontal_card_with_two_oval_images {
+  .O_little_horizontal_card_with_two_oval_images {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -848,17 +831,17 @@
     border: 0.14vw var(--blue);
 
     .M_two_images_with_numbers {
-        margin-top: 1.32vw;
-        margin-left: 0 auto;
+      margin-top: 1.32vw;
+      margin-left: 0 auto;
     }
 
     .W_CardText {
-        margin-top: 3.96vw;
-        margin-left: 0 auto;
+      margin-top: 3.96vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-.O_card_turn {
+  .O_card_turn {
     display: flex;
     flex-direction: column;
     width: 43.59vw;
@@ -871,17 +854,17 @@
 
 
     .M_oval_flip_image {
-        margin-top: 1.32vw;
-        margin-left: 0 auto;
+      margin-top: 1.32vw;
+      margin-left: 0 auto;
     }
 
     .W_section_card_text_one_string {
-        margin-top: 4.24vw;
-        margin-left: 0 auto;
+      margin-top: 4.24vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-.O_FlippedCard {
+  .O_FlippedCard {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -889,57 +872,55 @@
     border: 0.14vw var(--blue);
 
     .M_turn_over_card_image {
-        margin-top: 1.32vw;
-        margin-left: 0 auto;
+      margin-top: 1.32vw;
+      margin-left: 0 auto;
     }
 
     .A_vstuplenie {
-        margin-top: 3.68vw;
-        margin-left: 0 auto;
+      margin-top: 3.68vw;
+      margin-left: 0 auto;
     }
-}
+  }
 
-#O_article_big_photo {
-    width: 79.53vw;
-    height: 35.99vw;
+  #O_article_big_photo {
+    width: 90vw;
+    height: 203.08vw;
     margin: auto;
-}
+  }
 
-
-
-//404 page ошибочка 
-.O_404text {
+  //404 page ошибочка
+  .O_404text {
     display: flex;
     flex-direction: column;
     width: 62.71vw;
-    height: 25.90vw;
+    height: 25.9vw;
     border: 0.14vw var(--blue);
 
     .A_test_title {
-        padding-top: 4.17vw;
-        padding-left: 4.65vw;
+      padding-top: 4.17vw;
+      padding-left: 4.65vw;
     }
 
     .A_article_text {
-        padding-top: 2.78vw;
-        padding-left: 4.65vw;
+      padding-top: 2.78vw;
+      padding-left: 4.65vw;
     }
 
     .A_button_default {
-        padding-top: 2.64vw;
-        padding-left: 4.65vw;
+      padding-top: 2.64vw;
+      padding-left: 4.65vw;
     }
-}
-#O_404text {
+  }
+  #O_404text {
     margin: 0 auto;
     display: flex;
     padding: 2vw;
-    border: solid 0.14vw #204BF1;
+    border: solid 0.14vw #204bf1;
     border: solid 0.14vw var(--blue);
     border-radius: 0.5vw;
     flex-direction: column;
     align-items: flex-start;
     gap: 2.5vw;
     width: fit-content;
-}
+  }
 }

@@ -568,6 +568,17 @@
     transform: scale(1.4);
   }
 }
+.M_filterActive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1vw;
+  align-items: center;
+  width: 4vw;
+  input {
+    transform: scale(1.4);
+  }
+}
 }
 
 //мобилка
@@ -575,12 +586,15 @@
 
 // tags
 .M_tag_default {
-  height: 1.32vw;
-  width: 8.15vw;
+  width: 18.15vw;
+  font-family: Helvetica;
+  font-size: 2vw;
   border-radius: 0.21vw;
+  background-color: #D9D8FF;
   background-color: var(--purple);
-  padding: 0.25vw;
+  padding: 0.5vw;
   text-align: center;
+  color: #204BF1;
   color: var(--blue);
 
   // .A_tag_text {
@@ -619,8 +633,8 @@
 .M_AvatarInfluencer {
   display: flex;
   flex-direction: column;
-  width: 4.1vw;
-  height: 6.6vw;
+  width: 7.1vw;
+  height: 14.6vw;
   align-items: center;
 
   .A_round-A_avatar_image {
@@ -638,9 +652,8 @@
   // height: 30.7vw;
   // }
   // &.var2 {
-  width: 34.03vw;
-  height: 34.03vw;
-  // }
+  width: 87.03vw;
+  height: 87.03vw;
 
   .A_ArticleRectangleFramedImage {
     position: absolute;
@@ -1056,7 +1069,7 @@
 }
 
 .M_article_image_signature_with_line {
-  height: 2.5vw;
+  height: 7.5vw;
   width: 24.89vw;
   display: flex;
   flex-direction: column;
@@ -1093,7 +1106,6 @@
 }
 
 .M_article_recommedation_with_lines {
-  height: 5.69vw;
   width: 92.85vw;
   display: flex;
   flex-direction: row;
@@ -1103,10 +1115,10 @@
     margin: auto;
   }
 
-  .A_article_recommendation {
-    text-align: center;
-    margin: auto;
-  }
+  // .A_article_recommendation {
+  //   text-align: center;
+  //   margin: auto;
+  // }
 }
 
 .M_BlockSeparator {
@@ -1154,7 +1166,7 @@
   justify-content: space-between;
   gap: 1vw;
   align-items: center;
-  width: 12vw;
+  width: 20vw;
   input {
     transform: scale(1);
   }
