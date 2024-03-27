@@ -1,5 +1,9 @@
 @media only screen and (min-width: 500px) {
 
+#S_ShortCardBlock .O_CardForLearningWithHastag {
+  display: flex;
+}
+
 //navbar
 
 .S_NavBar {
@@ -407,7 +411,7 @@
   display: flex;
   flex-direction: column;
   width: 93.06vw;
-  height: 47.76vw;
+  // height: 47.76vw;
   margin: 0 auto;
   margin-top: 4.24vw;
   // align-items: center;
