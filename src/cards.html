@@ -128,13 +128,13 @@
     </div>
     <div class="W_filter">
         <div class="M_filter">
-            <input type="checkbox" class="btn"/>
+            <input type="checkbox" id="alco"/>
             <label class="A_article_lead">
                 <p>алкогольное</p>
             </label>
         </div>
         <div class="M_filter">
-            <input type="checkbox" class="btn"/>
+            <input type="checkbox" id="none_alco"/>
             <label class="A_article_lead">
                 <p>безалкогольное</p>
             </label>
@@ -143,7 +143,7 @@
 
     <div class="W_shorts_cards">
         <!-- первая карта -->
-        <div class="O_CardForLearningWithHastag">
+        <div class="O_CardForLearningWithHastag" data-tage="alco">
         <div class="A_framed_round_image vino"></div>
         <div class="W_card_text_with_hastag">
             <div class="A_section_card_title">
@@ -155,7 +155,7 @@
         </div>
         </div>
     <!-- вторая карточка -->
-    <div class="O_CardForLearningWithHastag">
+    <div class="O_CardForLearningWithHastag" data-tage="none_alco">
         <div class="A_framed_round_image voda"></div>
         <div class="W_card_text_with_hastag">
             <div class="A_section_card_title">
@@ -167,7 +167,7 @@
         </div>
         </div>
     <!-- третья карточка -->
-    <div class="O_CardForLearningWithHastag">
+    <div class="O_CardForLearningWithHastag" data-tage="alco">
         <div class="A_framed_round_image viski"></div>
         <div class="W_card_text_with_hastag">
             <div class="A_section_card_title">
@@ -179,7 +179,7 @@
         </div>
         </div>
     <!-- четвёртая карточка -->
-    <div class="O_CardForLearningWithHastag">
+    <div class="O_CardForLearningWithHastag" data-tage="alco">
         <div class="A_framed_round_image kon"></div>
         <div class="W_card_text_with_hastag">
             <div class="A_section_card_title">
@@ -192,6 +192,7 @@
         </div>
     </div>
     </div>
+
 <!-- блок с сервировкой -->
     <div id="S_HorizontalCards">
         <div class="M_BlockSeparator">
@@ -228,6 +229,7 @@
             </div>
         </div>
     </div>
+
 <!-- блок с флип-флопом -->
     <div id="S_CardsForFlip">
         <div class="M_BlockSeparator">

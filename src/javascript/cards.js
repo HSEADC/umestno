@@ -1,73 +1,48 @@
-document.ready(function() {
+document.addEventListener('DOMContentLoaded', function() {
+    const alcoCheckbox = document.getElementById('alco');
+    const noneAlcoCheckbox = document.getElementById('none_alco');
+    const cards = document.querySelectorAll('#S_ShortCardBlock .O_CardForLearningWithHastag:not(.M_BlockSeparator)');
 
-// Получаем все чекбоксы с классом 'btn'
-let checkboxes = document.querySelectorAll('#S_ShortCardBlock .btn');
+    alcoCheckbox.addEventListener('click', function() {
+        filterCards('alco');
+    });
 
-// Добавляем обработчик события клика для каждого чекбокса
-checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('click', function() {
-        let filter = this.parentElement.querySelector('p').textContent.toLowerCase(); // Получаем текст из тега <p> рядом с чекбоксом
-        let items = document.querySelectorAll('#S_ShortCardBlock > .W_shorts_cards > .O_CardForLearningWithHastag:not(.M_BlockSeparator)'); // Выбираем все элементы с классом 'O_CardForLearningWithHastag', кроме блоков с классом 'M_BlockSeparator'
-        
-        items.forEach(item => {
-            if (item.querySelector('.A_section_card_title p').textContent.toLowerCase().includes(filter)) {
-                if (item.style.display === 'none') {
-                    item.style.display = 'block'; // Показываем элемент, если он скрыт
-                } else {
-                    item.style.display = 'none'; // Скрываем элемент, если он видим
-                }
+    noneAlcoCheckbox.addEventListener('click', function() {
+        filterCards('non_alco');
+    });
+
+    function filterCards(tag) {
+        cards.forEach(card => {
+            const cardTag = card.getAttribute('data-tage');
+            if ((tag === 'alco' && cardTag === 'alco') || (tag === 'non_alco' && cardTag === 'none_alco')) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
             }
         });
+    }
+
+    alcoCheckbox.addEventListener('change', function() {
+        if (alcoCheckbox.checked && noneAlcoCheckbox.checked) {
+            cards.forEach(card => {
+                card.style.display = 'flex';
+            });
+        } else if (!alcoCheckbox.checked && !noneAlcoCheckbox.checked) {
+            cards.forEach(card => {
+                card.style.display = 'flex';
+            });
+        }
+    });
+
+    noneAlcoCheckbox.addEventListener('change', function() {
+        if (noneAlcoCheckbox.checked && alcoCheckbox.checked) {
+            cards.forEach(card => {
+                card.style.display = 'flex';
+            });
+        } else if (!noneAlcoCheckbox.checked && !alcoCheckbox.checked) {
+            cards.forEach(card => {
+                card.style.display = 'flex';
+            });
+        }
     });
 });
-
-
-
-  //   filterSelection("all")
-  // function filterSelection(c) {
-  //   var x, i;
-  //   x = document.getElementsByClassName("O_CardForLearningWithHastag");
-  //   if (c == "all") c = "";
-  //   // Добавить класс "show" (display:block) к отфильтрованным элементам и удалите класс "show" из элементов, которые не выбраны
-  //   for (i = 0; i < x.length; i++) {
-  //     w3RemoveClass(x[i], "show");
-  //     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  //   }
-  // }
-
-  // // Показать отфильтрованные элементы
-  // function w3AddClass(element, name) {
-  //   var i, arr1, arr2;
-  //   arr1 = element.className.split(" ");
-  //   arr2 = name.split(" ");
-  //   for (i = 0; i < arr2.length; i++) {
-  //     if (arr1.indexOf(arr2[i]) == -1) {
-  //       element.className += " " + arr2[i];
-  //     }
-  //   }
-  // }
-
-  // // Скрыть элементы, которые не выбраны
-  // function w3RemoveClass(element, name) {
-  //   var i, arr1, arr2;
-  //   arr1 = element.className.split(" ");
-  //   arr2 = name.split(" ");
-  //   for (i = 0; i < arr2.length; i++) {
-  //     while (arr1.indexOf(arr2[i]) > -1) {
-  //       arr1.splice(arr1.indexOf(arr2[i]), 1);
-  //     }
-  //   }
-  //   element.className = arr1.join(" ");
-  // }
-
-  // // Добавить активный класс к текущей кнопке управления (выделите ее)
-  // var btnContainer = document.getElementById("W_filter");
-  // var btns = btnContainer.getElementsByClassName("btn");
-  // for (var i = 0; i < btns.length; i++) {
-  //   btns[i].addEventListener("click", function() {
-  //     var current = document.getElementsByClassName("active");
-  //     current[0].className = current[0].className.replace(" active", "");
-  //     this.className += " active";
-  //   });
-  // }
-})
