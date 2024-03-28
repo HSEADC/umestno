@@ -1,0 +1,963 @@
+@media only screen and (min-width: 500px) {
+    body.inf1 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_article_main_image {
+                background-image: url('images/A_article_main_image_inf1.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.ann1 {
+                #O_ArticleVerticalImage {
+                    #ann1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_ann1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.ann3 {
+                #O_ArticleVerticalImage {
+                    #ann3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_ann2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.ann2 {
+                #O_image_with_number_and_signature {
+                    #ann2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_ann1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.ann4 {
+                #O_image_with_number_and_signature {
+                    #ann4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_ann2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageWine.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_image_lift.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageTable.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf2 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_article_main_image {
+                background-image: url('images/A_article_main_image_inf2.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.kate1 {
+                #O_ArticleVerticalImage {
+                    #kate1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_kate1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.kate3 {
+                #O_ArticleVerticalImage {
+                    #kate3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_kate3.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.kate2 {
+                #O_image_with_number_and_signature {
+                    #kate2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_kate2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.kate4 {
+                #O_image_with_number_and_signature {
+                    #kate4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_kate4.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageVin.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageLiz.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageAnn.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf3 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_article_main_image {
+                background-image: url('images/A_article_main_image_inf3.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.liz1 {
+                #O_ArticleVerticalImage {
+                    #liz1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_liz1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.liz3 {
+                #O_ArticleVerticalImage {
+                    #liz3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_liz2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.liz2 {
+                #O_image_with_number_and_signature {
+                    #liz2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_liz1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.liz4 {
+                #O_image_with_number_and_signature {
+                    #liz4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_liz2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imagePP.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageTaxi.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageVin.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf4 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_article_main_image {
+                background-image: url('images/A_article_main_image_inf4.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.under1 {
+                #O_ArticleVerticalImage {
+                    #under1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_under1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.under3 {
+                #O_ArticleVerticalImage {
+                    #under3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_under2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.under2 {
+                #O_image_with_number_and_signature {
+                    #under2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_under1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.under4 {
+                #O_image_with_number_and_signature {
+                    #under4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_under2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imagePP.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageWine.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageEat.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf5 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_article_main_image {
+                background-image: url('images/A_article_main_image_inf5.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.vin1 {
+                #O_ArticleVerticalImage {
+                    #vin1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_vin1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.vin3 {
+                #O_ArticleVerticalImage {
+                    #vin3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_vin2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.vin2 {
+                #O_image_with_number_and_signature {
+                    #vin2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_vin1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.vin4 {
+                #O_image_with_number_and_signature {
+                    #vin4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_vin2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageWine.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageTaxi.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageAnn.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf6 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_article_main_image {
+                background-image: url('images/A_article_main_image_inf6.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.cel1 {
+                #O_ArticleVerticalImage {
+                    #cel1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_cel1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.cel3 {
+                #O_ArticleVerticalImage {
+                    #cel3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_cel2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.cel2 {
+                #O_image_with_number_and_signature {
+                    #cel2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_cel1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.cel4 {
+                #O_image_with_number_and_signature {
+                    #cel4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_cel2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageVin.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_image_lift.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageAnn.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    body.inf1 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_movileFirstImage {
+                background-image: url('images/A_movileFirstImage_inf1.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.ann1 {
+                #O_ArticleVerticalImage {
+                    #ann1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_ann1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.ann3 {
+                #O_ArticleVerticalImage {
+                    #ann3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_ann2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.ann2 {
+                #O_image_with_number_and_signature {
+                    #ann2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_ann1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.ann4 {
+                #O_image_with_number_and_signature {
+                    #ann4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_ann2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageWine.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_image_lift.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageTable.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf2 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_movileFirstImage {
+                background-image: url('images/A_movileFirstImage_inf2.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.kate1 {
+                #O_ArticleVerticalImage {
+                    #kate1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_kate1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.kate3 {
+                #O_ArticleVerticalImage {
+                    #kate3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_kate3.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.kate2 {
+                #O_image_with_number_and_signature {
+                    #kate2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_kate2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.kate4 {
+                #O_image_with_number_and_signature {
+                    #kate4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_kate4.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageVin.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageLiz.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageAnn.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf3 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_movileFirstImage {
+                background-image: url('images/A_movileFirstImage_inf3.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.liz1 {
+                #O_ArticleVerticalImage {
+                    #liz1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_liz1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.liz3 {
+                #O_ArticleVerticalImage {
+                    #liz3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_liz2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.liz2 {
+                #O_image_with_number_and_signature {
+                    #liz2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_liz1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.liz4 {
+                #O_image_with_number_and_signature {
+                    #liz4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_liz2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imagePP.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageTaxi.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageVin.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+    
+    body.inf4 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_movileFirstImage {
+                background-image: url('images/A_movileFirstImage_inf4.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.under1 {
+                #O_ArticleVerticalImage {
+                    #under1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_under1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.under3 {
+                #O_ArticleVerticalImage {
+                    #under3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_under2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.under2 {
+                #O_image_with_number_and_signature {
+                    #under2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_under1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.under4 {
+                #O_image_with_number_and_signature {
+                    #under4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_under2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imagePP.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageWine.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageEat.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+    
+    body.inf5 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+    
+        #S_ArticleHeading {
+            .A_movileFirstImage {
+                background-image: url('images/A_movileFirstImage_inf5.png');
+                background-size: cover;
+            }
+        }
+    
+        #S_ArticleBlock {
+            &.vin1 {
+                #O_ArticleVerticalImage {
+                    #vin1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_vin1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+    
+            &.vin3 {
+                #O_ArticleVerticalImage {
+                    #vin3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_vin2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    
+        #S_ArticleBlockWithNumbers {
+            &.vin2 {
+                #O_image_with_number_and_signature {
+                    #vin2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_vin1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+    
+            &.vin4 {
+                #O_image_with_number_and_signature {
+                    #vin4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_vin2.png');
+                        background-size: cover;
+    
+                    }
+                }
+            }
+        }
+    
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageWine.png');
+                    background-size: cover;
+                }
+    
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_imageTaxi.png');
+                    background-size: cover;
+                }
+    
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageAnn.png');
+                    background-size: cover;
+                }
+            }
+    
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    body.inf6 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_ArticleHeading {
+            .A_movileFirstImage {
+                background-image: url('images/A_movileFirstImage_inf6.png');
+                background-size: cover;
+            }
+        }
+
+        #S_ArticleBlock {
+            &.cel1 {
+                #O_ArticleVerticalImage {
+                    #cel1.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_cel1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.cel3 {
+                #O_ArticleVerticalImage {
+                    #cel3.M_article_oval_framed_image_with_text {
+                        background-image: url('images/M_article_oval_framed_image_with_text_cel2.png');
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        #S_ArticleBlockWithNumbers {
+            &.cel2 {
+                #O_image_with_number_and_signature {
+                    #cel2.W_image_with_number {
+                        background-image: url('images/W_image_with_number_cel1.png');
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &.cel4 {
+                #O_image_with_number_and_signature {
+                    #cel4.W_image_with_number {
+                        background-image: url('images/W_image_with_number_cel2.png');
+                        background-size: cover;
+
+                    }
+                }
+            }
+        }
+
+        #O_recommendation_card {
+            .Q_recommendation_card_image {
+                &.more {
+                    background-image: url('images/Q_recommendation_card_imageVin.png');
+                    background-size: cover;
+                }
+
+                &.lift {
+                    background-image: url('images/Q_recommendation_card_image_lift.png');
+                    background-size: cover;
+                }
+
+                &.ann {
+                    background-image: url('images/Q_recommendation_card_imageAnn.png');
+                    background-size: cover;
+                }
+            }
+
+            .W_CardText {
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+}

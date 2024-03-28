@@ -9,11 +9,11 @@
   }
   &.middle {
     width: 34.6vw;
-    height: 0.16vw;
+    height: 0.14vw;
   }
   &.middle2 {
     width: 51.6vw;
-    height: 0.16vw;
+    height: 0.14vw;
   }
   &.shorter {
     width: 17.57vw;
@@ -25,11 +25,15 @@
   }
   &.players {
     width: 25.07vw;
-    height: 0.1vw;
+    height: 0.14vw;
   }
   &.card {
     width: 23.89vw;
-    height: 0.1vw;
+    height: 0.14vw;
+  }
+  &.inf {
+    width: 21.8vw;
+    height: 0.14vw;
   }
   &.service {
     width: 61.56vw;
@@ -48,6 +52,36 @@
   }
   &.flip {
     width: 27.99vw;
+    height: 0.14vw;
+    margin-left: 1vw;
+  }
+  &.influensers {
+    width: 48.56vw;
+    height: 0.14vw;
+    margin-left: 1vw;
+  }
+  &.manera {
+    width: 56.56vw;
+    height: 0.14vw;
+    margin-left: 1vw;
+  }
+  &.heroes {
+    width: 62.56vw;
+    height: 0.14vw;
+    margin-left: 1vw;
+  }
+  &.cinema {
+    width: 48.56vw;
+    height: 0.14vw;
+    margin-left: 1vw;
+  }
+  &.public {
+    width: 28.56vw;
+    height: 0.14vw;
+    margin-left: 1vw;
+  }
+  &.guests {
+    width: 46.56vw;
     height: 0.14vw;
     margin-left: 1vw;
   }
@@ -141,6 +175,8 @@
 .Q_horizontal_oval_card_image {
   width: 27.01vw;
   height: 16.04vw;
+  border-radius: 0.43vw;
+  margin: auto;
 }
 
 .Q_square_card_image {
@@ -206,6 +242,7 @@
   height: 4.5vw;
   background-image: url('images/Q_hse_logo.png');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .Q_line_menu {
   margin: 1.5vw;
@@ -215,7 +252,7 @@
 }
 .Q_rectangle_image {
   width: 43.26vw;
-  height: 23.06vw;
+  height: 25.06vw;
   border-radius: 0.42vw;
 }
 
@@ -242,6 +279,7 @@
     // height: 0.14vw;
   }
   &.middle {
+    display: none;
     width: 34.6vw;
     height: 0.16vw;
   }
@@ -250,6 +288,7 @@
     height: 0.16vw;
   }
   &.shorter {
+    display: none;
     width: 17.57vw;
     height: 0.14vw;
   }
@@ -389,11 +428,6 @@
   height: 18.54vw;
 }
 
-.Q_horizontal_oval_card_image {
-  width: 27.01vw;
-  height: 16.04vw;
-}
-
 .Q_square_card_image {
   width: 20vw;
   height: 23.06vw;
@@ -428,8 +462,8 @@
   z-index: 0;
   background-image: url('images/Q_mainStroke.png');
   background-size: cover;
-  width: 27.32vw;
-  height: 17vw;
+  width: 44.32vw;
+  height: 27vw;
   margin-left: 4vw;
 }
 
@@ -458,6 +492,7 @@
     height: 8.5vw;
     background-image: url('images/Q_hse_logo.png');
     background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 9vw;
 }
 .Q_line_menu {
@@ -474,8 +509,8 @@
   z-index: 0;
   background-image: url('images/Q_mainStroke.png');
   background-size: cover;
-  width: 27.32vw;
-  height: 17vw;
+  width: 41.32vw;
+  height: 25vw;
   transform: rotate(-37deg);
 }
 

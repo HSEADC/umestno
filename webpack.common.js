@@ -191,7 +191,7 @@ module.exports = {
     scriptLoading: 'blocking',
     template: './src/cards.html',
     filename: './cards.html',
-    chunk: ['index']
+    chunk: ['index', 'flip2', 'cards']
   }),
 
 
@@ -244,6 +244,60 @@ module.exports = {
       chunk: ['index']
     }),
 
+    //influensers
+    // influensers1 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf1.html',
+      filename: './media/influensers/inf1.html',
+      chunk: ['index']
+    }),
+
+    // influensers2 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf2.html',
+      filename: './media/influensers/inf2.html',
+      chunk: ['index']
+    }),
+
+    // influensers3 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf3.html',
+      filename: './media/influensers/inf3.html',
+      chunk: ['index']
+    }),
+
+    // influensers4 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf4.html',
+      filename: './media/influensers/inf4.html',
+      chunk: ['index']
+    }),
+
+    // influensers5 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf5.html',
+      filename: './media/influensers/inf5.html',
+      chunk: ['index']
+    }),
+
+    // influensers6 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/influensers/inf6.html',
+      filename: './media/influensers/inf6.html',
+      chunk: ['index']
+    }),
 
 
   //Antietiquette
@@ -264,9 +318,99 @@ module.exports = {
     filename: './media/antietiquette/artic2.html',
     chunk: ['index']
   }),
+    // article3
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/media/antietiquette/artic3.html',
+      filename: './media/antietiquette/artic3.html',
+      chunk: ['index']
+    }),
+        // article4
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/antietiquette/artic4.html',
+          filename: './media/antietiquette/artic4.html',
+          chunk: ['index']
+        }),
+        // article5
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/antietiquette/artic5.html',
+          filename: './media/antietiquette/artic5.html',
+          chunk: ['index']
+        }),
+
+        // article6
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/antietiquette/artic6.html',
+          filename: './media/antietiquette/artic6.html',
+          chunk: ['index']
+        }),
 
 
+        //Guides
 
+        //guide 1
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid1.html',
+          filename: './media/guides/guid1.html',
+          chunk: ['index']
+        }), 
+        //guide 2
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid2.html',
+          filename: './media/guides/guid2.html',
+          chunk: ['index']
+        }),   
+        //guide 3
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid3.html',
+          filename: './media/guides/guid3.html',
+          chunk: ['index']
+        }),   
+        //guide 4
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid4.html',
+          filename: './media/guides/guid4.html',
+          chunk: ['index']
+        }),              
+        //guide 5
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid5.html',
+          filename: './media/guides/guid5.html',
+          chunk: ['index']
+        }),  
+        //guide 6
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid6.html',
+          filename: './media/guides/guid6.html',
+          chunk: ['index']
+        }),  
+        //guide 7
+        new HtmlWebpackPlugin({
+          hash: true,
+          scriptLoading: 'blocking',
+          template: './src/media/guides/guid7.html',
+          filename: './media/guides/guid7.html',
+          chunk: ['index']
+        }),  
 
     // Tests
 
