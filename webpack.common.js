@@ -20,7 +20,8 @@ module.exports = {
     test9: './src/testsJs/test9.js',
     page: './src/page.jsx',
     cards: './src/cardsJs/flip2.js',
-    menubar: './src/menubar.jsx'
+    menubar: './src/menubar.jsx',
+    search: './src/search-vanilla.js'
   },
   output: {
     filename: '[name].js',
@@ -105,7 +106,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.ejs',
       filename: './index.html',
-      chunk: ['index', 'menubar']
+      chunk: ['index', 'menubar', 'search']
     }),
 
     // search page
@@ -114,7 +115,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/search.html',
       filename: './search.html',
-      chunk: ['menubar']
+      chunk: ['menubar', 'search']
     }),
 
     // 404 page
