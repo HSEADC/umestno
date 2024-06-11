@@ -87,11 +87,16 @@
   }
 }
 
+.Q_burgerMenu {
+  display: none;
+}
+
 .Q_eye {
   width: 1.98vw;
   height: 1.98vw;
   background-image: url('images/Q_eye.png');
   background-size: cover;
+  cursor: pointer;
 }
 
 .Q_oval {
@@ -192,7 +197,7 @@
 .Q_test_variant input {
   width: 1.6vw;
   height: 1.6vw;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--textGrey);
   border-radius: 0.31vw;
   cursor: pointer;
 
@@ -245,7 +250,7 @@
   background-repeat: no-repeat;
 }
 .Q_line_menu {
-  margin: 1.5vw;
+  margin: 3.5vw 1.5vw 1.5vw;
   width: 94.48vw;
   height: 0.1vw;
   background-color: var(--blue);
@@ -344,6 +349,7 @@
   height: 1.98vw;
   background-image: url('images/Q_eye.png');
   background-size: cover;
+  cursor: pointer;
 }
 
 .Q_oval {

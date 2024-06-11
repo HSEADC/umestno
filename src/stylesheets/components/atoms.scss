@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media all and (min-width: 500px) {
   // кнопки
 .A_button_default {
   height: 3.75vw;
@@ -25,13 +25,15 @@
 }
 
 
-.A_searchbar {
+.A_SearchInput {
   font-family: Helvetica;
-  font-size: 0.94vw;
   font-style: normal;
   font-weight: normal;
-  color: var(--deep_gray);
-  text-decoration: none;
+  font-size: 1.25vw;
+  color: var(--textGrey);
+  border: none;
+  width: 12vw;
+  border-bottom: 0.15vw solid var(--blue);
 }
 
 .A_menubutton_default {
@@ -120,7 +122,7 @@
   font-style: normal;
   font-weight: normal;
   text-align: center;
-  color: var(--blue);
+  color: var(--textGrey);
 }
 .A_article_text {
   width: 42.3vw;
@@ -129,7 +131,7 @@
   font-weight: normal;
   font-size: 1.67vw;
   line-height: 2.01vw;
-  color: var(--blue);
+  color: var(--textGrey);
 }
 .A_tag_text {
   font-family: Helvetica;
@@ -694,7 +696,7 @@ border-radius: 0;
   align-items: center;
 }
 
-.A_searchbar_text {
+.A_SearchInput_text {
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: normal;
@@ -714,10 +716,14 @@ border-radius: 0;
   height: 2.81vw;
 }
 
-// .A_resultImage {
-//   transform: scale(0.7);
-//   height: 64.43vw;
-// }
+.A_resultImage {
+  // transform: scale(0.7);
+  height: 130%;
+
+  img {
+    height: 100%;
+  }
+}
 
 .A_vstuplenie {
   font-family: Helvetica;
@@ -736,7 +742,7 @@ border-radius: 0;
   font-weight: normal;
   font-size: 1.67vw;
   line-height: 2.01vw;
-  color: var(--blue);
+  color: var(--textGrey);
   width: 74vw;
   margin: 4vw 6vw;
 }
@@ -851,7 +857,7 @@ border-radius: 0;
   font-style: normal;
   font-weight: normal;
   text-align: center;
-  color: var(--blue);
+  color: var(--textGrey);
 }
 .A_article_text {
   width: 68.64vw;
@@ -860,7 +866,7 @@ border-radius: 0;
   font-weight: normal;
   font-size: 2.67vw;
   line-height: 3.01vw;
-  color: var(--blue);
+  color: var(--textGrey);
 }
 .A_tag_text {
   font-family: Helvetica;
@@ -1433,7 +1439,7 @@ border-radius: 0;
   font-weight: normal;
   font-size: 2.67vw;
   line-height: 3.01vw;
-  color: var(--blue);
+  color: var(--textGrey);
   width: 74vw;
   margin: 4vw 6vw;
 }

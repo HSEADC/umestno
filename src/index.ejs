@@ -1,3 +1,8 @@
+<!--prettier-ignore-->
+<%  
+    const {menubar} = require('./menubar.js')
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,23 +40,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
 </head>
 <body class="b">
-    <nav class="S_NavBar">
-        <div class="W_SimpleNavBar">
-            <a class="A_little_logo" href="../index.html"></a>
-            <!-- <img src="" class="logo" alt="Логотип"> -->
-            <div class="W_NavBar">
-                <a class="A_menubutton_default" href="./media/guides.html">медиа</a>
-                <a class="A_menubutton_default" href="cards.html">карточки</a>
-                <a class="A_menubutton_default" href="tests_main.html">тесты</a>
-                <a class="A_menubutton_default" href="about.html">о нас</a>
-                <a class="Q_burgerMenu" href="burger.html"></a>
-                <!-- <div class="M_searchbar">
-                <a class="A_searchbar" href="">я ищу..</a>
-                <div class="Q_eye"></div>
-              </div> -->
-            </div>
-        </div>
-    </nav>
+    <div class="S_NavBar"><%= menubar %></div>
+   
+    <!-- <menubar></menubar> -->
 
     <div id="S_preview" class="intro">
         <div class="O_previewBlock">
@@ -174,28 +165,7 @@
         </div>
     </div>
 
-    <div id="O_footer">
-    <div class="A_big_logo"></div>
-    <div class="W_footer_text">
-        <div class="A_footer_text students">
-            <p>Дарья любивая <br>Анастасия Ляч <br>Зеленкова Александра</p>
-        </div>
-        <div class="A_footer_text teachers">
-            <p>Каем софья <br>Комкова Анна</p>
-        </div>
-    </div>
-    <div class="W_socialmedia_icons_hse_logo">
-        <div class="W_socialmedia_icons">
-            <div class="Q_Vk">
-                <a href=""></a>
-            </div>
-            <div class="Q_Tg">
-                <a href=""></a>
-            </div>
-        </div>
-        <a class="Q_hse_logo" href="https://design.hse.ru/"> </a>
-    </div>
-    </div>
+    <footer></footer>
     
 </body>
 </html>

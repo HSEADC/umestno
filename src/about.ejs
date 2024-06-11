@@ -1,3 +1,5 @@
+<% const {menubar}=require('./menubar.js') %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,40 +38,27 @@
     <analytics></analytics>
 </head>
 <body class="about">
-    <nav class="S_NavBar">
-        <div class="W_SimpleNavBar">
-            <a class="A_little_logo" href="./index.html"></a>
-            <!-- <img src="" class="logo" alt="Логотип"> -->
-            <div class="W_NavBar">
-                <a class="A_menubutton_default" href="./media/guides.html">медиа</a>
-                <a class="A_menubutton_default" href="cards.html">карточки</a>
-                <a class="A_menubutton_default" href="tests_main.html">тесты</a>
-                <a class="A_menubutton_active" href="about.html">о нас</a>
-                <a class="Q_burgerMenu" href="burger.html"></a>
-                <!-- <div class="M_searchbar">
-                <a class="A_searchbar" href="">я ищу..</a>
-                <div class="Q_eye"></div>
-              </div> -->
-            </div>
-        </div>
-    </nav>
+    <%= menubar %>
+
+    <!-- <menubar></menubar> -->
+
     <div class="bigAbout">
-        <img src="images/oval.svg" class="oval" alt="Овал">
-        <img src="images/mobileoval.svg" class="mobileoval" alt="Овал">
+        <img src="<%=require('./images/oval.svg')%>" class="oval" alt="Овал">
+        <img src="<%=require('./images/mobileoval.svg')%>" class="mobileoval" alt="Овал">
         <p class="what">УМЕСТНО</p>
         <p class="platform">этикет без бед</p>
         <p class="script">(ВАША ШПАРГАЛКА <br> ПО ЭТИКЕТУ)</p>
     </div>
     <div class="scaleme">
         <p class="us">ПРО ЧТО МЫ?</p>
-        <img src="images/number.svg" class="number" alt="Цифра">
-        <img src="images/bag.png" class="bag" alt="Сумка">
-        <img src="images/arroww.svg" class="arroww" alt="Стрелка">
-        <img src="images/number3.svg" class="number3" alt="Цифра">
-        <img src="images/cup.png" class="cup" alt="Чашка">
-        <img src="images/aroww2.svg" class="aroww2" alt="Стрелка">
-        <img src="images/number.svg" class="number6" alt="Цифра">
-        <img src="images/shoe.png" class="shoe" alt="Туфля">
+        <img src="<%=require('./images/number.svg')%>" class="number" alt="Цифра">
+        <img src="<%=require('./images/bag.png')%>" class="bag" alt="Сумка">
+        <img src="<%=require('./images/arroww.svg')%>" class="arroww" alt="Стрелка">
+        <img src="<%=require('./images/number3.svg')%>" class="number3" alt="Цифра">
+        <img src="<%=require('./images/cup.png')%>" class="cup" alt="Чашка">
+        <img src="<%=require('./images/aroww2.svg')%>" class="aroww2" alt="Стрелка">
+        <img src="<%=require('./images/number.svg')%>" class="number6" alt="Цифра">
+        <img src="<%=require('./images/shoe.png')%>" class="shoe" alt="Туфля">
         <p class="case">КАКАЯ СУМКА <br> ДЛЯ КАКОГО <br> СЛУЧАЯ?</p>
         <p class="tea">КАК ПРАВИЛЬНО <br> ПОДАВАТЬ ЧАЙ?</p>
         <p class="heels">КУДА УМЕСТНО <br> НАДЕТЬ КАБЛУКИ?</p>
@@ -92,16 +81,16 @@
     <div class="kvadrat">
         <h2 class="why">ЗАЧЕМ НАС ЧИТАТЬ?</h2>
         <div class="wrapper3">
-            <img src="images/blue1.svg" class="blue1" alt="Цифра">
-            <img src="images/blue5.svg" class="blue5" alt="Цифра">
-            <img src="images/blue1.svg" class="blue11" alt="Цифра">
-            <img src="images/blue6.svg" class="blue6" alt="Цифра">
+            <img src="<%=require('./images/blue1.svg')%>" class="blue1" alt="Цифра">
+            <img src="<%=require('./images/blue5.svg')%>" class="blue5" alt="Цифра">
+            <img src="<%=require('./images/blue1.svg')%>" class="blue11" alt="Цифра">
+            <img src="<%=require('./images/blue6.svg')%>" class="blue6" alt="Цифра">
         </div>
         <div class="wrapper">
-            <img src="images/pic1.png" class="pic1" alt="Кадр из фильма">
-            <img src="images/pic2.png" class="pic2" alt="Кадр из фильма">
-            <img src="images/pic3.png" class="pic3" alt="Кадр из фильма">
-            <img src="images/pic4.png" class="pic4" alt="Кадр из фильма">
+            <img src="<%=require('./images/pic1.png')%>" class="pic1" alt="Кадр из фильма">
+            <img src="<%=require('./images/pic2.png')%>" class="pic2" alt="Кадр из фильма">
+            <img src="<%=require('./images/pic3.png')%>" class="pic3" alt="Кадр из фильма">
+            <img src="<%=require('./images/pic4.png')%>" class="pic4" alt="Кадр из фильма">
         </div>
         <p class="hashtag">#светский-этикет</p>
         <p class="hashtag2">#фильмы</p>
@@ -130,14 +119,14 @@
             и тестов.
         </div>
         <div class="wrapper2">
-            <img src="images/number.svg" class="numbera" alt="Цифра">
-            <img src="images/dish.png" class="dish" alt="Тарелка">
-            <img src="images/arrow3.svg" class="arrow3" alt="Стрелка">
-            <img src="images/number.svg" class="numberb" alt="Цифра">
-            <img src="images/fork.png" class="fork" alt="Вилка">
-            <img src="images/number.svg" class="numberc" alt="Цифра">
-            <img src="images/knife.png" class="knife" alt="Нож">
-            <img src="images/arrow4.svg" class="arrow4" alt="Стрелка">
+            <img src="<%=require('./images/number.svg')%>" class="numbera" alt="Цифра">
+            <img src="<%=require('./images/dish.png')%>" class="dish" alt="Тарелка">
+            <img src="<%=require('./images/arrow3.svg')%>" class="arrow3" alt="Стрелка">
+            <img src="<%=require('./images/number.svg')%>" class="numberb" alt="Цифра">
+            <img src="<%=require('./images/fork.png')%>" class="fork" alt="Вилка">
+            <img src="<%=require('./images/number.svg')%>" class="numberc" alt="Цифра">
+            <img src="<%=require('./images/knife.png')%>" class="knife" alt="Нож">
+            <img src="<%=require('./images/arrow4.svg')%>" class="arrow4" alt="Стрелка">
         
             <p class="dishtext">ТАРЕЛКА <br> ДЛЯ ХЛЕБА</p>
             <p class="knifetext">НОЖ <br> ДЛЯ КРАБОВ</p>

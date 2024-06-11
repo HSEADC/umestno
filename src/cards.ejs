@@ -1,3 +1,5 @@
+<% const {menubar}=require('./menubar.js') %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,23 +39,10 @@
     <script src="./javascript/cards.js" charset="utf-8"></script>
 </head>
 <body class="cards">
-    <nav class="S_NavBar">
-        <div class="W_SimpleNavBar">
-            <a class="A_little_logo" href="./index.html"></a>
-            <!-- <img src="" class="logo" alt="Логотип"> -->
-            <div class="W_NavBar">
-                <a class="A_menubutton_default" href="./media/guides.html">медиа</a>
-                <a class="A_menubutton_active" href="cards.html">карточки</a>
-                <a class="A_menubutton_default" href="tests_main.html">тесты</a>
-                <a class="A_menubutton_default" href="about.html">о нас</a>
-                <a class="Q_burgerMenu" href="burger.html"></a>
-                <!-- <div class="M_searchbar">
-                <a class="A_searchbar" href="">я ищу..</a>
-                <div class="Q_eye"></div>
-            </div> -->
-            </div>
-        </div>
-    </nav>
+    <%= menubar %>
+    
+    <!-- <menubar></menubar> -->
+    
     <div id="S_SectionFirst">
         <div class="W_section_text_head">
             <div class="A_section_title">
