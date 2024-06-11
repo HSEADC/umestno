@@ -1,0 +1,240 @@
+@media only screen and (min-width: 500px) {
+    body.films {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        #S_SectionFirst {
+            .Q_big_oval_image {
+                background-image: url('images/films.png');
+                background-size: cover;
+                width: 82vw;
+            }
+        }
+
+        .O_horizontal_card_for_learning {
+            height: 39.8vw;
+        }
+
+        #S_LongCardsBlock {
+            .Q_rectangle_image {
+                background-image: url('images/grace.png');
+                background-size: cover;
+            }
+        }
+
+        #O_VerticalCardWithRoundImage {
+            .Q_horizontal_oval_card_image {
+                margin-top: 1vw;
+                height: 25vw;
+                width: 20vw;
+
+                &.emma {
+                    background-image: url('images/emm.png');
+                    background-size: cover;
+                }
+
+                &.fil {
+                    background-image: url('images/fili.png');
+                    background-size: cover;
+                    width: 20vw;
+                }
+            }
+
+            .W_CardText {
+                margin-top: 0.47vw;
+            }
+
+            .W_CardText {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2vw 1vw 3vw 1vw;
+
+                .M_tag_default {
+                    margin-top: 1vw;
+                }
+            }
+        }
+    }
+
+    #O_little_horizontal_card {
+        display: flex;
+        flex-direction: column;
+        width: 30.14vw;
+        height: 34.67vw;
+        border: solid 0.14vw var(--blue);
+        border-radius: 0.42vw;
+
+        .M_horizontal_oval_card_image {
+            margin-top: 2.85vw;
+            margin-left: 1.46vw;
+        }
+
+        .elements3 {
+            margin-top: 3.13vw;
+            margin-left: 6.18vw;
+        }
+    }
+
+    #S_LongCardsBlock {
+        .Q_horizontal_oval_card_image {
+            margin-top: 1vw;
+            height: 25vw;
+            width: 20vw;
+
+            &.princess {
+                background-image: url('images/princess.png');
+                background-size: cover;
+                width: 26.5vw;
+                height: 16.3vw;
+                margin-top: 1.5vw;
+            }
+
+            &.how {
+                background-image: url('images/how.png');
+                background-size: cover;
+                width: 27.5vw;
+                height: 18vw;
+                margin-top: 1vw;
+            }
+
+            &.madam {
+                background-image: url('images/madam.png');
+                background-size: cover;
+                width: 26.5vw;
+                height: 16.3vw;
+                margin-top: 1.5vw;
+            }
+        }
+
+        .W_CardText {
+            margin-top: 0.47vw;
+        }
+
+        .W_CardText {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0vw;
+
+            .M_tag_default {
+                margin-top: 1vw;
+            }
+        }
+    }
+}
+
+ @media only screen and (max-width: 499px) {
+     body.films {
+         #S_SectionFirst {
+             .A_MobileMainImage {
+                 background-image: url('images/mobilefilms.png');
+                 background-size: cover;
+             }
+         }
+         .M_tag_default {
+            margin-top: 3vw;
+         }
+        #O_VerticalCardWithRoundImage {
+            .Q_horizontal_oval_card_image {
+                margin-top: 1vw;
+                height: 25vw;
+                width: 20vw;
+
+                &.emma {
+                    background-image: url('images/mobem.png');
+                    background-size: cover;
+                    width: 88vw;
+                    height: 50vw;
+                }
+
+                &.fil {
+                    background-image: url('images/fififi.png');
+                    background-size: cover;
+                    width: 88vw;
+                    height: 50vw;
+                }
+            }
+        }
+
+               
+
+
+         #S_LongCardsBlock {
+             margin-top: 16.7vw;
+                .Q_rectangle_image {
+                    background-image: url('images/mobgrace.png');
+                    background-size: cover;
+                    width: 88vw;
+                    height: 50vw;
+
+                }
+         }
+
+         #S_LongCardsBlock {
+             margin-top: 16.7vw;
+
+             .Q_horizontal_oval_card_image  {
+                 &.princess {
+                     background-image: url('images/mobpri.png');
+                     background-size: cover;
+                    width: 88vw;
+                        height: 50vw;
+                 }
+
+                 &.how {
+                     background-image: url('images/mobwhy.png');
+                     background-size: cover;
+                    width: 88vw;
+                        height: 50vw;
+                 }
+
+                 &.madam {
+                     background-image: url('images/mobmad.png');
+                     background-size: cover;
+                    width: 88vw;
+                        height: 50vw;
+                 }
+             }
+         }
+
+
+        #O_VerticalCardWithRoundImage {
+            display: flex;
+            flex-direction: column;
+            width: 93.06vw;
+            height: 75.74vw;
+            border: solid 0.4vw #204BF1;
+            border: solid 0.4vw var(--blue);
+            border-radius: 1vw;
+            padding: 2.5vw;
+            gap: 6vw;
+        }
+
+        #O_little_horizontal_card {
+            display: flex;
+            flex-direction: column;
+            width: 93.06vw;
+            height: 75.74vw;
+            border: solid 0.4vw #204BF1;
+            border: solid 0.4vw var(--blue);
+            border-radius: 1vw;
+            padding: 2.5vw;
+            gap: 6vw;
+        }
+
+         .none {
+             display: none;
+         }
+
+         .invisble {
+             opacity: 0;
+         }
+     }
+     
+
+
+
+    }

@@ -6,14 +6,9 @@ body.film1 {
     }
 
     #S_ArticleHeading {
-        gap: 0.78vw;
-        
         .A_article_main_image {
             background-image: url('images/A_article_main_image_5mistakes.png');
             background-size: cover;
-        }        
-        .W_article_first_page_text {
-            gap: 1.20vw;
         }
     }
 
@@ -116,18 +111,21 @@ body.film1 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
                 background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover;
             }
         }
+
         .W_CardText {
             .M_tag_default {
                 margin-top: 1vw;
@@ -143,15 +141,10 @@ body.film2 {
     }
 
     #S_ArticleHeading {
-        gap: 0.78vw;
-        
         .A_article_main_image {
             background-image: url('images/A_article_main_image_film2.png');
             background-size: cover;
-        }        
-        .W_article_first_page_text {
-            gap: 1.20vw;
-        }
+        }  
     }
 
     #S_ArticleBlock {
@@ -228,15 +221,15 @@ body.film2 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover; 
             }
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imagePP.png');
                 background-size: cover; 
             }
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover; 
             }
         }
@@ -255,15 +248,10 @@ body.film3 {
     }
 
     #S_ArticleHeading {
-        gap: 0.78vw;
-        
         .A_article_main_image {
             background-image: url('images/A_article_main_image_film3.png');
             background-size: cover;
-        }        
-        .W_article_first_page_text {
-            gap: 1.20vw;
-        }
+        }   
     }
 
     #S_ArticleBlock {
@@ -340,7 +328,7 @@ body.film3 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover; 
             }
             &.lift {
@@ -348,7 +336,7 @@ body.film3 {
                 background-size: cover; 
             }
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageTaxi.png');
                 background-size: cover; 
             }
         }
@@ -367,15 +355,10 @@ body.film4 {
     }
 
     #S_ArticleHeading {
-        gap: 0.78vw;
-        
         .A_article_main_image {
             background-image: url('images/A_article_main_image_film4.png');
             background-size: cover;
-        }        
-        .W_article_first_page_text {
-            gap: 1.20vw;
-        }
+        }     
     }
 
     #S_ArticleBlock {
@@ -438,15 +421,15 @@ body.film4 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imagePP.png');
                 background-size: cover; 
             }
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imageTable.png');
                 background-size: cover; 
             }
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover; 
             }
         }
@@ -465,15 +448,10 @@ body.film5 {
     }
 
     #S_ArticleHeading {
-        gap: 0.78vw;
-        
         .A_article_main_image {
             background-image: url('images/A_article_main_image_film5.png');
             background-size: cover;
-        }        
-        .W_article_first_page_text {
-            gap: 1.20vw;
-        }
+        }    
     }
 
     #S_ArticleBlock {
@@ -536,16 +514,18 @@ body.film5 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover;
             }
         }
         .W_CardText {
@@ -563,15 +543,10 @@ body.film6 {
     }
 
     #S_ArticleHeading {
-        gap: 0.78vw;
-        
         .A_article_main_image {
             background-image: url('images/A_article_main_image_film6.png');
             background-size: cover;
-        }        
-        .W_article_first_page_text {
-            gap: 1.20vw;
-        }
+        }     
     }
 
     #S_ArticleBlock {
@@ -634,16 +609,18 @@ body.film6 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageKate.png');
+                background-size: cover;
             }
         }
         .W_CardText {
@@ -781,16 +758,24 @@ body.film1 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageVin.png');
+                background-size: cover;
             }
+
             &.lift {
                 background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover; 
+                background-size: cover;
             }
+
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover; 
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover;
+            }
+        }
+
+        .W_CardText {
+            .M_tag_default {
+                margin-top: 1vw;
             }
         }
     }
@@ -893,17 +878,17 @@ body.film2 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover;
             }
 
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imagePP.png');
                 background-size: cover;
             }
 
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover;
             }
         }
@@ -1013,17 +998,17 @@ body.film3 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageWine.png');
                 background-size: cover;
             }
-
+    
             &.lift {
                 background-image: url('images/Q_recommendation_card_image_lift.png');
                 background-size: cover;
             }
-
+    
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageTaxi.png');
                 background-size: cover;
             }
         }
@@ -1118,18 +1103,16 @@ body.film4 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
-                background-size: cover;
+                background-image: url('images/Q_recommendation_card_imagePP.png');
+                background-size: cover; 
             }
-
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
-                background-size: cover;
+                background-image: url('images/Q_recommendation_card_imageTable.png');
+                background-size: cover; 
             }
-
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
-                background-size: cover;
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
+                background-size: cover; 
             }
         }
 
@@ -1223,17 +1206,17 @@ body.film5 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageVin.png');
                 background-size: cover;
             }
 
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
                 background-size: cover;
             }
 
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageAnn.png');
                 background-size: cover;
             }
         }
@@ -1328,17 +1311,17 @@ body.film6 {
     #O_recommendation_card {
         .Q_recommendation_card_image {
             &.more {
-                background-image: url('images/Q_recommendation_card_image_more.png');
+                background-image: url('images/Q_recommendation_card_imageVin.png');
                 background-size: cover;
             }
-
+        
             &.lift {
-                background-image: url('images/Q_recommendation_card_image_lift.png');
+                background-image: url('images/Q_recommendation_card_imageLiz.png');
                 background-size: cover;
             }
-
+        
             &.ann {
-                background-image: url('images/Q_recommendation_card_image_ann.png');
+                background-image: url('images/Q_recommendation_card_imageKate.png');
                 background-size: cover;
             }
         }

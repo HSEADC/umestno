@@ -6,8 +6,15 @@
 @import 'stylesheets/index.scss';
 @import 'stylesheets/about.scss';
 @import 'stylesheets/cards.scss';
+@import 'stylesheets/influensers.scss';
+@import 'stylesheets/films.scss';
+@import 'stylesheets/antietiquette.scss';
+@import 'stylesheets/tests.scss';
 @import 'stylesheets/mistakes.scss';
 @import 'stylesheets/anti.scss';
+@import 'stylesheets/guides.scss';
+@import 'stylesheets/inf.scss';
+@import 'stylesheets/gue.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';
 @import 'stylesheets/components/organisms.scss';

@@ -1,0 +1,1099 @@
+@media only screen and (min-width: 500px) {
+    body.gue1 {
+      .bold {
+        font-style: normal;
+        font-weight: bold;
+      }
+      #S_ArticleHeading {
+        gap: 0.78vw;
+  
+        .A_article_main_image {
+          background-image: url('images/A_article_main_image_bue.png');
+          background-size: cover;
+        }
+      }
+  
+      #S_ArticleBlock {
+        &.girl {
+          #O_ArticleVerticalImage {
+            #girl.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_te.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.car {
+          #O_ArticleVerticalImage {
+            #car.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_old.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+  
+      #S_ArticleBlockWithNumbers {
+        &.woman {
+          #O_image_with_number_and_signature {
+            #woman.W_image_with_number {
+              background-image: url('images/W_image_with_number_ha.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.blue {
+          #O_image_with_number_and_signature {
+            #blue.W_image_with_number {
+              background-image: url('images/W_image_with_number_tim.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+      #O_recommendation_card {
+        .Q_recommendation_card_image {
+          &.umesta {
+            background-image: url('images/Q_recommendation_card_image_madam.png');
+            background-size: cover;
+          }
+          &.again {
+            background-image: url('images/Q_recommendation_card_image_again.png');
+            background-size: cover;
+          }
+          &.pad {
+            background-image: url('images/Q_recommendation_card_image_pad.png');
+            background-size: cover;
+          }
+        }
+      }
+  
+
+    }
+
+
+
+
+
+    // статья про у места: у места: правила рассадки гостей
+
+    body.gue2 {
+        .bold {
+          font-style: normal;
+          font-weight: bold;
+        }
+        #S_ArticleHeading {
+          gap: 0.78vw;
+    
+          .A_article_main_image {
+            background-image: url('images/A_article_main_image_ie.png');
+            background-size: cover;
+          }
+        }
+    
+        #S_ArticleBlock {
+          &.girl {
+            #O_ArticleVerticalImage {
+              #girl.M_article_oval_framed_image_with_text {
+                background-image: url('images/A_ArticleRectangleFramedImage_maslo.png');
+                background-size: cover;
+              }
+            }
+          }
+          &.car {
+            #O_ArticleVerticalImage {
+              #car.M_article_oval_framed_image_with_text {
+                background-image: url('images/M_article_oval_framed_image_with_text_boo.png');
+                background-size: cover;
+              }
+            }
+          }
+        }
+    
+        #S_ArticleBlockWithNumbers {
+          &.woman {
+            #O_image_with_number_and_signature {
+              #woman.W_image_with_number {
+                background-image: url('images/W_image_with_number_stol.png');
+                background-size: cover;
+              }
+            }
+          }
+          &.blue {
+            #O_image_with_number_and_signature {
+              #blue.W_image_with_number {
+                background-image: url('images/W_image_with_number_egg.png');
+                background-size: cover;
+              }
+            }
+          }
+        }
+        #O_recommendation_card {
+          .Q_recommendation_card_image {
+            &.umesta {
+              background-image: url('images/Q_recommendation_card_image_madam.png');
+              background-size: cover;
+            }
+            &.again {
+              background-image: url('images/Q_recommendation_card_image_again.png');
+              background-size: cover;
+            }
+            &.pad {
+              background-image: url('images/Q_recommendation_card_image_pad.png');
+              background-size: cover;
+            }
+          }
+        }
+    
+  
+    }
+
+
+
+        // статья про вилки и ложки
+
+        body.gue3 {
+            .bold {
+              font-style: normal;
+              font-weight: bold;
+            }
+            #S_ArticleHeading {
+              gap: 0.78vw;
+        
+              .A_article_main_image {
+                background-image: url('images/A_article_main_image_spoon.png');
+                background-size: cover;
+              }
+            }
+        
+            #S_ArticleBlock {
+              &.girl {
+                #O_ArticleVerticalImage {
+                  #girl.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_soop.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.car {
+                #O_ArticleVerticalImage {
+                  #car.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_etic.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+        
+            #S_ArticleBlockWithNumbers {
+              &.woman {
+                #O_image_with_number_and_signature {
+                  #woman.W_image_with_number {
+                    background-image: url('images/W_image_with_number_mo.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.blue {
+                #O_image_with_number_and_signature {
+                  #blue.W_image_with_number {
+                    background-image: url('images/W_image_with_number_tree.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+            #O_recommendation_card {
+              .Q_recommendation_card_image {
+                &.umesta {
+                  background-image: url('images/Q_recommendation_card_image_olive.png');
+                  background-size: cover;
+                }
+                &.again {
+                  background-image: url('images/Q_recommendation_card_image_again.png');
+                  background-size: cover;
+                }
+                &.pad {
+                  background-image: url('images/Q_recommendation_card_image_pad.png');
+                  background-size: cover;
+                }
+              }
+            }
+        
+      
+        }
+
+
+        // На случай: работа в офисе
+        body.gue4 {
+            .bold {
+              font-style: normal;
+              font-weight: bold;
+            }
+            #S_ArticleHeading {
+              gap: 0.78vw;
+        
+              .A_article_main_image {
+                background-image: url('images/A_article_main_image_off.png');
+                background-size: cover;
+              }
+            }
+        
+            #S_ArticleBlock {
+              &.girl {
+                #O_ArticleVerticalImage {
+                  #girl.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_on.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.car {
+                #O_ArticleVerticalImage {
+                  #car.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_do.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+        
+            #S_ArticleBlockWithNumbers {
+              &.woman {
+                #O_image_with_number_and_signature {
+                  #woman.W_image_with_number {
+                    background-image: url('images/W_image_with_number_man.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.blue {
+                #O_image_with_number_and_signature {
+                  #blue.W_image_with_number {
+                    background-image: url('images/W_image_with_number_bue.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+            #O_recommendation_card {
+              .Q_recommendation_card_image {
+                &.umesta {
+                  background-image: url('images/Q_recommendation_card_image_olive.png');
+                  background-size: cover;
+                }
+                &.again {
+                  background-image: url('images/Q_recommendation_card_image_ta.png');
+                  background-size: cover;
+                }
+                &.pad {
+                  background-image: url('images/Q_recommendation_card_image_pad.png');
+                  background-size: cover;
+                }
+              }
+            }
+        
+      
+        }
+
+        // на случай неожиданных гостей
+        body.gue5 {
+            .bold {
+              font-style: normal;
+              font-weight: bold;
+            }
+            #S_ArticleHeading {
+              gap: 0.78vw;
+        
+              .A_article_main_image {
+                background-image: url('images/A_article_main_image_go.png');
+                background-size: cover;
+              }
+            }
+        
+            #S_ArticleBlock {
+              &.girl {
+                #O_ArticleVerticalImage {
+                  #girl.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_saw.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.car {
+                #O_ArticleVerticalImage {
+                  #car.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_photo.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+        
+            #S_ArticleBlockWithNumbers {
+              &.woman {
+                #O_image_with_number_and_signature {
+                  #woman.W_image_with_number {
+                    background-image: url('images/O_image_with_number_and_signature_cat.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.blue {
+                #O_image_with_number_and_signature {
+                  #blue.W_image_with_number {
+                    background-image: url('images/W_image_with_number_model.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+            #O_recommendation_card {
+              .Q_recommendation_card_image {
+                &.umesta {
+                  background-image: url('images/Q_recommendation_card_image_olive.png');
+                  background-size: cover;
+                }
+                &.again {
+                  background-image: url('images/Q_recommendation_card_image_work.png');
+                  background-size: cover;
+                }
+                &.pad {
+                  background-image: url('images/Q_recommendation_card_image_pad.png');
+                  background-size: cover;
+                }
+              }
+            }
+        
+      
+        }
+
+        // на случай бранча
+        body.gue6 {
+            .bold {
+              font-style: normal;
+              font-weight: bold;
+            }
+            #S_ArticleHeading {
+              gap: 0.78vw;
+        
+              .A_article_main_image {
+                background-image: url('images/A_article_main_image_bra.png');
+                background-size: cover;
+              }
+            }
+        
+            #S_ArticleBlock {
+              &.girl {
+                #O_ArticleVerticalImage {
+                  #girl.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_one.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.car {
+                #O_ArticleVerticalImage {
+                  #car.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_dinner.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+        
+            #S_ArticleBlockWithNumbers {
+              &.woman {
+                #O_image_with_number_and_signature {
+                  #woman.W_image_with_number {
+                    background-image: url('images/W_image_with_number_food.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.blue {
+                #O_image_with_number_and_signature {
+                  #blue.W_image_with_number {
+                    background-image: url('images/W_image_with_number_wow.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+            #O_recommendation_card {
+              .Q_recommendation_card_image {
+                &.umesta {
+                  background-image: url('images/Q_recommendation_card_image_olive.png');
+                  background-size: cover;
+                }
+                &.again {
+                  background-image: url('images/Q_recommendation_card_image_ta.png');
+                  background-size: cover;
+                }
+                &.pad {
+                  background-image: url('images/Q_recommendation_card_image_pad.png');
+                  background-size: cover;
+                }
+              }
+            }
+        
+      
+        }
+
+
+
+
+         // на случай переговоров
+         body.gue7 {
+            .bold {
+              font-style: normal;
+              font-weight: bold;
+            }
+            #S_ArticleHeading {
+              gap: 0.78vw;
+        
+              .A_article_main_image {
+                background-image: url('images/A_article_main_image_pe.png');
+                background-size: cover;
+              }
+            }
+        
+            #S_ArticleBlock {
+              &.girl {
+                #O_ArticleVerticalImage {
+                  #girl.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_ofi.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.car {
+                #O_ArticleVerticalImage {
+                  #car.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_um.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+        
+            #S_ArticleBlockWithNumbers {
+              &.woman {
+                #O_image_with_number_and_signature {
+                  #woman.W_image_with_number {
+                    background-image: url('images/W_image_with_number_job.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.blue {
+                #O_image_with_number_and_signature {
+                  #blue.W_image_with_number {
+                    background-image: url('images/W_image_with_number_sit.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+            #O_recommendation_card {
+              .Q_recommendation_card_image {
+                &.umesta {
+                  background-image: url('images/Q_recommendation_card_image_olive.png');
+                  background-size: cover;
+                }
+                &.again {
+                  background-image: url('images/Q_recommendation_card_image_ta.png');
+                  background-size: cover;
+                }
+                &.pad {
+                  background-image: url('images/Q_recommendation_card_image_anna.png');
+                  background-size: cover;
+                }
+              }
+            }
+        
+      
+        }       
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// мобилка
+
+@media only screen and (max-width: 499px) {
+    body.gue1 {
+      .bold {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .A_movileFirstImage {
+        // width: 88.83vw;
+        // height: 27.43vw;
+        background-image: url('images/A_movileFirstImage_gi.png');
+        background-size: cover;
+      }
+      #S_ArticleHeading {
+        gap: 0.78vw;
+  
+        .A_article_main_image {
+          background-image: url('images/A_article_main_image_bue.png');
+          background-size: cover;
+        }
+      }
+  
+      #S_ArticleBlock {
+        &.girl {
+          #O_ArticleVerticalImage {
+            #girl.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_te.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.car {
+          #O_ArticleVerticalImage {
+            #car.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_old.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+  
+      #S_ArticleBlockWithNumbers {
+        &.woman {
+          #O_image_with_number_and_signature {
+            #woman.W_image_with_number {
+              background-image: url('images/W_image_with_number_ha.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.blue {
+          #O_image_with_number_and_signature {
+            #blue.W_image_with_number {
+              background-image: url('images/W_image_with_number_tim.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+      #O_recommendation_card {
+        .Q_recommendation_card_image {
+          &.umesta {
+            background-image: url('images/Q_recommendation_card_image_madam.png');
+            background-size: cover;
+          }
+          &.again {
+            background-image: url('images/Q_recommendation_card_image_again.png');
+            background-size: cover;
+          }
+          &.pad {
+            background-image: url('images/Q_recommendation_card_image_pad.png');
+            background-size: cover;
+          }
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+    }
+    body.gue2 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+          }
+          .A_movileFirstImage {
+            // width: 88.83vw;
+            // height: 27.43vw;
+            background-image: url('images/A_movileFirstImage_stolik.png');
+            background-size: cover;
+          }
+          #S_ArticleHeading {
+            gap: 0.78vw;
+      
+            .A_article_main_image {
+              background-image: url('images/A_article_main_image_ie.png');
+              background-size: cover;
+            }
+          }
+      
+          #S_ArticleBlock {
+            &.girl {
+              #O_ArticleVerticalImage {
+                #girl.M_article_oval_framed_image_with_text {
+                  background-image: url('images/A_ArticleRectangleFramedImage_maslo.png');
+                  background-size: cover;
+                }
+              }
+            }
+            &.car {
+              #O_ArticleVerticalImage {
+                #car.M_article_oval_framed_image_with_text {
+                  background-image: url('images/M_article_oval_framed_image_with_text_boo.png');
+                  background-size: cover;
+                }
+              }
+            }
+          }
+      
+          #S_ArticleBlockWithNumbers {
+            &.woman {
+              #O_image_with_number_and_signature {
+                #woman.W_image_with_number {
+                  background-image: url('images/W_image_with_number_stol.png');
+                  background-size: cover;
+                }
+              }
+            }
+            &.blue {
+              #O_image_with_number_and_signature {
+                #blue.W_image_with_number {
+                  background-image: url('images/W_image_with_number_egg.png');
+                  background-size: cover;
+                }
+              }
+            }
+          }
+          #O_recommendation_card {
+            .Q_recommendation_card_image {
+              &.umesta {
+                background-image: url('images/Q_recommendation_card_image_madam.png');
+                background-size: cover;
+              }
+              &.again {
+                background-image: url('images/Q_recommendation_card_image_again.png');
+                background-size: cover;
+              }
+              &.pad {
+                background-image: url('images/Q_recommendation_card_image_pad.png');
+                background-size: cover;
+              }
+            }
+          }
+
+
+
+
+
+
+
+
+
+
+
+    }
+    body.gue3 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+          }
+          .A_movileFirstImage {
+            // width: 88.83vw;
+            // height: 27.43vw;
+            background-image: url('images/A_movileFirstImage_se.png');
+            background-size: cover;
+          }
+            #S_ArticleHeading {
+              gap: 0.78vw;
+        
+              .A_article_main_image {
+                background-image: url('images/A_article_main_image_spoon.png');
+                background-size: cover;
+              }
+            }
+        
+            #S_ArticleBlock {
+              &.girl {
+                #O_ArticleVerticalImage {
+                  #girl.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_soop.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.car {
+                #O_ArticleVerticalImage {
+                  #car.M_article_oval_framed_image_with_text {
+                    background-image: url('images/M_article_oval_framed_image_with_text_etic.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+        
+            #S_ArticleBlockWithNumbers {
+              &.woman {
+                #O_image_with_number_and_signature {
+                  #woman.W_image_with_number {
+                    background-image: url('images/W_image_with_number_mo.png');
+                    background-size: cover;
+                  }
+                }
+              }
+              &.blue {
+                #O_image_with_number_and_signature {
+                  #blue.W_image_with_number {
+                    background-image: url('images/W_image_with_number_tree.png');
+                    background-size: cover;
+                  }
+                }
+              }
+            }
+            #O_recommendation_card {
+              .Q_recommendation_card_image {
+                &.umesta {
+                  background-image: url('images/Q_recommendation_card_image_olive.png');
+                  background-size: cover;
+                }
+                &.again {
+                  background-image: url('images/Q_recommendation_card_image_again.png');
+                  background-size: cover;
+                }
+                &.pad {
+                  background-image: url('images/Q_recommendation_card_image_pad.png');
+                  background-size: cover;
+                }
+              }
+            }
+
+
+
+        
+    }
+    body.gue4 {
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+          }
+          .A_movileFirstImage {
+            // width: 88.83vw;
+            // height: 27.43vw;
+            background-image: url('images/A_movileFirstImage_folders.png');
+            background-size: cover;
+          }
+          #S_ArticleHeading {
+            gap: 0.78vw;
+      
+            .A_article_main_image {
+              background-image: url('images/A_article_main_image_off.png');
+              background-size: cover;
+            }
+          }
+      
+          #S_ArticleBlock {
+            &.girl {
+              #O_ArticleVerticalImage {
+                #girl.M_article_oval_framed_image_with_text {
+                  background-image: url('images/M_article_oval_framed_image_with_text_on.png');
+                  background-size: cover;
+                }
+              }
+            }
+            &.car {
+              #O_ArticleVerticalImage {
+                #car.M_article_oval_framed_image_with_text {
+                  background-image: url('images/M_article_oval_framed_image_with_text_do.png');
+                  background-size: cover;
+                }
+              }
+            }
+          }
+      
+          #S_ArticleBlockWithNumbers {
+            &.woman {
+              #O_image_with_number_and_signature {
+                #woman.W_image_with_number {
+                  background-image: url('images/W_image_with_number_man.png');
+                  background-size: cover;
+                }
+              }
+            }
+            &.blue {
+              #O_image_with_number_and_signature {
+                #blue.W_image_with_number {
+                  background-image: url('images/W_image_with_number_bue.png');
+                  background-size: cover;
+                }
+              }
+            }
+          }
+          #O_recommendation_card {
+            .Q_recommendation_card_image {
+              &.umesta {
+                background-image: url('images/Q_recommendation_card_image_olive.png');
+                background-size: cover;
+              }
+              &.again {
+                background-image: url('images/Q_recommendation_card_image_ta.png');
+                background-size: cover;
+              }
+              &.pad {
+                background-image: url('images/Q_recommendation_card_image_pad.png');
+                background-size: cover;
+              }
+            }
+          }
+
+
+
+
+
+    }
+body.gue5 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .A_movileFirstImage {
+        // width: 88.83vw;
+        // height: 27.43vw;
+        background-image: url('images/A_movileFirstImage_g.png');
+        background-size: cover;
+      }
+      #S_ArticleHeading {
+        gap: 0.78vw;
+  
+        .A_article_main_image {
+          background-image: url('images/A_article_main_image_go.png');
+          background-size: cover;
+        }
+      }
+  
+      #S_ArticleBlock {
+        &.girl {
+          #O_ArticleVerticalImage {
+            #girl.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_saw.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.car {
+          #O_ArticleVerticalImage {
+            #car.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_photo.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+  
+      #S_ArticleBlockWithNumbers {
+        &.woman {
+          #O_image_with_number_and_signature {
+            #woman.W_image_with_number {
+              background-image: url('images/O_image_with_number_and_signature_cat.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.blue {
+          #O_image_with_number_and_signature {
+            #blue.W_image_with_number {
+              background-image: url('images/W_image_with_number_model.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+      #O_recommendation_card {
+        .Q_recommendation_card_image {
+          &.umesta {
+            background-image: url('images/Q_recommendation_card_image_olive.png');
+            background-size: cover;
+          }
+          &.again {
+            background-image: url('images/Q_recommendation_card_image_work.png');
+            background-size: cover;
+          }
+          &.pad {
+            background-image: url('images/Q_recommendation_card_image_pad.png');
+            background-size: cover;
+          }
+        }
+      }
+
+
+
+
+}
+body.gue6 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .A_movileFirstImage {
+        // width: 88.83vw;
+        // height: 27.43vw;
+        background-image: url('images/A_movileFirstImage_ba.png');
+        background-size: cover;
+      }
+      #S_ArticleHeading {
+        gap: 0.78vw;
+  
+        .A_article_main_image {
+          background-image: url('images/A_article_main_image_bra.png');
+          background-size: cover;
+        }
+      }
+  
+      #S_ArticleBlock {
+        &.girl {
+          #O_ArticleVerticalImage {
+            #girl.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_one.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.car {
+          #O_ArticleVerticalImage {
+            #car.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_dinner.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+  
+      #S_ArticleBlockWithNumbers {
+        &.woman {
+          #O_image_with_number_and_signature {
+            #woman.W_image_with_number {
+              background-image: url('images/W_image_with_number_food.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.blue {
+          #O_image_with_number_and_signature {
+            #blue.W_image_with_number {
+              background-image: url('images/W_image_with_number_wow.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+      #O_recommendation_card {
+        .Q_recommendation_card_image {
+          &.umesta {
+            background-image: url('images/Q_recommendation_card_image_olive.png');
+            background-size: cover;
+          }
+          &.again {
+            background-image: url('images/Q_recommendation_card_image_ta.png');
+            background-size: cover;
+          }
+          &.pad {
+            background-image: url('images/Q_recommendation_card_image_pad.png');
+            background-size: cover;
+          }
+        }
+      }
+
+
+
+}
+body.gue7 {
+    .bold {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .A_movileFirstImage {
+        // width: 88.83vw;
+        // height: 27.43vw;
+        background-image: url('images/A_movileFirstImage_b.png');
+        background-size: cover;
+      }
+      #S_ArticleHeading {
+        gap: 0.78vw;
+  
+        .A_article_main_image {
+          background-image: url('images/A_article_main_image_pe.png');
+          background-size: cover;
+        }
+      }
+  
+      #S_ArticleBlock {
+        &.girl {
+          #O_ArticleVerticalImage {
+            #girl.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_ofi.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.car {
+          #O_ArticleVerticalImage {
+            #car.M_article_oval_framed_image_with_text {
+              background-image: url('images/M_article_oval_framed_image_with_text_um.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+  
+      #S_ArticleBlockWithNumbers {
+        &.woman {
+          #O_image_with_number_and_signature {
+            #woman.W_image_with_number {
+              background-image: url('images/W_image_with_number_job.png');
+              background-size: cover;
+            }
+          }
+        }
+        &.blue {
+          #O_image_with_number_and_signature {
+            #blue.W_image_with_number {
+              background-image: url('images/W_image_with_number_sit.png');
+              background-size: cover;
+            }
+          }
+        }
+      }
+      #O_recommendation_card {
+        .Q_recommendation_card_image {
+          &.umesta {
+            background-image: url('images/Q_recommendation_card_image_olive.png');
+            background-size: cover;
+          }
+          &.again {
+            background-image: url('images/Q_recommendation_card_image_ta.png');
+            background-size: cover;
+          }
+          &.pad {
+            background-image: url('images/Q_recommendation_card_image_anna.png');
+            background-size: cover;
+          }
+        }
+      }
+
+
+}
+
+
+
+}
