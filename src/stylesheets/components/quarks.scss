@@ -133,12 +133,14 @@
   height: 1.81vw;
   background-image: url('images/Q_Vk.png');
   background-size: cover;
+  cursor: pointer;
 }
 .Q_Tg {
   width: 2.43vw;
   height: 2.01vw;
   background-image: url('images/Q_Tg.png');
   background-size: cover;
+  cursor: pointer;
 }
 .Q_search_icon {
   width: 2.5vw;
@@ -178,6 +180,12 @@
 }
 
 .Q_horizontal_oval_card_image {
+  width: 27.01vw;
+  height: 16.04vw;
+  border-radius: 0.43vw;
+  margin: auto;
+}
+.QSearch {
   width: 27.01vw;
   height: 16.04vw;
   border-radius: 0.43vw;
@@ -390,12 +398,14 @@
   height: 5.81vw;
   background-image: url('images/Q_Vk.png');
   background-size: cover;
+  cursor: pointer;
 }
 .Q_Tg {
   width: 8.43vw;
   height: 7.01vw;
   background-image: url('images/Q_Tg.png');
   background-size: cover;
+  cursor: pointer;
 }
 .Q_search_icon {
   width: 2.5vw;

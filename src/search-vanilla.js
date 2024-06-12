@@ -141,23 +141,26 @@ function renderCardsByIds(container, ids) {
 
 //создает карточку контента на основе переданных данных, таких как изображение, теги, название и описание
 function createContentCard(contentItemData) {
-  const contentItem = document.createElement('div')
-  contentItem.classList.add('O_ContentItem')
+  const contentItem = document.createElement('a')
+  contentItem.classList.add('O_little_horizontal_card')
+
+  // const contentItemWrap = document.createElement('div')
+  // contentItemWrap.classList.add('W_CardText')
 
   const contentItemCover = document.createElement('img')
-  contentItemCover.classList.add('A_ContentItemCover')
+  contentItemCover.classList.add('QSearch')
   contentItemCover.src = contentItemData.image
 
   const contentItemTitle = document.createElement('h2')
-  contentItemTitle.classList.add('A_ContentItemTitle')
+  contentItemTitle.classList.add('A_section_card_title')
   contentItemTitle.innerText = contentItemData.title
 
   const contentItemDescription = document.createElement('p')
-  contentItemDescription.classList.add('A_ContentItemDescription')
+  contentItemDescription.classList.add('A_section_card_note')
   contentItemDescription.innerText = contentItemData.description
 
   const contentItemTags = document.createElement('div')
-  contentItemTags.classList.add('C_ContentItemTags')
+  contentItemTags.classList.add('M_tag_default')
 
   contentItemData.tags.forEach((tag) => {
     const contentItemTag = document.createElement('div')

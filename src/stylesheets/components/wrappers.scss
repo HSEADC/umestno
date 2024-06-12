@@ -735,6 +735,12 @@
     .W_NavBar {
       justify-content: end;
     }
+
+    .O_SearchBar {
+      .M_SearchForm {
+        display: inline-flex;
+      }
+    }
   }
 
   .W_socialmedia_icons {

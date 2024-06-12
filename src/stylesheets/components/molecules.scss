@@ -2,8 +2,8 @@
 
 // tags
 .M_tag_default {
-  // height: 2.2vw;
-  // width: 12vw;
+  height: 2.2vw;
+  width: 12vw;
   font-family: Helvetica;
   font-size: 1.1vw;
   font-weight: normal;
@@ -620,6 +620,10 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.15vw solid var(--blue);
+}
+
+.M_SearchForm {
+  display: inline-flex;
 }
 
 .M_cardFlip {

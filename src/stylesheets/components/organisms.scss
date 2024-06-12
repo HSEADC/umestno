@@ -187,23 +187,28 @@
 
 // }
 
-// .O_little_horizontal_card {
-//     display: flex;
-//     flex-direction: column;
-//     width: 30.14vw;
-//     height: 36.67vw;
-//     border: 0.14vw var(--blue);
+.O_little_horizontal_card {
+    display: flex;
+    flex-direction: column;
+    width: 30.14vw;
+    height: 34.67vw;
+    border: solid 0.14vw var(--blue);
+    border-radius: .42vw;
+    align-items: center;
 
-//     .M_horizontal_oval_card_image {
-//         margin-top: 2.85vw;
-//         margin-left: 1.46vw;
-//     }
+    .QSearch{
+      display: flex;
+      justify-content: center;
+    }
 
-//     .elements3 {
-//         margin-top: 3.13vw;
-//         margin-left: 6.18vw;
-//     }
-// }
+    .A_section_card_title {
+      margin: 1vw auto;
+    }
+
+    .M_tag_default {
+      margin: 2vw auto;
+    }
+}
 
   // tests
   .O_test_result {
