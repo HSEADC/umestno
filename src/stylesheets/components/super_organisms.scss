@@ -194,11 +194,12 @@
 // }
 
 #S_ArticleBlock {
+  width: 72vw;
   display: flex;
   flex-direction: row;
-  margin: 7vw 6vw;
-  gap: 10vw;
-  align-items: center;
+  margin: 7vw auto;
+  // gap: 10vw;
+  align-items: flex-start;
 
   .W_article_text {
     margin-top: 0 auto;
@@ -211,10 +212,11 @@
 }
 
 #S_ArticleBlockWithNumbers {
+  width: 72vw;
   display: flex;
   flex-direction: row;
-  margin: 7vw 8vw;
-  gap: 12.6vw;
+  margin: 7vw auto;
+  gap: 5vw;
   align-items: center;
 
   .O_image_with_number_and_signature {
@@ -329,7 +331,7 @@
       }
 
       .A_resultTitle {
-        font-family: 'HelveticaNeueCyr';
+        font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
         font-size: 2.08vw;
@@ -338,7 +340,7 @@
       }
 
       .A_resultText {
-        font-family: 'HelveticaNeueCyr';
+        font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
         font-size: 1.67vw;
@@ -662,7 +664,7 @@
   flex-direction: column-reverse;
   margin: 7vw 8vw;
   gap: 12.6vw;
-  align-items: center;
+  align-items: flex-start;
 
   .O_image_with_number_and_signature {
     margin-top: 0 auto;

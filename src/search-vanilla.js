@@ -142,7 +142,7 @@ function renderCardsByIds(container, ids) {
 //создает карточку контента на основе переданных данных, таких как изображение, теги, название и описание
 function createContentCard(contentItemData) {
   const contentItem = document.createElement('a')
-  contentItem.classList.add('O_little_horizontal_card')
+  contentItem.classList.add('M_PostTeaser')
 
   // const contentItemWrap = document.createElement('div')
   // contentItemWrap.classList.add('W_CardText')

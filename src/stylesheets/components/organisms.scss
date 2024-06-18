@@ -187,7 +187,7 @@
 
 // }
 
-.O_little_horizontal_card {
+.M_PostTeaser {
     display: flex;
     flex-direction: column;
     width: 30.14vw;
@@ -492,6 +492,9 @@
 
 //мобилка
 @media only screen and (max-width: 499px) {
+  .O_SearchBar {
+    display: none;
+  }
   // footer and navbar
   #O_footer {
     // display: none;

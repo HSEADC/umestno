@@ -86,18 +86,18 @@
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 4.17vw;
+  font-size: 3.17vw;
   color: var(--blue);
   text-align: center;
 }
 
 .A_article_subtitle {
-  width: 44.64vw;
+  width: 35.5vw;
   text-transform: uppercase;
   font-family: 'Oranienbaum', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.06vw;
+  font-size: 2.4vw;
   color: var(--blue);
 
   .BigOne {
@@ -117,20 +117,21 @@
 
 .A_article_lead {
   font-family: Helvetica;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
+  font-size: 1.1vw;
+  line-height: 1.6vw;
   font-style: normal;
   font-weight: normal;
   text-align: center;
   color: var(--textGrey);
+  width: 40vw;
 }
 .A_article_text {
-  width: 42.3vw;
+  width: 28.3vw;
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
+  font-size: 1.1vw;
+  line-height: 1.6vw;
   color: var(--textGrey);
 }
 .A_tag_text {
@@ -610,7 +611,7 @@ border-radius: 0;
 }
 
 .A_test_subtitle {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-size: 2.08vw;
   line-height: 2.29vw;
   color: var(--blue);
@@ -626,7 +627,7 @@ border-radius: 0;
 .A_test_variant {
   display: flex;
   gap: 8px;
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-size: 1.67vw;
   color: var(--blue);
   font-style: normal;
@@ -639,7 +640,7 @@ border-radius: 0;
 }
 
 .A_test_result_subtitle {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-size: 2.08vw;
   line-height: 2.29vw;
   color: var(--blue);
@@ -647,13 +648,13 @@ border-radius: 0;
   font-weight: normal;
 }
 .A_test_result_description {
-  font-family: 'HelveticaNeueCyr';
-  font-size: 1.67vw;
+  font-family: Helvetica;
+  font-size: 1.3vw;
   line-height: 1.81vw;
   color: var(--blue);
   font-style: normal;
   font-weight: normal;
-  width: 26vw;
+  width: 29vw;
 }
 
 // фотка
@@ -697,7 +698,7 @@ border-radius: 0;
 }
 
 .A_SearchInput_text {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25vw;
@@ -705,7 +706,7 @@ border-radius: 0;
 }
 
 .A_form_input {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 1.81vw;
@@ -740,11 +741,12 @@ border-radius: 0;
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.67vw;
-  line-height: 2.01vw;
+  font-size: 1.1vw;
+  line-height: 1.6vw;
   color: var(--textGrey);
-  width: 74vw;
-  margin: 4vw 6vw;
+  width: 53vw;
+  margin: 4vw auto;
+  text-align: center;
 }
 }
 
@@ -837,12 +839,12 @@ border-radius: 0;
 }
 
 .A_article_subtitle {
-  width: 86.64vw;
+  width: 75.64vw;
   text-transform: uppercase;
   font-family: 'Oranienbaum', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 6.06vw;
+  font-size: 5.5vw;
   color: var(--blue);
 
   .BigOne {
@@ -860,12 +862,12 @@ border-radius: 0;
   color: var(--textGrey);
 }
 .A_article_text {
-  width: 68.64vw;
+  width: 73.3vw;
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 2.67vw;
-  line-height: 3.01vw;
+  line-height: 3vw;
   color: var(--textGrey);
 }
 .A_tag_text {
@@ -1323,7 +1325,7 @@ border-radius: 0;
 }
 
 .A_test_subtitle {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-size: 5.08vw;
   color: var(--blue);
   font-style: normal;
@@ -1337,7 +1339,7 @@ border-radius: 0;
 .A_test_variant {
   display: flex;
   gap: 2vw;
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-size: 4.67vw;
   color: var(--blue);
   font-style: normal;
@@ -1350,7 +1352,7 @@ border-radius: 0;
 }
 
 .A_test_result_subtitle {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-size: 2.08vw;
   line-height: 2.29vw;
   color: var(--blue);
@@ -1405,7 +1407,7 @@ border-radius: 0;
 }
 
 .A_searchbar_text {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25vw;
@@ -1413,7 +1415,7 @@ border-radius: 0;
 }
 
 .A_form_input {
-  font-family: 'HelveticaNeueCyr';
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 1.81vw;
