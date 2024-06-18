@@ -1,6 +1,7 @@
 .O_SearchBar {
     font-family: 'Helvetica', sans-serif;
     font-size: 0.94vw;
+    position: relative;
 
     .C_PostTeasers {
         height: 2.14vw;
@@ -9,5 +10,8 @@
         background-color: var(--white);
         overflow-y: scroll;
         max-height: 360px;
+    }
+    .C_PostSuggestions {
+        position: absolute;
     }
 }

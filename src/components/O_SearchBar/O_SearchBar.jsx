@@ -37,6 +37,7 @@ export default class O_SearchBar extends React.Component {
             description={description}
             key={teaser.id}
             url={teaser.url}
+            
           />
         );
       }

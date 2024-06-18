@@ -25,6 +25,7 @@ function getPostTeasers() {
             image: record.fields["Image"],
             title: record.fields["Title"],
             description: record.fields["Description"],
+            url: record.fields["URL"],
           });
         });
 

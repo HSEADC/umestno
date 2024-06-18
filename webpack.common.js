@@ -1,11 +1,21 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
-const CopyPlugin = require("copy-webpack-plugin")
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
-const webpack = require('webpack')
-const path = require('path')
+const webpack = require('webpack');
+const path = require('path');
+
+const paths = [
+  '/',
+  'media/films.html',
+  'cards.html',
+  'about.html',
+  'tests_main.html',
+];
+
 
 module.exports = {
   entry: {
@@ -83,6 +93,8 @@ module.exports = {
     ]
   },
   plugins: [
+    new SitemapPlugin({ base: 'https://mysite.com', paths }),
+
     new CopyPlugin({
       patterns: [
         {
@@ -93,11 +105,18 @@ module.exports = {
           from: path.resolve(__dirname, "src/share/"),
           to: path.resolve(__dirname, "docs/share/"),
         },
+        {
+          from: path.resolve(__dirname, "src/images/"),
+          to: path.resolve(__dirname, "dev_build/images/"),
+        },
+        {
+          from: path.resolve(__dirname, "src/images/"),
+          to: path.resolve(__dirname, "docs/images/"),
+        },
       ],
     }),
 
     new MiniCssExtractPlugin({
-      filename: '[name].css',
       chunkFilename: '[id].css'
     }),
 
