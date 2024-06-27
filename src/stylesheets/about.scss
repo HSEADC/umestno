@@ -419,7 +419,7 @@
       font-size: 1.5vw;
       margin-left: 4vw;
       margin-top: -10.4vw;
-      width: 37vw;
+      width: 33vw;
       color: #004bef;
     }
     .description2 {
@@ -554,11 +554,12 @@
     }
 
     .description5 {
+      width: 67vw;
       font-family: Helvetica;
       font-style: normal;
       font-weight: normal;
       font-size: 1.5vw;
-      margin-top: 1.8vw;
+      margin: 1.8vw auto;
       color: #004bef;
       text-align: center;
     }
@@ -605,7 +606,7 @@
       font-size: 1.5vw;
       margin-left: 4vw;
       margin-top: 3vw;
-      width: 36vw;
+      width: 30vw;
       color: #004bef;
     }
 
@@ -613,7 +614,7 @@
       margin-left: 4vw;
       margin-top: 1.8vw;
       font-size: 1.5vw;
-      width: 36vw;
+      width: 30vw;
       color: #004bef;
     }
 
@@ -1211,33 +1212,33 @@
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 24vw;
         margin-top: 51vw;
         color: #004BEF;
-        width: 70vw;
+        width: 75vw;
       }
   
       .description2 {
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 24vw;
         margin-top: 4vw;
         color: #004BEF;
-        width: 70vw;
+        width: 75vw;
       }
   
       .description3 {
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 24vw;
         margin-top: 4vw;
         color: #004BEF;
-        width: 70vw;
+        width: 75vw;
       }
   
       .hashtag {
@@ -1308,9 +1309,13 @@
   
       .kvadrat {
         background: #D9D8FF;
-        width: 101vw;
-        height: 143vw;
+        width: 100vw;
+        height: 168vw;
         margin-top: 7vw;
+      }
+
+      .block {
+        margin-left: 2vw;
       }
   
       .blue1 {
@@ -1349,22 +1354,22 @@
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 7vw;
         margin-top: 3vw;
         color: #004BEF;
-        width: 70vw;
+        width: 75vw;
       }
   
       .description5 {
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 7vw;
         margin-top: 4vw;
         color: #004BEF;
-        width: 56vw;
+        width: 75vw;
       }
   
       .wrapper {
@@ -1429,10 +1434,10 @@
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 7vw;
         margin-top: 89vw;
-        width: 70vw;
+        width: 75vw;
         color: #004BEF;
       }
 
@@ -1446,10 +1451,10 @@
         font-family: Helvetica;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.7vw;
+        font-size: 15px;
         margin-left: 7vw;
-        margin-top: 101vw;
-        width: 70vw;
+        margin-top: 109vw;
+        width: 75vw;
         color: #004BEF;
       }
   

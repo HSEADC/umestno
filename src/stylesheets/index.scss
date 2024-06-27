@@ -5,6 +5,11 @@ body.b {
     background-image: url('images/preview_back.svg');
     background-size: cover;
 
+    .Q_burgerMenu {
+        margin-top: 2vw;
+        margin-left: 2vw;
+    }
+
     #S_preview {
         &.intro {
             .O_previewBlock {

@@ -1,6 +1,5 @@
 .O_SearchBar {
     font-family: 'Helvetica', sans-serif;
-    font-size: 0.94vw;
     position: relative;
 
     .C_PostTeasers {
@@ -13,5 +12,16 @@
     }
     .C_PostSuggestions {
         position: absolute;
+        .M_PostSuggestion {
+            .A_Text {
+                &.h3 {
+                    font-size: 0.94vw;
+                }
+        
+                &.p {
+                    font-size: 0.5vw;
+                }
+            }
+        }
     }
 }

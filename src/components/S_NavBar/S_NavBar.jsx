@@ -4,6 +4,7 @@ import React from 'react'
 import O_SearchBar from '../O_SearchBar/O_SearchBar.jsx'
 import { getPostTeasers } from '../../search-vanilla-data.js'
 import A_menubutton_default from '../A_menubutton_default/A_menubutton_default.jsx'
+import { burger } from '../../menubar-data.js';
 
 export default class S_NavBar extends React.Component {
   constructor(props) {
@@ -57,9 +58,9 @@ export default class S_NavBar extends React.Component {
   };
 
   render() {
-    // console.log(Array.isArray([]));
-
-    const { prerender, homeURL, menu } = this.props;
+    // console.log(Array.isArray([])); 
+ 
+    const { prerender, homeURL, menu, burger } = this.props;
     const { isSearchButtonDisabled, searchInputValue, postTeasers } =
       this.state;
     const currentURL = prerender == undefined ? window.location.href : "";
@@ -86,7 +87,6 @@ export default class S_NavBar extends React.Component {
             <a className="A_little_logo" href={homeURL}></a>
             <div className="W_NavBar">
                 {menuElements}
-                <a className="Q_burgerMenu" href="burger.html"></a>
                 <O_SearchBar 
                     searchInputValue={searchInputValue}
                     isSearchButtonDisabled={isSearchButtonDisabled}
@@ -94,6 +94,7 @@ export default class S_NavBar extends React.Component {
                     handleSearchInput={this.handleSearchInput}
                     handleSearchSubmit={this.handleSearchSubmit}
                 />
+
             </div>
         </div>
     </>

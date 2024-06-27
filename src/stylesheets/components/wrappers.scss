@@ -153,175 +153,175 @@
   // tests
 
   // .W_test_variants {
-//section blocks
+  //section blocks
 
-.W_SectionBlock {
-  display: inline-flex;
-  width: 92.78vw;
-  row-gap: 1.39vw; // либо оставить паддинги в элементах
+  .W_SectionBlock {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
 
-  .O_horizontal_card {
-    padding: 0vw;
+    .O_horizontal_card {
+      padding: 0vw;
+    }
+
+    .O_VerticalSectionCard {
+      padding: 0vw;
+    }
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
   }
 
-  .O_VerticalSectionCard {
-    padding: 0vw;
+  #W_SectionBlock_with_oval {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_horizontalOvalCard {
+      padding: 0vw;
+    }
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
+
+    .O_VerticalSectionCard {
+      padding: 0vw;
+    }
   }
 
-  .O_VerticalCardWithRoundImage {
-    padding: 0vw;
-  }
-}
+  .W_three_equal_cards {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
 
-#W_SectionBlock_with_oval {
-  display: inline-flex;
-  width: 92.78vw;
-  row-gap: 1.39vw; // либо оставить паддинги в элементах
+    .O_little_horizontal_card {
+      padding: 0vw;
+    }
 
-  .O_horizontalOvalCard {
-    padding: 0vw;
-  }
+    .O_little_horizontal_card_with_two_oval_images {
+      padding: 0vw;
+    }
 
-  .O_VerticalCardWithRoundImage {
-    padding: 0vw;
-  }
-
-  .O_VerticalSectionCard {
-    padding: 0vw;
-  }
-}
-
-.W_three_equal_cards {
-  display: inline-flex;
-  width: 92.78vw;
-  row-gap: 1.39vw; // либо оставить паддинги в элементах
-
-  .O_little_horizontal_card {
-    padding: 0vw;
+    .O_little_horizontal_card {
+      padding: 0vw;
+    }
   }
 
-  .O_little_horizontal_card_with_two_oval_images {
-    padding: 0vw;
+  .W_small_cards {
+    display: inline-flex;
+    width: 92.78vw;
+    row-gap: 1.39vw; // либо оставить паддинги в элементах
+
+    .O_VerticalCardWithRoundImage {
+      padding: 0vw;
+    }
   }
 
-  .O_little_horizontal_card {
-    padding: 0vw;
-  }
-}
+  .W_about_main_text {
+    display: flex;
+    flex-direction: column;
 
-.W_small_cards {
-  display: inline-flex;
-  width: 92.78vw;
-  row-gap: 1.39vw; // либо оставить паддинги в элементах
+    .A_article_subtitle {
+      margin: 0 auto;
+    }
 
-  .O_VerticalCardWithRoundImage {
-    padding: 0vw;
-  }
-}
+    .A_section_signature {
+      margin-top: 0.83vw;
+      margin-left: 0 auto;
+    }
 
-.W_about_main_text {
-  display: flex;
-  flex-direction: column;
-
-  .A_article_subtitle {
-    margin: 0 auto;
+    .A_extra_text {
+      margin-top: 9.93vw;
+    }
   }
 
-  .A_section_signature {
-    margin-top: 0.83vw;
-    margin-left: 0 auto;
-  }
+  // tests
 
-  .A_extra_text {
-    margin-top: 9.93vw;
-  }
-}
-
-// tests
-
-.W_test_variants {
+  .W_test_variants {
     display: flex;
     flex-direction: column;
     width: 53.26vw;
     gap: 1.5vw;
 
-  .A_test_subtitle {
-    display: flex;
-    padding: auto;
-  }
-  .M_testVariant {
-    display: flex;
-    padding: auto;
-  }
-}
-
-.W_test_results {
-  display: flex;
-  flex-direction: column;
-  width: 42.08vw;
-
-  .A_test_result_subtitle {
-    display: flex;
-    padding: auto;
-  }
-  .A_test_result_description {
-    display: flex;
-    padding: auto;
-  }
-}
-
-.W_section_card_text_one_string {
-  display: flex;
-  flex-direction: column;
-  gap: 1.88vw;
-
-  .A_article_card_title {
-    padding: auto;
-  }
-
-  .A_section_card_note {
-    padding-top: 0.49vw;
-  }
-}
-
-//sections
-
-.W_section_text_head {
-  display: flex;
-  flex-direction: column;
-  width: 89.86vw;
-  column-gap: -1.53vw;
-
-  .A_section_title {
-    display: flex;
-    margin: 0 auto;
-  }
-  .M_section_description {
-    display: flex;
-    padding: auto;
-  }
-}
-
-.W_CardText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5vw;
-  padding: 2vw 1vw 2vw 1vw;
-
-  .elements3 {
-    // .A_section_card_title{
-    //     padding: 0.69vw;
-    // }
-    .A_section_card_note {
-      padding-top: 0vw;
-      padding: 0.69vw;
+    .A_test_subtitle {
+      display: flex;
+      padding: auto;
     }
     .M_testVariant {
       display: flex;
       padding: auto;
     }
   }
+
+  .W_test_results {
+    display: flex;
+    flex-direction: column;
+    width: 42.08vw;
+
+    .A_test_result_subtitle {
+      display: flex;
+      padding: auto;
+    }
+    .A_test_result_description {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_section_card_text_one_string {
+    display: flex;
+    flex-direction: column;
+    gap: 1.88vw;
+
+    .A_article_card_title {
+      padding: auto;
+    }
+
+    .A_section_card_note {
+      padding-top: 0.49vw;
+    }
+  }
+
+  //sections
+
+  .W_section_text_head {
+    display: flex;
+    flex-direction: column;
+    width: 89.86vw;
+    column-gap: -1.53vw;
+
+    .A_section_title {
+      display: flex;
+      margin: 0 auto;
+    }
+    .M_section_description {
+      display: flex;
+      padding: auto;
+    }
+  }
+
+  .W_CardText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 2vw 1vw 2vw 1vw;
+
+    .elements3 {
+      // .A_section_card_title{
+      //     padding: 0.69vw;
+      // }
+      .A_section_card_note {
+        padding-top: 0vw;
+        padding: 0.69vw;
+      }
+      .M_testVariant {
+        display: flex;
+        padding: auto;
+      }
+    }
   }
 
   .W_test_results {
@@ -392,32 +392,32 @@
     }
   }
 
-//articles
+  //articles
 
-.W_article_first_page_text {
-  width: 55.96vw;
-  display: flex;
-  flex-direction: column;
-  padding: 0.69vw;
-  align-items: center;
-  gap: 2.7vw;
+  .W_article_first_page_text {
+    width: 55.96vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.69vw;
+    align-items: center;
+    gap: 2.7vw;
 
-  .default {
-    .A_article_title {
-      width: 43.75vw;
-      height: 8.89vw;
-    }
-
-    .elements2_long {
-      .A_section_card_title {
-        padding: 0.69vw;
+    .default {
+      .A_article_title {
+        width: 43.75vw;
+        height: 8.89vw;
       }
-      .M_tag_default {
-        padding: auto;
+
+      .elements2_long {
+        .A_section_card_title {
+          padding: 0.69vw;
+        }
+        .M_tag_default {
+          padding: auto;
+        }
       }
     }
   }
-}
   .W_Section_Card_Text {
     display: flex;
     flex-direction: column;
@@ -689,8 +689,6 @@
     transition: all 0.4s;
   }
 }
-
-
 
 //мобилка
 @media only screen and (max-width: 499px) {

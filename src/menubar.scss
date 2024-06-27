@@ -31,13 +31,10 @@
             padding: .5vw;
             background-color: var(--white);
             .M_PostSuggestion {
-                gap: .25vw;
+                height: 2.8vw;
+                gap: 0.1vw;
                 display: flex;
                 flex-direction: column;
-            }
-
-            .A_Text {
-                font-family: Helvetica;
             }
         }
     }

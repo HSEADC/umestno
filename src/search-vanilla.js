@@ -143,6 +143,7 @@ function renderCardsByIds(container, ids) {
 function createContentCard(contentItemData) {
   const contentItem = document.createElement('a')
   contentItem.classList.add('M_PostTeaser')
+  contentItem.setAttribute('href', contentItemData.url)
 
   // const contentItemWrap = document.createElement('div')
   // contentItemWrap.classList.add('W_CardText')

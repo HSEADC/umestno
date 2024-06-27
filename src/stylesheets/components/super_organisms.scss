@@ -1,432 +1,431 @@
 @media only screen and (min-width: 500px) {
+  #S_ShortCardBlock .O_CardForLearningWithHastag {
+    display: flex;
+  }
 
-#S_ShortCardBlock .O_CardForLearningWithHastag {
-  display: flex;
-}
+  //navbar
 
-//navbar
+  .S_NavBar {
+    display: flex;
+    flex-direction: column;
+    border: 0.14vw var(--blue);
+    top: 2.08vw;
+    align-items: center;
+    margin: 0 auto;
 
-.S_NavBar {
-  display: flex;
-  flex-direction: column;
-  border: 0.14vw var(--blue);
-  top: 2.08vw;
-  align-items: center;
-  margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
 
-  position: relative;
-  z-index: 1;
-}
-
-// preview
-#S_preview {
+  // preview
+  #S_preview {
     margin: 0 auto;
     padding: 5vw 3vw;
     display: flex;
     gap: 5vw;
     flex-direction: column;
     gap: 3vw;
-}
-#S_mail {
+  }
+  #S_mail {
     margin: 0 auto;
     padding: 11vw 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3vw;
-}
+  }
 
-//recommendations
+  //recommendations
 
-#S_Recommendations {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  height: 35.06vw;
-  margin: auto;
-  align-items: center;
-  margin-top: 12vw;
-  gap: 3vw;
-  // padding: 1.5vw;
+  #S_Recommendations {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    height: 35.06vw;
+    margin: auto;
+    align-items: center;
+    margin-top: 12vw;
+    gap: 3vw;
+    // padding: 1.5vw;
 
-  .M_article_recommedation_with_lines {
+    .M_article_recommedation_with_lines {
+      margin: 0 auto;
+    }
+
+    // .W_CardRecommendations {
+    //     padding-top: 3.89vw
+    // }
+  }
+
+  //sections
+
+  #S_SectionFirst {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-  }
+    margin-top: 4.24vw;
+    width: 93.06vw;
+    height: 43.68vw;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    align-items: center;
 
-  // .W_CardRecommendations {
-  //     padding-top: 3.89vw
-  // }
-}
+    .W_section_text_head {
+      margin-top: 4.51vw;
+      margin-left: 0 auto;
+    }
 
-//sections
-
-#S_SectionFirst {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  margin-top: 4.24vw;
-  width: 93.06vw;
-  height: 43.68vw;
-  border: solid 0.14vw var(--blue);
-  border-radius: 0.42vw;
-  align-items: center;
-
-  .W_section_text_head {
-    margin-top: 4.51vw;
-    margin-left: 0 auto;
-  }
-
-  .Q_big_oval_image {
-    margin-top: 2.43vw;
-    margin-left: 0 auto;
-  }
-}
-
-.S_SectionBlock {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_SectionBlock {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
-}
-
-.S_SectionBlock2 {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_three_equal_cards {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
-}
-
-#S_cardBlockLong {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_SectionBlock_with_oval {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
-}
-
-.S_forCase {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_small_cards {
-    margin-top: 3.96vw;
-    margin: 0 auto;
-  }
-}
-
-.S_aboutArticle {
-  display: flex;
-  flex-direction: column;
-
-  .Q_landing_oval {
-    position: absolute;
-    z-index: 1;
-    margin: 0 auto;
-  }
-
-  .W_about_main_text {
-    position: absolute;
-    z-index: 2;
-    margin-top: 14.58vw;
-    margin-left: 0 auto;
-  }
-}
-
-//articles
-
-#S_ArticleHeading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  // width: 93.06vw;
-  margin: 0 auto;
-  gap: 0.78vw;
-  // height: 44.38vw;
-  margin: 3vw 0;
-
-  .A_article_main_image {
-    margin: 0 auto;
-  }
-
-  .W_article_first_page_text {
-    margin-top: 4.65vw;
-    margin-left: 0 auto;
-  }
-}
-
-// .S_ArticleBlock {
-//     display: flex;
-//     flex-direction: row;
-//     margin: 0 auto;
-
-//     .W_article_text {
-//         margin-top: 0 auto;
-//     }
-
-//     .O_ArticleVerticalImage {
-//         margin-top: 0 auto;
-//         margin-left: 7.71vw;
-//     }
-// }
-
-#S_ArticleBlock {
-  width: 72vw;
-  display: flex;
-  flex-direction: row;
-  margin: 7vw auto;
-  // gap: 10vw;
-  align-items: flex-start;
-
-  .W_article_text {
-    margin-top: 0 auto;
-  }
-
-  .O_ArticleVerticalImage {
-    margin-top: 0 auto;
-    margin-left: 7.71vw;
-  }
-}
-
-#S_ArticleBlockWithNumbers {
-  width: 72vw;
-  display: flex;
-  flex-direction: row;
-  margin: 7vw auto;
-  gap: 5vw;
-  align-items: center;
-
-  .O_image_with_number_and_signature {
-    margin-top: 0 auto;
-  }
-
-  .W_article_text {
-    margin-top: 0 auto;
-    margin-left: 7.64vw;
-  }
-}
-
-.S_ArticleBlockWithPicture {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  align-items: center;
-
-  .W_article_text {
-    margin-top: 0;
-  }
-
-  .M_article_oval_framed_image_with_text {
-    margin-top: 0 auto;
-    margin-left: 4.65vw;
-  }
-}
-
-.S_BlockWithoutHeading {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-
-  .O_image_with_number_and_signature {
-    margin-top: 0 auto;
-  }
-
-  .A_article_text {
-    margin-left: 5.97vw;
-  }
-}
-
-.S_ArticleBlockWithPictureAndSignature {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-
-  .W_article_text {
-    margin-top: 0 auto;
-  }
-
-  .W_article_image_with_signature {
-    margin-left: 6.32vw;
-  }
-}
-
-//tests
-
-#S_TestHeading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 7vw;
-  margin-top: 5vw;
-  gap: 2vw;
-}
-
-#S_TestBlock {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 69.44vw;
-  height: 34.81vw;
-  margin: 0 auto;
-  border: solid 0.2vw var(--blue);
-  border-radius: 0.52vw;
-  align-items: center;
-  margin-bottom: 7vw;
-  position: relative;
-
-  &.result {
-    // перепишите стили для отображения результата теста
-    flex-direction: row;
-    justify-content: space-between;
-    border: none;
-    position: relative;
-    z-index: 0;
-
-    width: 76.44vw;
-    margin-top: 5vw;
-    
-    .W_TestResult {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 2vw;
-
-      .A_resultItog {
-        font-family: 'Snell Roundhand', arial;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2.5vw;
-        color: var(--blue);
-        width: 10.32vw;
-        height: 4.07vw;
-        border-radius: 137px / 50px;
-        border: solid 0.2vw var(--blue);
-        background-color: var(--white);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .A_resultTitle {
-        font-family: Helvetica;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2.08vw;
-        color: var(--blue);
-        width: 28vw;
-      }
-
-      .A_resultText {
-        font-family: Helvetica;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.67vw;
-        color: var(--blue);
-        width: 28vw;
-      }
+    .Q_big_oval_image {
+      margin-top: 2.43vw;
+      margin-left: 0 auto;
     }
   }
 
-  // .Q_test_wrapper_stroke {
-  //     position: absolute;
-  //     z-index: 1;
+  .S_SectionBlock {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_SectionBlock {
+      margin-top: 4.31vw;
+      margin: 0 auto;
+    }
+  }
+
+  .S_SectionBlock2 {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_three_equal_cards {
+      margin-top: 4.31vw;
+      margin: 0 auto;
+    }
+  }
+
+  #S_cardBlockLong {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_SectionBlock_with_oval {
+      margin-top: 4.31vw;
+      margin: 0 auto;
+    }
+  }
+
+  .S_forCase {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_small_cards {
+      margin-top: 3.96vw;
+      margin: 0 auto;
+    }
+  }
+
+  .S_aboutArticle {
+    display: flex;
+    flex-direction: column;
+
+    .Q_landing_oval {
+      position: absolute;
+      z-index: 1;
+      margin: 0 auto;
+    }
+
+    .W_about_main_text {
+      position: absolute;
+      z-index: 2;
+      margin-top: 14.58vw;
+      margin-left: 0 auto;
+    }
+  }
+
+  //articles
+
+  #S_ArticleHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width: 93.06vw;
+    margin: 0 auto;
+    gap: 0.78vw;
+    // height: 44.38vw;
+    margin: 3vw 0;
+
+    .A_article_main_image {
+      margin: 0 auto;
+    }
+
+    .W_article_first_page_text {
+      margin-top: 4.65vw;
+      margin-left: 0 auto;
+    }
+  }
+
+  // .S_ArticleBlock {
+  //     display: flex;
+  //     flex-direction: row;
   //     margin: 0 auto;
+
+  //     .W_article_text {
+  //         margin-top: 0 auto;
+  //     }
+
+  //     .O_ArticleVerticalImage {
+  //         margin-top: 0 auto;
+  //         margin-left: 7.71vw;
+  //     }
   // }
 
-  .O_testBlock {
-    position: absolute;
-    z-index: 2;
-    margin-top: 12.57vw;
-    margin-left: 8.68vw;
+  #S_ArticleBlock {
+    width: 72vw;
+    display: flex;
+    flex-direction: row;
+    margin: 7vw auto;
+    // gap: 10vw;
+    align-items: flex-start;
+
+    .W_article_text {
+      margin-top: 0 auto;
+    }
+
+    .O_ArticleVerticalImage {
+      margin-top: 0 auto;
+      margin-left: 7.71vw;
+    }
   }
 
-  .A_form_note {
-    position: absolute;
-    top: -2.5vw;
-    left: 6vw;
+  #S_ArticleBlockWithNumbers {
+    width: 72vw;
+    display: flex;
+    flex-direction: row;
+    margin: 7vw auto;
+    gap: 5vw;
+    align-items: center;
+
+    .O_image_with_number_and_signature {
+      margin-top: 0 auto;
+    }
+
+    .W_article_text {
+      margin-top: 0 auto;
+      margin-left: 7.64vw;
+    }
   }
-}
 
-.S_TestResults {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
+  .S_ArticleBlockWithPicture {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
 
-  .O_test_result {
-    margin-top: 0 auto;
+    .W_article_text {
+      margin-top: 0;
+    }
+
+    .M_article_oval_framed_image_with_text {
+      margin-top: 0 auto;
+      margin-left: 4.65vw;
+    }
   }
 
-  .A_test_image_result_outline {
-    margin-left: 6.39vw;
+  .S_BlockWithoutHeading {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    .O_image_with_number_and_signature {
+      margin-top: 0 auto;
+    }
+
+    .A_article_text {
+      margin-left: 5.97vw;
+    }
   }
-}
 
-//cards
+  .S_ArticleBlockWithPictureAndSignature {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
 
-#S_LongCardsBlock {
-  display: flex;
-  flex-direction: column;
-  // width: 93.06vw;
-  // height: 56.85vw;
-  margin: 0 auto;
-  margin: 4vw;
-  align-items: center;
-  gap: 4vw;
-}
+    .W_article_text {
+      margin-top: 0 auto;
+    }
 
-// mistakes
-#S_mistakeBlock {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#S_ShortCardBlock {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  // height: 47.76vw;
-  margin: 0 auto;
-  margin-top: 4.24vw;
-  // align-items: center;
-  // gap: 3.96vw;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
+    .W_article_image_with_signature {
+      margin-left: 6.32vw;
+    }
   }
-}
-#S_HorizontalCards {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  height: 45.42vw;
-  margin: 0 auto;
-  margin-top: 4.24vw;
-  gap: 4vw;
-}
-#S_CardsForFlip {
+
+  //tests
+
+  #S_TestHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7vw;
+    margin-top: 5vw;
+    gap: 2vw;
+  }
+
+  #S_TestBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 69.44vw;
+    height: 34.81vw;
+    margin: 0 auto;
+    border: solid 0.2vw var(--blue);
+    border-radius: 0.52vw;
+    align-items: center;
+    margin-bottom: 7vw;
+    position: relative;
+
+    &.result {
+      // перепишите стили для отображения результата теста
+      flex-direction: row;
+      justify-content: space-between;
+      border: none;
+      position: relative;
+      z-index: 0;
+
+      width: 76.44vw;
+      margin-top: 5vw;
+
+      .W_TestResult {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vw;
+
+        .A_resultItog {
+          font-family: 'Snell Roundhand', arial;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.5vw;
+          color: var(--blue);
+          width: 10.32vw;
+          height: 4.07vw;
+          border-radius: 137px / 50px;
+          border: solid 0.2vw var(--blue);
+          background-color: var(--white);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .A_resultTitle {
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 2vw;
+          color: var(--blue);
+          width: 28vw;
+        }
+
+        .A_resultText {
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 1.2vw;
+          color: var(--blue);
+          width: 28vw;
+        }
+      }
+    }
+
+    // .Q_test_wrapper_stroke {
+    //     position: absolute;
+    //     z-index: 1;
+    //     margin: 0 auto;
+    // }
+
+    .O_testBlock {
+      position: absolute;
+      z-index: 2;
+      margin-top: 12.57vw;
+      margin-left: 8.68vw;
+    }
+
+    .A_form_note {
+      position: absolute;
+      top: -2.5vw;
+      left: 6vw;
+    }
+  }
+
+  .S_TestResults {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    .O_test_result {
+      margin-top: 0 auto;
+    }
+
+    .A_test_image_result_outline {
+      margin-left: 6.39vw;
+    }
+  }
+
+  //cards
+
+  #S_LongCardsBlock {
+    display: flex;
+    flex-direction: column;
+    // width: 93.06vw;
+    // height: 56.85vw;
+    margin: 0 auto;
+    margin: 4vw;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  // mistakes
+  #S_mistakeBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #S_ShortCardBlock {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    // height: 47.76vw;
+    margin: 0 auto;
+    margin-top: 4.24vw;
+    // align-items: center;
+    // gap: 3.96vw;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+  }
+  #S_HorizontalCards {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    height: 45.42vw;
+    margin: 0 auto;
+    margin-top: 4.24vw;
+    gap: 4vw;
+  }
+  #S_CardsForFlip {
     display: flex;
     flex-direction: column;
     width: 93.06vw;
@@ -435,466 +434,465 @@
     margin-top: 4.24vw;
     align-items: center;
     gap: 3.96vw;
-}
+  }
 
-.S_Content {
-  color: var(--blue);
-  font-size: 3vw;
-  font-family: 'Oranienbaum', serif;
-  display: flex;
-  margin: 4vw 2vw;
-  flex-wrap: wrap;
-  gap: 2vw;
-}
-
+  .S_Content {
+    color: var(--blue);
+    font-size: 3vw;
+    font-family: 'Oranienbaum', serif;
+    display: flex;
+    margin: 4vw 2vw;
+    flex-wrap: wrap;
+    gap: 2vw;
+  }
 }
 
 //мобилка
 @media only screen and (max-width: 499px) {
+  //navbar
 
-//navbar
+  .S_NavBar {
+    display: flex;
+    flex-direction: column;
+    border: 0.14vw var(--blue);
+    top: 4.08vw;
+    align-items: center;
+    margin: 0 auto;
 
-.S_NavBar {
-  display: flex;
-  flex-direction: column;
-  border: 0.14vw var(--blue);
-  top: 2.08vw;
-  align-items: center;
-  margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
 
-  position: relative;
-  z-index: 1;
-}
-
-// preview
-#S_preview {
+  // preview
+  #S_preview {
     margin: 0 auto;
     padding: 5vw 3vw;
     display: flex;
     gap: 5vw;
     flex-direction: column;
     gap: 8vw;
-}
-#S_mail {
+  }
+  #S_mail {
     margin: 0 auto;
     padding: 53vw 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 7vw;
-}
-
-//recommendations
-
-#S_Recommendations {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  // height: 35.06vw;
-  margin: auto;
-  align-items: center;
-  gap: 3vw;
-  padding: 1.5vw;
-
-  .M_article_recommedation_with_lines {
-    margin: 0 auto;
   }
 
-  // .W_CardRecommendations {
-  //     padding-top: 3.89vw
-  // }
-}
+  //recommendations
 
-//sections
-
-#S_SectionFirst {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  border: solid 0.4vw #204BF1;
-  border: solid 0.4vw var(--blue);
-  border-radius: 1vw;
-  margin: 0 auto;
-  align-items: center;
-  margin-top: 9.6vw;
-  gap: 15vw;
-  padding: 10vw 0vw;
-
-  // .W_section_text_head {
-  //   // margin-top: 3.51vw;
-
-  //   // margin-left: 0 auto;
-  // }
-
-  // .Q_big_oval_image {
-  //   margin-top: 2.43vw;
-  //   margin-left: 0 auto;
-  // }
-}
-
-.S_SectionBlock {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_SectionBlock {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
-}
-
-.S_SectionBlock2 {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_three_equal_cards {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
-}
-
-.S_cardBlockLong {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_SectionBlock_with_oval {
-    margin-top: 4.31vw;
-    margin: 0 auto;
-  }
-}
-
-.S_forCase {
-  display: flex;
-  flex-direction: column;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
-  }
-
-  .W_small_cards {
-    margin-top: 3.96vw;
-    margin: 0 auto;
-  }
-}
-
-.S_aboutArticle {
-  display: flex;
-  flex-direction: column;
-
-  .Q_landing_oval {
-    position: absolute;
-    z-index: 1;
-    margin: 0 auto;
-  }
-
-  .W_about_main_text {
-    position: absolute;
-    z-index: 2;
-    margin-top: 14.58vw;
-    margin-left: 0 auto;
-  }
-}
-
-//articles
-
-#S_ArticleHeading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 93.06vw;
-  margin: 0 auto;
-  // height: 44.38vw;
-
-  .A_article_main_image {
-    margin: 0 auto;
-  }
-
-  .W_article_first_page_text {
-    margin-top: -6.65vw;
-    margin-left: 0 auto;
+  #S_Recommendations {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    // height: 35.06vw;
+    margin: auto;
+    align-items: center;
     gap: 3vw;
-  }
-}
+    padding: 1.5vw;
 
-// .S_ArticleBlock {
-//     display: flex;
-//     flex-direction: row;
-//     margin: 0 auto;
+    .M_article_recommedation_with_lines {
+      margin: 0 auto;
+    }
 
-//     .W_article_text {
-//         margin-top: 0 auto;
-//     }
-
-//     .O_ArticleVerticalImage {
-//         margin-top: 0 auto;
-//         margin-left: 7.71vw;
-//     }
-// }
-
-#S_ArticleBlock {
-  display: flex;
-  flex-direction: column;
-  margin: 7vw 6vw;
-  gap: 12vw;
-  align-items: flex-start;
-
-  .W_article_text {
-    margin-top: 0 auto;
+    // .W_CardRecommendations {
+    //     padding-top: 3.89vw
+    // }
   }
 
-  .O_ArticleVerticalImage {
-    margin-top: 0 auto;
-    margin-left: 7.71vw;
-  }
-}
+  //sections
 
-#S_ArticleBlockWithNumbers {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 7vw 8vw;
-  gap: 12.6vw;
-  align-items: flex-start;
+  #S_SectionFirst {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    border: solid 0.4vw #204bf1;
+    border: solid 0.4vw var(--blue);
+    border-radius: 1vw;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 9.6vw;
+    gap: 15vw;
+    padding: 10vw 0vw;
 
-  .O_image_with_number_and_signature {
-    margin-top: 0 auto;
-  }
+    // .W_section_text_head {
+    //   // margin-top: 3.51vw;
 
-  .W_article_text {
-    margin-top: 0 auto;
-    margin-left: 7.64vw;
-  }
-}
+    //   // margin-left: 0 auto;
+    // }
 
-.S_ArticleBlockWithPicture {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  align-items: center;
-
-  .W_article_text {
-    margin-top: 0;
+    // .Q_big_oval_image {
+    //   margin-top: 2.43vw;
+    //   margin-left: 0 auto;
+    // }
   }
 
-  .M_article_oval_framed_image_with_text {
-    margin-top: 0 auto;
-    margin-left: 4.65vw;
-  }
-}
+  .S_SectionBlock {
+    display: flex;
+    flex-direction: column;
 
-.S_BlockWithoutHeading {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
 
-  .O_image_with_number_and_signature {
-    margin-top: 0 auto;
-  }
-
-  .A_article_text {
-    margin-left: 5.97vw;
-  }
-}
-
-.S_ArticleBlockWithPictureAndSignature {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-
-  .W_article_text {
-    margin-top: 0 auto;
-  }
-
-  .W_article_image_with_signature {
-    margin-left: 6.32vw;
-  }
-}
-
-//tests
-
-#S_TestHeading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 18vw;
-}
-
-#S_TestBlock {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 69.44vw;
-  padding: 11vw;
-  margin: 0 auto;
-  border: solid 0.1vw var(--blue);
-  border-radius: 1.52vw;
-  align-items: center;
-  margin-bottom: 13vw;
-  position: relative;
-  gap: 7vw;
-
-  &.result {
-    // перепишите стили для отображения результата теста
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    border: none;
-    position: relative;
-    z-index: 0;
-
-    width: 97.44vw;
-    margin-top: -25vw;
-    gap: 27vw;
-    
-    .W_TestResult {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 2vw;
-
-      .A_resultItog {
-        font-family: 'Snell Roundhand', arial;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 8.5vw;
-        color: var(--blue);
-        width: 30.32vw;
-        height: 11.07vw;
-        border-radius: 137px / 50px;
-        border: solid 0.1vw var(--blue);
-        background-color: var(--white);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .A_resultTitle {
-        font-family: Helvetica;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 6.08vw;
-        color: var(--blue);
-      }
-
-      .A_resultText {
-        font-family: Helvetica;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3.67vw;
-        color: var(--blue);
-      }
+    .W_SectionBlock {
+      margin-top: 4.31vw;
+      margin: 0 auto;
     }
   }
 
-  // .Q_test_wrapper_stroke {
-  //     position: absolute;
-  //     z-index: 1;
+  .S_SectionBlock2 {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_three_equal_cards {
+      margin-top: 4.31vw;
+      margin: 0 auto;
+    }
+  }
+
+  .S_cardBlockLong {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_SectionBlock_with_oval {
+      margin-top: 4.31vw;
+      margin: 0 auto;
+    }
+  }
+
+  .S_forCase {
+    display: flex;
+    flex-direction: column;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+
+    .W_small_cards {
+      margin-top: 3.96vw;
+      margin: 0 auto;
+    }
+  }
+
+  .S_aboutArticle {
+    display: flex;
+    flex-direction: column;
+
+    .Q_landing_oval {
+      position: absolute;
+      z-index: 1;
+      margin: 0 auto;
+    }
+
+    .W_about_main_text {
+      position: absolute;
+      z-index: 2;
+      margin-top: 14.58vw;
+      margin-left: 0 auto;
+    }
+  }
+
+  //articles
+
+  #S_ArticleHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93.06vw;
+    margin: 0 auto;
+    // height: 44.38vw;
+
+    .A_article_main_image {
+      margin: 0 auto;
+    }
+
+    .W_article_first_page_text {
+      margin-top: -6.65vw;
+      margin-left: 0 auto;
+      gap: 3vw;
+    }
+  }
+
+  // .S_ArticleBlock {
+  //     display: flex;
+  //     flex-direction: row;
   //     margin: 0 auto;
+
+  //     .W_article_text {
+  //         margin-top: 0 auto;
+  //     }
+
+  //     .O_ArticleVerticalImage {
+  //         margin-top: 0 auto;
+  //         margin-left: 7.71vw;
+  //     }
   // }
 
-  .O_testBlock {
-    position: absolute;
-    z-index: 2;
-    margin-top: 12.57vw;
-    margin-left: 8.68vw;
+  #S_ArticleBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 7vw 6vw;
+    gap: 12vw;
+    align-items: flex-start;
+
+    .W_article_text {
+      margin-top: 0 auto;
+    }
+
+    .O_ArticleVerticalImage {
+      margin-top: 0 auto;
+      margin-left: 7.71vw;
+    }
   }
 
-  .A_form_note {
-    position: absolute;
-    top: -6.5vw;
-  }
-}
+  #S_ArticleBlockWithNumbers {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 7vw 8vw;
+    gap: 12.6vw;
+    align-items: flex-start;
 
-.S_TestResults {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
+    .O_image_with_number_and_signature {
+      margin-top: 0 auto;
+    }
 
-  .O_test_result {
-    margin-top: 0 auto;
-  }
-
-  .A_test_image_result_outline {
-    margin-left: 6.39vw;
-  }
-}
-
-//cards
-
-#S_LongCardsBlock {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  // height: 56.85vw;
-  margin: 0 auto;
-  // margin-top: 4.24vw;
-  margin: 4vw;
-  align-items: center;
-  gap: 3.96vw;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
+    .W_article_text {
+      margin-top: 0 auto;
+      margin-left: 7.64vw;
+    }
   }
 
-}
+  .S_ArticleBlockWithPicture {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
 
-#S_burger {
-  display: flex;
-  flex-direction: column;
-  gap: 6vw;
-  align-items: center;
-  margin-top: 33vw;
-}
+    .W_article_text {
+      margin-top: 0;
+    }
 
-// mistakes
-#S_mistakeBlock {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 42vw;
-  gap: 8vw;
-}
-#S_ShortCardBlock {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  // height: 47.76vw;
-  margin: 0 auto;
-  margin-top: 4.24vw;
-  // align-items: center;
-  // gap: 3.96vw;
-
-  .M_BlockSeparator {
-    margin-left: 0 auto;
+    .M_article_oval_framed_image_with_text {
+      margin-top: 0 auto;
+      margin-left: 4.65vw;
+    }
   }
-}
 
-#S_HorizontalCards {
-  display: flex;
-  flex-direction: column;
-  width: 93.06vw;
-  // height: 45.42vw;
-  margin: 0 auto;
-  margin-bottom: 16vw;
-  gap: 3.96vw;
-}
-#S_CardsForFlip {
-  display: none;
-  // width: 93.06vw;
-  // // height: 57.92vw;
-  // margin: 0 auto;
-  // margin-top: 4.24vw;
-  // // align-items: center;
-  // gap: 3.96vw;
-}
+  .S_BlockWithoutHeading {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
 
+    .O_image_with_number_and_signature {
+      margin-top: 0 auto;
+    }
+
+    .A_article_text {
+      margin-left: 5.97vw;
+    }
+  }
+
+  .S_ArticleBlockWithPictureAndSignature {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    .W_article_text {
+      margin-top: 0 auto;
+    }
+
+    .W_article_image_with_signature {
+      margin-left: 6.32vw;
+    }
+  }
+
+  //tests
+
+  #S_TestHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18vw;
+  }
+
+  #S_TestBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 69.44vw;
+    padding: 11vw;
+    margin: 0 auto;
+    border: solid 0.5vw var(--blue);
+    border-radius: 1.52vw;
+    align-items: center;
+    margin-bottom: 13vw;
+    position: relative;
+    gap: 7vw;
+
+    &.result {
+      // перепишите стили для отображения результата теста
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      border: none;
+      position: relative;
+      z-index: 0;
+
+      width: 97.44vw;
+      margin-top: -25vw;
+      gap: 27vw;
+
+      .W_TestResult {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vw;
+
+        .A_resultItog {
+          font-family: 'Snell Roundhand', arial;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 8.5vw;
+          color: var(--blue);
+          width: 30.32vw;
+          height: 11.07vw;
+          border-radius: 137px / 50px;
+          border: solid 0.1vw var(--blue);
+          background-color: var(--white);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .A_resultTitle {
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 22px;
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+
+        .A_resultText {
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+    }
+
+    // .Q_test_wrapper_stroke {
+    //     position: absolute;
+    //     z-index: 1;
+    //     margin: 0 auto;
+    // }
+
+    .O_testBlock {
+      position: absolute;
+      z-index: 2;
+      margin-top: 12.57vw;
+      margin-left: 8.68vw;
+    }
+
+    .A_form_note {
+      position: absolute;
+      top: -6.5vw;
+    }
+  }
+
+  .S_TestResults {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    .O_test_result {
+      margin-top: 0 auto;
+    }
+
+    .A_test_image_result_outline {
+      margin-left: 6.39vw;
+    }
+  }
+
+  //cards
+
+  #S_LongCardsBlock {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    // height: 56.85vw;
+    margin: 0 auto;
+    // margin-top: 4.24vw;
+    margin: 4vw;
+    align-items: center;
+    gap: 3.96vw;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+  }
+
+  #S_burger {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    align-items: center;
+    top: 44vw;
+  }
+
+  // mistakes
+  #S_mistakeBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42vw;
+    gap: 8vw;
+  }
+  #S_ShortCardBlock {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    // height: 47.76vw;
+    margin: 0 auto;
+    margin-top: 4.24vw;
+    // align-items: center;
+    // gap: 3.96vw;
+
+    .M_BlockSeparator {
+      margin-left: 0 auto;
+    }
+  }
+
+  #S_HorizontalCards {
+    display: flex;
+    flex-direction: column;
+    width: 93.06vw;
+    // height: 45.42vw;
+    margin: 0 auto;
+    margin-bottom: 16vw;
+    gap: 3.96vw;
+  }
+  #S_CardsForFlip {
+    display: none;
+    // width: 93.06vw;
+    // // height: 57.92vw;
+    // margin: 0 auto;
+    // margin-top: 4.24vw;
+    // // align-items: center;
+    // gap: 3.96vw;
+  }
 }
