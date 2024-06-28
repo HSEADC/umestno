@@ -445,6 +445,9 @@
     flex-wrap: wrap;
     gap: 2vw;
   }
+  .S_NavBarMobile {
+    display: none;
+  }
 }
 
 //мобилка
@@ -452,12 +455,16 @@
   //navbar
 
   .S_NavBar {
+    display: none;
+  }
+
+  .S_NavBarMobile {
     display: flex;
-    flex-direction: column;
     border: 0.14vw var(--blue);
-    top: 4.08vw;
     align-items: center;
-    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4vw 4vw;
 
     position: relative;
     z-index: 1;
@@ -508,14 +515,12 @@
     display: flex;
     flex-direction: column;
     width: 93.06vw;
-    border: solid 0.4vw #204bf1;
     border: solid 0.4vw var(--blue);
     border-radius: 1vw;
     margin: 0 auto;
     align-items: center;
-    margin-top: 9.6vw;
     gap: 15vw;
-    padding: 10vw 0vw;
+    padding: 8vw 0vw;
 
     // .W_section_text_head {
     //   // margin-top: 3.51vw;

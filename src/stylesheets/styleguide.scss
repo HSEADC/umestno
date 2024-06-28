@@ -5,7 +5,7 @@
     p {
       font-family: Helvetica;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 360;
       font-size: 1.5vw;
       color: white;
     }
@@ -22,7 +22,6 @@
     .first {
       background-color: var(--blue);
       height: 56.25vw;
-    //   width: 100%;
       display: flex;
       flex-direction: column;
 
@@ -86,6 +85,7 @@
       }
 
       .te1 {
+        width: 40vw;
         margin-top: 3vw;
         color: var(--blue);
       }
@@ -149,14 +149,16 @@
       }
 
       .te4 {
+        width: 26vw;
         margin-top: 3vw;
         color: var(--blue);
         &.t {
-          margin-top: 3.5vw;
+          margin-top: 3vw;
         }
       }
 
       .te5 {
+        width: 24vw;
         margin-top: 2vw;
         color: var(--blue);
       }
@@ -288,14 +290,12 @@
       }
 
       .te8 {
-        font-family: Helvetica;
-        font-style: normal;
+        width: 30vw;
         color: var(--white);
       }
 
       .te9 {
-        font-family: Helvetica;
-        font-weight: normal;
+        width: 40vw;
         color: var(--white);
         margin-top: 11vw;
       }
@@ -328,6 +328,7 @@
       }
 
       .smel {
+        width: 30vw;
         margin-left: 30vw;
         color: var(--blue);
       }
@@ -356,6 +357,10 @@
         flex-direction: column;
         gap: 3vw;
 
+        .te8 {
+          width: 55vw;
+        }
+
         .cole {
             width: 78.75vw;
             height: 9.01vw;
@@ -369,6 +374,10 @@
         display: flex;
         flex-direction: column;
         gap: 4vw;
+
+        .te8 {
+            width: 50vw;
+        }
 
         .eli {
             position: absolute;
@@ -441,7 +450,8 @@
         margin-bottom: 2vw;
 
         .te6 {
-            color: var(--blue);
+          width: 40vw;
+          color: var(--blue);
         }
       }
 
@@ -461,6 +471,11 @@
       padding: 7vw 10vw;
       gap: 2.5vw;
       color: var(--white);
+
+      .ko {
+        width: 54vw;
+      }
+
       .som {
         color: var(--white);
       }
@@ -525,585 +540,551 @@
 
 // тут адаптив
 @media only screen and (min-width: 1px) and (max-width: 500px) {
-  body.styleguide {
-    background-color: var(--blue);
-
-    // background-image: url('./images/fona.svg');
-    .poloska {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-      width: 94.79vw;
-      height: 16.15vw;
-      margin-top: 21vw;
-      margin-left: 46.6vw;
-      // background-color: var(--blue);
-    }
-
-    .logo {
-      display: flex;
-      width: 12.93vw;
-      height: 9.3vw;
-      background-size: cover;
-      // background-image: url('./images/lo.svg');
-    }
-
-    .me {
-      display: none;
-      justify-content: space-between;
-      flex-direction: row;
-      height: 5.05vw;
-      width: 66.72vw;
-    }
+body.styleguide {
+    background-color: var(--white);
 
     p {
       font-family: Helvetica;
       font-style: normal;
-      font-weight: normal;
-      font-size: 3.33vw;
+      font-weight: 360;
+      font-size: 16px;
       color: white;
-    }
-
-    .m1 {
-      margin-top: 2.4vw;
-      display: none;
-    }
-
-    .nam {
-      display: flex;
-      flex-direction: column;
-      width: 94.79vw;
-      height: 195.68vw;
-      margin-left: 2.6vw;
-    }
-
-    h1 {
-      font-family: 'Oranienbaum', serif;
-      font-style: normal;
-      font-weight: normal;
-      color: white;
-      font-size: 22.05vw;
-      text-align: center;
-      margin-top: 51vw;
-    }
-
-    .who {
-      width: 69.41vw;
-      height: 36.06vw;
-      margin-left: 11vw;
-      margin-top: 3vw;
-      background-size: cover;
-      // background-image: url('./images/who.svg');
-    }
-
-    #brand {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 100vw;
-      height: 138.29vw;
-      margin-top: 2vw;
-      background-color: var(--white);
-    }
-
-    .blok1 {
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-      height: 71.3vw;
     }
 
     h2 {
       font-family: 'Oranienbaum', serif;
       font-style: normal;
       font-weight: normal;
-      color: var(--blue);
-      font-size: 12.82vw;
-      margin-left: 10.83vw;
-      margin-top: 10.83vw;
-    }
-
-    .te1 {
-      margin-top: 4vw;
-      margin-left: 10.83vw;
-      width: 49vw;
+      font-size: 40px;
+      text-transform: uppercase;
       color: var(--blue);
     }
 
-    .ki {
-      display: none;
-      width: 11.09vw;
-      height: 9.79vw;
-      margin-left: 42vw;
-      background-size: cover;
-      // background-image: url('./images/ki.svg');
-    }
-
-    .blok2 {
+    .first {
+      background-color: var(--blue);
+      height: 216.41vw;
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 82vw;
-      margin-top: 21vw;
+
+      .S_NavBarMobile {
+        .A_little_logo {
+          width: 11.89vw;
+          height: 10.85vw;
+          background-image: url('images/A_littleWhite_logo.png');
+          background-size: cover;
+        }
+        .Q_burgerMenu {
+          width: 7.23vw;
+          height: 5.62vw;
+          background-image: url('images/Q_burgerWhiteMenu.png');
+          background-size: cover;
+        }
+      }
+
+      .poloska {
+        display: none;
+        justify-content: space-between;
+        width: 94.79vw;
+        margin-left: 2.6vw;
+        align-items: center;
+        margin: 3vw auto;
+
+        .me {
+          display: none;
+          justify-content: space-between;
+          flex-direction: row;
+          gap: 3vw;
+        }
+      }
+
+      .nam {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vw;
+        margin: 70vw auto;
+      }
+
+      h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+        font-size: 23.18vw;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .who {
+        width: 67.6vw;
+        height: 33.06vw;
+        background-size: cover;
+        background-image: url('./images/who.png');
+      }
     }
 
-    .ne {
-      margin-top: 9vw;
-      margin-left: 24vw;
-    }
-
-    .te2 {
-      margin-top: 4vw;
-      margin-left: 57.4vw;
-      color: var(--blue);
-    }
-
-    .te3 {
-      margin-top: 1vw;
-      margin-left: 57.4vw;
-      color: var(--blue);
-    }
-
-    .den {
+    #brand {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 100vw;
-      height: 100vw;
-      background-color: var(--white);
-    }
+      padding: 5vw 10vw 7vw;
 
-    .ved1 {
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-      height: 18.05vw;
-    }
+      .blok1 {
+        display: flex;
+        flex-direction: column;
+      }
 
-    .tsen {
-      margin-top: 4vw;
-    }
+      .te1 {
+        width: 75vw;
+        margin-top: 3vw;
+        color: var(--blue);
+      }
 
-    .chisla1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 100vw;
-      height: 100vw;
-    }
+      .ki {
+        display: none;
+        position: absolute;
+        width: 11.09vw;
+        height: 9.79vw;
+        margin-top: 15vw;
+        margin-left: 30vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+      }
 
-    .per {
-      width: 100vw;
-      height: 58.33vw;
-    }
+      .blok2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 13vw;
+      }
 
-    .vtor {
-      width: 100vw;
-      height: 71vw;
-    }
+      .te2 {
+        margin-top: 4vw;
+        color: var(--blue);
+      }
 
-    .te4 {
-      margin-top: 4vw;
-      margin-left: 22.8vw;
-      width: 52.8vw;
-      color: var(--blue);
-    }
+      .te3 {
+        margin-top: 2vw;
+        color: var(--blue);
+      }
 
-    .te5 {
-      margin-top: 2vw;
-      margin-left: 22.8vw;
-      width: 52.8vw;
-      color: var(--blue);
-    }
+      .den {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10vw;
+      }
 
-    .mis {
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-      height: 90vw;
-      background-color: var(--white);
-    }
+      .ved1 {
+        display: flex;
+      }
 
-    .te6 {
-      margin-top: 2vw;
-      margin-left: 11vw;
-      color: var(--blue);
-    }
+      .tsen {
+        margin-top: 4vw;
+      }
 
-    .su {
-      margin-top: 14vw;
-      margin-left: 31vw;
-    }
+      .chisla1 {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        margin-left: 9vw;
 
-    .te7 {
-      margin-top: 2vw;
-      margin-left: 33vw;
-      color: var(--blue);
+        .per {
+          display: flex;
+          flex-direction: column;
+          margin-top: 4vw;
+        }
+
+        .vtor {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .te4 {
+        width: 70vw;
+        margin-top: 3vw;
+        color: var(--blue);
+
+        &.t {
+          margin-top: 3.5vw;
+        }
+      }
+
+      .te5 {
+        width: 70vw;
+        margin-top: 2vw;
+        color: var(--blue);
+      }
+
+      .mission {
+        padding-top: 4vw;
+
+        .mis {
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          height: 40.29vw;
+          background-color: var(--white);
+        }
+
+        .te6 {
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+
+      .inside {
+        margin-top: 10vw;
+
+        .su {
+          margin-top: 2vw;
+        }
+
+        .te7 {
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+
+      .ru1 {
+        position: absolute;
+        margin-top: -2vw;
+        margin-left: -1vw;
+        width: 53.17vw;
+        height: 14.9vw;
+        background-size: cover;
+        background-image: url('./images/elips1.png');
+      }
+
+      .tik {
+        position: absolute;
+        margin-top: 2.8vw;
+        margin-left: -10vw;
+        width: 8.74vw;
+        height: 40.89vw;
+        background-size: cover;
+        background-image: url('./images/tik.png');
+      }
+
+      .tok {
+        position: absolute;
+        margin-top: 2.8vw;
+        margin-left: -10vw;
+        width: 8.74vw;
+        height: 25.89vw;
+        background-size: cover;
+        background-image: url('./images/tok.png');
+      }
+
+      .kis {
+        position: absolute;
+        margin-top: -31.1vw;
+        margin-left: -3vw;
+        width: 28.2vw;
+        height: 7.9vw;
+        background-size: cover;
+        background-image: url('./images/elips1.png');
+      }
+
+      .lol {
+        display: none;
+        position: absolute;
+        margin-top: -35vw;
+        margin-left: 28vw;
+        width: 11.09vw;
+        height: 9.79vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+        transform: scaleX(-1) rotate(20deg);
+      }
+
+      .kek {
+        display: none;
+        position: absolute;
+        margin-top: -13vw;
+        margin-left: 25vw;
+        width: 11.09vw;
+        height: 9.79vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+      }
     }
 
     .merch {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 100vw;
-      height: 94vw;
-    }
+      background-color: var(--blue);
+      padding: 8vw 10vw;
 
-    .con1 {
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-      height: 39.43vw;
-    }
+      .so {
+        position: absolute;
+        margin-top: -4vw;
+        margin-left: -1vw;
+        width: 51.7vw;
+        height: 18.8vw;
+        background-size: cover;
+        background-image: url('./images/elips2.png');
+      }
 
-    .con2 {
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-      height: 61vw;
-    }
+      .con1 {
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+      }
 
-    .sin {
-      color: white;
-      margin-left: 10.83vw;
-      margin-top: 10.83vw;
-    }
+      .con2 {
+        display: flex;
+        flex-direction: column;
+      }
 
-    .te8 {
-      margin-top: 2vw;
-      width: 73vw;
-      margin-left: 11vw;
-    }
+      .sin {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: var(--white);
+      }
 
-    .te9 {
-      margin-top: 18vw;
-      margin-left: 10vw;
+      .te8 {
+        color: var(--white);
+      }
+
+      .te9 {
+        color: var(--white);
+        margin-top: 7vw;
+      }
     }
 
     #lo {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 71.56vw;
-      background-color: var(--white);
-    }
+      padding: 6vw 10vw;
 
-    .ogo {
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-      height: 20vw;
-    }
+      .ogo {
+        display: flex;
+        flex-direction: column;
+      }
 
-    .smel {
-      margin-top: 2vw;
-      margin-left: 11vw;
-      color: var(--blue);
-    }
+      .text {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4vw;
+        gap: 5vw;
+      }
 
-    .be {
-      width: 80vw;
-      height: 28.46vw;
-      margin-left: 11vw;
-      margin-top: 17vw;
-      background-size: cover;
-      // background-image: url('./images/be.svg');
+      .character {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: 400;
+        color: var(--blue);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+      }
+
+      .smel {
+        color: var(--blue);
+      }
+
+      .be {
+        width: 79.44vw;
+        height: 73vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/beMobile.svg');
+      }
     }
 
     #col {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 312vw;
-    }
+      background-color: var(--blue);
+      padding: 5vw 10vw 6vw;
+      gap: 10vw;
 
-    .cole {
-      width: 78.75vw;
-      height: 39vw;
-      margin-left: 11vw;
-      margin-top: 8vw;
-      background-size: cover;
-      // background-image: url('./images/cole2.svg');
-    }
+      .sin {
+        color: var(--white);
+      }
 
-    .sr {
-      width: 78.02vw;
-      height: 150.24vw;
-      margin-left: 11vw;
-      margin-top: 8vw;
-      background-size: cover;
-      // background-image: url('./images/sr2.svg');
+      .colours {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+
+        .cole {
+          width: 78.75vw;
+          height: 28.01vw;
+          margin-top: 5vw;
+          background-size: cover;
+          background-image: url('./images/coleMobile.png');
+        }
+      }
+
+      .typ {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+
+        .eli {
+          display: none;
+          position: absolute;
+          margin-top: -2vw;
+          margin-left: 2vw;
+          width: 27.17vw;
+          height: 9.8vw;
+          background-size: cover;
+          background-image: url('./images/elips2.png');
+        }
+
+        .sr {
+          width: 78.02vw;
+          height: 117.24vw;
+          margin-top: 4vw;
+          background-size: cover;
+          background-image: url('./images/srMobile.png');
+        }
+      }
     }
 
     #setka {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 132.67vw;
-      background-color: var(--white);
-    }
+      padding: 5vw 10vw;
 
-    .sto {
-      width: 78.75vw;
-      height: 103.7vw;
-      margin-left: 11vw;
-      margin-top: 8vw;
-      background-size: cover;
-      // background-image: url('./images/sto1.svg');
+      .sto {
+        margin: 4vw auto;
+        width: 78.7vw;
+        height: 102.2vw;
+        background-size: cover;
+        background-image: url('./images/stoMobile.png');
+      }
     }
 
     #graf {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 294.67vw;
-    }
+      background-color: var(--blue);
+      padding: 5vw 10vw;
 
-    .gr {
-      width: 77.4vw;
-      height: 242.52vw;
-      margin-left: 11vw;
-      margin-top: 5vw;
-      background-size: cover;
-      // background-image: url('./images/gr2.svg');
+      .text1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+
+        .sin {
+          color: white;
+        }
+      }
+
+      .gr {
+        width: 77.4vw;
+        height: 66.52vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/grMobile.png');
+      }
     }
 
     #bib {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 161.56vw;
       background-color: var(--white);
-    }
+      padding: 5vw 10vw;
 
-    .bibe {
-      width: 78.8vw;
-      height: 123.77vw;
-      margin-left: 11vw;
-      margin-top: 5vw;
-      background-size: cover;
-      // background-image: url('./images/bibe2.svg');
+      .text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        margin-bottom: 2vw;
+
+        .te6 {
+          color: var(--blue);
+        }
+      }
+
+      .bibe {
+        width: 79.2vw;
+        height: 69.7vw;
+        margin: 2vw auto;
+        background-size: cover;
+        background-image: url('./images/bibeMobile.png');
+      }
     }
 
     #voice {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 65.55vw;
-    }
+      background-color: var(--blue);
+      padding: 7vw 10vw;
+      gap: 4vw;
+      color: var(--white);
 
-    .som {
-      margin-top: 11vw;
-      margin-left: 11vw;
-      color: white;
-    }
-
-    .ko {
-      margin-top: 5vw;
-      margin-left: 4vw;
-      color: white;
-      width: 93vw;
+      .som {
+        color: var(--white);
+      }
     }
 
     .net {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 242vw;
-      background-color: var(--white);
-    }
+      padding: 5vw 10vw;
+      gap: 3vw;
 
-    .set {
-      width: 71.04vw;
-      height: 215.95vw;
-      margin-left: 11vw;
-      margin-top: 5vw;
-      background-size: cover;
-      // background-image: url('./images/set1.svg');
+      .set {
+        width: 71.04vw;
+        height: 44.95vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/set.png');
+      }
     }
 
     #nos {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 243.14vw;
-    }
+      padding: 5vw 14vw;
+      background-color: var(--blue);
 
-    .re {
-      width: 78.65vw;
-      height: 207.27vw;
-      margin-left: 11vw;
-      margin-top: 5vw;
-      background-size: cover;
-      // background-image: url('./images/re1.svg');
+      .sin {
+        color: var(--white);
+        margin-left: -3vw;
+      }
+
+      .re {
+        width: 78.65vw;
+        height: 193.27vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/reMobile.png');
+      }
     }
 
     .pla {
       display: flex;
       flex-direction: column;
-      width: 100vw;
-      height: 239.14vw;
-    }
-
-    .pit {
-      width: 78.65vw;
-      height: 207.27vw;
-      margin-left: 11vw;
-      margin-top: 5vw;
-      background-size: cover;
-      // background-image: url('./images/pit2.svg');
-    }
-
-    .sin2 {
-      margin-top: 8vw;
-      color: white;
-    }
-
-    .ru1 {
-      display: none;
-      position: absolute;
-      margin-top: 2.87vw;
-      margin-left: 21vw;
-      width: 65.17vw;
-      height: 18vw;
-      background-size: cover;
-      // background-image: url('./images/el1.svg');
-    }
-
-    .tik {
-      position: absolute;
-      margin-top: -38.2vw;
-      margin-left: 10vw;
-      width: 7.74vw;
-      height: 34.89vw;
-      background-size: cover;
-      // background-image: url('./images/tik.svg');
-    }
-
-    .tok {
-      position: absolute;
-      margin-top: -30vw;
-      margin-left: 9vw;
-      width: 7.74vw;
-      height: 22.89vw;
-      background-size: cover;
-      // background-image: url('./images/tok.svg');
-    }
-
-    .kis {
-      display: none;
-      position: absolute;
-      margin-top: 2.9vw;
-      margin-left: 9vw;
-      width: 20.6vw;
-      height: 7.5vw;
-      background-size: cover;
-      // background-image: url('./images/kis.svg');
-    }
-
-    .lol {
-      display: none;
-      position: absolute;
-      margin-top: -8vw;
-      margin-left: 33vw;
-      width: 17.6vw;
-      height: 19.5vw;
-      background-size: cover;
-      // background-image: url('./images/lol.svg');
-    }
-
-    .kek {
-      display: none;
-      position: absolute;
-      margin-top: 7vw;
-      margin-left: 43vw;
-      width: 17.6vw;
-      height: 19.5vw;
-      background-size: cover;
-      // background-image: url('./images/kek.svg');
-    }
-
-    .so {
-      display: none;
-      position: absolute;
-      margin-top: 8vw;
-      margin-left: 8vw;
-      width: 25vw;
-      height: 9vw;
-      background-size: cover;
-      // background-image: url('./images/so.svg');
-    }
-
-    #ninth {
-      position: relative;
+      padding: 5vw 10vw;
       background-color: var(--blue);
-      width: 100%;
-      height: 11.61vw;
-      margin-top: 5vw;
+      gap: 3vw;
 
-      .logo2 {
-        position: absolute;
-        // background-image: url('images/logo1.svg');
-        background-size: cover;
-        width: 15.3vw;
-        height: 7.2vw;
-        margin-top: 2vw;
-        margin-left: 3vw;
+      .sin2 {
+        color: var(--white);
       }
 
-      .s {
-        position: absolute;
-        // background-image: url('images/students.svg');
+      .pit {
+        width: 78.65vw;
+        height: 206.27vw;
         background-size: cover;
-        width: 15.2vw;
-        height: 4.95vw;
-        margin-top: 3vw;
-        margin-left: 25vw;
-      }
-
-      .t {
-        position: absolute;
-        // background-image: url('images/teachers.svg');
-        background-size: cover;
-        width: 11.1vw;
-        height: 4.95vw;
-        margin-top: 3vw;
-        margin-left: 46vw;
-      }
-
-      .vk {
-        position: absolute;
-        // background-image: url('images/vk1.png');
-        background-size: cover;
-        width: 5.05vw;
-        height: 2.8vw;
-        margin-top: 4vw;
-        margin-left: 67vw;
-      }
-
-      .tg {
-        position: absolute;
-        // background-image: url('images/tg1.png');
-        background-size: cover;
-        width: 4.5vw;
-        height: 3.4vw;
-        margin-top: 3.5vw;
-        margin-left: 76vw;
-      }
-
-      .hse {
-        position: absolute;
-        // background-image: url('images/hse.png');
-        background-size: cover;
-        width: 11.4vw;
-        height: 4.48vw;
-        margin-top: 3.5vw;
-        margin-left: 85vw;
+        background-image: url('./images/pitMobile.png');
       }
     }
 
-    a {
-      text-decoration: none;
+    #O_footer {
+      margin-top: 0;
+      p {
+        font-size: 12px;
+      }
     }
   }
 }

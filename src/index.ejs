@@ -65,24 +65,24 @@
     <script src="./javascript/burgerMenu.js" charset="utf-8"></script>
   </head>
   <body class="b">
-    <div class="S_NavBar">
-      <%= menubar %>
-    </div>
-    <div class="Q_burgerMenu"></div>
-    <div class="M_Menu">
-        <div class="Q_Close"></div>
-        <div class="C_Categories">
-            <a href="about.html" class="M_mobileMenuPoint">о нас</a>
-            <a href="cards.html" class="M_mobileMenuPoint">карточки</a>
-            <a href="tests_main.html" class="M_mobileMenuPoint">тесты</a>
-            <a href="./media/guides.html" class="M_mobileMenuPoint">гайды</a>
-            <a href="./media/antietiquette.html" class="M_mobileMenuPoint">антиэтикет</a>
-            <a href="./media/influensers.html" class="M_mobileMenuPoint">инфлюенсеры</a>
-            <a href="./media/films.html" class="M_mobileMenuPoint">фильмы</a>
+    <div class="S_NavBar"><%= menubar %></div>
+
+    <div class="S_NavBarMobile">
+        <a class="A_little_logo" href='index.html'></a>
+        <div class="Q_burgerMenu"></div>
+        <div class="M_Menu">
+            <div class="Q_Close"></div>
+            <div class="W_Categories">
+                <a href="about.html" class="M_mobileMenuPoint">о нас</a>
+                <a href="cards.html" class="M_mobileMenuPoint">карточки</a>
+                <a href="tests_main.html" class="M_mobileMenuPoint">тесты</a>
+                <a href="./media/guides.html" class="M_mobileMenuPoint">гайды</a>
+                <a href="./media/antietiquette.html" class="M_mobileMenuPoint">антиэтикет</a>
+                <a href="./media/influensers.html" class="M_mobileMenuPoint">инфлюенсеры</a>
+                <a href="./media/films.html" class="M_mobileMenuPoint">фильмы</a>
+            </div>
         </div>
     </div>
-
-    <!-- <menubar></menubar> -->
 
     <div id="S_preview" class="intro">
       <div class="O_previewBlock">
@@ -101,9 +101,9 @@
           <p>медиа-сервис об этикете</p>
         </div>
       </div>
-      <div class="O_previewBlock">
+      <div class="O_previewBlock animation">
         <div class="Q_Line middle"></div>
-        <div class="A_heading">
+        <div class="A_heading animation">
           <p>про тебя</p>
         </div>
       </div>
@@ -112,11 +112,11 @@
     <div id="S_preview" class="tages">
       <div class="A_bigTag">
         <div class="A_tagText">
-          <p>столовый этикет</p>
+          <p>светский этикет</p>
         </div>
       </div>
       <div class="A_numberInOval">
-        <div class="A_mainNumber"><p>3</p></div>
+        <div class="A_mainNumber"><p>1</p></div>
         <div class="Q_number_image_stroke"></div>
       </div>
     </div>

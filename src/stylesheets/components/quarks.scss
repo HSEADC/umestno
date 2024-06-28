@@ -344,11 +344,16 @@
   }
 
   .Q_burgerMenu {
-    margin-top: -4vw;
-    margin-left: 87vw;
     width: 7.23vw;
     height: 5.62vw;
     background-image: url('images/Q_burgerMenu.png');
+    background-size: cover;
+  }
+  .Q_Close {
+    margin: 7vw 10vw 0vw 83vw;
+    width: 7.23vw;
+    height: 7.23vw;
+    background-image: url('images/Q_Close.png');
     background-size: cover;
   }
 

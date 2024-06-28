@@ -613,6 +613,7 @@
 @media only screen and (max-width: 499px) {
 
   .M_Menu {
+      display: none;
       position: fixed;
       top: 0;
       left: 0;
@@ -621,14 +622,6 @@
       background-color: var(--white);
       z-index: 100;
       transition: opacity 0.3s ease-in-out;
-    }
-  
-    .Q_burgerMenu {
-      /*  Добавить стили для бургера */
-    }
-  
-    .Q_Close {
-      /*  Добавить стили для кнопки закрытия */
     }
   
     .hidden {
@@ -1202,12 +1195,11 @@
     color: var(--blue);
     font-family: Helvetica;
     font-size: 6.67vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-weight: normal;
     font-style: normal;
     margin: 0 auto;
+    padding: 2.5vw;
   }
   .M_404page {
     margin: 0 auto;

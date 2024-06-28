@@ -94,7 +94,6 @@ export default class S_NavBar extends React.Component {
                     handleSearchInput={this.handleSearchInput}
                     handleSearchSubmit={this.handleSearchSubmit}
                 />
-
             </div>
         </div>
     </>

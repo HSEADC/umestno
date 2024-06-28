@@ -33,6 +33,7 @@ module.exports = {
     cards: './src/javascript/cards.js',
     menubar: './src/menubar.jsx',
     burgerMenu: './src/javascript/burgerMenu.js',
+    animation: './src/javascript/animation.js',
     search: './src/search-vanilla.js'
   },
   output: {
@@ -127,7 +128,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.ejs',
       filename: './index.html',
-      chunks: ['index', 'menubar', 'search', 'burgerMenu']
+      chunks: ['index', 'menubar', 'search', 'burgerMenu', 'animation']
     }),
 
     // search page
@@ -136,7 +137,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/search.html',
       filename: './search.html',
-      chunks: ['menubar', 'search']
+      chunks: ['index', 'menubar', 'search']
     }),
 
     // 404 page
@@ -145,7 +146,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/404.html',
       filename: './404.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // 400 page
@@ -154,7 +155,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/400.html',
       filename: './400.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // 505 page
@@ -163,7 +164,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/505.html',
       filename: './505.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // styleguide page
@@ -172,7 +173,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/styleguide.html',
       filename: './styleguide.html',
-      chunks: ['index']
+      chunks: ['index', 'burgerMenu']
     }),
 
     // About page
@@ -181,7 +182,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/about.ejs',
       filename: './about.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // Burger page
@@ -190,7 +191,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/burger.ejs',
       filename: './burger.html',
-      chunks: ['index']
+      chunks: ['index', 'burgerMenu']
     }),
 
     // antietiquette page
@@ -199,7 +200,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette.html',
       filename: './media/antietiquette.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // guides page
     new HtmlWebpackPlugin({
@@ -207,7 +208,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides.html',
       filename: './media/guides.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // influensers page
     new HtmlWebpackPlugin({
@@ -215,7 +216,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers.html',
       filename: './media/influensers.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // films page
     new HtmlWebpackPlugin({
@@ -223,7 +224,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films.ejs',
       filename: './media/films.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // Cards page
@@ -232,7 +233,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/cards.ejs',
       filename: './cards.html',
-      chunks: ['index', 'flip2', 'cards', 'menubar']
+      chunks: ['index', 'flip2', 'cards', 'menubar', 'burgerMenu']
     }),
 
     // Film1 page
@@ -241,7 +242,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films/yesMadam.html',
       filename: './media/films/yesMadam.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // Film2 page
     new HtmlWebpackPlugin({
@@ -249,7 +250,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films/mistakes.html',
       filename: './media/films/mistakes.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // Film3 page
     new HtmlWebpackPlugin({
@@ -257,7 +258,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films/theCrownShow.html',
       filename: './media/films/theCrownShow.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // Film4 page
     new HtmlWebpackPlugin({
@@ -265,7 +266,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films/GraceKelly.html',
       filename: './media/films/GraceKelly.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // Film5 page
     new HtmlWebpackPlugin({
@@ -273,7 +274,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films/Emma.html',
       filename: './media/films/Emma.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // Film6 page
     new HtmlWebpackPlugin({
@@ -281,7 +282,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/films/princessDiaries.html',
       filename: './media/films/princessDiaries.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     //influensers
@@ -291,7 +292,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers/fallLessons.html',
       filename: './media/influensers/fallLessons.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // influensers2 page
@@ -300,7 +301,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers/KateMiddlton.html',
       filename: './media/influensers/KateMiddlton.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // influensers3 page
@@ -309,7 +310,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers/QueenElisabeth.html',
       filename: './media/influensers/QueenElisabeth.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // influensers4 page
@@ -318,7 +319,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers/underwear.html',
       filename: './media/influensers/underwear.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // influensers5 page
@@ -327,7 +328,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers/AnnaVintur.html',
       filename: './media/influensers/AnnaVintur.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // influensers6 page
@@ -336,7 +337,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/influensers/impression.html',
       filename: './media/influensers/impression.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     //Antietiquette
@@ -347,7 +348,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette/taxi.html',
       filename: './media/antietiquette/taxi.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // article2
     new HtmlWebpackPlugin({
@@ -355,7 +356,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette/lift.html',
       filename: './media/antietiquette/lift.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // article3
     new HtmlWebpackPlugin({
@@ -363,7 +364,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette/handsEating.html',
       filename: './media/antietiquette/handsEating.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // article4
     new HtmlWebpackPlugin({
@@ -371,7 +372,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette/sweaty.html',
       filename: './media/antietiquette/sweaty.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     // article5
     new HtmlWebpackPlugin({
@@ -379,7 +380,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette/needMore.html',
       filename: './media/antietiquette/needMore.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // article6
@@ -388,7 +389,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/antietiquette/discussions.html',
       filename: './media/antietiquette/discussions.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     //Guides
@@ -399,7 +400,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/phoneTalk.html',
       filename: './media/guides/phoneTalk.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     //guide 2
     new HtmlWebpackPlugin({
@@ -407,7 +408,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/guestsSitting.html',
       filename: './media/guides/guestsSitting.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     //guide 3
     new HtmlWebpackPlugin({
@@ -415,7 +416,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/forksAndSpoons.html',
       filename: './media/guides/forksAndSpoons.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     //guide 4
     new HtmlWebpackPlugin({
@@ -423,7 +424,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/workPlancton.html',
       filename: './media/guides/workPlancton.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     //guide 5
     new HtmlWebpackPlugin({
@@ -431,7 +432,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/unexpectedGuests.html',
       filename: './media/guides/unexpectedGuests.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     //guide 6
     new HtmlWebpackPlugin({
@@ -439,7 +440,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/branch.html',
       filename: './media/guides/branch.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
     //guide 7
     new HtmlWebpackPlugin({
@@ -447,7 +448,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/media/guides/importantDiscussions.html',
       filename: './media/guides/importantDiscussions.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // Tests
@@ -458,7 +459,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests_main.ejs',
       filename: './tests_main.html',
-      chunks: ['index', 'menubar']
+      chunks: ['index', 'menubar', 'burgerMenu']
     }),
 
     // Test1 page
@@ -467,7 +468,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/goodHost.html',
       filename: './tests/goodHost.html',
-      chunks: ['index', 'test1', 'menubar']
+      chunks: ['index', 'test1', 'menubar', 'burgerMenu']
     }),
     // Test2 page
     new HtmlWebpackPlugin({
@@ -475,7 +476,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/sittingProblem.html',
       filename: './tests/sittingProblem.html',
-      chunks: ['index', 'test2', 'menubar']
+      chunks: ['index', 'test2', 'menubar', 'burgerMenu']
     }),
     // Test3 page
     new HtmlWebpackPlugin({
@@ -483,7 +484,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/whereAreMyShoes.html',
       filename: './tests/whereAreMyShoes.html',
-      chunks: ['index', 'test3', 'menubar']
+      chunks: ['index', 'test3', 'menubar', 'burgerMenu']
     }),
     // Test4 page
     new HtmlWebpackPlugin({
@@ -491,7 +492,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/suchAFruit.html',
       filename: './tests/suchAFruit.html',
-      chunks: ['index', 'test4', 'menubar']
+      chunks: ['index', 'test4', 'menubar', 'burgerMenu']
     }),
     // Test5 page
     new HtmlWebpackPlugin({
@@ -499,7 +500,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/interlocutor.html',
       filename: './tests/interlocutor.html',
-      chunks: ['index', 'test5', 'menubar']
+      chunks: ['index', 'test5', 'menubar', 'burgerMenu']
     }),
     // Test6 page
     new HtmlWebpackPlugin({
@@ -507,7 +508,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/isItAppropriet.html',
       filename: './tests/isItAppropriet.html',
-      chunks: ['index', 'test6', 'menubar']
+      chunks: ['index', 'test6', 'menubar', 'burgerMenu']
     }),
     // Test7 page
     new HtmlWebpackPlugin({
@@ -515,7 +516,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/sunglassesProblem.html',
       filename: './tests/sunglassesProblem.html',
-      chunks: ['index', 'test7', 'menubar']
+      chunks: ['index', 'test7', 'menubar', 'burgerMenu']
     }),
     // Test8 page
     new HtmlWebpackPlugin({
@@ -523,7 +524,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/howKindAreYou.html',
       filename: './tests/howKindAreYou.html',
-      chunks: ['index', 'test8', 'menubar']
+      chunks: ['index', 'test8', 'menubar', 'burgerMenu']
     }),
     // Test9 page
     new HtmlWebpackPlugin({
@@ -531,7 +532,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tests/SantaClaus.html',
       filename: './tests/SantaClaus.html',
-      chunks: ['index', 'test9', 'menubar']
+      chunks: ['index', 'test9', 'menubar', 'burgerMenu']
     }),
 
     // Partials
