@@ -1,0 +1,27 @@
+.O_SearchBar {
+    font-family: 'Helvetica', sans-serif;
+    position: relative;
+
+    .C_PostTeasers {
+        height: 2.14vw;
+        width: 10.78vw;
+        position: absolute;
+        background-color: var(--white);
+        overflow-y: scroll;
+        max-height: 360px;
+    }
+    .C_PostSuggestions {
+        position: absolute;
+        .M_PostSuggestion {
+            .A_Text {
+                &.h3 {
+                    font-size: 0.94vw;
+                }
+        
+                &.p {
+                    font-size: 0.5vw;
+                }
+            }
+        }
+    }
+}

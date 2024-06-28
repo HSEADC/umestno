@@ -1,0 +1,329 @@
+<% const {menubar}=require('./menubar.js') %>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О нас</title>
+    <link rel="icon" type="img/x-icon" href="images/logo.svg" />
+
+    <!-- Primary Meta Tags -->
+    <title>Уместно — о медиа-сервис</title>
+    <meta name="title" content="Уместно — о медиа-сервисе" />
+    <meta
+      name="description"
+      content="Узнай, как изучать этикет в увлекательной форме"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://hseadc.github.io/umestno/about.html"
+    />
+    <meta property="og:title" content="Уместно — о медиа-сервисе" />
+    <meta
+      property="og:description"
+      content="Узнай, как изучать этикет в увлекательной форме"
+    />
+
+    <meta
+      property="og:image"
+      content="https://hseadc.github.io/umestno/share/metaTag.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://hseadc.github.io/umestno/about.html"
+    />
+    <meta property="twitter:title" content="Уместно — о медиа-сервисе" />
+    <meta
+      property="twitter:description"
+      content="Узнай, как изучать этикет в увлекательной форме"
+    />
+    <meta
+      property="twitter:image"
+      content="https://hseadc.github.io/umestno/share/metaTag.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://myfonts.ru/myfonts?fonts=snell-roundhand"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <analytics></analytics>
+  </head>
+  <body class="about">
+    <div class="S_NavBar"><%= menubar %></div>
+
+    <div class="S_NavBarMobile">
+      <a class="A_little_logo" href='index.html'></a>
+      <div class="Q_burgerMenu"></div>
+      <div class="M_Menu">
+        <div class="Q_Close"></div>
+        <div class="W_Categories">
+          <a href="about.html" class="M_mobileMenuPoint">о нас</a>
+          <a href="cards.html" class="M_mobileMenuPoint">карточки</a>
+          <a href="tests_main.html" class="M_mobileMenuPoint">тесты</a>
+          <a href="./media/guides.html" class="M_mobileMenuPoint">гайды</a>
+          <a href="./media/antietiquette.html" class="M_mobileMenuPoint"
+            >антиэтикет</a
+          >
+          <a href="./media/influensers.html" class="M_mobileMenuPoint"
+            >инфлюенсеры</a
+          >
+          <a href="./media/films.html" class="M_mobileMenuPoint">фильмы</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <menubar></menubar> -->
+
+    <div class="bigAbout">
+      <img src="<%=require('./images/oval.svg')%>" class="oval" alt="Овал" />
+      <img
+        src="<%=require('./images/mobileoval.svg')%>"
+        class="mobileoval"
+        alt="Овал"
+      />
+      <p class="what">УМЕСТНО</p>
+      <p class="platform">этикет без бед</p>
+      <p class="script">
+        (ВАША ШПАРГАЛКА <br />
+        ПО ЭТИКЕТУ)
+      </p>
+    </div>
+    <div class="scaleme">
+      <p class="us">ПРО ЧТО МЫ?</p>
+      <div class="block">
+        <img
+          src="<%=require('./images/number.svg')%>"
+          class="number"
+          alt="Цифра"
+        />
+        <img src="<%=require('./images/bag.png')%>" class="bag" alt="Сумка" />
+        <img
+          src="<%=require('./images/arroww.svg')%>"
+          class="arroww"
+          alt="Стрелка"
+        />
+        <img
+          src="<%=require('./images/number3.svg')%>"
+          class="number3"
+          alt="Цифра"
+        />
+        <img src="<%=require('./images/cup.png')%>" class="cup" alt="Чашка" />
+        <img
+          src="<%=require('./images/aroww2.svg')%>"
+          class="aroww2"
+          alt="Стрелка"
+        />
+        <img
+          src="<%=require('./images/number.svg')%>"
+          class="number6"
+          alt="Цифра"
+        />
+        <img src="<%=require('./images/shoe.png')%>" class="shoe" alt="Туфля" />
+        <p class="case">
+          КАКАЯ СУМКА <br />
+          ДЛЯ КАКОГО <br />
+          СЛУЧАЯ?
+        </p>
+        <p class="tea">
+          КАК ПРАВИЛЬНО <br />
+          ПОДАВАТЬ ЧАЙ?
+        </p>
+        <p class="heels">
+          КУДА УМЕСТНО <br />
+          НАДЕТЬ КАБЛУКИ?
+        </p>
+        <p class="guides">
+          гайды <br />
+          на любой <br />
+          случай
+        </p>
+      </div>
+      <div class="description">
+        Мы — медиа-сервис об этикете, который помогает научиться более уверенно
+        и изящно ориентироваться в различных социальных ситуациях.
+      </div>
+      <div class="description2">
+        Устали испытывать неловкость на торжественных застольях и при походе в
+        гости? Или теряться&nbsp;при мысли о том, как красивоуйти с мероприятия,
+        не потеряв лицо? А может быть вы просто хотите быть таким же элегантным,
+        как члены королевской семьи?
+      </div>
+      <div class="description3">
+        Мы поможем вам в этом с помощью наших увлекательных форматов обучения!
+      </div>
+    </div>
+
+    <div class="kvadrat">
+      <h2 class="why">ЗАЧЕМ НАС ЧИТАТЬ?</h2>
+      <div class="wrapper3">
+        <img
+          src="<%=require('./images/blue1.svg')%>"
+          class="blue1"
+          alt="Цифра"
+        />
+        <img
+          src="<%=require('./images/blue5.svg')%>"
+          class="blue5"
+          alt="Цифра"
+        />
+        <img
+          src="<%=require('./images/blue1.svg')%>"
+          class="blue11"
+          alt="Цифра"
+        />
+        <img
+          src="<%=require('./images/blue6.svg')%>"
+          class="blue6"
+          alt="Цифра"
+        />
+      </div>
+      <div class="wrapper">
+        <img
+          src="<%=require('./images/pic1.png')%>"
+          class="pic1"
+          alt="Кадр из фильма"
+        />
+        <img
+          src="<%=require('./images/pic2.png')%>"
+          class="pic2"
+          alt="Кадр из фильма"
+        />
+        <img
+          src="<%=require('./images/pic3.png')%>"
+          class="pic3"
+          alt="Кадр из фильма"
+        />
+        <img
+          src="<%=require('./images/pic4.png')%>"
+          class="pic4"
+          alt="Кадр из фильма"
+        />
+      </div>
+      <p class="hashtag">#светский-этикет</p>
+      <p class="hashtag2">#фильмы</p>
+      <p class="hashtag3">#инфлюенсеры</p>
+      <p class="hashtag4">#дресс-код</p>
+      <div class="liner"></div>
+      <div class="description4">
+        Наша цель — сделать изучение этикета максимально&nbsp;занимательным и
+        интересным!
+      </div>
+      <div class="description5">
+        Поэтому мы собираем множество примеров из массовой культуры,&nbsp;чтобы
+        вы могли учиться на реальных примерах, вдохновляться
+        манерами&nbsp;любимых героев и не повторять их ошибок.
+      </div>
+    </div>
+
+    <div class="forWhom">
+      <h2 class="for">
+        ДЛЯ КОГО <br />
+        НАШ ПРОЕКТ?
+      </h2>
+      <div class="description6">
+        Почитать «Уместно» будет полезно&nbsp;всем, кто хочет стать
+        успешным&nbsp;в личной и профессиональной жизни!
+      </div>
+      <div class="description7">
+        Для тех, кто из-за незнания этикета&nbsp;постоянно попадает в
+        неловкие&nbsp;ситуации, мы подготовили подборки &nbsp; гайдов на разные
+        случаи жизни,&nbsp;а для тех, кто хочет изучать этикет&nbsp;в
+        интерактивной форме, мы собираем&nbsp;библиотеки карточек и тестов.
+      </div>
+      <div class="wrapper2">
+        <img
+          src="<%=require('./images/number.svg')%>"
+          class="numbera"
+          alt="Цифра"
+        />
+        <img
+          src="<%=require('./images/dish.png')%>"
+          class="dish"
+          alt="Тарелка"
+        />
+        <img
+          src="<%=require('./images/arrow3.svg')%>"
+          class="arrow3"
+          alt="Стрелка"
+        />
+        <img
+          src="<%=require('./images/number.svg')%>"
+          class="numberb"
+          alt="Цифра"
+        />
+        <img src="<%=require('./images/fork.png')%>" class="fork" alt="Вилка" />
+        <img
+          src="<%=require('./images/number.svg')%>"
+          class="numberc"
+          alt="Цифра"
+        />
+        <img src="<%=require('./images/knife.png')%>" class="knife" alt="Нож" />
+        <img
+          src="<%=require('./images/arrow4.svg')%>"
+          class="arrow4"
+          alt="Стрелка"
+        />
+
+        <p class="dishtext">
+          ТАРЕЛКА <br />
+          ДЛЯ ХЛЕБА
+        </p>
+        <p class="knifetext">
+          НОЖ <br />
+          ДЛЯ КРАБОВ
+        </p>
+        <p class="forktext">
+          ВИЛКА <br />
+          ДЛЯ КРАБОВ
+        </p>
+        <p class="cards">
+          ждали <br />
+          крутые <br />
+          карточки?
+        </p>
+      </div>
+    </div>
+
+    <div id="S_mail">
+      <div class="A_form_title">
+        <p>узнать о новостях</p>
+      </div>
+      <div class="W_FormInput">
+        <form
+          id="my-form"
+          action="https://formspree.io/f/xwkdayag"
+          method="POST"
+        >
+          <input type="email" name="email" class="mailme" />
+          <button id="my-form-button">отправить</button>
+          <!-- <p id="my-form-status"></p> -->
+        </form>
+      </div>
+      <div class="O_previewSignature">
+        <div class="A_MainSignature">
+          <p>мы будем держать вас в курсе!</p>
+        </div>
+        <div class="Q_Line middle2"></div>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>

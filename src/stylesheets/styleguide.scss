@@ -1,0 +1,1090 @@
+@media all and (min-width: 501px) {
+  body.styleguide {
+    background-color: var(--white);
+
+    p {
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 360;
+      font-size: 1.5vw;
+      color: white;
+    }
+
+    h2 {
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.21vw;
+      text-transform: uppercase;
+      color: var(--blue);
+    }
+
+    .first {
+      background-color: var(--blue);
+      height: 56.25vw;
+      display: flex;
+      flex-direction: column;
+
+      .poloska {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 94.79vw;
+        margin-left: 2.6vw;
+        align-items: center;
+        margin: 1vw auto;
+
+        .logo {
+        width: 4.89vw;
+        height: 3.85vw;
+        background-image: url('images/A_littleWhite_logo.png');
+        background-size: cover;
+        }
+
+        .me {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          gap: 3vw;
+        }
+      }
+
+      .nam {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vw;
+        margin: 8vw auto;
+      }
+
+      h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+        font-size: 18.18vw;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .who {
+        width: 38.6vw;
+        height: 19.06vw;
+        background-size: cover;
+        background-image: url('./images/who.png');
+      }
+    }
+
+    #brand {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 5vw 10vw 7vw;
+
+      .blok1 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .te1 {
+        width: 40vw;
+        margin-top: 3vw;
+        color: var(--blue);
+      }
+
+      .ki {
+        position: absolute;
+        width: 11.09vw;
+        height: 9.79vw;
+        margin-top: 15vw;
+        margin-left: 30vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+      }
+
+      .blok2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vw;
+        padding-left: 42vw;
+      }
+
+      .te2 {
+        margin-top: 4vw;
+        color: var(--blue);
+      }
+
+      .te3 {
+        margin-top: 1vw;
+        color: var(--blue);
+      }
+
+      .den {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .ved1 {
+        display: flex;
+      }
+
+      .tsen {
+        margin-top: 4vw;
+      }
+
+      .chisla1 {
+        display: flex;
+        flex-direction: row;
+        gap: 23vw;
+        // height: 23.33vw;
+        margin-left: 5vw;
+
+        .per {
+            display: flex;
+            flex-direction: column;
+        }
+        .vtor {
+            display: flex;
+            flex-direction: column;
+        }
+      }
+
+      .te4 {
+        width: 26vw;
+        margin-top: 3vw;
+        color: var(--blue);
+        &.t {
+          margin-top: 3vw;
+        }
+      }
+
+      .te5 {
+        width: 24vw;
+        margin-top: 2vw;
+        color: var(--blue);
+      }
+
+      .mission {
+        padding-top: 4vw;
+        .mis {
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          height: 40.29vw;
+          background-color: var(--white);
+        }
+
+        .te6 {
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+
+      .inside {
+        padding-left: 42vw;
+        .su {
+          margin-top: 2vw;
+        }
+
+        .te7 {
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+
+      .ru1 {
+        position: absolute;
+        margin-top: -1vw;
+        margin-left: -1vw;
+        width: 27.17vw;
+        height: 7.6vw;
+        background-size: cover;
+        background-image: url('./images/elips1.png');
+      }
+
+      .tik {
+        position: absolute;
+        margin-top: 2.8vw;
+        margin-left: -5vw;
+        width: 3.74vw;
+        height: 18.89vw;
+        background-size: cover;
+        background-image: url('./images/tik.png');
+      }
+      .tok {
+        position: absolute;
+        margin-top: 2.8vw;
+        margin-left: -6vw;
+        width: 3.72vw;
+        height: 12.89vw;
+        background-size: cover;
+        background-image: url('./images/tok.png');
+      }
+
+      .kis {
+        position: absolute;
+        margin-top: -29.1vw;
+        margin-left: -1vw;
+        width: 20.62vw;
+        height: 5.75vw;
+        background-size: cover;
+        background-image: url('./images/elips1.png');
+      }
+
+      .lol {
+        position: absolute;
+        margin-top: -35vw;
+        margin-left: 28vw;
+        width: 11.09vw;
+        height: 9.79vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+        transform: scaleX(-1) rotate(20deg);
+      }
+
+      .kek {
+        position: absolute;
+        margin-top: -13vw;
+        margin-left: 25vw;
+        width: 11.09vw;
+        height: 9.79vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+      }
+    }
+
+    .merch {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: var(--blue);
+      padding: 7vw 10vw;
+
+      .so {
+        position: absolute;
+        margin-top: -2vw;
+        margin-left: -1vw;
+        width: 27.17vw;
+        height: 9.8vw;
+        background-size: cover;
+        background-image: url('./images/elips2.png');
+      }
+
+      .con1 {
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+      }
+
+      .con2 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sin {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5.21vw;
+        text-transform: uppercase;
+        color: var(--white);
+      }
+
+      .te8 {
+        width: 30vw;
+        color: var(--white);
+      }
+
+      .te9 {
+        width: 40vw;
+        color: var(--white);
+        margin-top: 11vw;
+      }
+    }
+
+    #lo {
+      display: flex;
+      flex-direction: column;
+      padding: 6vw 10vw;
+
+      .ogo {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .text {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vw;
+      }
+
+      .character {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: 400;
+        color: var(--blue);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.81vw;
+      }
+
+      .smel {
+        width: 30vw;
+        margin-left: 30vw;
+        color: var(--blue);
+      }
+
+      .be {
+        width: 73.44vw;
+        height: 26.46vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/be.svg');
+      }
+    }
+
+    #col {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--blue);
+      padding: 5vw 10vw 6vw;
+      gap: 10vw;
+
+      .sin {
+        color: var(--white);
+      }
+      .colours {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+
+        .te8 {
+          width: 55vw;
+        }
+
+        .cole {
+            width: 78.75vw;
+            height: 9.01vw;
+            margin-top: 5vw;
+            background-size: cover;
+            background-image: url('./images/cole.png');
+        }
+      }
+
+      .typ {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+
+        .te8 {
+            width: 50vw;
+        }
+
+        .eli {
+            position: absolute;
+            margin-top: -2vw;
+            margin-left: 2vw;
+            width: 27.17vw;
+            height: 9.8vw;
+            background-size: cover;
+            background-image: url('./images/elips2.png');
+        }
+
+        .sr {
+            width: 78.02vw;
+            height: 12.24vw;
+            margin-top: 4vw;
+            background-size: cover;
+            background-image: url('./images/sr.png');
+        }
+      }
+    }
+
+    #setka {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+
+    .sto {
+        margin: 3vw auto;
+        width: 78.79vw;
+        height: 24.82vw;
+        background-size: cover;
+        background-image: url('./images/sto1.png');
+    }
+    }
+
+    #graf {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--blue);
+      padding: 5vw 10vw;
+
+    .text1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        .sin {
+                color: white;
+            }
+    }
+
+    .gr {
+        width: 77.4vw;
+        height: 15.52vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/gr.png');
+    }
+    }
+
+    #bib {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--white);
+      padding: 5vw 10vw;
+
+      .text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        margin-bottom: 2vw;
+
+        .te6 {
+          width: 40vw;
+          color: var(--blue);
+        }
+      }
+
+    .bibe {
+        width: 78.8vw;
+        height: 36.77vw;
+        margin: 2vw auto;
+        background-size: cover;
+        background-image: url('./images/bibe.png');
+    }
+    }
+
+    #voice {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--blue);
+      padding: 7vw 10vw;
+      gap: 2.5vw;
+      color: var(--white);
+
+      .ko {
+        width: 54vw;
+      }
+
+      .som {
+        color: var(--white);
+      }
+    }
+
+    .net {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+      gap: 3vw;
+
+    .set {
+        width: 71.04vw;
+        height: 44.95vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/set.png');
+    }
+    }
+
+    #nos {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+      background-color: var(--blue);
+
+      .sin {
+        color: var(--white);
+      }
+        .re {
+            width: 78.65vw;
+            height: 49.27vw;
+            margin: 0 auto;
+            background-size: cover;
+            background-image: url('./images/re.png');
+        }
+    }
+
+    .pla {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+      background-color: var(--blue);
+      gap: 3vw;
+
+      .sin2{
+        color: var(--white);
+      }
+        .pit {
+            width: 78.65vw;
+            height: 49.27vw;
+            background-size: cover;
+            background-image: url('./images/pit.png');
+        }
+    }
+
+    #O_footer {
+        margin-top: 0;
+    }
+  }
+}
+
+// тут адаптив
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+body.styleguide {
+    background-color: var(--white);
+
+    p {
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 360;
+      font-size: 16px;
+      color: white;
+    }
+
+    h2 {
+      font-family: 'Oranienbaum', serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      text-transform: uppercase;
+      color: var(--blue);
+    }
+
+    .first {
+      background-color: var(--blue);
+      height: 216.41vw;
+      display: flex;
+      flex-direction: column;
+
+      .S_NavBarMobile {
+        .A_little_logo {
+          width: 11.89vw;
+          height: 10.85vw;
+          background-image: url('images/A_littleWhite_logo.png');
+          background-size: cover;
+        }
+        .Q_burgerMenu {
+          width: 7.23vw;
+          height: 5.62vw;
+          background-image: url('images/Q_burgerWhiteMenu.png');
+          background-size: cover;
+        }
+      }
+
+      .poloska {
+        display: none;
+        justify-content: space-between;
+        width: 94.79vw;
+        margin-left: 2.6vw;
+        align-items: center;
+        margin: 3vw auto;
+
+        .me {
+          display: none;
+          justify-content: space-between;
+          flex-direction: row;
+          gap: 3vw;
+        }
+      }
+
+      .nam {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vw;
+        margin: 70vw auto;
+      }
+
+      h1 {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+        font-size: 23.18vw;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .who {
+        width: 67.6vw;
+        height: 33.06vw;
+        background-size: cover;
+        background-image: url('./images/who.png');
+      }
+    }
+
+    #brand {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 5vw 10vw 7vw;
+
+      .blok1 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .te1 {
+        width: 75vw;
+        margin-top: 3vw;
+        color: var(--blue);
+      }
+
+      .ki {
+        display: none;
+        position: absolute;
+        width: 11.09vw;
+        height: 9.79vw;
+        margin-top: 15vw;
+        margin-left: 30vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+      }
+
+      .blok2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 13vw;
+      }
+
+      .te2 {
+        margin-top: 4vw;
+        color: var(--blue);
+      }
+
+      .te3 {
+        margin-top: 2vw;
+        color: var(--blue);
+      }
+
+      .den {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10vw;
+      }
+
+      .ved1 {
+        display: flex;
+      }
+
+      .tsen {
+        margin-top: 4vw;
+      }
+
+      .chisla1 {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        margin-left: 9vw;
+
+        .per {
+          display: flex;
+          flex-direction: column;
+          margin-top: 4vw;
+        }
+
+        .vtor {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .te4 {
+        width: 70vw;
+        margin-top: 3vw;
+        color: var(--blue);
+
+        &.t {
+          margin-top: 3.5vw;
+        }
+      }
+
+      .te5 {
+        width: 70vw;
+        margin-top: 2vw;
+        color: var(--blue);
+      }
+
+      .mission {
+        padding-top: 4vw;
+
+        .mis {
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          height: 40.29vw;
+          background-color: var(--white);
+        }
+
+        .te6 {
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+
+      .inside {
+        margin-top: 10vw;
+
+        .su {
+          margin-top: 2vw;
+        }
+
+        .te7 {
+          margin-top: 2vw;
+          color: var(--blue);
+        }
+      }
+
+      .ru1 {
+        position: absolute;
+        margin-top: -2vw;
+        margin-left: -1vw;
+        width: 53.17vw;
+        height: 14.9vw;
+        background-size: cover;
+        background-image: url('./images/elips1.png');
+      }
+
+      .tik {
+        position: absolute;
+        margin-top: 2.8vw;
+        margin-left: -10vw;
+        width: 8.74vw;
+        height: 40.89vw;
+        background-size: cover;
+        background-image: url('./images/tik.png');
+      }
+
+      .tok {
+        position: absolute;
+        margin-top: 2.8vw;
+        margin-left: -10vw;
+        width: 8.74vw;
+        height: 25.89vw;
+        background-size: cover;
+        background-image: url('./images/tok.png');
+      }
+
+      .kis {
+        position: absolute;
+        margin-top: -31.1vw;
+        margin-left: -3vw;
+        width: 28.2vw;
+        height: 7.9vw;
+        background-size: cover;
+        background-image: url('./images/elips1.png');
+      }
+
+      .lol {
+        display: none;
+        position: absolute;
+        margin-top: -35vw;
+        margin-left: 28vw;
+        width: 11.09vw;
+        height: 9.79vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+        transform: scaleX(-1) rotate(20deg);
+      }
+
+      .kek {
+        display: none;
+        position: absolute;
+        margin-top: -13vw;
+        margin-left: 25vw;
+        width: 11.09vw;
+        height: 9.79vw;
+        background-size: cover;
+        background-image: url('./images/arrow1.png');
+      }
+    }
+
+    .merch {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: var(--blue);
+      padding: 8vw 10vw;
+
+      .so {
+        position: absolute;
+        margin-top: -4vw;
+        margin-left: -1vw;
+        width: 51.7vw;
+        height: 18.8vw;
+        background-size: cover;
+        background-image: url('./images/elips2.png');
+      }
+
+      .con1 {
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+      }
+
+      .con2 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sin {
+        font-family: 'Oranienbaum', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: var(--white);
+      }
+
+      .te8 {
+        color: var(--white);
+      }
+
+      .te9 {
+        color: var(--white);
+        margin-top: 7vw;
+      }
+    }
+
+    #lo {
+      display: flex;
+      flex-direction: column;
+      padding: 6vw 10vw;
+
+      .ogo {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .text {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4vw;
+        gap: 5vw;
+      }
+
+      .character {
+        font-family: 'Snell Roundhand', arial;
+        font-style: normal;
+        font-weight: 400;
+        color: var(--blue);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+      }
+
+      .smel {
+        color: var(--blue);
+      }
+
+      .be {
+        width: 79.44vw;
+        height: 73vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/beMobile.svg');
+      }
+    }
+
+    #col {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--blue);
+      padding: 5vw 10vw 6vw;
+      gap: 10vw;
+
+      .sin {
+        color: var(--white);
+      }
+
+      .colours {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+
+        .cole {
+          width: 78.75vw;
+          height: 28.01vw;
+          margin-top: 5vw;
+          background-size: cover;
+          background-image: url('./images/coleMobile.png');
+        }
+      }
+
+      .typ {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+
+        .eli {
+          display: none;
+          position: absolute;
+          margin-top: -2vw;
+          margin-left: 2vw;
+          width: 27.17vw;
+          height: 9.8vw;
+          background-size: cover;
+          background-image: url('./images/elips2.png');
+        }
+
+        .sr {
+          width: 78.02vw;
+          height: 117.24vw;
+          margin-top: 4vw;
+          background-size: cover;
+          background-image: url('./images/srMobile.png');
+        }
+      }
+    }
+
+    #setka {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+
+      .sto {
+        margin: 4vw auto;
+        width: 78.7vw;
+        height: 102.2vw;
+        background-size: cover;
+        background-image: url('./images/stoMobile.png');
+      }
+    }
+
+    #graf {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--blue);
+      padding: 5vw 10vw;
+
+      .text1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+
+        .sin {
+          color: white;
+        }
+      }
+
+      .gr {
+        width: 77.4vw;
+        height: 66.52vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-image: url('./images/grMobile.png');
+      }
+    }
+
+    #bib {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--white);
+      padding: 5vw 10vw;
+
+      .text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw;
+        margin-bottom: 2vw;
+
+        .te6 {
+          color: var(--blue);
+        }
+      }
+
+      .bibe {
+        width: 79.2vw;
+        height: 69.7vw;
+        margin: 2vw auto;
+        background-size: cover;
+        background-image: url('./images/bibeMobile.png');
+      }
+    }
+
+    #voice {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--blue);
+      padding: 7vw 10vw;
+      gap: 4vw;
+      color: var(--white);
+
+      .som {
+        color: var(--white);
+      }
+    }
+
+    .net {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+      gap: 3vw;
+
+      .set {
+        width: 71.04vw;
+        height: 44.95vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/set.png');
+      }
+    }
+
+    #nos {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 14vw;
+      background-color: var(--blue);
+
+      .sin {
+        color: var(--white);
+        margin-left: -3vw;
+      }
+
+      .re {
+        width: 78.65vw;
+        height: 193.27vw;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('./images/reMobile.png');
+      }
+    }
+
+    .pla {
+      display: flex;
+      flex-direction: column;
+      padding: 5vw 10vw;
+      background-color: var(--blue);
+      gap: 3vw;
+
+      .sin2 {
+        color: var(--white);
+      }
+
+      .pit {
+        width: 78.65vw;
+        height: 206.27vw;
+        background-size: cover;
+        background-image: url('./images/pitMobile.png');
+      }
+    }
+
+    #O_footer {
+      margin-top: 0;
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

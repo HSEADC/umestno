@@ -1,6 +1,7 @@
 @import 'stylesheets/reset.scss';
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/basics.scss';
+@import 'stylesheets/styleguide.scss';
 @import 'stylesheets/film1.scss';
 @import 'stylesheets/test.scss';
 @import 'stylesheets/index.scss';

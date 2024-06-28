@@ -95,9 +95,9 @@
     }
   }
 
-    // .show {
-    //   display: block;
-    // }
+  // .show {
+  //   display: block;
+  // }
 
   #O_horizontal_card_for_learning {
     display: flex;
@@ -177,33 +177,37 @@
   //     height: 38.75vw;
   //     border: 0.14vw var(--blue);
 
-//  {
-//     display: flex;
-//     flex-direction: column;
-//     width: 22.22vw;
-//     height: 38.75vw;
-//    #O_VerticalCardWithRoundImage border: 0.14vw solid var(--blue);
+  //  {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 22.22vw;
+  //     height: 38.75vw;
+  //    #O_VerticalCardWithRoundImage border: 0.14vw solid var(--blue);
 
+  // }
 
-// }
+  .M_PostTeaser {
+    display: flex;
+    flex-direction: column;
+    width: 30.14vw;
+    height: 34.67vw;
+    border: solid 0.14vw var(--blue);
+    border-radius: 0.42vw;
+    align-items: center;
 
-// .O_little_horizontal_card {
-//     display: flex;
-//     flex-direction: column;
-//     width: 30.14vw;
-//     height: 36.67vw;
-//     border: 0.14vw var(--blue);
+    .QSearch {
+      display: flex;
+      justify-content: center;
+    }
 
-//     .M_horizontal_oval_card_image {
-//         margin-top: 2.85vw;
-//         margin-left: 1.46vw;
-//     }
+    .A_section_card_title {
+      margin: 1vw auto;
+    }
 
-//     .elements3 {
-//         margin-top: 3.13vw;
-//         margin-left: 6.18vw;
-//     }
-// }
+    .M_tag_default {
+      margin: 2vw auto;
+    }
+  }
 
   // tests
   .O_test_result {
@@ -352,7 +356,7 @@
     }
   }
 
-#O_VerticalCardWithRoundImage {
+  #O_VerticalCardWithRoundImage {
     display: flex;
     flex-direction: column;
     width: 22.22vw;
@@ -367,9 +371,9 @@
       margin-left: 0 auto;
     }
 
-   .W_CardText {
-        margin-top: 3.47vw;
-        margin-left: 0 auto;
+    .W_CardText {
+      margin-top: 3.47vw;
+      margin-left: 0 auto;
     }
   }
 
@@ -483,10 +487,48 @@
       display: none;
     }
   }
+
+  .O_SearchBar {
+    position: relative;
+
+    .C_PostTeasers {
+      height: 2.14vw;
+      width: 10.78vw;
+      position: absolute;
+      background-color: var(--white);
+      overflow-y: scroll;
+      max-height: 360px;
+    }
+
+    .C_PostSuggestions {
+      position: absolute;
+      border: 0.25vw var(--blue);
+
+      .M_PostSuggestion {
+        height: 2.5vw;
+        color: var(--blue);
+        .A_Text {
+          &.h3 {
+            font-family: 'Oranienbaum', serif;
+            text-transform: uppercase;
+            font-size: 1vw;
+          }
+
+          &.p {
+            font-family: 'Helvetica', sans-serif;
+            font-size: 0.8vw;
+          }
+        }
+      }
+    }
+  }
 }
 
 //мобилка
 @media only screen and (max-width: 499px) {
+  .O_SearchBar {
+    display: none;
+  }
   // footer and navbar
   #O_footer {
     // display: none;
@@ -542,7 +584,7 @@
     display: flex;
     flex-direction: column;
     gap: 1vw;
-}
+  }
 
   //cards but for not english speakers: карточки
   .O_card_for_learning {
@@ -557,11 +599,11 @@
     padding: 2.5vw 0vw 4vw;
 
     .W_Section_Card_Text {
-    margin: 1vw;
+      margin: 1vw;
     }
-}
+  }
 
-    .O_CardForLearningWithHastag {
+  .O_CardForLearningWithHastag {
     display: flex;
     flex-direction: column;
     width: 43.33vw;
@@ -581,7 +623,7 @@
     //   margin-top: 1.46vw;
     //   margin-left: 7.5vw;
     // }
-    }
+  }
 
   #O_horizontal_card_for_learning {
     display: flex;
@@ -590,14 +632,14 @@
     height: 75.74vw;
     border: solid 0.4vw var(--blue);
     border-radius: 1vw;
-    padding: 2.5vw;;
+    padding: 2.5vw;
     gap: 6vw;
 
     .elements2_long {
-    margin-top: 1.11vw;
-    margin-left: 9.58vw;
+      margin-top: 1.11vw;
+      margin-left: 9.58vw;
     }
-}
+  }
   // .O_card_turn {
   //     display: flex;
   //     flex-direction: column;
@@ -656,10 +698,9 @@
 
   // }
 
+  // }
 
-// }
-
-#O_little_horizontal_card {
+  #O_little_horizontal_card {
     display: flex;
     flex-direction: column;
     width: 30.14vw;
@@ -816,8 +857,8 @@
     }
 
     .W_CardText {
-        margin-top: 3.47vw;
-        margin-left: 0 auto;
+      margin-top: 3.47vw;
+      margin-left: 0 auto;
     }
   }
 
@@ -849,7 +890,6 @@
     padding: 2.5vw 0vw 4vw;
     align-items: center;
     gap: 4vw;
-
 
     .M_oval_flip_image {
       margin-top: 1.32vw;
