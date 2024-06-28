@@ -4,7 +4,7 @@ const homeURL = 'https://hseadc.github.io/umestno/'
 const menu = [
     {
         text: 'медиа',
-        url: '../media/films.html'
+        url: './media/films.html'
     },
     {
         text: 'карточки',
