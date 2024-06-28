@@ -4941,7 +4941,7 @@ var A_menubutton_default = /*#__PURE__*/function (_React$Component) {
 var homeURL = 'https://hseadc.github.io/umestno/';
 var menu = [{
   text: 'медиа',
-  url: '../media/films.html'
+  url: './media/films.html'
 }, {
   text: 'карточки',
   url: './cards.html'
