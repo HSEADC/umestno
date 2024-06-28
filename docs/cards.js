@@ -1,22 +1,49 @@
 /******/ (() => { // webpackBootstrap
 var __webpack_exports__ = {};
-// document.ready(function(){
-//     document.getElementsByClassName('O_card_turn').click(function(){
-//         this.find('.A_long_oval_framed_image').classList.toggle('romb');
-//     })
-// })
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.O_card_turn').forEach(function (box) {
-    box.addEventListener('click', function () {
-      // var image = this.querySelector('.A_long_oval_framed_image');
-      // if (image) {
-      //     image.classList.toggle('romb');
-      // }
-      this.querySelector('.A_long_oval_framed_image').classList.toggle('romb');
-      this.querySelector('.W_section_card-text_one_string').classList.toggle('tree'); // setTimeout(function() {
-      //     this.querySelector('.W_section_card-text_one_string').classList.add('see');
-      // }, 500);
+  var alcoCheckbox = document.getElementById('alco');
+  var noneAlcoCheckbox = document.getElementById('none_alco');
+  var cards = document.querySelectorAll('#S_ShortCardBlock .O_CardForLearningWithHastag:not(.M_BlockSeparator)');
+  alcoCheckbox.addEventListener('click', function () {
+    filterCards('alco');
+  });
+  noneAlcoCheckbox.addEventListener('click', function () {
+    filterCards('non_alco');
+  });
+
+  function filterCards(tag) {
+    cards.forEach(function (card) {
+      var cardTag = card.getAttribute('data-tage');
+
+      if (tag === 'alco' && cardTag === 'alco' || tag === 'non_alco' && cardTag === 'none_alco') {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
     });
+  }
+
+  alcoCheckbox.addEventListener('change', function () {
+    if (alcoCheckbox.checked && noneAlcoCheckbox.checked) {
+      cards.forEach(function (card) {
+        card.style.display = 'flex';
+      });
+    } else if (!alcoCheckbox.checked && !noneAlcoCheckbox.checked) {
+      cards.forEach(function (card) {
+        card.style.display = 'flex';
+      });
+    }
+  });
+  noneAlcoCheckbox.addEventListener('change', function () {
+    if (noneAlcoCheckbox.checked && alcoCheckbox.checked) {
+      cards.forEach(function (card) {
+        card.style.display = 'flex';
+      });
+    } else if (!noneAlcoCheckbox.checked && !alcoCheckbox.checked) {
+      cards.forEach(function (card) {
+        card.style.display = 'flex';
+      });
+    }
   });
 });
 /******/ })()

@@ -41,7 +41,111 @@ var __webpack_exports__ = {};
 
 ;// CONCATENATED MODULE: ./src/images/A_test_image_result_outline_test5.png
 const A_test_image_result_outline_test5_namespaceObject = __webpack_require__.p + "images/45ebf2e732bc4fccf7d1.png";
+;// CONCATENATED MODULE: ./src/testsJs/tests.js
+var currentStage = 0;
+var resultCount = 0;
+
+function initTest(stages) {
+  var formNote = document.querySelector('.A_form_note');
+  var question = document.querySelector('.A_test_subtitle');
+  var answers = document.querySelectorAll('.Q_test_variant');
+  var checkboxes = document.querySelectorAll('input[type=checkbox]');
+  formNote.innerHTML = "\u0432\u043E\u043F\u0440\u043E\u0441 ".concat(currentStage + 1, "/").concat(stages.length); //выводим номер вопроса
+
+  question.innerHTML = stages[currentStage].question; //выводим вопрос
+  //проверяем количество html-тегов для ответов и выводим в них текст
+
+  for (var i = 0; i < answers.length; i++) {
+    answers[i].innerHTML = stages[currentStage].answers[i].text; //вывести текст ответа
+  } //проверяем количество html-тегов c checkbox
+
+
+  for (var _i = 0; _i < checkboxes.length; _i++) {
+    checkboxes[_i].dataset.count = stages[currentStage].answers[_i].count; //добавить дата-атрибут с баллами
+  }
+} //при выборе ответа
+
+
+function chooseAnswer(stages, resultTable, imgResult) {
+  var checkboxes = document.querySelectorAll('input[type=checkbox]');
+  checkboxes.forEach(function (checkbox) {
+    checkbox.addEventListener('change', function () {
+      //если кликнут чекбокс
+      if (checkbox.checked) {
+        resultCount += Number(checkbox.dataset.count); //добавляем баллы
+
+        setTimeout(function () {
+          updateStage(stages, resultTable, imgResult); //меняем вопросы
+
+          checkbox.checked = false; // "отжимаем чекбокс"
+        }, 400);
+      }
+    });
+  });
+} //пока не закончатся вопросы в списке
+
+
+function updateStage(stages, resultTable, imgResult) {
+  if (currentStage + 1 < stages.length) {
+    currentStage++; //повышаем счётчик вопросов
+
+    initTest(stages); // выводим новые вопросы-ответы
+  } else {
+    showResult(resultTable, imgResult); // показываем результат
+  }
+}
+
+function showResult(resultTable, imgResult) {
+  document.querySelector('#S_TestHeading').remove();
+  var block = document.querySelector('#S_TestBlock');
+  block.innerHTML = '';
+  block.classList.add('result');
+  var textBlock = document.createElement('div');
+  textBlock.classList.add('W_TestResult');
+  var formNote = document.createElement('div');
+  var title = document.createElement('div');
+  var text = document.createElement('div');
+  var imageResult = document.createElement('div');
+  imageResult.innerHTML = "<img src=".concat(imgResult, ">");
+  formNote.classList.add('A_resultItog');
+  title.classList.add('A_resultTitle');
+  text.classList.add('A_resultText');
+  imageResult.classList.add('A_resultImage');
+  textBlock.appendChild(formNote);
+  textBlock.appendChild(title);
+  textBlock.appendChild(text);
+  block.appendChild(textBlock);
+  block.appendChild(imageResult); //добавила класс result к элементам, чтобы можно было переписать стили для показа результат, не меняя структуру
+
+  formNote.innerHTML = 'итог'; // switch работает как if с условиями ИЛИ, но проверяет только одно значение
+
+  switch (resultCount) {
+    case 5:
+      // если результат равен 5
+      title.innerHTML = resultTable[0].preview;
+      text.innerHTML = resultTable[0].text;
+      break;
+
+    case 4: // если результат равен 4 или 3
+
+    case 3:
+      title.innerHTML = resultTable[1].preview;
+      text.innerHTML = resultTable[1].text;
+      break;
+
+    case 2: // если результат равен 2, 1 или 0
+
+    case 1:
+    case 0:
+      title.innerHTML = resultTable[2].preview;
+      text.innerHTML = resultTable[2].text;
+      break;
+  }
+}
+
+
 ;// CONCATENATED MODULE: ./src/testsJs/test5.js
+
  // база данных: вопросы и ответы
 
 var stages = [{
@@ -122,119 +226,19 @@ var stages = [{
 }]; // база данных: результаты
 
 var resultTable = [{
-  preview: 'Вы прекрасный собеседник!! Рядом с вами приятно находиться!',
-  text: 'Вы можете свободно маневрировать в во всех темах для small talk! Наши поздравления: вы практически эксперт в этой области, можете запускать свой курс «Говорим обо всем и ни о чем: как лить воду с умным видом»!'
+  preview: 'Вы&nbsp;прекрасный собеседник!! Рядом с&nbsp;вами приятно находиться!',
+  text: 'Вы&nbsp;можете свободно маневрировать в&nbsp;во&nbsp;всех темах для small talk! Наши поздравления: вы&nbsp;практически эксперт в&nbsp;этой области, можете запускать свой курс &laquo;Говорим обо всем и&nbsp;ни&nbsp;о&nbsp;чем: как лить воду с&nbsp;умным видом&raquo;!'
 }, {
-  preview: 'С вами всегда интересно, но вам не хватает базовых знаний!',
-  text: 'Вы уже на верном пути, но вам нужно немного лучше узнать о правилах small talk, а так же расширить свой кругохор! Совершенствуйте ваши знания с нами в разделе «карточки», и всё у вас получится!'
+  preview: 'С&nbsp;вами всегда интересно, но&nbsp;вам не&nbsp;хватает базовых знаний!',
+  text: 'Вы&nbsp;уже на&nbsp;верном пути, но&nbsp;вам нужно немного лучше узнать о&nbsp;правилах small talk, а&nbsp;так&nbsp;же расширить свой кругохор! Совершенствуйте ваши знания с&nbsp;нами в&nbsp;разделе &laquo;карточки&raquo;, и&nbsp;всё у&nbsp;вас получится!'
 }, {
-  preview: 'Упс! Вы явно хороший человек, но не очень собеседник.. ',
-  text: 'Вы на верном пути, однако ваших знаний хватит лишь на то, чтобы поздороваться с кем-то и обсудить сегодняшнюю погоду. Совершенствуйте ваши знания с нами в разделе «карточки», и всё у вас получится!'
+  preview: 'Упс! Вы&nbsp;явно хороший человек, но&nbsp;не&nbsp;очень классный собеседник..',
+  text: 'Вы&nbsp;на&nbsp;верном пути, однако ваших знаний хватит лишь на&nbsp;то, чтобы поздороваться с&nbsp;кем-то и&nbsp;обсудить сегодняшнюю погоду. Совершенствуйте ваши знания с&nbsp;нами в&nbsp;разделе &laquo;карточки&raquo;, и&nbsp;всё у&nbsp;вас получится!'
 }]; //функции
 
 document.addEventListener('DOMContentLoaded', function () {
-  initTest();
-  chooseAnswer();
+  initTest(stages);
+  chooseAnswer(stages, resultTable, A_test_image_result_outline_test5_namespaceObject);
 });
-var currentStage = 0;
-var resultCount = 0;
-
-function initTest() {
-  var formNote = document.querySelector('.A_form_note');
-  var question = document.querySelector('.A_test_subtitle');
-  var answers = document.querySelectorAll('.Q_test_variant');
-  var checkboxes = document.querySelectorAll('input[type=checkbox]');
-  formNote.innerHTML = "\u0432\u043E\u043F\u0440\u043E\u0441 ".concat(currentStage + 1, "/").concat(stages.length); //выводим номер вопроса
-
-  question.innerHTML = stages[currentStage].question; //выводим вопрос
-  //проверяем количество html-тегов для ответов и выводим в них текст
-
-  for (var i = 0; i < answers.length; i++) {
-    answers[i].innerHTML = stages[currentStage].answers[i].text; //вывести текст ответа
-  } //проверяем количество html-тегов c checkbox
-
-
-  for (var _i = 0; _i < checkboxes.length; _i++) {
-    checkboxes[_i].dataset.count = stages[currentStage].answers[_i].count; //добавить дата-атрибут с баллами
-  }
-} //при выборе ответа
-
-
-function chooseAnswer() {
-  var checkboxes = document.querySelectorAll('input[type=checkbox]');
-  checkboxes.forEach(function (checkbox) {
-    checkbox.addEventListener('change', function () {
-      //если кликнут чекбокс
-      if (checkbox.checked) {
-        resultCount += Number(checkbox.dataset.count); //добавляем баллы
-
-        setTimeout(function () {
-          updateStage(); //меняем вопросы
-
-          checkbox.checked = false; // "отжимаем чекбокс"
-        }, 400);
-      }
-    });
-  });
-} //пока не закончатся вопросы в списке
-
-
-function updateStage() {
-  if (currentStage + 1 < stages.length) {
-    currentStage++; //повышаем счётчик вопросов
-
-    initTest(); // выводим новые вопросы-ответы
-  } else {
-    showResult(); // показываем результат
-  }
-}
-
-function showResult() {
-  document.querySelector('#S_TestHeading').remove();
-  var block = document.querySelector('#S_TestBlock');
-  block.innerHTML = '';
-  block.classList.add('result');
-  var textBlock = document.createElement('div');
-  textBlock.classList.add('W_TestResult');
-  var formNote = document.createElement('div');
-  var title = document.createElement('div');
-  var text = document.createElement('div');
-  var imageResult = document.createElement('div');
-  imageResult.innerHTML = "<img src=".concat(A_test_image_result_outline_test5_namespaceObject, ">");
-  formNote.classList.add('A_resultItog');
-  title.classList.add('A_resultTitle');
-  text.classList.add('A_resultText');
-  imageResult.classList.add('A_resultImage');
-  textBlock.appendChild(formNote);
-  textBlock.appendChild(title);
-  textBlock.appendChild(text);
-  block.appendChild(textBlock);
-  block.appendChild(imageResult); //добавила класс result к элементам, чтобы можно было переписать стили для показа результат, не меняя структуру
-
-  formNote.innerHTML = 'итог'; // switch работает как if с условиями ИЛИ, но проверяет только одно значение
-
-  switch (resultCount) {
-    case 5:
-      // если результат равен 5
-      title.innerHTML = resultTable[0].preview;
-      text.innerHTML = resultTable[0].text;
-      break;
-
-    case 4: // если результат равен 4 или 3
-
-    case 3:
-      title.innerHTML = resultTable[1].preview;
-      text.innerHTML = resultTable[1].text;
-      break;
-
-    case 2: // если результат равен 2, 1 или 0
-
-    case 1:
-    case 0:
-      title.innerHTML = resultTable[2].preview;
-      text.innerHTML = resultTable[2].text;
-      break;
-  }
-}
 /******/ })()
 ;
