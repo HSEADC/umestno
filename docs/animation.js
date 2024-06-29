@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 var __webpack_exports__ = {};
 var heading = document.querySelector('.A_heading.animation p');
-var texts = ["про тебя", "про тебя", "про нас", "про всех"];
+var texts = ["про тебя", "про меня", "про нас", "про всех"];
 var i = 0;
 setInterval(function () {
   heading.textContent = texts[i++];
