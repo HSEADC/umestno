@@ -1,5 +1,5 @@
 const heading = document.querySelector('.A_heading.animation p');
-const texts = ["про тебя", "про тебя", "про нас", "про всех"];
+const texts = ["про тебя", "про меня", "про нас", "про всех"];
 let i = 0;
 
 setInterval(() => {
